@@ -1,8 +1,5 @@
-import requests
-import typing
 import json
-from exceptions import *
-
+from pykanka.exceptions import *
 
 class Entity:
     class _EntityData:
@@ -20,6 +17,7 @@ class Entity:
             self._tags = None
             self._created_at = None
             self._created_by = None
+            self._updated_at = None
             self._updated_by = None
 
             if val:
@@ -80,6 +78,10 @@ class Entity:
             return self._created_by
 
         @property
+        def updated_at(self):
+            return self._updated_at
+
+        @property
         def updated_by(self):
             return self._updated_by
 
@@ -109,54 +111,11 @@ class Entity:
 
         return obj
 
-    #deprecated
-    def _request(self, ent_id, **kwargs):
-        if "return_error" in kwargs:
-            return_error = kwargs["return_error"]
-            del kwargs["return_error"]
-        else:
-            return_error = False
-
-        response = requests.get(f"{self.client.base_url}/entities/{ent_id}", params=kwargs, headers=self.client.headers)
-
-        if response.ok:
-            return response.json()
-        else:
-            if return_error:
-                return {"status": response.status_code, "error": response.reason}
-            else:
-                return None
-
-    def _request_by_id(self, local_id, ent_type, **kwargs):
-        if "return_error" in kwargs:
-            return_error = kwargs["return_error"]
-            del kwargs["return_error"]
-        else:
-            return_error = False
-
-        response = requests.get(f"{self.client.base_url}/{ent_type}/{local_id}", params=kwargs, headers=self.client.headers)
-
-        if response.ok:
-            ent_id = response.json()["data"]["entity_id"]
-
-            return self._request(ent_id, **kwargs)
-
-        if return_error:
-            return {"status": response.status_code, "error": response.reason}
-        else:
-            return None
-
 
 class Location(Entity):
 
     def __init__(self, client):
         super().__init__(client)
-
-    def request_by_id(self, local_id, **kwargs):
-        return super()._request_by_id(local_id, "locations", **kwargs)
-
-    def request_by_entity(self, entity_id, **kwargs):
-        return super()._request(entity_id, kwargs)
 
 
 class Character(Entity):

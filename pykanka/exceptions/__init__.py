@@ -4,3 +4,7 @@ class Error(Exception):
 
 class WrongParametersPassedToEntity(Error, ValueError):
     pass
+
+
+class CampaignError(Error, ValueError):
+    pass

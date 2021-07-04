@@ -1,5 +1,5 @@
+from pykanka.exceptions import *
 from pykanka.endpoints import *
-
 import requests
 
 
@@ -36,4 +36,5 @@ class KankaClient:
                 campaign_id = campaign["id"]
                 return campaign_id
 
-        raise ValueError(f"No campaign of the name '{name}' found")
+        raise CampaignError(f"No campaign of the name '{name}' found")
+
