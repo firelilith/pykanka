@@ -10,100 +10,32 @@ class Entity:
 
     class EntityData:
         def __init__(self, val: dict = None):
-            self._id = None
-            self._name = None
-            self._type = None
-            self._child_id = None
-            self._campaign_id = None
+            self.id = None
+            self.name = None
+            self.type = None
+            self.child_id = None
+            self.campaign_id = None
 
-            self._is_private = None
-            self._is_attributes_private = None
-            self._is_template = None
-            self._tags = None
-            self._tooltip = None
+            self.is_private = None
+            self.is_attributes_private = None
+            self.is_template = None
+            self.tags = None
+            self.tooltip = None
 
-            self._updated_at = None
-            self._updated_by = None
-            self._created_at = None
-            self._created_by = None
+            self.updated_at = None
+            self.updated_by = None
+            self.created_at = None
+            self.created_by = None
 
-            self._header_image = None
-            self._image_uuid = None
+            self.header_image = None
+            self.image_uuid = None
 
             if val:
                 for key in val.keys():
-                    if f"_{key}" in self.__dict__:
-                        self.__dict__[f"_{key}"] = val[key]
+                    if f"{key}" in self.__dict__:
+                        self.__dict__[f"{key}"] = val[key]
                     else:
                         raise WrongParametersPassedToEntity(f"{key} has been passed to Entity class, but is not a valid parameter")
-
-        # Property declarations, entity data is read-only
-
-        @property
-        def name(self) -> typing.Optional[str]:
-            return self._name
-
-        @property
-        def entity_id(self) -> typing.Optional[int]:
-            return self._id
-
-        @property
-        def type(self) -> typing.Optional[str]:
-            return self._type
-
-        @property
-        def child_id(self) -> typing.Optional[int]:
-            return self._child_id
-
-        @property
-        def campaign_id(self) -> typing.Optional[int]:
-            return self._campaign_id
-
-        @property
-        def is_private(self) -> typing.Optional[bool]:
-            return self._is_private
-
-        @property
-        def is_attributes_private(self) -> typing.Optional[bool]:
-            return self._is_attributes_private
-
-        @property
-        def is_template(self) -> typing.Optional[bool]:
-            return self._is_template
-
-        @property
-        def tags(self) -> typing.Optional[list]:
-            return self._tags
-
-        @property
-        def tooltip(self) -> typing.Optional[str]:
-            return self._tooltip
-
-        @property
-        def updated_at(self) -> typing.Optional[str]:
-            return self._updated_at
-
-        @property
-        def updated_by(self) -> typing.Optional[int]:
-            return self._updated_by
-
-        @property
-        def created_at(self) -> typing.Optional[str]:
-            return self._created_at
-
-        @property
-        def created_by(self) -> typing.Optional[int]:
-            return self._created_by
-
-        @property
-        def header_image(self) -> typing.Optional[str]:
-            return self._header_image
-
-        @property
-        def image_uuid(self):
-            return self._image_uuid
-
-        # End of property declarations
 
     def __init__(self, client: "KankaClient", child: "EntityType" = None):
         """
@@ -143,177 +75,43 @@ class Entity:
 
 class EntityType:
     class GenericData:
-        """
-        readonly variable
-
-        :var type_id
-        """
         def __init__(self, val: dict = None):
-            self._id = None
-            self._type = None
-            self._entity_id = None
-            self._name = None
+            self.id = None
+            self.type = None
+            self.entity_id = None
+            self.name = None
 
-            self._entry = None
-            self._entry_parsed = None
+            self.entry = None
+            self.entry_parsed = None
 
-            self._image = None
-            self._image_full = None
-            self._image_thumb = None
+            self.image = None
+            self.image_full = None
+            self.image_thumb = None
 
-            self._tags = None
+            self.tags = None
 
-            self._focus_x = None
-            self._focus_y = None
+            self.focus_x = None
+            self.focus_y = None
 
-            self._has_custom_image = None
-            self._is_template = None
-            self._is_private = None
+            self.has_custom_image = None
+            self.is_template = None
+            self.is_private = None
 
-            self._created_by = None
-            self._created_at = None
-            self._updated_by = None
-            self._updated_at = None
+            self.created_by = None
+            self.created_at = None
+            self.updated_by = None
+            self.updated_at = None
 
             # for upload only
-            self._image_file = None
+            self.image_file = None
 
             if val:
                 for key in val.keys():
-                    if f"_{key}" in self.__dict__:
-                        self.__dict__[f"_{key}"] = val[key]
+                    if f"{key}" in self.__dict__:
+                        self.__dict__[f"{key}"] = val[key]
                     else:
                         raise WrongParametersPassedToEntity(f"{key} has been passed to child class, but is not a valid parameter")
 
-        # Property declarations
-
-        @property
-        def local_id(self) -> typing.Optional[int]:
-            return self._id
-
-        @property
-        def type(self) -> typing.Optional[str]:
-            return self._type
-
-        @type.setter
-        def type(self, value: str) -> None:
-            if type(value) == str:
-                self._type = value
-            else:
-                raise ValueError(f"Expected type str, received {type(value)}")
-
-        @property
-        def entity_id(self) -> typing.Optional[int]:
-            return self._entity_id
-
-        @property
-        def name(self) -> typing.Optional[str]:
-            return self._name
-
-        @type.setter
-        def type(self, value: str) -> None:
-            if type(value) == str:
-                self._type = value
-            else:
-                raise ValueError(f"Expected type str, received {type(value)}")
-
-        @property
-        def entry(self) -> typing.Optional[str]:
-            return self._entry
-
-        @type.setter
-        def type(self, value: str) -> None:
-            if type(value) == str:
-                self._type = value
-            else:
-                raise ValueError(f"Expected type str, received {type(value)}")
-
-        @property
-        def entry_parsed(self) -> typing.Optional[str]:
-            return self._entry_parsed
-
-        @property
-        def image(self) -> typing.Optional[str]:
-            return self._image
-
-        @property
-        def image_full(self) -> typing.Optional[str]:
-            return self._image_full
-
-        @property
-        def image_thumb(self) -> typing.Optional[str]:
-            return self._image_thumb
-
-        @property
-        def tags(self) -> typing.Optional[list[int]]:
-            return self._tags
-
-        @tags.setter
-        def tags(self, value: list[int]) -> None:
-            if type(value) == list:
-                if all(map(lambda x: type(x) == int, value)):
-                    self._tags = value
-            else:
-                raise ValueError(f"Expected list of int, received {type(value)}")
-
-        @property
-        def focus_x(self) -> typing.Optional[int]:
-            return self._focus_x
-
-        @focus_x.setter
-        def focus_x(self, value: int) -> None:
-            if type(value) == int:
-                self._focus_x = value
-            else:
-                raise ValueError(f"Expected type int, received {type(value)}")
-
-        @property
-        def focus_y(self) -> typing.Optional[int]:
-            return self._focus_y
-
-        @focus_y.setter
-        def focus_y(self, value: int) -> None:
-            if type(value) == int:
-                self._focus_y = value
-            else:
-                raise ValueError(f"Expected type int, received {type(value)}")
-
-        @property
-        def has_custom_image(self) -> typing.Optional[bool]:
-            return self._has_custom_image
-
-        @property
-        def is_template(self) -> typing.Optional[bool]:
-            return self._is_template
-
-        @property
-        def is_private(self) -> typing.Optional[bool]:
-            return self._is_private
-
-        @is_private.setter
-        def is_private(self, value: bool) -> None:
-            if type(value) == bool:
-                self._is_private = value
-            else:
-                raise ValueError(f"Expected type bool, received {type(value)}")
-
-        @property
-        def created_by(self) -> typing.Optional[int]:
-            return self._created_by
-
-        @property
-        def created_at(self) -> typing.Optional[str]:
-            return self._created_at
-
-        @property
-        def updated_by(self) -> typing.Optional[int]:
-            return self._updated_by
-
-        @property
-        def updated_at(self) -> typing.Optional[str]:
-            return self._updated_at
-
-        # End of property declarations
 
     def __init__(self, client: "KankaClient", parent: "Entity" = None):
 
@@ -326,34 +124,14 @@ class Location(EntityType):
 
     class LocationData(EntityType.GenericData):
         def __init__(self, val: dict = None):
-            self._parent_location_id = None
-            self._is_map_private = None
-            self._map = None
+            self.parent_location_id = None
+            self.is_map_private = None
+            self.map = None
 
             super().__init__(val=val)
 
-        @property
-        def parent_location_id(self) -> typing.Optional[int]:
-            return self._parent_location_id
-
-        @property
-        def is_map_private(self) -> typing.Optional[bool]:
-            return self._is_map_private
-
-        @property
-        def map(self) -> typing.Optional[int]:
-            return self._map
-
-        @parent_location_id.setter
-        def parent_location_id(self, value: int) -> None:
-            if type(value) == int:
-                self._parent_location_id = value
-            else:
-                raise ValueError(f"Expected type int, received {type(value)}")
-
-
     def __init__(self, client: "KankaClient", entity: "Entity"):
-        super().__init__()
+        super().__init__(client)
 
 
 class Character:
