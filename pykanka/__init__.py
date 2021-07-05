@@ -8,12 +8,14 @@ from pykanka.exceptions import *
 
 
 class KankaClient:
+    """Main client for interacting with the Kanka.io API"""
+
     def __init__(self, token: str, campaign: typing.Union[str, int], **kwargs):
         # self.cache = requests_cache.install_cache("kanka_cache", backend="sqlite", expire_after=600)
 
         self.api_token = token
         self.headers = {
-            "Authorization": token,
+            "Authorization": f"Bearer {token}",
             "Accept": "application/json",
             "Content-Type": "application/json"
         }
@@ -32,6 +34,10 @@ class KankaClient:
 
     def _get_campaigns(self):
         campaigns = requests.get("https://kanka.io/api/1.0/campaigns/", headers=self.headers)
+
+        if not campaigns.ok:
+            raise ResponseNotOkError(f"Response not OK, code {campaigns.status_code}:\n{campaigns.text}")
+
         return campaigns.json()
 
     def _get_campaign_id(self, name):
