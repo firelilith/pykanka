@@ -3,7 +3,7 @@ from pykanka.endpoints import *
 import requests
 
 
-class KankaClient:
+class KankaClientOld:
     def __init__(self, api_token, campaign=None, campaign_id=None):
 
         if not (campaign or campaign_id):

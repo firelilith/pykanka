@@ -1,4 +1,4 @@
-from pykanka.api import KankaClient
+from pykanka import KankaClient
 import requests
 import json
 from pykanka import endpoints
@@ -44,15 +44,65 @@ def post_entity_test():
 
 #post_entity_test()
 
-a = KankaClient(token, campaign="Alath")
-
-b = endpoints.Entity.build_from_json(client=a, json_dict={"name": "test"})
-
-print(b.entity.name)
+#   a = KankaClient(token, campaign="Alath")
+#
+#   b = endpoints.Entity.build_from_json(client=a, json_dict={"name": "test"})
+#
+#   print(b.entity.name)
 
 #kanka = KankaClient(token, campaign="Alath")
 #print(kanka.location.entity.name)
 
 
-with open("entity.json", "w") as f:
-    json.dump(requests.get("https://kanka.io/api/1.0/campaigns/70188/entities/1797792", headers=headers).json(), f, indent="    ")
+#with open("entity.json", "w") as f:
+#   json.dump(requests.get("https://kanka.io/api/1.0/campaigns/70188/entities/1797792", headers=headers).json(), f, indent="    ")
+
+def get_each_type():
+    path = "https://kanka.io/api/1.0/campaigns/70188/entities"
+    done = False
+    data = []
+    unique = {}
+
+    while not done:
+        all_ents = requests.get(path, headers=headers)
+        d = all_ents.json()
+        data.extend(d["data"])
+        if d["links"]["next"]:
+            path = d["links"]["next"]
+        else:
+            done = True
+
+    seen = set()
+    for e in data:
+        if e["type"] not in seen:
+            seen.add(e["type"])
+            unique[e["type"]] = e
+
+    with open("entity.json", "w") as f:
+        json.dump(unique, f, indent="   ")
+
+def compare_types():
+    with open("entity.json", "r") as f:
+        data = json.load(f)
+
+    a = data["location"].keys()
+
+    for t in data.values():
+        a &= t.keys()
+
+    print(a)
+
+get_each_type()
+compare_types()
+
+#for i in range(100):
+#    print(requests.get("https://kanka.io/api/1.0/campaigns/70188/entities/1797792", headers=headers).text)
+#
+
+a = KankaClient(token, campaign="Alath")
+#for i in range(50):
+#    print(a.get())
+
+#b = (endpoints.Entity(a, 1797789))
+#
+#print(a)

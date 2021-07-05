@@ -8,3 +8,11 @@ class WrongParametersPassedToEntity(Error, ValueError):
 
 class CampaignError(Error, ValueError):
     pass
+
+
+class ApiThrottlingError(Error):
+    pass
+
+
+class ResponseNotOkError(Error):
+    pass
