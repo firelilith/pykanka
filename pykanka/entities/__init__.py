@@ -55,7 +55,7 @@ class Entity:
         if self._child:
             return self._child
         else:
-            self._child = self._get_child_class(self.data.type).from_id(self.client, self.data.child_id)
+            self._child = self._get_child_class(self.data.type).from_id(self.client, self.data.child_id, parent=self)
             return self._child
 
     @classmethod
@@ -75,7 +75,7 @@ class Entity:
         obj.data = obj.EntityData(response_data)
         obj.entity_id = obj.data.id
 
-        obj._child = obj._build_child_from_json(child_json=child_data, child_type=obj.data.type)
+        obj._child = obj._build_child_from_json(child_json=child_data, child_type=obj.data.type,)
 
         return obj
 
@@ -111,7 +111,7 @@ class Entity:
             raise ResponseNotOkError(f"Response not OK, code {response.status_code}:\n{response.text}")
 
     def _build_child_from_json(self, child_json: dict, child_type: str):
-        return self._get_child_class(child_type).from_json(self.client, child_json)
+        return self._get_child_class(child_type).from_json(self.client, child_json, parent=self)
 
     @classmethod
     def _get_child_class(cls, child_type: str):
@@ -186,6 +186,33 @@ class GenericChildType:
         self._possible_keys = list()    # Overridden by inheritors
         self._key_replacer = list()     # Overridden by inheritors
         self._file_keys = list()        # Overridden by inheritors
+
+    @classmethod
+    def from_id(cls, client: "pykanka.KankaClient", location_id: int, parent: "Entity" = None) -> "GenericChildType":
+        obj = cls(client, parent=parent)
+
+        response = client.request_get(f"{obj.base_url}{location_id}")
+
+        if not response.ok:
+            raise ResponseNotOkError(f"Response not OK, code {response.status_code}:\n{response.text}")
+
+        obj.data = obj.data.__class__(response.json()["data"])
+        obj.entity_id = obj.data.id
+
+        return obj
+
+    @classmethod
+    def from_json(cls, client: "pykanka.KankaClient", content: typing.Union[str, dict], parent: "Entity" = None) -> "GenericChildType":
+
+        if type(content) == str:
+            content = json.loads(content)
+
+        obj = cls(client, parent=parent)
+
+        obj.data = obj.data.__init__(val=content)
+        obj.child_id = obj.data.id
+
+        return obj
 
     def post(self, json_data: str = None, name: str = "", **kwargs):
         """
@@ -296,33 +323,6 @@ class Location(GenericChildType):
         self._key_replacer = [("image", "image_url"), ("map", "map_url")]
         # fields that accept stream object, currently not in API 1.0 yet
         self._file_keys = ["image", "map"]
-
-    @classmethod
-    def from_id(cls, client: "pykanka.KankaClient", location_id: int) -> "Location":
-        obj = Location(client)
-
-        response = client.request_get(f"{obj.base_url}{location_id}")
-
-        if not response.ok:
-            raise ResponseNotOkError(f"Response not OK, code {response.status_code}:\n{response.text}")
-
-        obj.data = obj.LocationData(response.json()["data"])
-        obj.entity_id = obj.data.id
-
-        return obj
-
-    @classmethod
-    def from_json(cls, client: "pykanka.KankaClient", content: typing.Union[str, dict]) -> "Location":
-
-        if type(content) == str:
-            content = json.loads(content)
-
-        obj = Location(client)
-
-        obj.data = cls.LocationData(val=content)
-        obj.child_id = obj.data.id
-
-        return obj
 
 
 class Character:
