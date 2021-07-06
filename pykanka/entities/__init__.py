@@ -209,8 +209,8 @@ class Location(GenericChildType):
         values = dict()
 
         for key in possible_keys:
-            if self.location.__dict__[key] is not None:
-                values[key] = self.location.__dict__[key]
+            if self.data.__dict__[key] is not None:
+                values[key] = self.data.__dict__[key]
 
         if "image" in values.keys():
             values["image_url"] = values["image"]
