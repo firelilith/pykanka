@@ -7,6 +7,10 @@ from pykanka import KankaClient
 
 
 class GenericChildType:
+    _possible_keys = list()  # Overridden by inheritors
+    _key_replacer = list()  # Overridden by inheritors
+    _file_keys = list()  # Overridden by inheritors
+
     class GenericChildData:
         def __init__(self, val: dict = None):
             self.id = None
@@ -50,10 +54,6 @@ class GenericChildType:
         self.data = self.GenericChildData()
 
         self.base_url = str()           # Overridden by inheritors
-
-        self._possible_keys = list()    # Overridden by inheritors
-        self._key_replacer = list()     # Overridden by inheritors
-        self._file_keys = list()        # Overridden by inheritors
 
     @classmethod
     def from_id(cls, client: "KankaClient", child_id: int, parent: "Entity" = None) -> "GenericChildType":
@@ -197,7 +197,7 @@ class Character(GenericChildType):
     # keys accepted by POST and also delivered by GET as per API documentation
     _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -236,7 +236,7 @@ class Organisation(GenericChildType):
     # keys accepted by POST and also delivered by GET as per API documentation
     _possible_keys = ["name", "entry", "type", "organization_id", "location_id", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -266,9 +266,9 @@ class Timeline(GenericChildType):
     """A class representing a Timeline child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "revert_order", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -298,9 +298,9 @@ class Race(GenericChildType):
     """A class representing a Race child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "race_id", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -328,9 +328,9 @@ class Family(GenericChildType):
     """A class representing a Family child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "location_id", "family_id", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -360,9 +360,9 @@ class Note(GenericChildType):
     """A class representing a Note child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "note_id", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -391,9 +391,9 @@ class Map(GenericChildType):
     """A class representing a Map child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "map_id", "location_id", "center_marker_id", "center_x", "center_y", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -433,9 +433,9 @@ class Tag(GenericChildType):
     """A class representing a Tag child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "colour", "tag_id", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -465,9 +465,9 @@ class Quest(GenericChildType):
     """A class representing a Quest child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "quest_id", "character_id", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -504,9 +504,9 @@ class Journal(GenericChildType):
     """A class representing a Journal child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "date", "character_id", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -541,9 +541,9 @@ class Item(GenericChildType):
     """A class representing a Item child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "location_id", "character_id", "price", "size", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -574,9 +574,9 @@ class Event(GenericChildType):
     """A class representing a Event child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "date", "location_id", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
@@ -606,9 +606,9 @@ class Ability(GenericChildType):
     """A class representing a Ability child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "ability_id", "charges", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-    _key_replacer = [("image", "image_url")]
+    _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
