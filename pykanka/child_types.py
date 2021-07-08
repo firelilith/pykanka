@@ -149,10 +149,14 @@ class GenericChildType:
         existing_values = self._get_post_values()
         existing_values.update(values)
 
-        if "name" not in existing_values.keys():
-            raise ValueError("'name' is a required field, but is missing")
+        self._validate_parameters(existing_values, files)
 
         return existing_values, files
+
+    @staticmethod
+    def _validate_parameters(values, files):
+        if "name" not in values.keys():
+            raise ValueError("'name' is a required field, but is missing")
 
     def _get_post_values(self):
         values = dict()
@@ -168,12 +172,15 @@ class GenericChildType:
 
         return values
 
+    def get_image(self):
+        return self.client.request_get(self.data.image_full, stream=True)
+
 
 class Location(GenericChildType):
     """A class representing a location child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "type", "parent_location_id", "tags", "is_private", "image_full", "map_full", "is_map_private"]
+    _possible_keys = ["name", "type", "parent_location_id", "tags", "is_private", "image_full", "map", "is_map_private"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url"), ("map", "map_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -438,6 +445,13 @@ class Map(GenericChildType):
         self.data = self.MapData()
 
         self.base_url = f"{self.client.campaign_base_url}maps/"
+
+    @staticmethod
+    def _validate_parameters(values: set, files: set):
+        if "name" not in values:
+            raise ValueError("'name' is a required field, but is missing")
+        if "image" not in files and "image_url" not in values:
+            raise ValueError("either 'image' or 'image_url' is required, but both are missing")
 
 
 class Tag(GenericChildType):

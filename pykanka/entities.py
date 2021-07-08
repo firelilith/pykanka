@@ -47,7 +47,6 @@ class Entity:
 
         self.client = client
         self.data = self.EntityData()
-        self.entity_id = None
 
         self._child = child
 
@@ -77,7 +76,6 @@ class Entity:
         response_data.pop("child")
 
         obj.data = obj.EntityData(response_data)
-        obj.entity_id = obj.data.id
 
         if not obj.child:
             obj._child = obj._build_child_from_json(child_json=child_data, child_type=obj.data.type,)
@@ -102,7 +100,6 @@ class Entity:
         obj = Entity(client)
 
         obj.data = cls.EntityData(val=content)
-        obj.entity_id = obj.data.id
 
         if child_data:
             obj._child = obj._build_child_from_json(child_json=child_data, child_type=obj.data.type)
@@ -110,7 +107,7 @@ class Entity:
         return obj
 
     def _request_data(self):
-        response = self.client.request_get(f"{self.client.campaign_base_url}entities/{self.entity_id}")
+        response = self.client.request_get(f"{self.client.campaign_base_url}entities/{self.data.id}")
 
         if not response.ok:
             raise ResponseNotOkError(f"Response not OK, code {response.status_code}: {response.text}")
@@ -121,10 +118,9 @@ class Entity:
     @classmethod
     def _get_child_class(cls, child_type: str):
         type_dictionary = dict(location=ct.Location,
-                               character=ct.Character)
-        """,
+                               character=ct.Character,
                                family=ct.Family,
-                               organisation=ct.Organization,
+                               organisation=ct.Organisation,
                                timeline=ct.Timeline,
                                race=ct.Race,
                                note=ct.Note,
@@ -135,5 +131,6 @@ class Entity:
                                item=ct.Item,
                                event=ct.Event,
                                ability=ct.Ability
-                               )"""
+                               )
+
         return type_dictionary[child_type]

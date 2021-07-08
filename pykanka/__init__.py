@@ -257,3 +257,12 @@ class KankaClient:
 
     def all_abilities(self) -> typing.Dict[typing.Tuple[str, int], "ct.Ability"]:
         return self._get_all_of_type(f"{self.campaign_base_url}abilities", ct.Ability)
+
+    def search(self, name: str, all_results: bool = False, results: int = 5) -> list["ent.Entity"]:
+        response = self.request_get(f"{self.campaign_base_url}search/{name}").json()["data"]
+
+        res = []
+        for entry, _ in zip(response, range(results)):
+            res.append(self.get_entity(entry["entity_id"]))
+
+        return res
