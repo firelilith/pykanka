@@ -1,9 +1,9 @@
 import json
 import typing
 
+import pykanka
 from pykanka.exceptions import *
-from pykanka import KankaClient
-import child_types as ct
+import pykanka.child_types as ct
 
 
 class Entity:
@@ -38,7 +38,7 @@ class Entity:
                     else:
                         raise WrongParametersPassedToEntity(f"{key} has been passed to Entity class, but is not a valid parameter")
 
-    def __init__(self, client: "KankaClient"):
+    def __init__(self, client: "pykanka.KankaClient"):
         """
         Generates empty Entity. Consider using Entity.from_id() or Entity.from_json() instead.
 
@@ -60,7 +60,7 @@ class Entity:
             return self._child
 
     @classmethod
-    def from_id(cls, client: "KankaClient", entity_id: int) -> "Entity":
+    def from_id(cls, client: "pykanka.KankaClient", entity_id: int) -> "Entity":
         obj = Entity(client)
 
         response = client.request_get(f"{client.campaign_base_url}entities/{entity_id}")
@@ -81,7 +81,7 @@ class Entity:
         return obj
 
     @classmethod
-    def from_json(cls, client: "KankaClient", content: typing.Union[str, dict]) -> "Entity":
+    def from_json(cls, client: "pykanka.KankaClient", content: typing.Union[str, dict]) -> "Entity":
 
         if type(content) == str:
             content = json.loads(content)

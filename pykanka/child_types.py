@@ -1,9 +1,8 @@
 import typing
 import json
 
+import pykanka
 from pykanka.exceptions import *
-from pykanka.entities import Entity
-from pykanka import KankaClient
 
 
 class GenericChildType:
@@ -46,7 +45,7 @@ class GenericChildType:
                     else:
                         raise WrongParametersPassedToEntity(f"{key} has been passed to child class, but is not a valid parameter")
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
 
         self.client = client
         self.parent = parent
@@ -56,7 +55,7 @@ class GenericChildType:
         self.base_url = str()           # Overridden by inheritors
 
     @classmethod
-    def from_id(cls, client: "KankaClient", child_id: int, parent: "Entity" = None) -> "GenericChildType":
+    def from_id(cls, client: "pykanka.KankaClient", child_id: int, parent: "pykanka.entities.Entity" = None) -> "GenericChildType":
         obj = cls(client, parent=parent)
 
         response = client.request_get(f"{obj.base_url}{child_id}")
@@ -69,7 +68,7 @@ class GenericChildType:
         return obj
 
     @classmethod
-    def from_json(cls, client: "KankaClient", content: typing.Union[str, dict], parent: "Entity" = None) -> "GenericChildType":
+    def from_json(cls, client: "pykanka.KankaClient", content: typing.Union[str, dict], parent: "pykanka.entities.Entity" = None) -> "GenericChildType":
 
         if type(content) == str:
             content = json.loads(content)
@@ -176,7 +175,7 @@ class Location(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Location. Consider using Location.from_id() or Location.from_json() instead.
 
@@ -216,7 +215,7 @@ class Character(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Character. Consider using Character.from_id() or Character.from_json() instead.
 
@@ -248,7 +247,7 @@ class Organisation(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Organisation. Consider using Organisation.from_id() or Organisation.from_json() instead.
 
@@ -280,7 +279,7 @@ class Timeline(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Timeline. Consider using Timeline.from_id() or Timeline.from_json() instead.
 
@@ -310,7 +309,7 @@ class Race(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Race. Consider using Race.from_id() or Race.from_json() instead.
 
@@ -342,7 +341,7 @@ class Family(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Family. Consider using Location.from_id() or Family.from_json() instead.
 
@@ -373,7 +372,7 @@ class Note(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Note. Consider using Note.from_id() or Note.from_json() instead.
 
@@ -415,7 +414,7 @@ class Map(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Map. Consider using Map.from_id() or Map.from_json() instead.
 
@@ -447,7 +446,7 @@ class Tag(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Tag. Consider using Tag.from_id() or Tag.from_json() instead.
 
@@ -486,7 +485,7 @@ class Quest(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Quest. Consider using Quest.from_id() or Quest.from_json() instead.
 
@@ -523,7 +522,7 @@ class Journal(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Journal. Consider using Journal.from_id() or Journal.from_json() instead.
 
@@ -556,7 +555,7 @@ class Item(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Item. Consider using Item.from_id() or Item.from_json() instead.
 
@@ -588,7 +587,7 @@ class Event(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Event. Consider using Event.from_id() or Event.from_json() instead.
 
@@ -620,7 +619,7 @@ class Ability(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
         """
         Creates an empty Ability. Consider using Ability.from_id() or Ability.from_json() instead.
 
