@@ -11,12 +11,11 @@ from pykanka.exceptions import *
 class KankaClient:
     """Main client for interacting with the Kanka.io API"""
 
-    def __init__(self, token: str, campaign: typing.Union[str, int], **kwargs):
+    def __init__(self, token: str, campaign: typing.Union[str, int]):
         """Create a client associated with a specific campaign.
 
         :param token: str
         :param campaign: Union[str, int]
-        :param kwargs:
         """
 
         self._api_token = token
@@ -214,47 +213,47 @@ class KankaClient:
 
         return members
 
-    def getall_entities(self) -> typing.Dict[typing.Tuple[str, int], "ct.Entity"]:
-        return self._get_all_of_type(f"{self.campaign_base_url}entities", ct.Entity)
+    def all_entities(self) -> typing.Dict[typing.Tuple[str, int], "ent.Entity"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}entities", ent.Entity)
 
-    def getall_locations(self) -> typing.Dict[typing.Tuple[str, int], "ct.Location"]:
+    def all_locations(self) -> typing.Dict[typing.Tuple[str, int], "ct.Location"]:
         return self._get_all_of_type(f"{self.campaign_base_url}locations", ct.Location)
 
-    def getall_organisations(self) -> typing.Dict[typing.Tuple[str, int], "ct.Organisation"]:
+    def all_organisations(self) -> typing.Dict[typing.Tuple[str, int], "ct.Organisation"]:
         return self._get_all_of_type(f"{self.campaign_base_url}organisations", ct.Organisation)
 
-    def getall_timelines(self) -> typing.Dict[typing.Tuple[str, int], "ct.Timeline"]:
+    def all_timelines(self) -> typing.Dict[typing.Tuple[str, int], "ct.Timeline"]:
         return self._get_all_of_type(f"{self.campaign_base_url}timelines", ct.Timeline)
 
-    def getall_races(self) -> typing.Dict[typing.Tuple[str, int], "ct.Race"]:
+    def all_races(self) -> typing.Dict[typing.Tuple[str, int], "ct.Race"]:
         return self._get_all_of_type(f"{self.campaign_base_url}races", ct.Race)
 
-    def getall_families(self) -> typing.Dict[typing.Tuple[str, int], "ct.Family"]:
+    def all_families(self) -> typing.Dict[typing.Tuple[str, int], "ct.Family"]:
         return self._get_all_of_type(f"{self.campaign_base_url}families", ct.Family)
 
-    def getall_notes(self) -> typing.Dict[typing.Tuple[str, int], "ct.Note"]:
+    def all_notes(self) -> typing.Dict[typing.Tuple[str, int], "ct.Note"]:
         return self._get_all_of_type(f"{self.campaign_base_url}notes", ct.Note)
 
-    def getall_characters(self) -> typing.Dict[typing.Tuple[str, int], "ct.Character"]:
+    def all_characters(self) -> typing.Dict[typing.Tuple[str, int], "ct.Character"]:
         return self._get_all_of_type(f"{self.campaign_base_url}characters", ct.Character)
 
-    def getall_maps(self) -> typing.Dict[typing.Tuple[str, int], "ct.Map"]:
+    def all_maps(self) -> typing.Dict[typing.Tuple[str, int], "ct.Map"]:
         return self._get_all_of_type(f"{self.campaign_base_url}maps", ct.Map)
 
-    def getall_tags(self) -> typing.Dict[typing.Tuple[str, int], "ct.Tag"]:
+    def all_tags(self) -> typing.Dict[typing.Tuple[str, int], "ct.Tag"]:
         return self._get_all_of_type(f"{self.campaign_base_url}tags", ct.Tag)
 
-    def getall_quests(self) -> typing.Dict[typing.Tuple[str, int], "ct.Quest"]:
+    def all_quests(self) -> typing.Dict[typing.Tuple[str, int], "ct.Quest"]:
         return self._get_all_of_type(f"{self.campaign_base_url}quests", ct.Quest)
 
-    def getall_journals(self) -> typing.Dict[typing.Tuple[str, int], "ct.Journal"]:
+    def all_journals(self) -> typing.Dict[typing.Tuple[str, int], "ct.Journal"]:
         return self._get_all_of_type(f"{self.campaign_base_url}journals", ct.Journal)
 
-    def getall_items(self) -> typing.Dict[typing.Tuple[str, int], "ct.Item"]:
+    def all_items(self) -> typing.Dict[typing.Tuple[str, int], "ct.Item"]:
         return self._get_all_of_type(f"{self.campaign_base_url}items", ct.Item)
 
-    def getall_events(self) -> typing.Dict[typing.Tuple[str, int], "ct.Event"]:
+    def all_events(self) -> typing.Dict[typing.Tuple[str, int], "ct.Event"]:
         return self._get_all_of_type(f"{self.campaign_base_url}events", ct.Event)
 
-    def getall_abilities(self) -> typing.Dict[typing.Tuple[str, int], "ct.Ability"]:
+    def all_abilities(self) -> typing.Dict[typing.Tuple[str, int], "ct.Ability"]:
         return self._get_all_of_type(f"{self.campaign_base_url}abilities", ct.Ability)
