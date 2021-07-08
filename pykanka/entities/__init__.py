@@ -65,7 +65,7 @@ class Entity:
         response = client.request_get(f"{client.campaign_base_url}entities/{entity_id}")
 
         if not response.ok:
-            raise ResponseNotOkError(f"Response not OK, code {response.status_code}:\n{response.text}")
+            raise ResponseNotOkError(f"Response from {client.campaign_base_url}entities/{entity_id} not OK, code {response.status_code}:\n{response.reason}")
 
         response_data = response.json()["data"]
 
@@ -191,7 +191,7 @@ class GenericChildType:
         response = client.request_get(f"{obj.base_url}{location_id}")
 
         if not response.ok:
-            raise ResponseNotOkError(f"Response not OK, code {response.status_code}:\n{response.text}")
+            raise ResponseNotOkError(f"Response from {obj.base_url}{location_id} not OK, code {response.status_code}:\n{response.reason}")
 
         obj.data = obj.data.__class__(response.json()["data"])
         obj.entity_id = obj.data.id
