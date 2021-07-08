@@ -16,9 +16,6 @@ class KankaClient:
 
         :param token: str
         :param campaign: Union[str, int]
-        :param cache: bool
-        :param cache_name: str
-        :param cache_duration: int
         :param kwargs:
         """
 

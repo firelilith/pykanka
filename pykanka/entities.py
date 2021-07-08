@@ -55,8 +55,11 @@ class Entity:
     def child(self):
         if self._child:
             return self._child
-        else:
+        elif self.data.child_id:
             self._child = self._get_child_class(self.data.type).from_id(self.client, self.data.child_id, parent=self)
+            return self._child
+        else:
+            self._child = self._get_child_class(self.data.type)(self.client, parent=self)
             return self._child
 
     @classmethod

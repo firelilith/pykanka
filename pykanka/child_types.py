@@ -59,8 +59,11 @@ class GenericChildType:
     def parent(self):
         if self._parent:
             return self._parent
-        else:
+        elif self.data.entity_id:
             self._parent = pykanka.entities.Entity.from_id(self.client, self.data.entity_id, child=self)
+            return self._parent
+        else:
+            self._parent = pykanka.entities.Entity(self.client, child=self)
             return self._parent
 
     @classmethod
