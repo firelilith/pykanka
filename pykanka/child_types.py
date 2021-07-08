@@ -48,11 +48,20 @@ class GenericChildType:
     def __init__(self, client: "pykanka.KankaClient", parent: "pykanka.entities.Entity" = None):
 
         self.client = client
-        self.parent = parent
+
+        self._parent = parent
 
         self.data = self.GenericChildData()
 
         self.base_url = str()           # Overridden by inheritors
+
+    @property
+    def parent(self):
+        if self._parent:
+            return self._parent
+        else:
+            self._parent = pykanka.entities.Entity.from_id(self.client, self.data.entity_id, child=self)
+            return self._parent
 
     @classmethod
     def from_id(cls, client: "pykanka.KankaClient", child_id: int, parent: "pykanka.entities.Entity" = None) -> "GenericChildType":

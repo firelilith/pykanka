@@ -38,7 +38,7 @@ class Entity:
                     else:
                         raise WrongParametersPassedToEntity(f"{key} has been passed to Entity class, but is not a valid parameter")
 
-    def __init__(self, client: "pykanka.KankaClient"):
+    def __init__(self, client: "pykanka.KankaClient", child=None):
         """
         Generates empty Entity. Consider using Entity.from_id() or Entity.from_json() instead.
 
@@ -49,7 +49,7 @@ class Entity:
         self.data = self.EntityData()
         self.entity_id = None
 
-        self._child = None
+        self._child = child
 
     @property
     def child(self):
@@ -60,8 +60,8 @@ class Entity:
             return self._child
 
     @classmethod
-    def from_id(cls, client: "pykanka.KankaClient", entity_id: int) -> "Entity":
-        obj = Entity(client)
+    def from_id(cls, client: "pykanka.KankaClient", entity_id: int, child=None) -> "Entity":
+        obj = Entity(client, child=child)
 
         response = client.request_get(f"{client.campaign_base_url}entities/{entity_id}")
 
@@ -76,7 +76,8 @@ class Entity:
         obj.data = obj.EntityData(response_data)
         obj.entity_id = obj.data.id
 
-        obj._child = obj._build_child_from_json(child_json=child_data, child_type=obj.data.type,)
+        if not obj.child:
+            obj._child = obj._build_child_from_json(child_json=child_data, child_type=obj.data.type,)
 
         return obj
 
