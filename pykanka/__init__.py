@@ -3,6 +3,8 @@ import typing
 import tenacity
 
 import pykanka.entities as ent
+import pykanka.child_types as ct
+
 from pykanka.exceptions import *
 
 
@@ -20,13 +22,13 @@ class KankaClient:
         :param kwargs:
         """
 
-        self.api_token = token
-        self.headers = {
+        self._api_token = token
+        self._headers = {
             "Authorization": f"Bearer {token}",
             "Accept": "application/json",
             "Content-Type": "application/json"
         }
-        self.api_base_url = "https://kanka.io/api/1.0/campaigns/"
+        self._api_base_url = "https://kanka.io/api/1.0/campaigns/"
 
         if type(campaign) == int:
             self.campaign_id = campaign
@@ -35,12 +37,12 @@ class KankaClient:
         else:
             raise ValueError("Campaign not valid, provide either a valid name or id")
 
-        self.campaign_base_url = f"{self.api_base_url}{self.campaign_id}/"
+        self.campaign_base_url = f"{self._api_base_url}{self.campaign_id}/"
 
     #  Utility functions to locate campaign from its name
 
     def _get_campaigns(self):
-        campaigns = requests.get("https://kanka.io/api/1.0/campaigns/", headers=self.headers)
+        campaigns = requests.get("https://kanka.io/api/1.0/campaigns/", headers=self._headers)
 
         if not campaigns.ok:
             raise ResponseNotOkError(f"Response not OK, code {campaigns.status_code}:\n{campaigns.text}")
@@ -59,7 +61,7 @@ class KankaClient:
 
     @tenacity.retry(retry=tenacity.retry_if_exception_type(ApiThrottlingError), wait=tenacity.wait_fixed(5))
     def _request(self, method, url, **kwargs):
-        response = requests.request(method=method, url=url, headers=self.headers, **kwargs)
+        response = requests.request(method=method, url=url, headers=self._headers, **kwargs)
 
         if response.status_code == 429:
             print("API request limit reached. Retrying in 5 seconds.")
@@ -94,107 +96,105 @@ class KankaClient:
         else:
             return ent.Entity(self)
 
-    def get_location(self, location_id: int = None) -> "ent.Location":
+    def get_location(self, location_id: int = None) -> "ct.Location":
         """returns specified location or empty location if no ID given"""
         if location_id:
-            return ent.Location.from_id(self, location_id)
+            return ct.Location.from_id(self, location_id)
         else:
-            return ent.Location(self)
+            return ct.Location(self)
 
-    def get_organisation(self, organisation_id: int = None) -> "ent.Organisation":
+    def get_organisation(self, organisation_id: int = None) -> "ct.Organisation":
         """returns specified organisation or empty organisation if no ID given"""
         if organisation_id:
-            return ent.Organisation.from_id(self, organisation_id)
+            return ct.Organisation.from_id(self, organisation_id)
         else:
-            return ent.Organisation(self)
+            return ct.Organisation(self)
 
-    def get_timeline(self, timeline_id: int = None) -> "ent.Timeline":
+    def get_timeline(self, timeline_id: int = None) -> "ct.Timeline":
         """returns specified timeline or empty timeline if no ID given"""
         if timeline_id:
-            return ent.Timeline.from_id(self, timeline_id)
+            return ct.Timeline.from_id(self, timeline_id)
         else:
-            return ent.Timeline(self)
+            return ct.Timeline(self)
 
-    def get_race(self, race_id: int = None) -> "ent.Race":
+    def get_race(self, race_id: int = None) -> "ct.Race":
         """returns specified race or empty race if no ID given"""
         if race_id:
-            return ent.Race.from_id(self, race_id)
+            return ct.Race.from_id(self, race_id)
         else:
-            return ent.Race(self)
+            return ct.Race(self)
 
-    def get_family(self, family_id: int = None) -> "ent.Family":
+    def get_family(self, family_id: int = None) -> "ct.Family":
         """returns specified family or empty family if no ID given"""
         if family_id:
-            return ent.Family.from_id(self, family_id)
+            return ct.Family.from_id(self, family_id)
         else:
-            return ent.Family(self)
+            return ct.Family(self)
 
-    def get_note(self, note_id: int = None) -> "ent.Note":
+    def get_note(self, note_id: int = None) -> "ct.Note":
         """returns specified note or empty note if no ID given"""
         if note_id:
-            return ent.Note.from_id(self, note_id)
+            return ct.Note.from_id(self, note_id)
         else:
-            return ent.Note(self)
+            return ct.Note(self)
 
-    def get_character(self, character_id: int = None) -> "ent.Character":
+    def get_character(self, character_id: int = None) -> "ct.Character":
         """returns specified character or empty character if no ID given"""
         if character_id:
-            return ent.Character.from_id(self, character_id)
+            return ct.Character.from_id(self, character_id)
         else:
-            return ent.Character(self)
+            return ct.Character(self)
 
-    def get_map(self, map_id: int = None) -> "ent.Map":
+    def get_map(self, map_id: int = None) -> "ct.Map":
         """returns specified map or empty map if no ID given"""
         if map_id:
-            return ent.Map.from_id(self, map_id)
+            return ct.Map.from_id(self, map_id)
         else:
-            return ent.Map(self)
+            return ct.Map(self)
 
-    def get_tag(self, tag_id: int = None) -> "ent.Tag":
+    def get_tag(self, tag_id: int = None) -> "ct.Tag":
         """returns specified tag or empty tag if no ID given"""
         if tag_id:
-            return ent.Tag.from_id(self, tag_id)
+            return ct.Tag.from_id(self, tag_id)
         else:
-            return ent.Tag(self)
+            return ct.Tag(self)
 
-    def get_quest(self, quest_id: int = None) -> "ent.Quest":
+    def get_quest(self, quest_id: int = None) -> "ct.Quest":
         """returns specified quest or empty quest if no ID given"""
         if quest_id:
-            return ent.Quest.from_id(self, quest_id)
+            return ct.Quest.from_id(self, quest_id)
         else:
-            return ent.Quest(self)
+            return ct.Quest(self)
 
-    def get_journal(self, journal_id: int = None) -> "ent.Journal":
+    def get_journal(self, journal_id: int = None) -> "ct.Journal":
         """returns specified journal or empty journal if no ID given"""
         if journal_id:
-            return ent.Journal.from_id(self, journal_id)
+            return ct.Journal.from_id(self, journal_id)
         else:
-            return ent.Journal(self)
+            return ct.Journal(self)
 
-    def get_item(self, item_id: int = None) -> "ent.Item":
+    def get_item(self, item_id: int = None) -> "ct.Item":
         """returns specified item or empty item if no ID given"""
         if item_id:
-            return ent.Item.from_id(self, item_id)
+            return ct.Item.from_id(self, item_id)
         else:
-            return ent.Item(self)
+            return ct.Item(self)
 
-    def get_event(self, event_id: int = None) -> "ent.Event":
+    def get_event(self, event_id: int = None) -> "ct.Event":
         """returns specified event or empty event if no ID given"""
         if event_id:
-            return ent.Event.from_id(self, event_id)
+            return ct.Event.from_id(self, event_id)
         else:
-            return ent.Event(self)
+            return ct.Event(self)
 
-    def get_ability(self, ability_id: int = None) -> "ent.Ability":
+    def get_ability(self, ability_id: int = None) -> "ct.Ability":
         """returns specified ability or empty ability if no ID given"""
         if ability_id:
-            return ent.Ability.from_id(self, ability_id)
+            return ct.Ability.from_id(self, ability_id)
         else:
-            return ent.Ability(self)
+            return ct.Ability(self)
 
-    def getall_entities(self) -> typing.Dict[typing.Tuple[str, int], "ent.Entity"]:
-
-        url = f"{self.campaign_base_url}entities"
+    def _get_all_of_type(self, url, type_class):
         done = False
         members = dict()
 
@@ -212,34 +212,52 @@ class KankaClient:
                 url = content["links"]["next"]
 
             for entry in content["data"]:
-                entity = ent.Entity.from_json(self, entry)
+                entity = type_class.from_json(self, entry)
                 members[(entity.data.name, entity.data.id)] = entity
 
         return members
 
-    def getall_locations(self) -> typing.Dict[typing.Tuple[str, int], "ent.Location"]:
+    def getall_entities(self) -> typing.Dict[typing.Tuple[str, int], "ct.Entity"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}entities", ct.Entity)
 
-        url = f"{self.campaign_base_url}locations"
-        done = False
-        members = dict()
+    def getall_locations(self) -> typing.Dict[typing.Tuple[str, int], "ct.Location"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}locations", ct.Location)
 
-        while not done:
-            response = self.request_get(url)
+    def getall_organisations(self) -> typing.Dict[typing.Tuple[str, int], "ct.Organisation"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}organisations", ct.Organisation)
 
-            if not response.ok:
-                raise ResponseNotOkError(f"Code {response.status_code}: {response.text}")
+    def getall_timelines(self) -> typing.Dict[typing.Tuple[str, int], "ct.Timeline"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}timelines", ct.Timeline)
 
-            content = response.json()
+    def getall_races(self) -> typing.Dict[typing.Tuple[str, int], "ct.Race"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}races", ct.Race)
 
-            if not content["links"]["next"]:
-                done = True
-            else:
-                url = content["links"]["next"]
+    def getall_families(self) -> typing.Dict[typing.Tuple[str, int], "ct.Family"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}families", ct.Family)
 
-            for entry in content["data"]:
-                location = ent.Location.from_json(self, entry)
-                members[(location.data.name, location.data.id)] = location
+    def getall_notes(self) -> typing.Dict[typing.Tuple[str, int], "ct.Note"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}notes", ct.Note)
 
-        return members
+    def getall_characters(self) -> typing.Dict[typing.Tuple[str, int], "ct.Character"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}characters", ct.Character)
 
+    def getall_maps(self) -> typing.Dict[typing.Tuple[str, int], "ct.Map"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}maps", ct.Map)
 
+    def getall_tags(self) -> typing.Dict[typing.Tuple[str, int], "ct.Tag"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}tags", ct.Tag)
+
+    def getall_quests(self) -> typing.Dict[typing.Tuple[str, int], "ct.Quest"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}quests", ct.Quest)
+
+    def getall_journals(self) -> typing.Dict[typing.Tuple[str, int], "ct.Journal"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}journals", ct.Journal)
+
+    def getall_items(self) -> typing.Dict[typing.Tuple[str, int], "ct.Item"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}items", ct.Item)
+
+    def getall_events(self) -> typing.Dict[typing.Tuple[str, int], "ct.Event"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}events", ct.Event)
+
+    def getall_abilities(self) -> typing.Dict[typing.Tuple[str, int], "ct.Ability"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}abilities", ct.Ability)

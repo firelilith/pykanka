@@ -1,137 +1,9 @@
-import json
 import typing
+import json
 
-import pykanka
 from pykanka.exceptions import *
-
-
-class Entity:
-    """Base class from which specific entity classes like locations and characters are inherited. Should usually not be interacted with directly."""
-
-    class EntityData:
-        def __init__(self, val: dict = None):
-            self.id = None
-            self.name = None
-            self.type = None
-            self.child_id = None
-            self.campaign_id = None
-
-            self.is_private = None
-            self.is_attributes_private = None
-            self.is_template = None
-            self.tags = None
-            self.tooltip = None
-
-            self.updated_at = None
-            self.updated_by = None
-            self.created_at = None
-            self.created_by = None
-
-            self.header_image = None
-            self.image_uuid = None
-
-            if val:
-                for key in val.keys():
-                    if f"{key}" in self.__dict__:
-                        self.__dict__[f"{key}"] = val[key]
-                    else:
-                        raise WrongParametersPassedToEntity(f"{key} has been passed to Entity class, but is not a valid parameter")
-
-    def __init__(self, client: "pykanka.KankaClient"):
-        """
-        Generates empty Entity. Consider using Entity.from_id() or Entity.from_json() instead.
-
-        :param client: KankaClient object
-        """
-
-        self.client = client
-        self.data = self.EntityData()
-        self.entity_id = None
-
-        self._child = None
-
-    @property
-    def child(self):
-        if self._child:
-            return self._child
-        else:
-            self._child = self._get_child_class(self.data.type).from_id(self.client, self.data.child_id, parent=self)
-            return self._child
-
-    @classmethod
-    def from_id(cls, client: "pykanka.KankaClient", entity_id: int) -> "Entity":
-        obj = Entity(client)
-
-        response = client.request_get(f"{client.campaign_base_url}entities/{entity_id}")
-
-        if not response.ok:
-            raise ResponseNotOkError(f"Response from {client.campaign_base_url}entities/{entity_id} not OK, code {response.status_code}:\n{response.reason}")
-
-        response_data = response.json()["data"]
-
-        child_data = response_data["child"]
-        response_data.pop("child")
-
-        obj.data = obj.EntityData(response_data)
-        obj.entity_id = obj.data.id
-
-        obj._child = obj._build_child_from_json(child_json=child_data, child_type=obj.data.type,)
-
-        return obj
-
-    @classmethod
-    def from_json(cls, client: "pykanka.KankaClient", content: typing.Union[str, dict]) -> "Entity":
-
-        if type(content) == str:
-            content = json.loads(content)
-
-        if "data" in content.keys():
-            content = content["data"]
-
-        if "child" in content.keys():
-            child_data = content["child"]
-            content.pop("child")
-        else:
-            child_data = dict()
-
-        obj = Entity(client)
-
-        obj.data = cls.EntityData(val=content)
-        obj.entity_id = obj.data.id
-
-        if child_data:
-            obj._child = obj._build_child_from_json(child_json=child_data, child_type=obj.data.type)
-
-        return obj
-
-    def _request_data(self):
-        response = self.client.request_get(f"{self.client.campaign_base_url}entities/{self.entity_id}")
-
-        if not response.ok:
-            raise ResponseNotOkError(f"Response not OK, code {response.status_code}:\n{response.text}")
-
-    def _build_child_from_json(self, child_json: dict, child_type: str):
-        return self._get_child_class(child_type).from_json(self.client, child_json, parent=self)
-
-    @classmethod
-    def _get_child_class(cls, child_type: str):
-        type_dictionary = dict(location=pykanka.entities.Location,
-                               character=pykanka.entities.Character)
-        """,
-                               family=pykanka.entities.Family,
-                               organisation=pykanka.entities.Organization,
-                               timeline=pykanka.entities.Timeline,
-                               race=pykanka.entities.Race,
-                               note=pykanka.entities.Note,
-                               map=pykanka.entities.Map,
-                               tag=pykanka.entities.Tag,
-                               quest=pykanka.entities.Quest,
-                               journal=pykanka.entities.Journal,
-                               item=pykanka.entities.Item,
-                               event=pykanka.entities.Event,
-                               ability=pykanka.entities.Ability
-                               )"""
-        return type_dictionary[child_type]
+from pykanka.entities import Entity
+from pykanka import KankaClient
 
 
 class GenericChildType:
@@ -170,7 +42,7 @@ class GenericChildType:
                     else:
                         raise WrongParametersPassedToEntity(f"{key} has been passed to child class, but is not a valid parameter")
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
 
         self.client = client
         self.parent = parent
@@ -178,36 +50,33 @@ class GenericChildType:
         self.data = self.GenericChildData()
 
         self.base_url = str()           # Overridden by inheritors
-        self.child_id = int()           # Overridden by inheritors
 
         self._possible_keys = list()    # Overridden by inheritors
         self._key_replacer = list()     # Overridden by inheritors
         self._file_keys = list()        # Overridden by inheritors
 
     @classmethod
-    def from_id(cls, client: "pykanka.KankaClient", location_id: int, parent: "Entity" = None) -> "GenericChildType":
+    def from_id(cls, client: "KankaClient", child_id: int, parent: "Entity" = None) -> "GenericChildType":
         obj = cls(client, parent=parent)
 
-        response = client.request_get(f"{obj.base_url}{location_id}")
+        response = client.request_get(f"{obj.base_url}{child_id}")
 
         if not response.ok:
-            raise ResponseNotOkError(f"Response from {obj.base_url}{location_id} not OK, code {response.status_code}:\n{response.reason}")
+            raise ResponseNotOkError(f"Response from {obj.base_url}{child_id} not OK, code {response.status_code}: {response.reason}")
 
         obj.data = obj.data.__class__(response.json()["data"])
-        obj.entity_id = obj.data.id
 
         return obj
 
     @classmethod
-    def from_json(cls, client: "pykanka.KankaClient", content: typing.Union[str, dict], parent: "Entity" = None) -> "GenericChildType":
+    def from_json(cls, client: "KankaClient", content: typing.Union[str, dict], parent: "Entity" = None) -> "GenericChildType":
 
         if type(content) == str:
             content = json.loads(content)
 
         obj = cls(client, parent=parent)
 
-        obj.data = obj.data.__init__(val=content)
-        obj.child_id = obj.data.id
+        obj.data = obj.data.__class__(val=content)
 
         return obj
 
@@ -245,10 +114,10 @@ class GenericChildType:
 
         payload, files = self._prepare_post(json_data, name=name, **kwargs)
 
-        return self.client.request_patch(f"{self.base_url}{self.child_id}", json=payload)
+        return self.client.request_patch(f"{self.base_url}{self.data.id}", json=payload)
 
     def delete(self):
-        return self.client.request_delete(f"{self.base_url}{self.child_id}")
+        return self.client.request_delete(f"{self.base_url}{self.data.id}")
 
     def _prepare_post(self, json_data: str, **kwargs):  # implement support for image files (keys: image and map) when the API allows it
         if json_data:
@@ -307,7 +176,7 @@ class Location(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Location. Consider using Location.from_id() or Location.from_json() instead.
 
@@ -347,7 +216,7 @@ class Character(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Character. Consider using Character.from_id() or Character.from_json() instead.
 
@@ -357,7 +226,6 @@ class Character(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.CharacterData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}characters/"
 
@@ -366,7 +234,7 @@ class Organisation(GenericChildType):
     """A class representing a Organisation child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "type", "organization_id", "location_id", "tags", "is_private", "image"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -380,7 +248,7 @@ class Organisation(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Organisation. Consider using Organisation.from_id() or Organisation.from_json() instead.
 
@@ -390,7 +258,6 @@ class Organisation(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.OrganisationData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}organisations/"
 
@@ -413,7 +280,7 @@ class Timeline(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Timeline. Consider using Timeline.from_id() or Timeline.from_json() instead.
 
@@ -423,7 +290,6 @@ class Timeline(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.TimelineData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}timelines/"
 
@@ -444,7 +310,7 @@ class Race(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Race. Consider using Race.from_id() or Race.from_json() instead.
 
@@ -454,7 +320,6 @@ class Race(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.RaceData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}races/"
 
@@ -477,7 +342,7 @@ class Family(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Family. Consider using Location.from_id() or Family.from_json() instead.
 
@@ -487,7 +352,6 @@ class Family(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.FamilyData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}families/"
 
@@ -509,7 +373,7 @@ class Note(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Note. Consider using Note.from_id() or Note.from_json() instead.
 
@@ -519,7 +383,6 @@ class Note(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.NoteData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}notes/"
 
@@ -552,7 +415,7 @@ class Map(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Map. Consider using Map.from_id() or Map.from_json() instead.
 
@@ -562,7 +425,6 @@ class Map(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.MapData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}maps/"
 
@@ -585,7 +447,7 @@ class Tag(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Tag. Consider using Tag.from_id() or Tag.from_json() instead.
 
@@ -595,7 +457,6 @@ class Tag(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.TagData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}tags/"
 
@@ -625,7 +486,7 @@ class Quest(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Quest. Consider using Quest.from_id() or Quest.from_json() instead.
 
@@ -635,7 +496,6 @@ class Quest(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.QuestData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}quests/"
 
@@ -663,7 +523,7 @@ class Journal(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Journal. Consider using Journal.from_id() or Journal.from_json() instead.
 
@@ -673,7 +533,6 @@ class Journal(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.JournalData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}journals/"
 
@@ -697,7 +556,7 @@ class Item(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Item. Consider using Item.from_id() or Item.from_json() instead.
 
@@ -707,7 +566,6 @@ class Item(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.ItemData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}items/"
 
@@ -730,7 +588,7 @@ class Event(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Event. Consider using Event.from_id() or Event.from_json() instead.
 
@@ -740,7 +598,6 @@ class Event(GenericChildType):
         super().__init__(client, parent=parent)
 
         self.data = self.EventData()
-        self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}events/"
 
@@ -755,7 +612,7 @@ class Ability(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    class AblilityData(GenericChildType.GenericChildData):
+    class AbilityData(GenericChildType.GenericChildData):
         def __init__(self, val: dict = None):
             self.ability_id = None
             self.abilities = None
@@ -763,7 +620,7 @@ class Ability(GenericChildType):
 
             super().__init__(val=val)
 
-    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+    def __init__(self, client: "KankaClient", parent: "Entity" = None):
         """
         Creates an empty Ability. Consider using Ability.from_id() or Ability.from_json() instead.
 
@@ -772,7 +629,6 @@ class Ability(GenericChildType):
         """
         super().__init__(client, parent=parent)
 
-        self.data = self.AblilityData()
-        self.child_id = None
+        self.data = self.AbilityData()
 
         self.base_url = f"{self.client.campaign_base_url}abilities/"
