@@ -163,9 +163,6 @@ class GenericChildType:
             self.updated_by = None
             self.updated_at = None
 
-            # for upload only
-            self.image_file = None
-
             if val:
                 for key in val.keys():
                     if f"{key}" in self.__dict__:
@@ -267,7 +264,7 @@ class GenericChildType:
             if key in values.keys():
                 files[key] = open(values[key], "rb")
                 values.pop(key)
-                print(f"API doesn't support direct file uploads yet parameter {key} omitted. use url instead")
+                print(f"API doesn't support direct file uploads yet, parameter {key} omitted. use url instead")
 
         existing_values = self._get_post_values()
         existing_values.update(values)
@@ -295,6 +292,13 @@ class GenericChildType:
 class Location(GenericChildType):
     """A class representing a location child contained within an Entity."""
 
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "type", "parent_location_id", "tags", "is_private", "image_full", "map_full", "is_map_private"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image_full", "image_url"), ("map", "map_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image", "map"]
+
     class LocationData(GenericChildType.GenericChildData):
         def __init__(self, val: dict = None):
             self.parent_location_id = None
@@ -317,13 +321,458 @@ class Location(GenericChildType):
 
         self.base_url = f"{self.client.campaign_base_url}locations/"
 
-        # keys accepted by POST and also delivered by GET as per API documentation
-        self._possible_keys = ["name", "type", "parent_location_id", "tags", "is_private", "image", "map", "is_map_private"]
-        # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
-        self._key_replacer = [("image", "image_url"), ("map", "map_url")]
-        # fields that accept stream object, currently not in API 1.0 yet
-        self._file_keys = ["image", "map"]
+
+class Character(GenericChildType):
+    """A class representing a Character child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class CharacterData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.location_id = None
+            self.family_id = None
+            self.race_id = None
+            self.age = None
+            self.sex = None
+            self.pronouns = None
+            self.title = None
+            self.traits = None
+            self.is_dead = None
+            self.is_personality_visible = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Character. Consider using Character.from_id() or Character.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.CharacterData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}characters/"
 
 
-class Character:
-    pass
+class Organisation(GenericChildType):
+    """A class representing a Organisation child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class OrganisationData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.organisation_id = None
+            self.location_id = None
+            self.members = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Organisation. Consider using Organisation.from_id() or Organisation.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.OrganisationData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}organisations/"
+
+
+class Timeline(GenericChildType):
+    """A class representing a Timeline child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class TimelineData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.eras = None
+            self.timeline_id = None
+            self.revert_order = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Timeline. Consider using Timeline.from_id() or Timeline.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.TimelineData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}timelines/"
+
+
+class Race(GenericChildType):
+    """A class representing a Race child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class RaceData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.race_id = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Race. Consider using Race.from_id() or Race.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.RaceData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}races/"
+
+
+class Family(GenericChildType):
+    """A class representing a Family child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class FamilyData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.members = None
+            self.location_id = None
+            self.family_id = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Family. Consider using Location.from_id() or Family.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.FamilyData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}families/"
+
+
+class Note(GenericChildType):
+    """A class representing a Note child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class NoteData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.is_pinned = None
+            self.note_id = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Note. Consider using Note.from_id() or Note.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.NoteData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}notes/"
+
+
+class Map(GenericChildType):
+    """A class representing a Map child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class MapData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.location_id = None
+            self.map_id = None
+            self.width = None
+            self.height = None
+            self.initial_zoom = None
+            self.center_x = None
+            self.center_y = None
+            self.max_zoom = None
+            self.min_zoom = None
+            self.layers = None
+            self.groups = None
+            self.grid = None
+            self.center_marker_id = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Map. Consider using Map.from_id() or Map.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.MapData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}maps/"
+
+
+class Tag(GenericChildType):
+    """A class representing a Tag child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class TagData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.entities = None
+            self.tag_id = None
+            self.colour = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Tag. Consider using Tag.from_id() or Tag.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.TagData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}tags/"
+
+
+class Quest(GenericChildType):
+    """A class representing a Quest child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class QuestData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.quest_id = None
+            self.character_id = None
+            self.calendar_id = None
+            self.calendar_year = None
+            self.calendar_month = None
+            self.calendar_day = None
+            self.date = None
+            self.element_count = None
+            self.elements = None
+            self.is_completed = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Quest. Consider using Quest.from_id() or Quest.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.QuestData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}quests/"
+
+
+class Journal(GenericChildType):
+    """A class representing a Journal child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class JournalData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.journal_id = None
+            self.location_id = None
+            self.character_id = None
+            self.calendar_id = None
+            self.calendar_year = None
+            self.calendar_month = None
+            self.calendar_day = None
+            self.date = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Journal. Consider using Journal.from_id() or Journal.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.JournalData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}journals/"
+
+
+class Item(GenericChildType):
+    """A class representing a Item child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class ItemData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.location_id = None
+            self.character_id = None
+            self.size = None
+            self.price = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Item. Consider using Item.from_id() or Item.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.ItemData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}items/"
+
+
+class Event(GenericChildType):
+    """A class representing a Event child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class EventData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.event_id = None
+            self.location_id = None
+            self.date = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Event. Consider using Event.from_id() or Event.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.EventData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}events/"
+
+
+class Ability(GenericChildType):
+    """A class representing a Ability child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image", "is_personality_visible"]
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    _key_replacer = [("image", "image_url")]
+    # fields that accept stream object, not yet supported in API 1.0
+    _file_keys = ["image"]
+
+    class AblilityData(GenericChildType.GenericChildData):
+        def __init__(self, val: dict = None):
+            self.ability_id = None
+            self.abilities = None
+            self.charges = None
+
+            super().__init__(val=val)
+
+    def __init__(self, client: "pykanka.KankaClient", parent: "Entity" = None):
+        """
+        Creates an empty Ability. Consider using Ability.from_id() or Ability.from_json() instead.
+
+        :param client: KankaClient
+        :param parent: Entity
+        """
+        super().__init__(client, parent=parent)
+
+        self.data = self.AblilityData()
+        self.child_id = None
+
+        self.base_url = f"{self.client.campaign_base_url}abilities/"
