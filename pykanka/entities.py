@@ -106,6 +106,13 @@ class Entity:
 
         return obj
 
+    def to_json(self):
+        ent_data = self.data.__dict__
+        if self._child:
+            child_data = self._child.data.__dict__
+            ent_data["child"] = child_data
+        return json.dumps(ent_data)
+
     def _request_data(self):
         response = self.client.request_get(f"{self.client.campaign_base_url}entities/{self.data.id}")
 
