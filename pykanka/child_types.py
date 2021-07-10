@@ -1,17 +1,21 @@
 import typing
 import json
 
+import requests
+
 import pykanka
 import pykanka.child_subentries as st
 from pykanka.exceptions import *
 
 
 class GenericChildType:
+    """Generic class for child types. Shouldn't be used directly, it is used as a base class for specialized child types."""
     _possible_keys = list()  # Overridden by inheritors
     _key_replacer = list()  # Overridden by inheritors
     _file_keys = list()  # Overridden by inheritors
 
     class GenericChildData:
+        """Container class for a GenericChildType. Gets overridden by specialized child type data containers."""
         def __init__(self, val: dict = None):
             self.id = None
             self.type = None
@@ -58,6 +62,7 @@ class GenericChildType:
 
     @property
     def parent(self):
+        """Lazily gets the Entity object belonging to this instance"""
         if self._parent:
             return self._parent
         elif self.data.entity_id:
@@ -173,8 +178,9 @@ class GenericChildType:
 
         return values
 
-    def get_image(self):
-        return self.client.request_get(self.data.image_full, stream=True)
+    def get_image(self) -> "requests.Response.raw":
+        """Returns file-like object of the child's image"""
+        return self.client.request_get(self.data.image_full, stream=True).raw
 
 
 class Location(GenericChildType):
@@ -208,6 +214,10 @@ class Location(GenericChildType):
         self.child_id = None
 
         self.base_url = f"{self.client.campaign_base_url}locations/"
+
+    def get_map_image(self) -> "requests.Response.raw":
+        """Returns file-like object of the entity's map image"""
+        return self.client.request_get(self.data.map, stream=True).raw
 
 
 class Character(GenericChildType):
@@ -447,7 +457,8 @@ class Map(GenericChildType):
 
         self.base_url = f"{self.client.campaign_base_url}maps/"
 
-    def all_markers(self):
+    def all_markers(self) -> list["st.MapMarker"]:
+        """Returns a list of all existing map markers"""
         markers = []
         url = f"{self.base_url}{self.data.id}/map_markers"
         done = False
@@ -463,7 +474,13 @@ class Map(GenericChildType):
 
         return markers
 
-    def get_marker(self, marker_id: int = None):
+    def get_marker(self, marker_id: int = None) -> "st.MapMarker":
+        """
+        Returns either the map marker with the specified ID, or, if none is given, an empty map marker.
+
+        :param marker_id: Map marker id.
+        :return: MapMarker object
+        """
         if marker_id:
             response = self.client.request_get(f"{self.base_url}{self.data.id}/map_markers/{marker_id}")
             if not response.ok:
