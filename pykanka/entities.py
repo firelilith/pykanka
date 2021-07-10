@@ -157,7 +157,8 @@ class Entity:
                                journal=ct.Journal,
                                item=ct.Item,
                                event=ct.Event,
-                               ability=ct.Ability
+                               ability=ct.Ability,
+                               calendar=ct.Calendar
                                )
 
         return type_dictionary[child_type]

@@ -190,6 +190,13 @@ class KankaClient:
         else:
             return ct.Ability(self)
 
+    def get_calendar(self, calendar_id: int = None) -> "ct.Calendar":
+        """returns specified calendar or empty calendar if no ID given"""
+        if calendar_id:
+            return ct.Calendar.from_id(self, calendar_id)
+        else:
+            return ct.Calendar(self)
+
     def _get_all_of_type(self, url, type_class) -> list[typing.Any]:
         done = False
         members = []
@@ -257,6 +264,9 @@ class KankaClient:
 
     def all_abilities(self) -> list["ct.Ability"]:
         return self._get_all_of_type(f"{self.campaign_base_url}abilities", ct.Ability)
+
+    def all_calendars(self) -> list["ct.Calendar"]:
+        return self._get_all_of_type(f"{self.campaign_base_url}calenders", ct.Calendar)
 
     def search(self, name: str, results: int = 1) -> list["ent.Entity"]:
         """
