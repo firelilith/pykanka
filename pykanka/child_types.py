@@ -2,7 +2,7 @@ import typing
 import json
 
 import pykanka
-import pykanka.child_subtypes as st
+import pykanka.child_subentries as st
 from pykanka.exceptions import *
 
 
