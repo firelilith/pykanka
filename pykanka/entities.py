@@ -38,11 +38,12 @@ class Entity:
                     else:
                         raise WrongParametersPassedToEntity(f"{key} has been passed to Entity class, but is not a valid parameter")
 
-    def __init__(self, client: "pykanka.KankaClient", child=None):
+    def __init__(self, client: "pykanka.KankaClient", child: "pykanka.child_types.GenericChildType" = None):
         """
         Generates empty Entity. Consider using Entity.from_id() or Entity.from_json() instead.
 
         :param client: KankaClient object
+        :param child: Subclass inherited from GenericChildType
         """
 
         self.client = client
@@ -63,6 +64,14 @@ class Entity:
 
     @classmethod
     def from_id(cls, client: "pykanka.KankaClient", entity_id: int, child=None) -> "Entity":
+        """
+        Requests and constructs Entity from its ID. Requires one API call.
+
+        :param client: KankaClient object
+        :param entity_id: Entity ID to request from Kanka
+        :param child: Existing child object, e.g. Location, Character. If none is given, new child is constructed from response.
+        :return: Entity instance
+        """
         obj = Entity(client, child=child)
 
         response = client.request_get(f"{client.campaign_base_url}entities/{entity_id}")
@@ -84,7 +93,13 @@ class Entity:
 
     @classmethod
     def from_json(cls, client: "pykanka.KankaClient", content: typing.Union[str, dict]) -> "Entity":
+        """
+        Constructs Entity from json string or dictionary. Requires no API calls.
 
+        :param client: KankaClient object
+        :param content: Either a json string or a dict containing the entity data.
+        :return: Entity instance
+        """
         if type(content) == str:
             content = json.loads(content)
 
@@ -106,7 +121,12 @@ class Entity:
 
         return obj
 
-    def to_json(self):
+    def to_json(self) -> str:
+        """
+        Dumps the Entity object as json string.
+
+        :return: json string representation of the Entity object.
+        """
         ent_data = self.data.__dict__
         if self._child:
             child_data = self._child.data.__dict__
