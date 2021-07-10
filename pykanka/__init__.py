@@ -14,8 +14,8 @@ class KankaClient:
     def __init__(self, token: str, campaign: typing.Union[str, int]):
         """Create a client associated with a specific campaign.
 
-        :param token: str
-        :param campaign: Union[str, int]
+        :param token: User API token from kanka.io
+        :param campaign: Campaign name or ID
         """
 
         self._api_token = token
@@ -45,7 +45,7 @@ class KankaClient:
 
         return campaigns.json()
 
-    def _get_campaign_id(self, name):
+    def _get_campaign_id(self, name: str):
         campaigns = self._get_campaigns()
 
         for campaign in campaigns["data"]:
@@ -65,28 +65,28 @@ class KankaClient:
 
         return response
 
-    def request_get(self, url, **kwargs):
+    def request_get(self, url: str, **kwargs):
         """get request with proper headers. usually shouldn't be accessed directly."""
         return self._request("get", url, **kwargs)
 
-    def request_post(self, url, **kwargs):
+    def request_post(self, url: str, **kwargs):
         """post request with proper headers. usually shouldn't be accessed directly."""
         return self._request("post", url, **kwargs)
 
-    def request_put(self, url, **kwargs):
+    def request_put(self, url: str, **kwargs):
         """put request with proper headers. usually shouldn't be accessed directly."""
         return self._request("put", url, **kwargs)
 
-    def request_patch(self, url, **kwargs):
+    def request_patch(self, url: str, **kwargs):
         """patch request with proper headers. usually shouldn't be accessed directly."""
         return self._request("patch", url, **kwargs)
 
-    def request_delete(self, url, **kwargs):
+    def request_delete(self, url: str, **kwargs):
         """delete request with proper headers. usually shouldn't be accessed directly."""
         return self._request("delete", url, **kwargs)
 
     def get_entity(self, entity_id: int = None) -> "ent.Entity":
-        """returns specified entity or empty entity if no ID given"""
+        """Returns specified entity or empty entity if no ID given"""
         if entity_id:
             return ent.Entity.from_id(self, entity_id)
         else:
@@ -190,9 +190,9 @@ class KankaClient:
         else:
             return ct.Ability(self)
 
-    def _get_all_of_type(self, url, type_class):
+    def _get_all_of_type(self, url, type_class) -> list[typing.Any]:
         done = False
-        members = dict()
+        members = []
 
         while not done:
             response = self.request_get(url)
@@ -209,56 +209,63 @@ class KankaClient:
 
             for entry in content["data"]:
                 entity = type_class.from_json(self, entry)
-                members[(entity.data.name, entity.data.id)] = entity
+                members.append(entity)
 
         return members
 
-    def all_entities(self) -> typing.Dict[typing.Tuple[str, int], "ent.Entity"]:
+    def all_entities(self) -> list["ent.Entity"]:
         return self._get_all_of_type(f"{self.campaign_base_url}entities", ent.Entity)
 
-    def all_locations(self) -> typing.Dict[typing.Tuple[str, int], "ct.Location"]:
+    def all_locations(self) -> list["ct.Location"]:
         return self._get_all_of_type(f"{self.campaign_base_url}locations", ct.Location)
 
-    def all_organisations(self) -> typing.Dict[typing.Tuple[str, int], "ct.Organisation"]:
+    def all_organisations(self) -> list["ct.Organisation"]:
         return self._get_all_of_type(f"{self.campaign_base_url}organisations", ct.Organisation)
 
-    def all_timelines(self) -> typing.Dict[typing.Tuple[str, int], "ct.Timeline"]:
+    def all_timelines(self) -> list["ct.Timeline"]:
         return self._get_all_of_type(f"{self.campaign_base_url}timelines", ct.Timeline)
 
-    def all_races(self) -> typing.Dict[typing.Tuple[str, int], "ct.Race"]:
+    def all_races(self) -> list["ct.Race"]:
         return self._get_all_of_type(f"{self.campaign_base_url}races", ct.Race)
 
-    def all_families(self) -> typing.Dict[typing.Tuple[str, int], "ct.Family"]:
+    def all_families(self) -> list["ct.Family"]:
         return self._get_all_of_type(f"{self.campaign_base_url}families", ct.Family)
 
-    def all_notes(self) -> typing.Dict[typing.Tuple[str, int], "ct.Note"]:
+    def all_notes(self) -> list["ct.Note"]:
         return self._get_all_of_type(f"{self.campaign_base_url}notes", ct.Note)
 
-    def all_characters(self) -> typing.Dict[typing.Tuple[str, int], "ct.Character"]:
+    def all_characters(self) -> list["ct.Character"]:
         return self._get_all_of_type(f"{self.campaign_base_url}characters", ct.Character)
 
-    def all_maps(self) -> typing.Dict[typing.Tuple[str, int], "ct.Map"]:
+    def all_maps(self) -> list["ct.Map"]:
         return self._get_all_of_type(f"{self.campaign_base_url}maps", ct.Map)
 
-    def all_tags(self) -> typing.Dict[typing.Tuple[str, int], "ct.Tag"]:
+    def all_tags(self) -> list["ct.Tag"]:
         return self._get_all_of_type(f"{self.campaign_base_url}tags", ct.Tag)
 
-    def all_quests(self) -> typing.Dict[typing.Tuple[str, int], "ct.Quest"]:
+    def all_quests(self) -> list["ct.Quest"]:
         return self._get_all_of_type(f"{self.campaign_base_url}quests", ct.Quest)
 
-    def all_journals(self) -> typing.Dict[typing.Tuple[str, int], "ct.Journal"]:
+    def all_journals(self) -> list["ct.Journal"]:
         return self._get_all_of_type(f"{self.campaign_base_url}journals", ct.Journal)
 
-    def all_items(self) -> typing.Dict[typing.Tuple[str, int], "ct.Item"]:
+    def all_items(self) -> list["ct.Item"]:
         return self._get_all_of_type(f"{self.campaign_base_url}items", ct.Item)
 
-    def all_events(self) -> typing.Dict[typing.Tuple[str, int], "ct.Event"]:
+    def all_events(self) -> list["ct.Event"]:
         return self._get_all_of_type(f"{self.campaign_base_url}events", ct.Event)
 
-    def all_abilities(self) -> typing.Dict[typing.Tuple[str, int], "ct.Ability"]:
+    def all_abilities(self) -> list["ct.Ability"]:
         return self._get_all_of_type(f"{self.campaign_base_url}abilities", ct.Ability)
 
-    def search(self, name: str, all_results: bool = False, results: int = 5) -> list["ent.Entity"]:
+    def search(self, name: str, results: int = 1) -> list["ent.Entity"]:
+        """
+        Search for entities with a given name.
+
+        :param name: Name to be searched
+        :param results: Maximum number of results to be fetched. Each result requires its own API call, so be careful!
+        :return: List of Entities that match the name given.
+        """
         response = self.request_get(f"{self.campaign_base_url}search/{name}").json()["data"]
 
         res = []
