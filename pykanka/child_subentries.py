@@ -21,13 +21,15 @@ class MapMarker:
                     else:
                         raise WrongParametersPassedToEntity(f"{key} has been passed to PolygonStyle class, but is not a valid parameter")
 
-        def to_json(self):
+        def to_json(self) -> dict[str, typing.Any]:
+            """Returns the object in dict form in preparation for json export"""
             self_dict = {"stroke": self.stroke,
                          "stroke-width": self.stroke_width,
                          "stroke-opacity": self.stroke_opacity}
             return self_dict
 
     def __init__(self, parent_map: "pykanka.child_types.Map", values: dict = None):
+        """Creates a new map marker from given values. Probably shouldn't be done directly, try Map.get_marker() and Map.get_marker().post() instead."""
         self.circle_radius = None
         self.colour = None
         self.created_at = None
@@ -65,6 +67,7 @@ class MapMarker:
         self._parent_map = parent_map
 
     def to_json(self) -> dict[str, typing.Any]:
+        """Returns the object in dict form in preparation for json export"""
         data = self.__dict__
         data["polygon_style"] = self.polygon_style.to_json()
         data.pop("_parent_map")
@@ -108,12 +111,35 @@ class MapMarker:
         return values
 
     def post(self, json_data: str = None, **kwargs):
+        """
+        Create this map point on kanka.io. Takes any values outlined in the documentation.
+        Required are either name or entity_id, map_id, latitude, longitude, shape_id and icon.
+        Takes object parameter if no new one is specified.
+
+        :param json_data: json string of the data. Parameters can be overwritten by kwargs.
+        :param kwargs: Individual parameters
+        :return: https response
+        """
         payload = self._prepare_post(json_data=json_data, **kwargs)
         return self._parent_map.client.request_post(f"{self._parent_map.base_url}{self._parent_map.data.id}/map_markers", json=payload)
 
     def patch(self, json_data: str = None, **kwargs):
+        """
+        Update this map point on kanka.io. Takes any values outlined in the documentation.
+        Required are either name or entity_id, map_id, latitude, longitude, shape_id and icon.
+        Takes object parameter if no new one is specified.
+
+        :param json_data: json string of the data. Parameters can be overwritten by kwargs.
+        :param kwargs: Individual parameters
+        :return: https response
+        """
         payload = self._prepare_post(json_data=json_data, **kwargs)
         return self._parent_map.client.request_patch(f"{self._parent_map.base_url}{self._parent_map.data.id}/map_markers/{self.id}", json=payload)
 
     def delete(self):
+        """
+        Delete this map point on kanka.io
+
+        :return: https response
+        """
         return self._parent_map.client.request_delete(f"{self._parent_map.base_url}{self._parent_map.data.id}/map_markers/{self.id}")
