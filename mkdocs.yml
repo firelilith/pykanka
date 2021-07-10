@@ -1,0 +1,7 @@
+site_name: My Docs
+site_url: https://example.com/
+nav:
+    - Home: index.md
+    - Install: install.md
+    - KankaClient class: KankaClient.md
+theme: readthedocs
