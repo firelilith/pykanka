@@ -2,6 +2,7 @@ import typing
 import json
 
 import pykanka
+import pykanka.child_subtypes as st
 from pykanka.exceptions import *
 
 
@@ -445,6 +446,32 @@ class Map(GenericChildType):
         self.data = self.MapData()
 
         self.base_url = f"{self.client.campaign_base_url}maps/"
+
+    def all_markers(self):
+        markers = []
+        url = f"{self.base_url}{self.data.id}/map_markers"
+        done = False
+
+        while not done:
+            response = self.client.request_get(url).json()
+            for entry in response["data"]:
+                markers.append(st.MapMarker(self, values=entry))
+                if response["links"]["next"]:
+                    url = response["links"]["next"]
+                else:
+                    done = True
+
+        return markers
+
+    def get_marker(self, marker_id: int = None):
+        if marker_id:
+            response = self.client.request_get(f"{self.base_url}{self.data.id}/map_markers/{marker_id}")
+            if not response.ok:
+                raise ResponseNotOkError(f"Response not OK, code {response.status_code}: {response.text}")
+            marker = st.MapMarker(parent_map=self, values=response.json()["data"])
+        else:
+            marker = st.MapMarker(parent_map=self)
+        return marker
 
     @staticmethod
     def _validate_parameters(values: set, files: set):
