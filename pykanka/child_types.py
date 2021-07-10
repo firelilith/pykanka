@@ -532,7 +532,7 @@ class Quest(GenericChildType):
             self.calendar_month = None
             self.calendar_day = None
             self.date = None
-            self.element_count = None
+            self.elements_count = None
             self.elements = None
             self.is_completed = None
 
