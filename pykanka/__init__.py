@@ -197,9 +197,8 @@ class KankaClient:
         else:
             return ct.Calendar(self)
 
-    def _get_all_of_type(self, url, type_class) -> list[typing.Any]:
+    def _get_all_of_type(self, url, type_class) -> typing.Generator[typing.Any, None, None]:
         done = False
-        members = []
 
         while not done:
             response = self.request_get(url)
@@ -216,56 +215,55 @@ class KankaClient:
 
             for entry in content["data"]:
                 entity = type_class.from_json(self, entry)
-                members.append(entity)
+                yield entity
+        return
 
-        return members
-
-    def all_entities(self) -> list["ent.Entity"]:
+    def all_entities(self) -> typing.Generator["ent.Entity", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}entities", ent.Entity)
 
-    def all_locations(self) -> list["ct.Location"]:
+    def all_locations(self) -> typing.Generator["ct.Location", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}locations", ct.Location)
 
-    def all_organisations(self) -> list["ct.Organisation"]:
+    def all_organisations(self) -> typing.Generator["ct.Organisation", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}organisations", ct.Organisation)
 
-    def all_timelines(self) -> list["ct.Timeline"]:
+    def all_timelines(self) -> typing.Generator["ct.Timeline", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}timelines", ct.Timeline)
 
-    def all_races(self) -> list["ct.Race"]:
+    def all_races(self) -> typing.Generator["ct.Race", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}races", ct.Race)
 
-    def all_families(self) -> list["ct.Family"]:
+    def all_families(self) -> typing.Generator["ct.Family", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}families", ct.Family)
 
-    def all_notes(self) -> list["ct.Note"]:
+    def all_notes(self) -> typing.Generator["ct.Note", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}notes", ct.Note)
 
-    def all_characters(self) -> list["ct.Character"]:
+    def all_characters(self) -> typing.Generator["ct.Character", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}characters", ct.Character)
 
-    def all_maps(self) -> list["ct.Map"]:
+    def all_maps(self) -> typing.Generator["ct.Map", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}maps", ct.Map)
 
-    def all_tags(self) -> list["ct.Tag"]:
+    def all_tags(self) -> typing.Generator["ct.Tag", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}tags", ct.Tag)
 
-    def all_quests(self) -> list["ct.Quest"]:
+    def all_quests(self) -> typing.Generator["ct.Quest", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}quests", ct.Quest)
 
-    def all_journals(self) -> list["ct.Journal"]:
+    def all_journals(self) -> typing.Generator["ct.Journal", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}journals", ct.Journal)
 
-    def all_items(self) -> list["ct.Item"]:
+    def all_items(self) -> typing.Generator["ct.Item", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}items", ct.Item)
 
-    def all_events(self) -> list["ct.Event"]:
+    def all_events(self) -> typing.Generator["ct.Event", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}events", ct.Event)
 
-    def all_abilities(self) -> list["ct.Ability"]:
+    def all_abilities(self) -> typing.Generator["ct.Ability", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}abilities", ct.Ability)
 
-    def all_calendars(self) -> list["ct.Calendar"]:
+    def all_calendars(self) -> typing.Generator["ct.Calendar", None, None]:
         return self._get_all_of_type(f"{self.campaign_base_url}calenders", ct.Calendar)
 
     def search(self, name: str, results: int = 1) -> list["ent.Entity"]:
