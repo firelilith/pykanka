@@ -746,3 +746,16 @@ class Calendar(GenericChildType):
         self.data = self.CalendarData()
 
         self.base_url = f"{self.client.campaign_base_url}calendars/"
+
+    @staticmethod
+    def _validate_parameters(values, files):
+        if "name" not in values.keys():
+            raise ValueError("'name' is a required field, but is missing")
+        if "month_name" not in values.keys():
+            raise ValueError("'month_name' is a required field, but is missing")
+        if "weekday" not in values.keys():
+            raise ValueError("'weekday' is a required field, but is missing")
+        if len(values["month_day"]) < 2:
+            raise ValueError("'month_name' needs at least two entries, but has fewer")
+        if len(values["weekday"]) < 2:
+            raise ValueError("'weekday' needs at least two entries, but has fewer")
