@@ -1,4 +1,4 @@
-# Kanka-API-Client
+# pykanka
 
 My attempt at creating an API client for the worldbuilding software kanka.io. 
 
