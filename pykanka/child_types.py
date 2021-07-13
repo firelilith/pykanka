@@ -97,7 +97,7 @@ class GenericChildType:
 
         return obj
 
-    def post(self, json_data: str = None, name: str = "", **kwargs):
+    def post(self, json_data: str = None, **kwargs):
         """
         Posts Location to Campaign. Possible parameters are outlined in the documentation, here:
         https://kanka.io/en/docs/1.0/
@@ -111,11 +111,11 @@ class GenericChildType:
         :return: requests.response
         """
 
-        payload, files = self._prepare_post(json_data, name=name, **kwargs)
+        payload, files = self._prepare_post(json_data, **kwargs)
 
         return self.client.request_post(f"{self.base_url}", json=payload)
 
-    def patch(self, json_data: str = None, name: str = "", **kwargs):
+    def patch(self, json_data: str = None, **kwargs):
         """
         Updates Location to Campaign. Possible parameters are outlined in the documentation, here:
         https://kanka.io/en/docs/1.0/
@@ -129,7 +129,7 @@ class GenericChildType:
         :return: requests.response
         """
 
-        payload, files = self._prepare_post(json_data, name=name, **kwargs)
+        payload, files = self._prepare_post(json_data, **kwargs)
 
         return self.client.request_patch(f"{self.base_url}{self.data.id}", json=payload)
 
