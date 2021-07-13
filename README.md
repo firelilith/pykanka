@@ -1,6 +1,6 @@
 # pykanka
 
-My attempt at creating an API client for the worldbuilding software kanka.io. 
+My attempt at creating a python API wrapper for the worldbuilding software [Kanka](https://kanka.io). 
 
 pykanka currently  provides get/post/patch functionality  as well as classes for the different entity types found on Kanka. A basic documentation is available through the wiki, here: https://github.com/thatGuySpectre/pykanka/wiki
 
