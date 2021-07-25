@@ -63,7 +63,7 @@ class Entity:
             return self._child
 
     @classmethod
-    def from_id(cls, client: "pykanka.KankaClient", entity_id: int, child=None) -> "Entity":
+    def from_id(cls, client: "pykanka.KankaClient", entity_id: int, child=None, refresh=False) -> "Entity":
         """
         Requests and constructs Entity from its ID. Requires one API call.
 
@@ -74,7 +74,7 @@ class Entity:
         """
         obj = Entity(client, child=child)
 
-        response = client.request_get(f"{client.campaign_base_url}entities/{entity_id}")
+        response = client.request_get(f"{client.campaign_base_url}entities/{entity_id}", refresh=refresh)
 
         if not response.ok:
             raise ResponseNotOkError(f"Response from {client.campaign_base_url}entities/{entity_id} not OK, code {response.status_code}:\n{response.reason}")

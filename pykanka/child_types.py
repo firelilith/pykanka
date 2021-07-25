@@ -73,10 +73,10 @@ class GenericChildType:
             return self._parent
 
     @classmethod
-    def from_id(cls, client: "pykanka.KankaClient", child_id: int, parent: "pykanka.entities.Entity" = None) -> "GenericChildType":
+    def from_id(cls, client: "pykanka.KankaClient", child_id: int, parent: "pykanka.entities.Entity" = None, refresh=False) -> "GenericChildType":
         obj = cls(client, parent=parent)
 
-        response = client.request_get(f"{obj.base_url}{child_id}")
+        response = client.request_get(f"{obj.base_url}{child_id}", refresh=refresh)
 
         if not response.ok:
             raise ResponseNotOkError(f"Response from {obj.base_url}{child_id} not OK, code {response.status_code}: {response.reason}")
