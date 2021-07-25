@@ -12,7 +12,7 @@ from pykanka.exceptions import *
 class KankaClient:
     """Main client for interacting with the Kanka.io API"""
 
-    def __init__(self, token: str, campaign: typing.Union[str, int], cache_duration=600):
+    def __init__(self, token: str, campaign: typing.Union[str, int], cache_duration: int = 600):
         """Create a client associated with a specific campaign.
 
         :param token: User API token from kanka.io
@@ -28,7 +28,7 @@ class KankaClient:
         self._api_base_url = "https://kanka.io/api/1.0/campaigns/"
 
         self._cache = dict()
-        self._cache_duration = cache_duration
+        self._cache_duration = max(cache_duration, 0)
 
         if type(campaign) == int:
             self.campaign_id = campaign
@@ -79,13 +79,14 @@ class KankaClient:
 
     def request_get(self, url: str, refresh=False, **kwargs):
         """get request with proper headers. usually shouldn't be accessed directly."""
-        if not refresh:
+        if not refresh and self._cache_duration:
             if url in self.cache:
                 return self._cache[url]
 
         response = self._request("get", url, **kwargs)
 
-        self._cache[url] = (response, time)
+        if self._cache_duration:
+            self._cache[url] = (response, time)
 
         return response
 
