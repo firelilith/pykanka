@@ -1,5 +1,6 @@
 import typing
 import json
+from typing import List, Dict
 
 import requests
 
@@ -187,7 +188,8 @@ class Location(GenericChildType):
     """A class representing a location child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "type", "parent_location_id", "tags", "is_private", "image_full", "map", "is_map_private"]
+    _possible_keys = ["name", "type", "parent_location_id", "tags", "is_private", "image_full", "map", "is_map_private", "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url"), ("map", "map_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -198,6 +200,8 @@ class Location(GenericChildType):
             self.parent_location_id = None
             self.is_map_private = None
             self.map = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -224,7 +228,9 @@ class Character(GenericChildType):
     """A class representing a Character child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id", "tags", "is_dead", "is_private", "image_full", "is_personality_visible"]
+    _possible_keys = ["name", "entry", "title", "age", "sex", "pronouns", "type", "family_id", "location_id", "race_id",
+                      "tags", "is_dead", "is_private", "image_full", "is_personality_visible", "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -242,6 +248,8 @@ class Character(GenericChildType):
             self.traits = None
             self.is_dead = None
             self.is_personality_visible = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -263,7 +271,8 @@ class Organisation(GenericChildType):
     """A class representing a Organisation child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "organization_id", "location_id", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "organization_id", "location_id", "tags", "is_private", "image_full", "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -274,6 +283,8 @@ class Organisation(GenericChildType):
             self.organisation_id = None
             self.location_id = None
             self.members = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -295,7 +306,8 @@ class Timeline(GenericChildType):
     """A class representing a Timeline child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "revert_order", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "revert_order", "tags", "is_private", "image_full", "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -306,6 +318,8 @@ class Timeline(GenericChildType):
             self.eras = None
             self.timeline_id = None
             self.revert_order = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -327,7 +341,8 @@ class Race(GenericChildType):
     """A class representing a Race child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "race_id", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "race_id", "tags", "is_private", "image_full", "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -336,6 +351,8 @@ class Race(GenericChildType):
     class RaceData(GenericChildType.GenericChildData):
         def __init__(self, val: dict = None):
             self.race_id = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -357,7 +374,8 @@ class Family(GenericChildType):
     """A class representing a Family child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "location_id", "family_id", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "location_id", "family_id", "tags", "is_private", "image_full", "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -368,6 +386,8 @@ class Family(GenericChildType):
             self.members = None
             self.location_id = None
             self.family_id = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -389,7 +409,8 @@ class Note(GenericChildType):
     """A class representing a Note child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "note_id", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "note_id", "tags", "is_private", "image_full", "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -399,6 +420,8 @@ class Note(GenericChildType):
         def __init__(self, val: dict = None):
             self.is_pinned = None
             self.note_id = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -420,7 +443,8 @@ class Map(GenericChildType):
     """A class representing a Map child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "map_id", "location_id", "center_marker_id", "center_x", "center_y", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "map_id", "location_id", "center_marker_id", "center_x", "center_y", "tags", "is_private", "image_full", "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -441,6 +465,8 @@ class Map(GenericChildType):
             self.groups = None
             self.grid = None
             self.center_marker_id = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -457,7 +483,7 @@ class Map(GenericChildType):
 
         self.base_url = f"{self.client.campaign_base_url}maps/"
 
-    def all_markers(self) -> list["st.MapMarker"]:
+    def all_markers(self) -> List["st.MapMarker"]:
         """Returns a list of all existing map markers"""
         markers = []
         url = f"{self.base_url}{self.data.id}/map_markers"
@@ -502,7 +528,8 @@ class Tag(GenericChildType):
     """A class representing a Tag child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "colour", "tag_id", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "colour", "tag_id", "is_private", "image_full" , "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -513,6 +540,8 @@ class Tag(GenericChildType):
             self.entities = None
             self.tag_id = None
             self.colour = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -534,7 +563,8 @@ class Quest(GenericChildType):
     """A class representing a Quest child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "quest_id", "character_id", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "quest_id", "character_id", "tags", "is_private", "image_full" , "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -552,6 +582,8 @@ class Quest(GenericChildType):
             self.elements_count = None
             self.elements = None
             self.is_completed = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -573,7 +605,7 @@ class Journal(GenericChildType):
     """A class representing a Journal child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "date", "character_id", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "date", "character_id", "tags", "is_private", "image_full", "header_full"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -589,6 +621,8 @@ class Journal(GenericChildType):
             self.calendar_month = None
             self.calendar_day = None
             self.date = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -610,7 +644,8 @@ class Item(GenericChildType):
     """A class representing a Item child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "location_id", "character_id", "price", "size", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "location_id", "character_id", "price", "size", "tags", "is_private", "image_full", "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -622,6 +657,8 @@ class Item(GenericChildType):
             self.character_id = None
             self.size = None
             self.price = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -643,7 +680,8 @@ class Event(GenericChildType):
     """A class representing a Event child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "date", "location_id", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "date", "location_id", "tags", "is_private", "image_full" , "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -654,6 +692,8 @@ class Event(GenericChildType):
             self.event_id = None
             self.location_id = None
             self.date = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -675,7 +715,8 @@ class Ability(GenericChildType):
     """A class representing a Ability child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "ability_id", "charges", "tags", "is_private", "image_full"]
+    _possible_keys = ["name", "entry", "type", "ability_id", "charges", "tags", "is_private", "image_full" , "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -686,6 +727,8 @@ class Ability(GenericChildType):
             self.ability_id = None
             self.abilities = None
             self.charges = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
@@ -709,7 +752,8 @@ class Calendar(GenericChildType):
     # keys accepted by POST and also delivered by GET as per API documentation
     _possible_keys = ["name", "entry", "type", "current_year", "current_month", "current_day", "tags", "month_name", "month_length", "month_type", "weekday", "year_name", "year_number",
                       "moon_name", "moon_fullmoon", "epoch_name", "season_name", "season_month", "season_day", "has_leap_year", "leap_year_amount", "leap_year_offset", "leap_year_start",
-                      "tags", "is_private", "image_full"]
+                      "tags", "is_private", "image_full", "header_full",
+                      "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -731,6 +775,8 @@ class Calendar(GenericChildType):
             self.leap_year_start = None
             self.start_offset = None
             self.months = None
+            self.header_full = None
+            self.has_custom_header = None
 
             super().__init__(val=val)
 
