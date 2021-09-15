@@ -1,5 +1,6 @@
 import json
 import typing
+from typing import Dict
 
 import pykanka
 from pykanka.exceptions import *
@@ -21,7 +22,7 @@ class MapMarker:
                     else:
                         raise WrongParametersPassedToEntity(f"{key} has been passed to PolygonStyle class, but is not a valid parameter")
 
-        def to_json(self) -> dict[str, typing.Any]:
+        def to_json(self) -> Dict[str, typing.Any]:
             """Returns the object in dict form in preparation for json export"""
             self_dict = {"stroke": self.stroke,
                          "stroke-width": self.stroke_width,
@@ -66,7 +67,7 @@ class MapMarker:
 
         self._parent_map = parent_map
 
-    def to_json(self) -> dict[str, typing.Any]:
+    def to_json(self) -> Dict[str, typing.Any]:
         """Returns the object in dict form in preparation for json export"""
         data = self.__dict__
         data["polygon_style"] = self.polygon_style.to_json()
