@@ -271,7 +271,7 @@ class Organisation(GenericChildType):
     """A class representing a Organisation child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "organization_id", "location_id", "tags", "is_private", "image_full", "header_full",
+    _possible_keys = ["name", "entry", "type", "organisation_id", "location_id", "tags", "is_private", "image_full", "header_full",
                       "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
@@ -752,8 +752,7 @@ class Calendar(GenericChildType):
     # keys accepted by POST and also delivered by GET as per API documentation
     _possible_keys = ["name", "entry", "type", "current_year", "current_month", "current_day", "tags", "month_name", "month_length", "month_type", "weekday", "year_name", "year_number",
                       "moon_name", "moon_fullmoon", "epoch_name", "season_name", "season_month", "season_day", "has_leap_year", "leap_year_amount", "leap_year_offset", "leap_year_start",
-                      "tags", "is_private", "image_full", "header_full",
-                      "has_custom_header"]
+                      "tags", "is_private", "image_full", "header_full", "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -761,20 +760,32 @@ class Calendar(GenericChildType):
 
     class CalendarData(GenericChildType.GenericChildData):
         def __init__(self, val: dict = None):
-            self.suffix = None
-            self.parameters = None
-            self.weekdays = None
-            self.leap_year_offset = None
-            self.seasons = None
-            self.moons = None
-            self.leap_year_amount = None
-            self.leap_year_month = None
-            self.date = None
-            self.years = None
+            self.current_year = None
+            self.current_month = None
+            self.current_day = None
+
+            self.month_name = None
+            self.month_length = None
+            self.month_type = None
+
+            self.year_name = None
+            self.year_number = None
+
+            self.moon_name = None
+            self.moon_fullmoon = None
+
+            self.weekday = None
+
+            self.epoch_name = None
+            self.season_name = None
+            self.season_month = None
+            self.season_day = None
+
             self.has_leap_year = None
+            self.leap_year_amount = None
             self.leap_year_start = None
-            self.start_offset = None
-            self.months = None
+            self.leap_year_offset = None
+
             self.header_full = None
             self.has_custom_header = None
 
@@ -801,7 +812,13 @@ class Calendar(GenericChildType):
             raise ValueError("'month_name' is a required field, but is missing")
         if "weekday" not in values.keys():
             raise ValueError("'weekday' is a required field, but is missing")
-        if len(values["month_day"]) < 2:
+        if "month_length" not in values.keys():
+            raise ValueError("'month_length' is a required field, but is missing")
+        if len(values["month_name"]) < 2:
             raise ValueError("'month_name' needs at least two entries, but has fewer")
         if len(values["weekday"]) < 2:
             raise ValueError("'weekday' needs at least two entries, but has fewer")
+        if len(values["month_length"]) < 2:
+            raise ValueError("'month_length' needs at least two entries, but has fewer")
+        if len(values["month_name"]) != len(values["month_length"]):
+            raise ValueError("lengths of month_name and month_length don't match")
