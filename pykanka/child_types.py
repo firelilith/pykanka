@@ -652,20 +652,35 @@ class Calendar(GenericChildType):
 
     @dataclass
     class CalendarData(GenericChildType.GenericChildData):
-        suffix: Optional[str] = None
-        parameters: Optional[str] = None
-        weekdays: Optional[str] = None
-        leap_year_offset: Optional[str] = None
-        seasons: Optional[str] = None
-        moons: Optional[str] = None
-        leap_year_amount: Optional[str] = None
-        leap_year_month: Optional[str] = None
-        date: Optional[str] = None
-        years: Optional[str] = None
-        has_leap_year: Optional[str] = None
-        leap_year_start: Optional[str] = None
-        start_offset: Optional[str] = None
-        months: Optional[str] = None
+        current_year: Optional[int] = None
+        current_month: Optional[int] = None
+        current_day: Optional[int] = None
+
+        month_name: Optional[List[str]] = None
+        month_length: Optional[List[int]] = None
+        month_type: Optional[List[str]] = None
+
+        year_name: Optional[List[str]] = None
+        year_number: Optional[List[int]] = None
+
+        moon_name: Optional[List[str]] = None
+        moon_fullmoon: Optional[List[int]] = None
+
+        weekday: Optional[List[str]] = None
+
+        epoch_name: Optional[List[str]] = None
+
+        season_name: Optional[List[str]] = None
+        season_month: Optional[List[int]] = None
+        season_day: Optional[List[int]] = None
+
+        has_leap_year: Optional[bool] = None
+        leap_year_amount: Optional[int] = None
+        leap_year_start: Optional[int] = None
+        leap_year_offset: Optional[int] = None
+
+        header_full: Optional[str] = None
+        has_custom_header: Optional[bool] = None
 
     def __post_init__(self):
         """
@@ -682,7 +697,13 @@ class Calendar(GenericChildType):
             raise ValueError("'month_name' is a required field, but is missing")
         if "weekday" not in values.keys():
             raise ValueError("'weekday' is a required field, but is missing")
-        if len(values["month_day"]) < 2:
+        if "month_length" not in values.keys():
+            raise ValueError("'month_length' is a required field, but is missing")
+        if len(values["month_name"]) < 2:
             raise ValueError("'month_name' needs at least two entries, but has fewer")
         if len(values["weekday"]) < 2:
             raise ValueError("'weekday' needs at least two entries, but has fewer")
+        if len(values["month_length"]) < 2:
+            raise ValueError("'month_length' needs at least two entries, but has fewer")
+        if len(values["month_name"]) != len(values["month_length"]):
+            raise ValueError("lengths of month_name and month_length don't match")
