@@ -6,6 +6,7 @@ from pykanka.exceptions import *
 import pykanka.child_types as ct
 from dataclasses import dataclass
 
+
 @dataclass
 class Entity:
     """Base class from which specific entity classes like locations and characters are inherited. Should usually not be interacted with directly."""
@@ -32,14 +33,11 @@ class Entity:
         image_uuid:             Optional[str] = None
 
     client:                 "pykanka.KankaClient"
-    _child:                  "pykanka.child_type.GenericChildType" = None
+    _child:                  "pykanka.child_types.GenericChildType" = None
 
     def __post_init__(self):
         """
         Generates empty Entity. Consider using Entity.from_id() or Entity.from_json() instead.
-
-        :param client: KankaClient object
-        :param child: Subclass inherited from GenericChildType
         """
 
         self.data = self.EntityData()
@@ -56,7 +54,7 @@ class Entity:
             return self._child
 
     @child.setter
-    def parent(self, v: "pykanka.child_type.GenericChildType"):
+    def child(self, v: "pykanka.child_types.GenericChildType"):
         self._child = v
 
     @classmethod

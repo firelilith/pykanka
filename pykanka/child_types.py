@@ -13,7 +13,7 @@ from dataclasses import dataclass
 @dataclass
 class GenericChildType:
     client: Optional["pykanka.KankaClient"]
-    _parent: Optional["pykanka.entities.Entity"]
+    _parent: Optional["pykanka.entities.Entity"] = None
     base_url: Optional[str] = str()  # Overridden by inheritors
 
     """Generic class for child types. 
@@ -115,7 +115,7 @@ class GenericChildType:
         :return: requests.response
         """
 
-        payload, files = self.client._prepare_post(json_data, **kwargs)
+        payload, files = self._prepare_post(json_data, **kwargs)
 
         return self.client.request_post(f"{self.base_url}", json=payload)
 
@@ -260,7 +260,7 @@ class Organisation(GenericChildType):
     """A class representing a Organisation child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "organization_id", "location_id", "tags", "is_private", "image_full",
+    _possible_keys = ["name", "entry", "type", "organisation_id", "location_id", "tags", "is_private", "image_full",
                       "header_full",
                       "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
@@ -652,35 +652,65 @@ class Calendar(GenericChildType):
 
     @dataclass
     class CalendarData(GenericChildType.GenericChildData):
-        current_year: Optional[int] = None
-        current_month: Optional[int] = None
-        current_day: Optional[int] = None
+        current_year:       Optional[int] = None
+        current_month:      Optional[int] = None
+        current_day:        Optional[int] = None
 
-        month_name: Optional[List[str]] = None
-        month_length: Optional[List[int]] = None
-        month_type: Optional[List[str]] = None
+        month_name:         Optional[List[str]] = None
+        month_length:       Optional[List[int]] = None
+        month_type:         Optional[List[str]] = None
 
-        year_name: Optional[List[str]] = None
-        year_number: Optional[List[int]] = None
+        year_name:          Optional[List[str]] = None
+        year_number:        Optional[List[int]] = None
 
-        moon_name: Optional[List[str]] = None
-        moon_fullmoon: Optional[List[int]] = None
+        moon_name:          Optional[List[str]] = None
+        moon_fullmoon:      Optional[List[int]] = None
 
-        weekday: Optional[List[str]] = None
+        weekday:            Optional[List[str]] = None
 
-        epoch_name: Optional[List[str]] = None
+        epoch_name:         Optional[List[str]] = None
 
-        season_name: Optional[List[str]] = None
-        season_month: Optional[List[int]] = None
-        season_day: Optional[List[int]] = None
+        season_name:        Optional[List[str]] = None
+        season_month:       Optional[List[int]] = None
+        season_day:         Optional[List[int]] = None
 
-        has_leap_year: Optional[bool] = None
-        leap_year_amount: Optional[int] = None
-        leap_year_start: Optional[int] = None
-        leap_year_offset: Optional[int] = None
+        has_leap_year:      Optional[bool] = None
+        leap_year_amount:   Optional[int] = None
+        leap_year_start:    Optional[int] = None
+        leap_year_offset:   Optional[int] = None
 
-        header_full: Optional[str] = None
-        has_custom_header: Optional[bool] = None
+        header_full:        Optional[str] = None
+        has_custom_header:  Optional[bool] = None
+
+        # the following fields get returned by GET, but can't be passed to POST.
+
+        suffix:             Optional[str] = None
+        start_offset:       Optional[int] = None
+        leap_year_month:    Optional[int] = None
+        parameters:         Optional[None] = None
+        date:               Optional[str] = None
+
+        years:              Optional[dict] = None
+        seasons:            Optional[List[dict]] = None
+        months:             Optional[List[dict]] = None
+        moons:              Optional[List[dict]] = None
+        weekdays:           Optional[list] = None
+
+        def __post_init__(self):
+            # The API's naming scheme is very different between GET and POST, so workarounds like this are needed
+
+            if self.months:
+                month_name = []
+                month_length = []
+                for m in self.months:
+                    month_name.append(m["name"])
+                    month_length.append(m["length"])
+
+                self.month_name = month_name
+                self.month_length = month_length
+
+            if self.weekdays:
+                self.weekday = self.weekdays
 
     def __post_init__(self):
         """
