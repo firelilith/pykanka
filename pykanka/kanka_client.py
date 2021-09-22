@@ -293,7 +293,7 @@ class KankaClient:
         return self._get_all_of_type(f"{self.campaign_base_url}abilities", ct.Ability)
 
     def all_calendars(self) -> Tuple[typing.Generator["ct.Calendar", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}calenders", ct.Calendar)
+        return self._get_all_of_type(f"{self.campaign_base_url}calendars", ct.Calendar)
 
     def search(self, name: str, results: int = 1) -> List["ent.Entity"]:
         """
