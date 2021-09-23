@@ -7,14 +7,17 @@ import requests
 import pykanka
 import pykanka.child_subentries as st
 from pykanka.exceptions import *
-from dataclasses import dataclass
+from dataclasses import dataclass, InitVar
+from pykanka.childdata_types import *
 
 
 @dataclass
 class GenericChildType:
     client: Optional["pykanka.KankaClient"]
     _parent: Optional["pykanka.entities.Entity"] = None
-    base_url: Optional[str] = str()  # Overridden by inheritors
+    base_url: Optional[str] = str()
+    endpoint: Optional[str] = str()  # Overidden by inheritors
+    data: Optional[GenericChildData] = GenericChildData() # Overidden by inheritors
 
     """Generic class for child types. 
     Shouldn't be used directly, it is used as a base class for specialized child types."""
@@ -22,40 +25,8 @@ class GenericChildType:
     _key_replacer = list()  # Overridden by inheritors
     _file_keys = list()  # Overridden by inheritors
 
-    @dataclass
-    class GenericChildData:
-        name: str = None
-        id:         Optional[int] = None
-        type:       Optional[str] = None
-        entity_id:  Optional[int] = None
-
-        entry:          Optional[str] = None
-        entry_parsed:   Optional[str] = None
-
-        image:          Optional[str] = None
-        image_full:     Optional[str] = None
-        image_thumb:    Optional[str] = None
-
-        tags:           Optional[List[int]] = None
-
-        focus_x:        Optional[float] = None
-        focus_y:        Optional[float] = None
-
-        has_custom_image:   Optional[str] = None
-        is_template:        Optional[bool] = None
-        is_private:         Optional[bool] = None
-
-        # Should be datetimes, but will require some type conversions, likely
-        created_by:     Optional[str] = None
-        created_at:         Optional[str] = None
-        updated_by:         Optional[str] = None
-        updated_at:         Optional[str] = None
-
-        header_full:        Optional[str] = None
-        has_custom_header:  Optional[bool] = None
-
     def __post_init__(self):
-        self.data = self.GenericChildData()
+        self.base_url = f"{self.client.campaign_base_url}{self.endpoint}/"
 
     @property
     def parent(self):
@@ -76,7 +47,7 @@ class GenericChildType:
     @classmethod
     def from_id(cls, client: "pykanka.KankaClient", child_id: int, parent: "pykanka.entities.Entity" = None,
                 refresh=False) -> "GenericChildType":
-        obj = cls(client=client, _parent=parent)
+        obj = cls(client=client, parent=parent)
 
         response = client.request_get(f"{obj.base_url}{child_id}", refresh=refresh)
 
@@ -115,7 +86,7 @@ class GenericChildType:
         :return: requests.response
         """
 
-        payload, files = self._prepare_post(json_data, **kwargs)
+        payload, files = self.client._prepare_post(json_data, **kwargs)
 
         return self.client.request_post(f"{self.base_url}", json=payload)
 
@@ -188,7 +159,7 @@ class GenericChildType:
         return self.client.request_get(self.data.image_full, stream=True).raw
 
 
-@dataclass()
+@dataclass
 class Location(GenericChildType):
     """A class representing a location child contained within an Entity."""
 
@@ -202,19 +173,9 @@ class Location(GenericChildType):
     _file_keys = ["image", "map"]
 
     child_id: Optional[int] = None
+    data: LocationData = LocationData()
+    endpoint: str = "location"
 
-    @dataclass
-    class LocationData(GenericChildType.GenericChildData):
-        parent_location_id: Optional[int] = None
-        is_map_private: Optional[bool] = None
-        map: Optional[str] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Location. Consider using Location.from_id() or Location.from_json() instead.
-        """
-        self.data = self.LocationData()
-        self.base_url = f"{self.client.campaign_base_url}locations/"
 
     def get_map_image(self) -> "requests.Response.raw":
         """Returns file-like object of the entity's map image"""
@@ -233,26 +194,8 @@ class Character(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class CharacterData(GenericChildType.GenericChildData):
-        location_id: Optional[int] = None
-        family_id: Optional[int] = None
-        race_id: Optional[int] = None
-        age: Optional[int] = None
-        sex: Optional[str] = None
-        pronouns: Optional[str] = None
-        title: Optional[str] = None
-        traits: Optional[List[int]] = None
-        is_dead: Optional[bool] = None
-        is_personality_visible: Optional[bool] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Character. Consider using Character.from_id() or Character.from_json() instead.
-        """
-
-        self.data = self.CharacterData()
-        self.base_url = f"{self.client.campaign_base_url}characters/"
+    data: CharacterData = CharacterData()
+    endpoint: str = "characters"
 
 
 @dataclass
@@ -260,7 +203,7 @@ class Organisation(GenericChildType):
     """A class representing a Organisation child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "organisation_id", "location_id", "tags", "is_private", "image_full",
+    _possible_keys = ["name", "entry", "type", "organization_id", "location_id", "tags", "is_private", "image_full",
                       "header_full",
                       "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
@@ -268,18 +211,8 @@ class Organisation(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class OrganisationData(GenericChildType.GenericChildData):
-        organisation_id: Optional[int] = None
-        location_id: Optional[int] = None
-        members: Optional[List[int]] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Organisation. Consider using Organisation.from_id() or Organisation.from_json() instead.
-        """
-        self.data = self.OrganisationData()
-        self.base_url = f"{self.client.campaign_base_url}organisations/"
+    data: OrganisationData = OrganisationData()
+    endpoint: str = "organizations"
 
 
 @dataclass
@@ -294,18 +227,8 @@ class Timeline(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class TimelineData(GenericChildType.GenericChildData):
-        eras: Optional[str] = None
-        timeline_id: Optional[int] = None
-        revert_order: Optional[bool] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Timeline. Consider using Timeline.from_id() or Timeline.from_json() instead.
-        """
-        self.data = self.TimelineData()
-        self.base_url = f"{self.client.campaign_base_url}timelines/"
+    data: TimelineData = TimelineData()
+    endpoint: str = "timelines"
 
 
 @dataclass
@@ -320,16 +243,8 @@ class Race(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class RaceData(GenericChildType.GenericChildData):
-        race_id: Optional[int] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Race. Consider using Race.from_id() or Race.from_json() instead.
-        """
-        self.data = self.RaceData()
-        self.base_url = f"{self.client.campaign_base_url}races/"
+    data: RaceData = RaceData()
+    endpoint: str = "races"
 
 
 @dataclass
@@ -345,18 +260,8 @@ class Family(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class FamilyData(GenericChildType.GenericChildData):
-        members: Optional[List[int]] = None
-        location_id: Optional[int] = None
-        family_id: Optional[int] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Family. Consider using Location.from_id() or Family.from_json() instead.
-        """
-        self.data = self.FamilyData()
-        self.base_url = f"{self.client.campaign_base_url}families/"
+    data: FamilyData = FamilyData()
+    endpoint: str = "families"
 
 
 @dataclass
@@ -371,17 +276,8 @@ class Note(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass()
-    class NoteData(GenericChildType.GenericChildData):
-        is_pinned: Optional[bool] = None
-        note_id: Optional[int] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Note. Consider using Note.from_id() or Note.from_json() instead.
-        """
-        self.data = self.NoteData()
-        self.base_url = f"{self.client.campaign_base_url}notes/"
+    data: NoteData = NoteData()
+    endpoint: str = "notes"
 
 
 @dataclass
@@ -397,28 +293,8 @@ class Map(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class MapData(GenericChildType.GenericChildData):
-        location_id: Optional[int] = None
-        map_id: Optional[int] = None
-        width: Optional[float] = None
-        height: Optional[float] = None
-        initial_zoom: Optional[float] = None
-        center_x: Optional[float] = None
-        center_y: Optional[float] = None
-        max_zoom: Optional[float] = None
-        min_zoom: Optional[float] = None
-        layers: Optional[str] = None
-        groups: Optional[str] = None
-        grid: Optional[str] = None
-        center_marker_id: Optional[id] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Map. Consider using Map.from_id() or Map.from_json() instead.
-        """
-        self.data = self.MapData()
-        self.base_url = f"{self.client.campaign_base_url}maps/"
+    data: MapData = MapData()
+    endpoint: str = "maps"
 
     def all_markers(self) -> List["st.MapMarker"]:
         """Returns a list of all existing map markers"""
@@ -473,18 +349,8 @@ class Tag(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class TagData(GenericChildType.GenericChildData):
-        entities: Optional[List[int]] = None
-        tag_id: Optional[int] = None
-        colour: Optional[str] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Tag. Consider using Tag.from_id() or Tag.from_json() instead.
-        """
-        self.data = self.TagData()
-        self.base_url = f"{self.client.campaign_base_url}tags/"
+    data: TagData = TagData()
+    endpoint: str = "tags"
 
 
 @dataclass
@@ -500,25 +366,8 @@ class Quest(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class QuestData(GenericChildType.GenericChildData):
-        quest_id: Optional[str] = None
-        character_id: Optional[str] = None
-        calendar_id: Optional[str] = None
-        calendar_year: Optional[str] = None
-        calendar_month: Optional[str] = None
-        calendar_day: Optional[str] = None
-        date: Optional[str] = None
-        elements_count: Optional[str] = None
-        elements: Optional[str] = None
-        is_completed: Optional[str] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Quest. Consider using Quest.from_id() or Quest.from_json() instead.
-        """
-        self.data = self.QuestData()
-        self.base_url = f"{self.client.campaign_base_url}quests/"
+    data: QuestData = QuestData()
+    endpoint: str = "quests"
 
 
 @dataclass
@@ -533,23 +382,8 @@ class Journal(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class JournalData(GenericChildType.GenericChildData):
-        journal_id: Optional[int] = None
-        location_id: Optional[int] = None
-        character_id: Optional[int] = None
-        calendar_id: Optional[int] = None
-        calendar_year: Optional[str] = None
-        calendar_month: Optional[str] = None
-        calendar_day: Optional[str] = None
-        date: Optional[str] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Journal. Consider using Journal.from_id() or Journal.from_json() instead.
-        """
-        self.data = self.JournalData()
-        self.base_url = f"{self.client.campaign_base_url}journals/"
+    data: JournalData = JournalData()
+    endpoint: str = "journals"
 
 
 @dataclass
@@ -565,19 +399,8 @@ class Item(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class ItemData(GenericChildType.GenericChildData):
-        location_id: Optional[int] = None
-        character_id: Optional[int] = None
-        size: Optional[float] = None
-        price: Optional[float] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Item. Consider using Item.from_id() or Item.from_json() instead.
-        """
-        self.data = self.ItemData()
-        self.base_url = f"{self.client.campaign_base_url}items/"
+    data: ItemData = ItemData()
+    endpoint: str = "items"
 
 
 @dataclass
@@ -592,18 +415,8 @@ class Event(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class EventData(GenericChildType.GenericChildData):
-        event_id: Optional[int] = None
-        location_id: Optional[int] = None
-        date: Optional[str] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Event. Consider using Event.from_id() or Event.from_json() instead.
-        """
-        self.data = self.EventData()
-        self.base_url = f"{self.client.campaign_base_url}events/"
+    data: EventData = EventData()
+    endpoint: str = "events"
 
 
 @dataclass
@@ -619,19 +432,8 @@ class Ability(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class AbilityData(GenericChildType.GenericChildData):
-        ability_id: Optional[int] = None
-        abilities: Optional[str] = None
-        charges: Optional[str] = None
-
-    def __post_init__(self):
-        """
-        Creates an empty Ability. Consider using Ability.from_id() or Ability.from_json() instead.
-
-        """
-        self.data = self.AbilityData()
-        self.base_url = f"{self.client.campaign_base_url}abilities/"
+    data: AbilityData = AbilityData()
+    endpoint: str = "abilities"
 
 
 @dataclass
@@ -650,74 +452,8 @@ class Calendar(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    @dataclass
-    class CalendarData(GenericChildType.GenericChildData):
-        current_year:       Optional[int] = None
-        current_month:      Optional[int] = None
-        current_day:        Optional[int] = None
-
-        month_name:         Optional[List[str]] = None
-        month_length:       Optional[List[int]] = None
-        month_type:         Optional[List[str]] = None
-
-        year_name:          Optional[List[str]] = None
-        year_number:        Optional[List[int]] = None
-
-        moon_name:          Optional[List[str]] = None
-        moon_fullmoon:      Optional[List[int]] = None
-
-        weekday:            Optional[List[str]] = None
-
-        epoch_name:         Optional[List[str]] = None
-
-        season_name:        Optional[List[str]] = None
-        season_month:       Optional[List[int]] = None
-        season_day:         Optional[List[int]] = None
-
-        has_leap_year:      Optional[bool] = None
-        leap_year_amount:   Optional[int] = None
-        leap_year_start:    Optional[int] = None
-        leap_year_offset:   Optional[int] = None
-
-        header_full:        Optional[str] = None
-        has_custom_header:  Optional[bool] = None
-
-        # the following fields get returned by GET, but can't be passed to POST.
-
-        suffix:             Optional[str] = None
-        start_offset:       Optional[int] = None
-        leap_year_month:    Optional[int] = None
-        parameters:         Optional[None] = None
-        date:               Optional[str] = None
-
-        years:              Optional[dict] = None
-        seasons:            Optional[List[dict]] = None
-        months:             Optional[List[dict]] = None
-        moons:              Optional[List[dict]] = None
-        weekdays:           Optional[list] = None
-
-        def __post_init__(self):
-            # The API's naming scheme is very different between GET and POST, so workarounds like this are needed
-
-            if self.months:
-                month_name = []
-                month_length = []
-                for m in self.months:
-                    month_name.append(m["name"])
-                    month_length.append(m["length"])
-
-                self.month_name = month_name
-                self.month_length = month_length
-
-            if self.weekdays:
-                self.weekday = self.weekdays
-
-    def __post_init__(self):
-        """
-        Creates an empty Calendar. Consider using Ability.from_id() or Ability.from_json() instead.
-        """
-        self.data = self.CalendarData()
-        self.base_url = f"{self.client.campaign_base_url}calendars/"
+    data: CalendarData = CalendarData()
+    endpoint: str = "calendars"
 
     @staticmethod
     def _validate_parameters(values, files):
@@ -727,13 +463,25 @@ class Calendar(GenericChildType):
             raise ValueError("'month_name' is a required field, but is missing")
         if "weekday" not in values.keys():
             raise ValueError("'weekday' is a required field, but is missing")
-        if "month_length" not in values.keys():
-            raise ValueError("'month_length' is a required field, but is missing")
-        if len(values["month_name"]) < 2:
+        if len(values["month_day"]) < 2:
             raise ValueError("'month_name' needs at least two entries, but has fewer")
         if len(values["weekday"]) < 2:
             raise ValueError("'weekday' needs at least two entries, but has fewer")
-        if len(values["month_length"]) < 2:
-            raise ValueError("'month_length' needs at least two entries, but has fewer")
-        if len(values["month_name"]) != len(values["month_length"]):
-            raise ValueError("lengths of month_name and month_length don't match")
+
+
+child_type_dictionary = dict(location=Location,
+                               character=Character,
+                               family=Family,
+                               organisation=Organisation,
+                               timeline=Timeline,
+                               race=Race,
+                               note=Note,
+                               map=Map,
+                               tag=Tag,
+                               quest=Quest,
+                               journal=Journal,
+                               item=Item,
+                               event=Event,
+                               ability=Ability,
+                               calendar=Calendar
+                               )
