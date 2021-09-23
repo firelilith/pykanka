@@ -47,7 +47,7 @@ class GenericChildType:
     @classmethod
     def from_id(cls, client: "pykanka.KankaClient", child_id: int, parent: "pykanka.entities.Entity" = None,
                 refresh=False) -> "GenericChildType":
-        obj = cls(client=client, parent=parent)
+        obj = cls(client=client, _parent=parent)
 
         response = client.request_get(f"{obj.base_url}{child_id}", refresh=refresh)
 
@@ -174,7 +174,7 @@ class Location(GenericChildType):
 
     child_id: Optional[int] = None
     data: LocationData = LocationData()
-    endpoint: str = "location"
+    endpoint: str = "locations"
 
 
     def get_map_image(self) -> "requests.Response.raw":
@@ -461,27 +461,31 @@ class Calendar(GenericChildType):
             raise ValueError("'name' is a required field, but is missing")
         if "month_name" not in values.keys():
             raise ValueError("'month_name' is a required field, but is missing")
+        if "month_length" not in values.keys():
+            raise ValueError("'month_length' is a required field, but is missing")
         if "weekday" not in values.keys():
             raise ValueError("'weekday' is a required field, but is missing")
         if len(values["month_day"]) < 2:
             raise ValueError("'month_name' needs at least two entries, but has fewer")
+        if len(values["month_length"]) < 2:
+            raise ValueError("'month_length' needs at least two entries, but has fewer")
         if len(values["weekday"]) < 2:
             raise ValueError("'weekday' needs at least two entries, but has fewer")
 
 
 child_type_dictionary = dict(location=Location,
-                               character=Character,
-                               family=Family,
-                               organisation=Organisation,
-                               timeline=Timeline,
-                               race=Race,
-                               note=Note,
-                               map=Map,
-                               tag=Tag,
-                               quest=Quest,
-                               journal=Journal,
-                               item=Item,
-                               event=Event,
-                               ability=Ability,
-                               calendar=Calendar
-                               )
+                             character=Character,
+                             family=Family,
+                             organisation=Organisation,
+                             timeline=Timeline,
+                             race=Race,
+                             note=Note,
+                             map=Map,
+                             tag=Tag,
+                             quest=Quest,
+                             journal=Journal,
+                             item=Item,
+                             event=Event,
+                             ability=Ability,
+                             calendar=Calendar
+                             )
