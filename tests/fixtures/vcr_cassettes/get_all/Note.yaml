@@ -1,0 +1,2218 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/notes
+  response:
+    body:
+      string: '{"data":[{"id":6,"name":"Rivandol Nobility","entry":"\n<p>The Nobliliy
+        of\u00a0[location:12006]\u00a0is the ruling class of the kingdom. Houses can
+        intermarry, but lands can''t be merged.<\/p>\n<p>A leader of a family is elected
+        every 9 years to be chancellor of the kingdom. If the leader dies, a successor
+        is determined by the chancellor in case this happens.<\/p>\n<h2>Noble Families<\/h2>\n<ul><li>[family:227932]<\/li>\n<li>[family:227931]<\/li>\n<li>[family:227925]<\/li>\n<li>[family:227934]<\/li>\n<li>[family:227941]<\/li>\n<li>[family:12189]<\/li>\n<li>[family:12340]<\/li>\n<li>[family:12179]\u00a0(current
+        Chancellor)<\/li>\n<li>[family:227989]<\/li>\n<li>[family:227991]<\/li>\n<\/ul>","entry_parsed":"\n<p>The
+        Nobliliy of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>\u00a0is
+        the ruling class of the kingdom. Houses can intermarry, but lands can''t be
+        merged.<\/p>\n<p>A leader of a family is elected every 9 years to be chancellor
+        of the kingdom. If the leader dies, a successor is determined by the chancellor
+        in case this happens.<\/p>\n<h2>Noble Families<\/h2>\n<ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8828\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"227932\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227932\/tooltip\">Barrin<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8827\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"227931\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227931\/tooltip\">Burley<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8826\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"227925\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227925\/tooltip\">Dayne<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8829\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"227934\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227934\/tooltip\">Fletcher<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8831\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"227941\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227941\/tooltip\">Greentale<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/523\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12189\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12189\/tooltip\">Harrison<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/536\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12340\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12340\/tooltip\">Pyre<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/522\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12179\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12179\/tooltip\">Riddle<\/a>\u00a0(current
+        Chancellor)<\/li>\n<li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8833\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"227989\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227989\/tooltip\">Selter<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8834\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"227991\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227991\/tooltip\">Whitehull<\/a><\/li>\n<\/ul>","image":"notes\/0WhcxhTieikCA4kMxvOXcqKpKn4sr8U5k9AO7cLU.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/OE1jGhjQAZGJI354X_ZZlylIsRA=\/smart\/src\/notes%2F0WhcxhTieikCA4kMxvOXcqKpKn4sr8U5k9AO7cLU.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/VPxhRsobPvHw8era3oOBbRvpqZ0=\/40x40\/smart\/src\/notes%2F0WhcxhTieikCA4kMxvOXcqKpKn4sr8U5k9AO7cLU.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2263,"tags":[],"created_at":"2017-11-11T22:54:20.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:15.000000Z","updated_by":1,"type":"Nobility","note_id":null,"is_pinned":0},{"id":313,"name":"Divine
+        Revival","entry":"\n<p><em>6th-level diviniation (ritual)<\/em><\/p>\n<p><strong>Casting<\/strong>
+        <strong>Time<\/strong>: 1 hour<br \/><strong>Range<\/strong>: Touch<br \/><strong>Components<\/strong>:
+        V, S, M (a diamond worth at least 5000 gp placed on the target''s chest, which
+        the spell consumes, and dragon albumen covering the target completely)<br
+        \/><strong>Duration<\/strong>: Instantaneous<\/p>\n<p>You return a dead creature
+        you touch to life, provided that its body is used as a vessel for a God, and
+        that the heart is still beating. If the creature''s soul is both willing and
+        at liberty to rejoin the body, the creature returns to life with 1 hit points.<\/p>\n<p>This
+        spell also neutralises any poisons and cures nonmagical diseases that affected
+        the creature at the time it died. This spell doesn''t, however, remove magical
+        diseases, curses, or similar effects; if these aren''t first removed prior
+        to casting the spell, they take effect when the creature returns to life.<\/p>\n<p>This
+        spell closes all mortal wounds, but it doesn''t restore missing body parts.
+        If the creature is lacking body parts or organs integral for its survival,
+        its head, for instance, the spell automatically fails.<\/p>\n<p>Coming back
+        from the dead is an ordeal. The target takes a -4 penalty to all attack rolls,
+        saving throws, and ability checks. Every time the target finishes a long rest,
+        the penalty is reduced by 1 until it disappears.<\/p>\n<p>The creature and
+        the God as now combined and their destiny intertwined. The creature gains
+        traits related to the deity that the DM deems fit.<\/p>\n","entry_parsed":"\n<p><em>6th-level
+        diviniation (ritual)<\/em><\/p>\n<p><strong>Casting<\/strong> <strong>Time<\/strong>:
+        1 hour<br \/><strong>Range<\/strong>: Touch<br \/><strong>Components<\/strong>:
+        V, S, M (a diamond worth at least 5000 gp placed on the target''s chest, which
+        the spell consumes, and dragon albumen covering the target completely)<br
+        \/><strong>Duration<\/strong>: Instantaneous<\/p>\n<p>You return a dead creature
+        you touch to life, provided that its body is used as a vessel for a God, and
+        that the heart is still beating. If the creature''s soul is both willing and
+        at liberty to rejoin the body, the creature returns to life with 1 hit points.<\/p>\n<p>This
+        spell also neutralises any poisons and cures nonmagical diseases that affected
+        the creature at the time it died. This spell doesn''t, however, remove magical
+        diseases, curses, or similar effects; if these aren''t first removed prior
+        to casting the spell, they take effect when the creature returns to life.<\/p>\n<p>This
+        spell closes all mortal wounds, but it doesn''t restore missing body parts.
+        If the creature is lacking body parts or organs integral for its survival,
+        its head, for instance, the spell automatically fails.<\/p>\n<p>Coming back
+        from the dead is an ordeal. The target takes a -4 penalty to all attack rolls,
+        saving throws, and ability checks. Every time the target finishes a long rest,
+        the penalty is reduced by 1 until it disappears.<\/p>\n<p>The creature and
+        the God as now combined and their destiny intertwined. The creature gains
+        traits related to the deity that the DM deems fit.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12218,"tags":[],"created_at":"2018-04-04T15:03:25.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:37.000000Z","updated_by":null,"type":"Magic
+        Spell","note_id":null,"is_pinned":0},{"id":314,"name":"Kingdom of Herun","entry":"\n<div>\n<div>\n<div>\n<div>\n<p>The
+        <strong>Kingdom of Herun<\/strong> was a kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>\u00a0that
+        split in two kingdoms in 881 AC when the brothers of House Herun formed the
+        Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\">Thasslia<\/a>\u00a0and
+        the Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\">Othiria<\/a>.<\/p>\n<h2>Claimants<\/h2>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/715\">Callum<\/a>\u00a0(dead)<\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4153\">Bathair MacPhaiden<\/a>\u00a0(dead)<\/li>\n<\/ul><\/div>\n<\/div>\n<\/div>\n<\/div>\n","entry_parsed":"\n<div>\n<div>\n<div>\n<div>\n<p>The
+        <strong>Kingdom of Herun<\/strong> was a kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>\u00a0that
+        split in two kingdoms in 881 AC when the brothers of House Herun formed the
+        Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\">Thasslia<\/a>\u00a0and
+        the Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\">Othiria<\/a>.<\/p>\n<h2>Claimants<\/h2>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/715\">Callum<\/a>\u00a0(dead)<\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4153\">Bathair MacPhaiden<\/a>\u00a0(dead)<\/li>\n<\/ul><\/div>\n<\/div>\n<\/div>\n<\/div>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12339,"tags":[],"created_at":"2018-04-05T14:05:19.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:37.000000Z","updated_by":null,"type":"Kingdom","note_id":null,"is_pinned":0},{"id":556,"name":"Main
+        Entities","entry":"<h4>Primary Entities<\/h4><ul><li>[location:12000]\n<ul><li>[location:2046]\u00a0(kingdom)\n<ul><li>[location:2048]\u00a0(capital)\n<ul><li>[character:12073]\u00a0(spymaster)<\/li>\n<li>[character:12054]\u00a0von\u00a0[family:983]\u00a0(king)<\/li>\n<li>[location:12082]\u00a0(Pelor''s
+        temple)<\/li>\n<\/ul><\/li>\n<\/ul><\/li>\n<\/ul><\/li>\n<li>[location:96249]\u00a0(islands)\n<ul><li>[location:96254]\u00a0(island)\n<ul><li>[location:96258]<\/li>\n<li>[location:96649]<\/li><\/ul><\/li><\/ul><\/li><li>[location:28178]<ul><li>[location:100528]\u00a0(capital)<\/li><li>[location:993304]\u00a0(starting
+        area)<\/li><li>[location:984952]\u00a0(closest city)<\/li><\/ul><\/li>\n<\/ul><h4>Campaigns<\/h4><ul><li>[tag:96237]<ul><li>[character:12072],\u00a0[character:12044],
+        [character:22867|Zook],\u00a0[character:93798], [character:19679]<\/li><\/ul><\/li><li>[tag:104393]<ul><li><a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\" class=\"mention\">Kitty
+        Whiskers<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Kyrion<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Nyx Eichh\u00f6rnchen<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Chase<\/a><br \/><\/li><\/ul><\/li><li>[tag:993110]<ul><li>[character:993120|Ratash],
+        [character:993116|Nalin''shandra],\u00a0[character:993118], [character:993122],
+        [character:993111]<br \/><\/li><\/ul><\/li><\/ul>","entry_parsed":"<h4>Primary
+        Entities<\/h4><ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5122\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12000\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12000\/tooltip\">Thaelia<\/a>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>\u00a0(kingdom)\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/930\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2048\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2048\/tooltip\">Arburg<\/a>\u00a0(capital)\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4128\" class=\"entity-mention\"
+        data-entity-tags=\"id-24197 yasemin id-19193 carrics-hope\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12073\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12073\/tooltip\">Dion<\/a>\u00a0(spymaster)<\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4114\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12054\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12054\/tooltip\">Maximus<\/a>\u00a0von\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/74\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"983\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/983\/tooltip\">Rosenberg<\/a>\u00a0(king)<\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5164\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12082\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12082\/tooltip\">Temple
+        of Life<\/a>\u00a0(Pelor''s temple)<\/li>\n<\/ul><\/li>\n<\/ul><\/li>\n<\/ul><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30649\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"96249\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96249\/tooltip\">Three
+        Thieves<\/a>\u00a0(islands)\n<ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30652\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"96254\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96254\/tooltip\">Kemali<\/a>\u00a0(island)\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30653\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"96258\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96258\/tooltip\">Port
+        Giza<\/a><\/li>\n<li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30752\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"96649\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96649\/tooltip\">Kashora<\/a><\/li><\/ul><\/li><\/ul><\/li><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10909\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"28178\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28178\/tooltip\">Torchio<\/a><ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/31699\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"100528\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/100528\/tooltip\">Panere<\/a>\u00a0(capital)<\/li><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/246165\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"993304\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993304\/tooltip\">Asolo<\/a>\u00a0(starting
+        area)<\/li><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/244397\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"984952\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/984952\/tooltip\">Savino<\/a>\u00a0(closest
+        city)<\/li><\/ul><\/li>\n<\/ul><h4>Campaigns<\/h4><ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/tags\/4340\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"96237\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96237\/tooltip\">Ardenian
+        Heritage<\/a><ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4127\"
+        class=\"entity-mention\" data-entity-tags=\"id-287 players id-4340 ardenian-heritage
+        id-24197 yasemin\" data-toggle=\"tooltip-ajax\" data-id=\"12072\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12072\/tooltip\">Auron<\/a>,\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4107\" class=\"entity-mention\"
+        data-entity-tags=\"id-287 players id-4340 ardenian-heritage id-24198 patrick\"
+        data-toggle=\"tooltip-ajax\" data-id=\"12044\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12044\/tooltip\">Lex<\/a>,
+        <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/7590\" class=\"entity-mention\"
+        data-entity-tags=\"id-287 players id-4340 ardenian-heritage id-24199 maximilian\"
+        data-toggle=\"tooltip-ajax\" data-id=\"22867\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/22867\/tooltip\">Zook<\/a>,\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/28127\" class=\"entity-mention\"
+        data-entity-tags=\"id-4340 ardenian-heritage id-287 players\" data-toggle=\"tooltip-ajax\"
+        data-id=\"93798\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/93798\/tooltip\">Medb<\/a>,
+        <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/6694\" class=\"entity-mention\"
+        data-entity-tags=\"id-287 players id-4340 ardenian-heritage id-24200 lisa\"
+        data-toggle=\"tooltip-ajax\" data-id=\"19679\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19679\/tooltip\">Levin<\/a><\/li><\/ul><\/li><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/tags\/5224\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"104393\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/104393\/tooltip\">Kemali
+        Uprising<\/a><ul><li><a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Kitty Whiskers<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Kyrion<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Nyx Eichh\u00f6rnchen<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Chase<\/a><br \/><\/li><\/ul><\/li><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/tags\/76724\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"993110\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993110\/tooltip\">Sands
+        of Medina<\/a><ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259014\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24202
+        marco\" data-toggle=\"tooltip-ajax\" data-id=\"993120\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993120\/tooltip\">Ratash<\/a>,
+        <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259011\" class=\"entity-mention\"
+        data-entity-tags=\"id-76724 sands-of-medina id-24197 yasemin\" data-toggle=\"tooltip-ajax\"
+        data-id=\"993116\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993116\/tooltip\">Nalin''shandra<\/a>,\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259013\" class=\"entity-mention\"
+        data-entity-tags=\"id-76724 sands-of-medina id-24200 lisa\" data-toggle=\"tooltip-ajax\"
+        data-id=\"993118\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993118\/tooltip\">Agron
+        \"Leto\"<\/a>, <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259016\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24203
+        ann-kathrin\" data-toggle=\"tooltip-ajax\" data-id=\"993122\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993122\/tooltip\">Diony
+        Hyazinthe Leimoniade<\/a>, <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259009\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24199
+        maximilian\" data-toggle=\"tooltip-ajax\" data-id=\"993111\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993111\/tooltip\">Dalakhad<\/a><br
+        \/><\/li><\/ul><\/li><\/ul>","image":"notes\/Lm4xDnlUCugvGh3738JDGv4akTuCHW2RVxMJnuYh.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/y74Pj8TR1C7p2QWJe1iHa7lqzeY=\/smart\/src\/notes%2FLm4xDnlUCugvGh3738JDGv4akTuCHW2RVxMJnuYh.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/EyGWJVFAy_9r85oujJ9vd8iXjiQ=\/40x40\/smart\/src\/notes%2FLm4xDnlUCugvGh3738JDGv4akTuCHW2RVxMJnuYh.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":21901,"tags":[],"created_at":"2018-05-22T10:18:51.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":1,"type":"Pinned
+        Note","note_id":null,"is_pinned":1},{"id":635,"name":"States","entry":"\n<h3>Kingdoms<\/h3>\n<ul><li>[location:2046],\u00a0<a
+        title=\"Arburg\/Arcastle\u00a0is the capital city of\u00a0Arden, located in
+        the\u00a0Arden\u00a0province on the\u00a0Maiden Plains, on the west of the
+        continent of\u00a0Thaelia. It is the most populated city of\u00a0Arden. Arburg
+        expands upon the\u00a0Leibal River. Recognised as the capital...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\"
+        data-toggle=\"tooltip\">Arburg<\/a><\/li>\n<li><a title=\"The Kingdom of Buschow
+        is a small kingdom of Thaelia. It''s capital and biggest city is Zweihofen.
+        The kingdom borders the Kingdom of Arden, Kingdom of Thasslia, the Kingdom
+        of Kiern\u00a0and the Kingdom of Wiseth.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5123\"
+        data-toggle=\"tooltip\">Buschow<\/a>, Zweihofen<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Caedor\u00a0is a kingdom of\u00a0Thaelia\u00a0bordered by the Kingdoms
+        of\u00a0Othiria\u00a0and\u00a0Dulken. It''s capital if the city of\u00a0Thornley.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7765\" data-toggle=\"tooltip\">Caedor<\/a>,
+        Thornley<\/li>\n<li><a title=\"The Kingdom of Dulken, also known as the Silent
+        Kingdom, is located on the continent of Thaelia. It''s capital and biggest
+        city is Midmar. The kingdom is situated on the eastern-southern part of Thaelia
+        and borders the Republic of Orlene, the Republic...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5124\"
+        data-toggle=\"tooltip\">Dulken<\/a>,\u00a0<a title=\"Midmar is the capital
+        and biggest city of the Kingdom of Dulken, located in the Lower Euthis province
+        by the Euthis river on the south-east of the continent of Thaelia.\u00a0 The
+        city retains little of its original dwarven structure or architecture, and
+        ...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5231\" data-toggle=\"tooltip\">Midmar<\/a><\/li>\n<li><a
+        title=\"The Kingdom of Ingwen\u00a0is a kingdom of Thaelia. It''s capital
+        and biggest city is Spiketuin. The kingdom borders the kingdoms of\u00a0Rivandol\u00a0and\u00a0Three
+        Rivers Federation. Culture: Dutch\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5196\"
+        data-toggle=\"tooltip\">Ingwen<\/a>, Spiketuin<\/li>\n<li><a title=\"The dukedom
+        of Kiern is a dukedom of Thaelia. It''s capital and biggest city is Grauspitz.
+        The kingdom borders the Kingdom of Wiseth, Kingdom of Thasslia\u00a0and the
+        Kingdom of Buschow.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5126\"
+        data-toggle=\"tooltip\">Kiern<\/a>,\u00a0Grauspitz<\/li>\n<li><a title=\"The
+        kingdom of\u00a0Lorcia\u00a0is a small kingdom on the eastern tip of the continent
+        of\u00a0Thaelia. It borders the\u00a0Three Rivers Federation.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7764\"
+        data-toggle=\"tooltip\">Lorcia<\/a>, Balcrove<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of March is a kingdom located on the continent of\u00a0Thaelia. It''s capital
+        and biggest city is Adestry. It is surrounded by the Kingdom of\u00a0Thasslia.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10034\" data-toggle=\"tooltip\">March<\/a>,
+        Adestry<\/li>\n<li><a title=\"The\u00a0Kingdom of Othiria\u00a0is an independent
+        kingdom on Thaelia. It''s capital is\u00a0Drunah\u00a0while its biggest city
+        is\u00a0Redford. The kingdom is situated on the middle southern part of Thaelia
+        and borders the\u00a0Kingdom of Dulken,\u00a0Kingdom of Thasslia,\u00a0Repu...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\" data-toggle=\"tooltip\">Othiria<\/a>,\u00a0<a
+        title=\"Drunah\u00a0is the capital of the Kingdom of\u00a0Othiria and second
+        biggest city of the kingdom after Redford.\u00a0The city is located on the
+        southern part of the continent of Thaelia\u00a0on the Drunah Bay, and is the
+        seat of House MacPhaiden. It is slowly recove...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5183\"
+        data-toggle=\"tooltip\">Drunah<\/a><\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Thasslia\u00a0is a kingdom of Thaelia\u00a0and is fairly poor. The land
+        is flat but not very arable, and the weather is usually rainy because of its
+        position to the sea. It''s capital and biggest city is Craic. Military Thasslia
+        has a strong t...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\"
+        data-toggle=\"tooltip\">Thasslia<\/a>,\u00a0<a title=\"Craic is the capital
+        and biggest city of the kingdom of\u00a0Thasslia. It is home to the Goldengate
+        Castle, the home of House\u00a0Pryde.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5244\"
+        data-toggle=\"tooltip\">Craic<\/a><\/li>\n<li><a title=\"The Kingdom of\u00a0Ulaeria
+        is a state on the island of\u00a0Ulaeryn\u00a0off the\u00a0Thaelian\u00a0continent.
+        Its capital and biggest city if\u00a0Rodonen.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7768\"
+        data-toggle=\"tooltip\">Ulaeria<\/a>, Rodonen<\/li>\n<li><a title=\"The Kingdom
+        of Vlakeland\u00a0is a kingdom of Thaelia. It''s capital and biggest city
+        is Daleiden. The kingdom borders the Kingdom of Arden, the Republic of\u00a0Rivandol\u00a0and
+        the Kingdom of\u00a0Ingwen. Culture: Dutch\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7763\"
+        data-toggle=\"tooltip\">Vlakeland<\/a>, Daleiden<\/li>\n<li><a title=\"The
+        Kingdom of Volya is a small kingdom of Thaelia. It''s capital and biggest
+        city is Premsby. The kingdom is completely enclosed by the Republic of\u00a0Rivandol.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5198\" data-toggle=\"tooltip\">Volya<\/a>,\u00a0Premsby<\/li>\n<\/ul><h3>Republics<\/h3>\n<ul><li>[location:12006],
+        Kinros<\/li>\n<li>[location:12005],\u00a0<a title=\"Owlchester is the capital
+        of the Republic of\u00a0Orlene\u00a0and the most populous city of the continent
+        of\u00a0Thaelia. Inspiration: Venice \/ Constantinople\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7817\"
+        data-toggle=\"tooltip\">Owlchester<\/a><\/li>\n<li><a title=\"The\u00a0Republic
+        of Slevia is a republic located on the continent of\u00a0Thaelia. It''s capital
+        and biggest city is Bad Loz.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10024\"
+        data-toggle=\"tooltip\">Slevia<\/a>, Bad Loz<\/li>\n<\/ul><h3>Free Cities<\/h3>\n<ul><li><a
+        title=\"Porthclaw is the free city of the Claw Peninsula, located by the Inner
+        Blue Sea, on the west of the continent of Thaelia. It has always been a free
+        city and has control over most of the Peninsula. It is known for slave trading
+        and lawlessness. Geogra...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5193\"
+        data-toggle=\"tooltip\">Porthclaw<\/a>,\u00a0<a title=\"Porthclaw is the free
+        city of the Claw Peninsula, located by the Inner Blue Sea, on the west of
+        the continent of Thaelia. It has always been a free city and has control over
+        most of the Peninsula. It is known for slave trading and lawlessness. Geogra...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5193\" data-toggle=\"tooltip\">Porthclaw<\/a><\/li>\n<li><a
+        title=\"The\u00a0Free City of Freyburg is an independant state located on
+        the continent of\u00a0Thaelia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10029\"
+        data-toggle=\"tooltip\">Freyburg<\/a>,\u00a0<a title=\"The\u00a0Free City
+        of Freyburg is an independant state located on the continent of\u00a0Thaelia.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10029\" data-toggle=\"tooltip\">Freyburg<\/a><\/li>\n<\/ul><h3>Theocracies<\/h3>\n<ul><li><a
+        title=\"Frynia, also known as the Elvish Kingdom, is a theocracy on the continent
+        of Thaelia. It''s capital and biggest city is Aavoch. The kingdom is very
+        isolationist and doesn''t interact with other entities. Demographics The population
+        is estimated at abou...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5125\"
+        data-toggle=\"tooltip\">Frynia<\/a>,\u00a0<a title=\"Ayr\u00a0(full name Ayr-su-Arymis)
+        is the capital of the kingdom of\u00a0Frynia\u00a0on the continent of Thaelia.
+        The city was once the biggest of the continent, with a population of over
+        2 million inhabitants of all races. It now has a population of just over 1...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5186\" data-toggle=\"tooltip\">Ayr<\/a><\/li>\n<li><a
+        title=\"M\u00f3r Cermain is a theocratic state on the island of\u00a0Ulaeryn.
+        Its capital and biggest city if Durry. It is ruled by the Church of Cermain.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7767\" data-toggle=\"tooltip\">M\u00f3r
+        Cermain<\/a>, Durry<\/li>\n<\/ul><h3>Dukedoms<\/h3>\n<ul><li>Bergach, Bergach<\/li>\n<li><a
+        title=\"Grinelatter\u00a0is a dukedom located on the continent of Thaelia.
+        It is surrounded by the Republic of Rivandol, the Kingdom of Vlakeland\u00a0and
+        the\u00a0Ruya League.\u00a0It''s capital and biggest city is Brecht.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10036\"
+        data-toggle=\"tooltip\">Grinelatter<\/a>,\u00a0<a title=\"Brecht is the capital
+        and biggest city of the Duchy of\u00a0Grinelatter.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10037\"
+        data-toggle=\"tooltip\">Brecht<\/a><\/li>\n<li>Mithlir, Mithlir<\/li>\n<li><a
+        title=\"Styrnia is a semi-independant dukedom loyal to the Kingdom of\u00a0Arden.
+        It is located on the continent of\u00a0Thaelia. Its capital and biggest city
+        is\u00a0Griesstein.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10091\"
+        data-toggle=\"tooltip\">Styrnia<\/a>,\u00a0<a title=\"Griesstein\u00a0is the
+        capital and biggest city of the dukedom of\u00a0Styrnia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5153\"
+        data-toggle=\"tooltip\">Griesstein<\/a><\/li>\n<li><a title=\"Tovalon\u00a0is
+        an dutchy located on the continent of\u00a0Thaelia. It is completely surrounded
+        by the Republic of\u00a0Rivandol\u00a0and the Sea of Andol. It''s capital
+        and biggest city is Faypeak.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10032\"
+        data-toggle=\"tooltip\">Tovalon<\/a>,\u00a0<a title=\"Faypeak is the capital
+        and biggest city of the Dutchy of\u00a0Tovalon.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10033\"
+        data-toggle=\"tooltip\">Faypeak<\/a><\/li>\n<\/ul><h3>Leagues<\/h3>\n<ul><li><a
+        title=\"The\u00a0Ruya League is a state located on the continent of\u00a0Thaelia.
+        It''s capital and biggest city is Grensach.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10030\"
+        data-toggle=\"tooltip\">Ruya League<\/a>,\u00a0<a title=\"Grensach is the
+        capital and biggest city of the\u00a0Ruya League.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10031\"
+        data-toggle=\"tooltip\">Grensach<\/a><\/li>\n<li><a title=\"The League of
+        Wieseth is a state located on the continent of Thaelia. It''s capital and
+        biggest city is Herzfelden. The state borders the Kingdom of Buschow, the
+        Kingdom of Tejn, the Principality of Kvarnassen, The Council of Jakkvik and
+        the Kingdom o...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5199\"
+        data-toggle=\"tooltip\">Wieseth<\/a>, Hertzfelden<\/li>\n<li><a title=\"The
+        League of Ilwythin is a small state located south of the Herun teeth on the
+        continent of\u00a0Thaelia. It''s capital and biggest city is Hullbeck.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10022\"
+        data-toggle=\"tooltip\">Ilwythin<\/a>,\u00a0<a title=\"Hullbeck is the capital
+        and biggest city of the Kingdom of\u00a0Ilwythin. It is located south of the
+        Herun Teeth and by the Gulf of Herun on the continent of\u00a0Thaelia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10023\"
+        data-toggle=\"tooltip\">Hullbeck<\/a><\/li>\n<li>House of Lune, Luener<\/li>\n<\/ul><h3>Federations<\/h3>\n<ul><li><a
+        title=\"The\u00a0United Hewen Plains is an independant state located on the
+        continent of\u00a0Thaelia. It''s capital and biggest city is Morncaster.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10038\" data-toggle=\"tooltip\">Hewen<\/a>,\u00a0<a
+        title=\"Morncaster is the capital and second biggest city of the United\u00a0Hewen\u00a0Plains.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10039\" data-toggle=\"tooltip\">Morncaster<\/a><\/li>\n<li>[location:12007],\u00a0[location:12125]<\/li>\n<\/ul><h3>Councils<\/h3>\n<ul><li><a
+        title=\"The\u00a0Council of Jakkvik is an independant state located on the
+        northern part of the continent of\u00a0Thaelia. Its capital and biggest city
+        if Jakkvik.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10042\"
+        data-toggle=\"tooltip\">Council of Jakkvik<\/a>, Jakkvik<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Tejn is a petty kingdom located on the continent of\u00a0Thaelia. It''s
+        capital and biggest city is Tejn\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10040\"
+        data-toggle=\"tooltip\">Kingdom of Tejn<\/a>, Tejn<\/li>\n<\/ul><h3>Dynasty<\/h3>\n<ul><li><a
+        title=\"The\u00a0Ekthunli Dynasty is a dwarven kingdom located in the Andol
+        Mountains on the continent of\u00a0Thaelia. It''s capital and biggest city
+        is Mount Khor.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10026\"
+        data-toggle=\"tooltip\">Ekthunli Dynasty<\/a>,\u00a0<a title=\"Mount Khor\u00a0is
+        an underground capital and biggest city of the dwarven\u00a0Ekthunli Dynasty.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10027\" data-toggle=\"tooltip\">Mount
+        Khor<\/a><\/li>\n<\/ul>","entry_parsed":"\n<h3>Kingdoms<\/h3>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>,\u00a0<a
+        title=\"Arburg\/Arcastle\u00a0is the capital city of\u00a0Arden, located in
+        the\u00a0Arden\u00a0province on the\u00a0Maiden Plains, on the west of the
+        continent of\u00a0Thaelia. It is the most populated city of\u00a0Arden. Arburg
+        expands upon the\u00a0Leibal River. Recognised as the capital...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\"
+        data-toggle=\"tooltip\">Arburg<\/a><\/li>\n<li><a title=\"The Kingdom of Buschow
+        is a small kingdom of Thaelia. It''s capital and biggest city is Zweihofen.
+        The kingdom borders the Kingdom of Arden, Kingdom of Thasslia, the Kingdom
+        of Kiern\u00a0and the Kingdom of Wiseth.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5123\"
+        data-toggle=\"tooltip\">Buschow<\/a>, Zweihofen<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Caedor\u00a0is a kingdom of\u00a0Thaelia\u00a0bordered by the Kingdoms
+        of\u00a0Othiria\u00a0and\u00a0Dulken. It''s capital if the city of\u00a0Thornley.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7765\" data-toggle=\"tooltip\">Caedor<\/a>,
+        Thornley<\/li>\n<li><a title=\"The Kingdom of Dulken, also known as the Silent
+        Kingdom, is located on the continent of Thaelia. It''s capital and biggest
+        city is Midmar. The kingdom is situated on the eastern-southern part of Thaelia
+        and borders the Republic of Orlene, the Republic...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5124\"
+        data-toggle=\"tooltip\">Dulken<\/a>,\u00a0<a title=\"Midmar is the capital
+        and biggest city of the Kingdom of Dulken, located in the Lower Euthis province
+        by the Euthis river on the south-east of the continent of Thaelia.\u00a0 The
+        city retains little of its original dwarven structure or architecture, and
+        ...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5231\" data-toggle=\"tooltip\">Midmar<\/a><\/li>\n<li><a
+        title=\"The Kingdom of Ingwen\u00a0is a kingdom of Thaelia. It''s capital
+        and biggest city is Spiketuin. The kingdom borders the kingdoms of\u00a0Rivandol\u00a0and\u00a0Three
+        Rivers Federation. Culture: Dutch\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5196\"
+        data-toggle=\"tooltip\">Ingwen<\/a>, Spiketuin<\/li>\n<li><a title=\"The dukedom
+        of Kiern is a dukedom of Thaelia. It''s capital and biggest city is Grauspitz.
+        The kingdom borders the Kingdom of Wiseth, Kingdom of Thasslia\u00a0and the
+        Kingdom of Buschow.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5126\"
+        data-toggle=\"tooltip\">Kiern<\/a>,\u00a0Grauspitz<\/li>\n<li><a title=\"The
+        kingdom of\u00a0Lorcia\u00a0is a small kingdom on the eastern tip of the continent
+        of\u00a0Thaelia. It borders the\u00a0Three Rivers Federation.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7764\"
+        data-toggle=\"tooltip\">Lorcia<\/a>, Balcrove<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of March is a kingdom located on the continent of\u00a0Thaelia. It''s capital
+        and biggest city is Adestry. It is surrounded by the Kingdom of\u00a0Thasslia.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10034\" data-toggle=\"tooltip\">March<\/a>,
+        Adestry<\/li>\n<li><a title=\"The\u00a0Kingdom of Othiria\u00a0is an independent
+        kingdom on Thaelia. It''s capital is\u00a0Drunah\u00a0while its biggest city
+        is\u00a0Redford. The kingdom is situated on the middle southern part of Thaelia
+        and borders the\u00a0Kingdom of Dulken,\u00a0Kingdom of Thasslia,\u00a0Repu...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\" data-toggle=\"tooltip\">Othiria<\/a>,\u00a0<a
+        title=\"Drunah\u00a0is the capital of the Kingdom of\u00a0Othiria and second
+        biggest city of the kingdom after Redford.\u00a0The city is located on the
+        southern part of the continent of Thaelia\u00a0on the Drunah Bay, and is the
+        seat of House MacPhaiden. It is slowly recove...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5183\"
+        data-toggle=\"tooltip\">Drunah<\/a><\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Thasslia\u00a0is a kingdom of Thaelia\u00a0and is fairly poor. The land
+        is flat but not very arable, and the weather is usually rainy because of its
+        position to the sea. It''s capital and biggest city is Craic. Military Thasslia
+        has a strong t...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\"
+        data-toggle=\"tooltip\">Thasslia<\/a>,\u00a0<a title=\"Craic is the capital
+        and biggest city of the kingdom of\u00a0Thasslia. It is home to the Goldengate
+        Castle, the home of House\u00a0Pryde.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5244\"
+        data-toggle=\"tooltip\">Craic<\/a><\/li>\n<li><a title=\"The Kingdom of\u00a0Ulaeria
+        is a state on the island of\u00a0Ulaeryn\u00a0off the\u00a0Thaelian\u00a0continent.
+        Its capital and biggest city if\u00a0Rodonen.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7768\"
+        data-toggle=\"tooltip\">Ulaeria<\/a>, Rodonen<\/li>\n<li><a title=\"The Kingdom
+        of Vlakeland\u00a0is a kingdom of Thaelia. It''s capital and biggest city
+        is Daleiden. The kingdom borders the Kingdom of Arden, the Republic of\u00a0Rivandol\u00a0and
+        the Kingdom of\u00a0Ingwen. Culture: Dutch\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7763\"
+        data-toggle=\"tooltip\">Vlakeland<\/a>, Daleiden<\/li>\n<li><a title=\"The
+        Kingdom of Volya is a small kingdom of Thaelia. It''s capital and biggest
+        city is Premsby. The kingdom is completely enclosed by the Republic of\u00a0Rivandol.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5198\" data-toggle=\"tooltip\">Volya<\/a>,\u00a0Premsby<\/li>\n<\/ul><h3>Republics<\/h3>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>,
+        Kinros<\/li>\n<li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5127\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12005\/tooltip\">Orlene<\/a>,\u00a0<a
+        title=\"Owlchester is the capital of the Republic of\u00a0Orlene\u00a0and
+        the most populous city of the continent of\u00a0Thaelia. Inspiration: Venice
+        \/ Constantinople\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7817\"
+        data-toggle=\"tooltip\">Owlchester<\/a><\/li>\n<li><a title=\"The\u00a0Republic
+        of Slevia is a republic located on the continent of\u00a0Thaelia. It''s capital
+        and biggest city is Bad Loz.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10024\"
+        data-toggle=\"tooltip\">Slevia<\/a>, Bad Loz<\/li>\n<\/ul><h3>Free Cities<\/h3>\n<ul><li><a
+        title=\"Porthclaw is the free city of the Claw Peninsula, located by the Inner
+        Blue Sea, on the west of the continent of Thaelia. It has always been a free
+        city and has control over most of the Peninsula. It is known for slave trading
+        and lawlessness. Geogra...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5193\"
+        data-toggle=\"tooltip\">Porthclaw<\/a>,\u00a0<a title=\"Porthclaw is the free
+        city of the Claw Peninsula, located by the Inner Blue Sea, on the west of
+        the continent of Thaelia. It has always been a free city and has control over
+        most of the Peninsula. It is known for slave trading and lawlessness. Geogra...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5193\" data-toggle=\"tooltip\">Porthclaw<\/a><\/li>\n<li><a
+        title=\"The\u00a0Free City of Freyburg is an independant state located on
+        the continent of\u00a0Thaelia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10029\"
+        data-toggle=\"tooltip\">Freyburg<\/a>,\u00a0<a title=\"The\u00a0Free City
+        of Freyburg is an independant state located on the continent of\u00a0Thaelia.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10029\" data-toggle=\"tooltip\">Freyburg<\/a><\/li>\n<\/ul><h3>Theocracies<\/h3>\n<ul><li><a
+        title=\"Frynia, also known as the Elvish Kingdom, is a theocracy on the continent
+        of Thaelia. It''s capital and biggest city is Aavoch. The kingdom is very
+        isolationist and doesn''t interact with other entities. Demographics The population
+        is estimated at abou...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5125\"
+        data-toggle=\"tooltip\">Frynia<\/a>,\u00a0<a title=\"Ayr\u00a0(full name Ayr-su-Arymis)
+        is the capital of the kingdom of\u00a0Frynia\u00a0on the continent of Thaelia.
+        The city was once the biggest of the continent, with a population of over
+        2 million inhabitants of all races. It now has a population of just over 1...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5186\" data-toggle=\"tooltip\">Ayr<\/a><\/li>\n<li><a
+        title=\"M\u00f3r Cermain is a theocratic state on the island of\u00a0Ulaeryn.
+        Its capital and biggest city if Durry. It is ruled by the Church of Cermain.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7767\" data-toggle=\"tooltip\">M\u00f3r
+        Cermain<\/a>, Durry<\/li>\n<\/ul><h3>Dukedoms<\/h3>\n<ul><li>Bergach, Bergach<\/li>\n<li><a
+        title=\"Grinelatter\u00a0is a dukedom located on the continent of Thaelia.
+        It is surrounded by the Republic of Rivandol, the Kingdom of Vlakeland\u00a0and
+        the\u00a0Ruya League.\u00a0It''s capital and biggest city is Brecht.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10036\"
+        data-toggle=\"tooltip\">Grinelatter<\/a>,\u00a0<a title=\"Brecht is the capital
+        and biggest city of the Duchy of\u00a0Grinelatter.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10037\"
+        data-toggle=\"tooltip\">Brecht<\/a><\/li>\n<li>Mithlir, Mithlir<\/li>\n<li><a
+        title=\"Styrnia is a semi-independant dukedom loyal to the Kingdom of\u00a0Arden.
+        It is located on the continent of\u00a0Thaelia. Its capital and biggest city
+        is\u00a0Griesstein.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10091\"
+        data-toggle=\"tooltip\">Styrnia<\/a>,\u00a0<a title=\"Griesstein\u00a0is the
+        capital and biggest city of the dukedom of\u00a0Styrnia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5153\"
+        data-toggle=\"tooltip\">Griesstein<\/a><\/li>\n<li><a title=\"Tovalon\u00a0is
+        an dutchy located on the continent of\u00a0Thaelia. It is completely surrounded
+        by the Republic of\u00a0Rivandol\u00a0and the Sea of Andol. It''s capital
+        and biggest city is Faypeak.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10032\"
+        data-toggle=\"tooltip\">Tovalon<\/a>,\u00a0<a title=\"Faypeak is the capital
+        and biggest city of the Dutchy of\u00a0Tovalon.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10033\"
+        data-toggle=\"tooltip\">Faypeak<\/a><\/li>\n<\/ul><h3>Leagues<\/h3>\n<ul><li><a
+        title=\"The\u00a0Ruya League is a state located on the continent of\u00a0Thaelia.
+        It''s capital and biggest city is Grensach.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10030\"
+        data-toggle=\"tooltip\">Ruya League<\/a>,\u00a0<a title=\"Grensach is the
+        capital and biggest city of the\u00a0Ruya League.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10031\"
+        data-toggle=\"tooltip\">Grensach<\/a><\/li>\n<li><a title=\"The League of
+        Wieseth is a state located on the continent of Thaelia. It''s capital and
+        biggest city is Herzfelden. The state borders the Kingdom of Buschow, the
+        Kingdom of Tejn, the Principality of Kvarnassen, The Council of Jakkvik and
+        the Kingdom o...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5199\"
+        data-toggle=\"tooltip\">Wieseth<\/a>, Hertzfelden<\/li>\n<li><a title=\"The
+        League of Ilwythin is a small state located south of the Herun teeth on the
+        continent of\u00a0Thaelia. It''s capital and biggest city is Hullbeck.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10022\"
+        data-toggle=\"tooltip\">Ilwythin<\/a>,\u00a0<a title=\"Hullbeck is the capital
+        and biggest city of the Kingdom of\u00a0Ilwythin. It is located south of the
+        Herun Teeth and by the Gulf of Herun on the continent of\u00a0Thaelia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10023\"
+        data-toggle=\"tooltip\">Hullbeck<\/a><\/li>\n<li>House of Lune, Luener<\/li>\n<\/ul><h3>Federations<\/h3>\n<ul><li><a
+        title=\"The\u00a0United Hewen Plains is an independant state located on the
+        continent of\u00a0Thaelia. It''s capital and biggest city is Morncaster.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10038\" data-toggle=\"tooltip\">Hewen<\/a>,\u00a0<a
+        title=\"Morncaster is the capital and second biggest city of the United\u00a0Hewen\u00a0Plains.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10039\" data-toggle=\"tooltip\">Morncaster<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5129\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12007\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12007\/tooltip\">Three
+        Rivers Federation<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5177\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12125\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12125\/tooltip\">Enida<\/a><\/li>\n<\/ul><h3>Councils<\/h3>\n<ul><li><a
+        title=\"The\u00a0Council of Jakkvik is an independant state located on the
+        northern part of the continent of\u00a0Thaelia. Its capital and biggest city
+        if Jakkvik.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10042\"
+        data-toggle=\"tooltip\">Council of Jakkvik<\/a>, Jakkvik<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Tejn is a petty kingdom located on the continent of\u00a0Thaelia. It''s
+        capital and biggest city is Tejn\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10040\"
+        data-toggle=\"tooltip\">Kingdom of Tejn<\/a>, Tejn<\/li>\n<\/ul><h3>Dynasty<\/h3>\n<ul><li><a
+        title=\"The\u00a0Ekthunli Dynasty is a dwarven kingdom located in the Andol
+        Mountains on the continent of\u00a0Thaelia. It''s capital and biggest city
+        is Mount Khor.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10026\"
+        data-toggle=\"tooltip\">Ekthunli Dynasty<\/a>,\u00a0<a title=\"Mount Khor\u00a0is
+        an underground capital and biggest city of the dwarven\u00a0Ekthunli Dynasty.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10027\" data-toggle=\"tooltip\">Mount
+        Khor<\/a><\/li>\n<\/ul>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":25638,"tags":[],"created_at":"2018-06-10T09:07:01.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":null,"type":null,"note_id":null,"is_pinned":0},{"id":680,"name":"Atlas
+        Stone","entry":"\n<h1><span style=\"font-weight:400;\">Legend<\/span><\/h1>\n<p><span
+        style=\"font-weight:400;\">The Atlas Stone statue is a mythical item whose
+        existence is not known, but mentioned in the old tales and books. The statue
+        is said to be made of pure gold, with the Atlas said to be made out of pure
+        black Diamond. The statue measure 1m10 in height, 230 kilos of weight, and
+        cannot be destroyed.<\/span><\/p>\n<p><span style=\"font-weight:400;\">The
+        statue was commissioned by the old king <\/span><strong>Jalid Ishaq Kajalia
+        II<\/strong><span style=\"font-weight:400;\"> of Weymouth after the <\/span><strong>Catal-Greghian
+        war<\/strong><span style=\"font-weight:400;\">, when the Gregh tribes from
+        the Eastern sea tried to invade the old kingdom of Catal, whose capital was
+        Weymouth. Once the Greghs defeated, they gave as payment and tribute the black
+        diamond. They said that during a rest on the legendary island of Helia, the
+        island volcano erupted and the stone crashed next to the Gregh leader\u2019s
+        tent. <\/span><strong>Jalid<\/strong><span style=\"font-weight:400;\"> and
+        his council decided to create the Stone Atlas out of the diamond, and had
+        it placed at the top of the palace, as a reminder of their might and defeat
+        over the invaders.<\/span><\/p>\n<p><span style=\"font-weight:400;\">The legend
+        says that the Atlas is also magic, and whoever finds the statue will be granted
+        one wish. Should the statue be found by several people at the same time, each
+        person will be granted one wish if it doesn\u2019t contradict with another
+        person''s wish. <\/span><\/p>\n<p><span style=\"font-weight:400;\">Another
+        legend says that there are two magical items in the world, and should they
+        be melted into one, they would lead to the Atlas Stone.<\/span><\/p>\n","entry_parsed":"\n<h1><span
+        style=\"font-weight:400;\">Legend<\/span><\/h1>\n<p><span style=\"font-weight:400;\">The
+        Atlas Stone statue is a mythical item whose existence is not known, but mentioned
+        in the old tales and books. The statue is said to be made of pure gold, with
+        the Atlas said to be made out of pure black Diamond. The statue measure 1m10
+        in height, 230 kilos of weight, and cannot be destroyed.<\/span><\/p>\n<p><span
+        style=\"font-weight:400;\">The statue was commissioned by the old king <\/span><strong>Jalid
+        Ishaq Kajalia II<\/strong><span style=\"font-weight:400;\"> of Weymouth after
+        the <\/span><strong>Catal-Greghian war<\/strong><span style=\"font-weight:400;\">,
+        when the Gregh tribes from the Eastern sea tried to invade the old kingdom
+        of Catal, whose capital was Weymouth. Once the Greghs defeated, they gave
+        as payment and tribute the black diamond. They said that during a rest on
+        the legendary island of Helia, the island volcano erupted and the stone crashed
+        next to the Gregh leader\u2019s tent. <\/span><strong>Jalid<\/strong><span
+        style=\"font-weight:400;\"> and his council decided to create the Stone Atlas
+        out of the diamond, and had it placed at the top of the palace, as a reminder
+        of their might and defeat over the invaders.<\/span><\/p>\n<p><span style=\"font-weight:400;\">The
+        legend says that the Atlas is also magic, and whoever finds the statue will
+        be granted one wish. Should the statue be found by several people at the same
+        time, each person will be granted one wish if it doesn\u2019t contradict with
+        another person''s wish. <\/span><\/p>\n<p><span style=\"font-weight:400;\">Another
+        legend says that there are two magical items in the world, and should they
+        be melted into one, they would lead to the Atlas Stone.<\/span><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27498,"tags":[],"created_at":"2018-06-22T15:43:16.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":null,"type":"Legend","note_id":null,"is_pinned":0},{"id":717,"name":"Ichodas","entry":"\n<p><strong>Ichodas<\/strong>
+        is the bigger of the two moons visible from the Material Plane. The smaller
+        moon is\u00a0<a title=\"Nafren is the smaller of the two moons visible at
+        night on the material plane. The bigger moon is\u00a0Ichodas.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/718\"
+        data-toggle=\"tooltip\">Nafren<\/a>.<\/p>\n","entry_parsed":"\n<p><strong>Ichodas<\/strong>
+        is the bigger of the two moons visible from the Material Plane. The smaller
+        moon is\u00a0<a title=\"Nafren is the smaller of the two moons visible at
+        night on the material plane. The bigger moon is\u00a0Ichodas.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/718\"
+        data-toggle=\"tooltip\">Nafren<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28094,"tags":[],"created_at":"2018-06-25T10:37:10.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":null,"type":"Moon","note_id":null,"is_pinned":0},{"id":718,"name":"Nafren","entry":"\n<p><strong>Nafren<\/strong>
+        is the smaller of the two moons visible at night on the material plane. The
+        bigger moon is\u00a0<a title=\"Ichodas is the bigger of the two moons visible
+        from the Material Plane.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/717\"
+        data-toggle=\"tooltip\">Ichodas<\/a>.<\/p>\n","entry_parsed":"\n<p><strong>Nafren<\/strong>
+        is the smaller of the two moons visible at night on the material plane. The
+        bigger moon is\u00a0<a title=\"Ichodas is the bigger of the two moons visible
+        from the Material Plane.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/717\"
+        data-toggle=\"tooltip\">Ichodas<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28095,"tags":[],"created_at":"2018-06-25T10:37:49.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":null,"type":"Moon","note_id":null,"is_pinned":0},{"id":836,"name":"The
+        Principles of Death among the Blood Elves","entry":"\n<p><strong>The Principles
+        of Death among the Blood Elves<\/strong> is a book written in 80 BC (1100
+        years ago) about the rituals surrounding death in communities of blood elves.\u00a0<\/p>\n<p>The\u00a0<strong>Blood<\/strong><strong>
+        Elves<\/strong> were a sub-species of elves located in what is now the north
+        of\u00a0[location:2046]. As other elves, they live thousands of years. Death
+        was viewed as a moment to pass on ones knowledge and wisdom to others of the
+        community, and as such, when a blood elf died, their brains were eaten by
+        the youngest members of the community, while the family ate the rest.\u00a0<\/p>\n<p>Preparing
+        the brains involved making small openings in the skull to poor wine and spices
+        in the skull. After a day of fermenting, the brain is extracted, cut into
+        chunks and fed to the children. The body would be cooked and mixed with various
+        other meats and ingredients favoured by the deceased, and eaten by the family.<\/p>\n<p>The
+        blood elves were already dwindling in population due to a disease in their
+        communities by the time of the writing of this book, and the last communities
+        died out in about 180 AC.<\/p>\n","entry_parsed":"\n<p><strong>The Principles
+        of Death among the Blood Elves<\/strong> is a book written in 80 BC (1100
+        years ago) about the rituals surrounding death in communities of blood elves.\u00a0<\/p>\n<p>The\u00a0<strong>Blood<\/strong><strong>
+        Elves<\/strong> were a sub-species of elves located in what is now the north
+        of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>.
+        As other elves, they live thousands of years. Death was viewed as a moment
+        to pass on ones knowledge and wisdom to others of the community, and as such,
+        when a blood elf died, their brains were eaten by the youngest members of
+        the community, while the family ate the rest.\u00a0<\/p>\n<p>Preparing the
+        brains involved making small openings in the skull to poor wine and spices
+        in the skull. After a day of fermenting, the brain is extracted, cut into
+        chunks and fed to the children. The body would be cooked and mixed with various
+        other meats and ingredients favoured by the deceased, and eaten by the family.<\/p>\n<p>The
+        blood elves were already dwindling in population due to a disease in their
+        communities by the time of the writing of this book, and the last communities
+        died out in about 180 AC.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":31054,"tags":[],"created_at":"2018-07-16T15:21:07.000000Z","created_by":1,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":1,"type":"Book","note_id":null,"is_pinned":0},{"id":837,"name":"On
+        the Utility of Necromancy","entry":"\n<p>Author: Vash Xhalieron (Tiefling)<br
+        \/>Date: 540 AC<\/p>\n<p><strong>On the Utility of Necromancy<\/strong> is
+        an essay by Vash Xhalieron defending the usefulness of a society for necromancy.
+        It goes into the details of how various cultures and societies have viewed
+        and used necromancy in the past.<\/p>\n<p>He argues that necromancy can be
+        useful in legal matters - knowing who committed a crime, what to do in case
+        of an inheritance and no will is present, or finding family heirlooms lost
+        to an untimely death.\u00a0<\/p>\n<p>He argues against necromancy by stating
+        that robbing life of an unquestionably truth; death; will destroy the fabric
+        of society, as examples in the past have shown. The most notably one is the
+        Essem Empire (Northen Beidra) that collapsed in complete revolt when factions
+        killed heirs to the thrown but they all kept coming back to life. He also
+        argues that wealth accumulates a lot stronger, as wealth isn''t split up between
+        individuals on a person''s death. Elves have overcome this problem by having
+        a shared system of wealth, but in a society where private property exists,
+        it creates many problems.<\/p>\n<p>He disregards the moral argument as being
+        non-pragmatic and stifling debate among scholars.\u00a0<\/p>\n","entry_parsed":"\n<p>Author:
+        Vash Xhalieron (Tiefling)<br \/>Date: 540 AC<\/p>\n<p><strong>On the Utility
+        of Necromancy<\/strong> is an essay by Vash Xhalieron defending the usefulness
+        of a society for necromancy. It goes into the details of how various cultures
+        and societies have viewed and used necromancy in the past.<\/p>\n<p>He argues
+        that necromancy can be useful in legal matters - knowing who committed a crime,
+        what to do in case of an inheritance and no will is present, or finding family
+        heirlooms lost to an untimely death.\u00a0<\/p>\n<p>He argues against necromancy
+        by stating that robbing life of an unquestionably truth; death; will destroy
+        the fabric of society, as examples in the past have shown. The most notably
+        one is the Essem Empire (Northen Beidra) that collapsed in complete revolt
+        when factions killed heirs to the thrown but they all kept coming back to
+        life. He also argues that wealth accumulates a lot stronger, as wealth isn''t
+        split up between individuals on a person''s death. Elves have overcome this
+        problem by having a shared system of wealth, but in a society where private
+        property exists, it creates many problems.<\/p>\n<p>He disregards the moral
+        argument as being non-pragmatic and stifling debate among scholars.\u00a0<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":31058,"tags":[],"created_at":"2018-07-16T15:32:17.000000Z","created_by":1,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":1,"type":"Book","note_id":null,"is_pinned":0},{"id":2394,"name":"Settlement
+        population","entry":"\n<p>Settlements have various levels of races populating
+        them.<\/p>\n<p><strong>Dominant<\/strong>: The dominant populations, the one
+        that is visible everywhere. Yields the most political power.<\/p>\n<p><strong>Minority<\/strong>:
+        Have a sizeable presence, but little to no power in the local politics.<\/p>\n<p><strong>Enclave<\/strong>:
+        A sub part of the settlement mostly inhabited by a race.<\/p>\n<p><strong>Groups<\/strong>:
+        Small communities.<\/p>\n<p><strong>Individuals<\/strong>: Can be found but
+        there for their own reason, but can''t be found in large numbers.<\/p>\n<p><strong>Singular<\/strong>:
+        Only one person of this race in the settlement.<\/p>\n<p>\u00a0<\/p>\n","entry_parsed":"\n<p>Settlements
+        have various levels of races populating them.<\/p>\n<p><strong>Dominant<\/strong>:
+        The dominant populations, the one that is visible everywhere. Yields the most
+        political power.<\/p>\n<p><strong>Minority<\/strong>: Have a sizeable presence,
+        but little to no power in the local politics.<\/p>\n<p><strong>Enclave<\/strong>:
+        A sub part of the settlement mostly inhabited by a race.<\/p>\n<p><strong>Groups<\/strong>:
+        Small communities.<\/p>\n<p><strong>Individuals<\/strong>: Can be found but
+        there for their own reason, but can''t be found in large numbers.<\/p>\n<p><strong>Singular<\/strong>:
+        Only one person of this race in the settlement.<\/p>\n<p>\u00a0<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":97505,"tags":[],"created_at":"2019-01-09T09:06:24.000000Z","created_by":1,"updated_at":"2021-06-08T12:59:40.000000Z","updated_by":1,"type":"Guide","note_id":null,"is_pinned":0},{"id":2656,"name":"Backstory
+        Questions","entry":"\n<h2><a id=\"backstory\"><\/a>Backstory<\/h2>\n<h3>Early
+        Years<\/h3>\n<p><strong>Tell me where you see this character as a child? What
+        does their home look like?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><span style=\"font-weight:400;\"><strong>Who
+        else is in the home? Any animals or pets?<\/strong><\/span><\/p>\n<p>\u00a0<\/p>\n<p><strong>And
+        the area. Where is your home? Is it a village? A farm? A city? Something else<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>What
+        does your family do to make money?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><span
+        style=\"font-weight:400;\"><strong>How religious are you and your family?<\/strong><\/span><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me about a rumour you heard about the surrounding area.<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me a rumour you heard about one of your parents.<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me what you believe about yourself\/what you think is your greatest attribute?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>
+        T<\/strong><strong>ell me about your friends. (at least 2)<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me about your enemies \/ rivals. (at least 2)<\/strong><\/p>\n<p>\u00a0<\/p>\n<h3>The
+        Maturing<\/h3>\n<p><strong>What do you do for fun? What are your hobbies and
+        pastimes?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>What kind of work are
+        you required to do? Do you have an apprenticeship? Or education?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me about your teachers\/mentors\/masters. How was your relationship with them?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>What
+        are you interested in outside of your work or studies? What are your passions?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Which
+        of the divine faiths have caught your attention and why?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me a rumour about one of your rivals.<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me about a tragedy that you experienced.<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>What
+        are your ambitions\/life goals\/dreams?<\/strong><\/p>\n<p>\u00a0<\/p>\n","entry_parsed":"\n<h2><a
+        id=\"backstory\"><\/a>Backstory<\/h2>\n<h3>Early Years<\/h3>\n<p><strong>Tell
+        me where you see this character as a child? What does their home look like?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><span
+        style=\"font-weight:400;\"><strong>Who else is in the home? Any animals or
+        pets?<\/strong><\/span><\/p>\n<p>\u00a0<\/p>\n<p><strong>And the area. Where
+        is your home? Is it a village? A farm? A city? Something else<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>What
+        does your family do to make money?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><span
+        style=\"font-weight:400;\"><strong>How religious are you and your family?<\/strong><\/span><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me about a rumour you heard about the surrounding area.<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me a rumour you heard about one of your parents.<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me what you believe about yourself\/what you think is your greatest attribute?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>
+        T<\/strong><strong>ell me about your friends. (at least 2)<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me about your enemies \/ rivals. (at least 2)<\/strong><\/p>\n<p>\u00a0<\/p>\n<h3>The
+        Maturing<\/h3>\n<p><strong>What do you do for fun? What are your hobbies and
+        pastimes?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>What kind of work are
+        you required to do? Do you have an apprenticeship? Or education?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me about your teachers\/mentors\/masters. How was your relationship with them?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>What
+        are you interested in outside of your work or studies? What are your passions?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Which
+        of the divine faiths have caught your attention and why?<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me a rumour about one of your rivals.<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>Tell
+        me about a tragedy that you experienced.<\/strong><\/p>\n<p>\u00a0<\/p>\n<p><strong>What
+        are your ambitions\/life goals\/dreams?<\/strong><\/p>\n<p>\u00a0<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":102460,"tags":[],"created_at":"2019-01-18T09:28:36.000000Z","created_by":1,"updated_at":"2021-06-08T12:59:41.000000Z","updated_by":1,"type":null,"note_id":null,"is_pinned":0},{"id":8528,"name":"Serenity
+        Circles","entry":"\n<p><strong>Serenity Circles<\/strong> are teleportation
+        portals located in various capitals of [location:12000]. They were developed
+        by the republic of [location:12006] and their goal is to promote quick diplomatic
+        ties between countries of the continent and avoid wars.<\/p>\n<p>Serenity
+        Circles are currently located in these cities:<\/p>\n<ul><li>Republic of Rivandol:
+        [location:312937]<\/li>\n<li>Kingdom of Arden: [location:312944]<\/li>\n<li>Republic
+        of Orlene: [location:39908]<\/li>\n<li>Three Rivers Federation: <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/84297\">Falconer''s
+        Keep<\/a><\/li>\n<li>Free City of Freyburg: [location:312955]<\/li>\n<\/ul><p><strong>Limitations<\/strong><\/p>\n<p>A
+        circle can only sent 10 people at a time, and only be used once an hour. Scholars
+        are busy trying to increase the output of the circles.<\/p>\n","entry_parsed":"\n<p><strong>Serenity
+        Circles<\/strong> are teleportation portals located in various capitals of
+        <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5122\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12000\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12000\/tooltip\">Thaelia<\/a>.
+        They were developed by the republic of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>
+        and their goal is to promote quick diplomatic ties between countries of the
+        continent and avoid wars.<\/p>\n<p>Serenity Circles are currently located
+        in these cities:<\/p>\n<ul><li>Republic of Rivandol: <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/84293\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"312937\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/312937\/tooltip\">Gideon
+        Institute<\/a><\/li>\n<li>Kingdom of Arden: <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/84295\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"312944\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/312944\/tooltip\">Sieger
+        Festung<\/a><\/li>\n<li>Republic of Orlene: <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/14410\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"39908\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/39908\/tooltip\">Republican
+        Barracks<\/a><\/li>\n<li>Three Rivers Federation: <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/84297\">Falconer''s
+        Keep<\/a><\/li>\n<li>Free City of Freyburg: <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/84301\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"312955\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/312955\/tooltip\">Ersch\u00fctternde
+        Abtei<\/a><\/li>\n<\/ul><p><strong>Limitations<\/strong><\/p>\n<p>A circle
+        can only sent 10 people at a time, and only be used once an hour. Scholars
+        are busy trying to increase the output of the circles.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":312946,"tags":[],"created_at":"2019-08-21T13:47:04.000000Z","created_by":1,"updated_at":"2021-06-08T12:59:52.000000Z","updated_by":1,"type":"Portals","note_id":null,"is_pinned":0},{"id":46459,"name":"Custard
+        Shrimp","entry":"<p>Custard Shrimp is a popular dish in the kingdom of [location:12002],
+        with the most restaurants serving this dish in the capital city of [location:12314].
+        Inspired by old dwarven recipes from the first inhabitants of the city, the
+        first mention of the recipe is found in a book detailing a diplomatic gala
+        between the lords of the city and the lords of the neighbouring kingdom of
+        Hezend-rem.<\/p><p>Over the centuries, the recipe has undergone various alterations,
+        partly due to changing farming methods, resulting in cheaper ingredients,
+        and also the recipe being introduced to the general populace. Today, it is
+        a loved recipe enjoyed by all levels of society.<\/p><h3>Ingredients<\/h3><p>Recipe
+        graciously provided by the famous chef Mathal Engerlint of the Oxen Boot Tavern
+        in Midmar, this version serves four hungry adventurers.<\/p><ul><li>500gr
+        of Ethylian Red Shrimp<\/li><li>300gr of green leaf broccoli<\/li><li>300gr
+        of purple onions (preferably from [location:28174]\u00a0for their sweetened
+        taste)<\/li><li>1 bottle of Jenesse white wine from [location:19591]<\/li><li>fresh
+        herbs from the garden<\/li><li>50g of ox butter<\/li><\/ul><p>For the custard<\/p><ul><li>200ml
+        double ox cream<\/li><li>700ml whole milk<\/li><li>6 egg yolks<\/li><li>3
+        tbsp cornflour<\/li><li>100g caster sugar<\/li><li>2 vanilla leaves<\/li><li>pinch
+        of [location:12002]orange\u00a0salt<\/li><\/ul><h3>Preparation<\/h3><h4>Main
+        dish<\/h4><p>Cook the shrimp in a large bowl of boiling water and wine for
+        about 25 minutes.<\/p><p>In a large pan, mix the cut onions &amp; broccoli
+        in the butter until tender.<\/p><h4>Custard<\/h4><p>For the custard, mix the
+        cream and milk into a pan and heat up, avoiding boiling.\u00a0<\/p><p>In a
+        bowl, whisk the yolks, cornflour, and sugar together. Pour the mix into the
+        milk and cream, add the vanilla leaves, whisking constantly.\u00a0<\/p><p>Heat
+        gently, stirring regularly, until the custard is thick.<\/p><h3>Serving<\/h3><p>Place
+        the shrimp on one side of the plate, and the vegetables on another. Pour the
+        custard over the shrimp, leaving the pincers free of sauce. Sprinkle the herbs
+        over the whole plate.<\/p><p>Chef Mathal recommends serving with a light white
+        beer.<\/p><p><br \/><\/p>","entry_parsed":"<p>Custard Shrimp is a popular
+        dish in the kingdom of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5124\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12002\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12002\/tooltip\">Dulken<\/a>,
+        with the most restaurants serving this dish in the capital city of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5231\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12314\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12314\/tooltip\">Midmar<\/a>.
+        Inspired by old dwarven recipes from the first inhabitants of the city, the
+        first mention of the recipe is found in a book detailing a diplomatic gala
+        between the lords of the city and the lords of the neighbouring kingdom of
+        Hezend-rem.<\/p><p>Over the centuries, the recipe has undergone various alterations,
+        partly due to changing farming methods, resulting in cheaper ingredients,
+        and also the recipe being introduced to the general populace. Today, it is
+        a loved recipe enjoyed by all levels of society.<\/p><h3>Ingredients<\/h3><p>Recipe
+        graciously provided by the famous chef Mathal Engerlint of the Oxen Boot Tavern
+        in Midmar, this version serves four hungry adventurers.<\/p><ul><li>500gr
+        of Ethylian Red Shrimp<\/li><li>300gr of green leaf broccoli<\/li><li>300gr
+        of purple onions (preferably from <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10906\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"28174\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28174\/tooltip\">Medina<\/a>\u00a0for
+        their sweetened taste)<\/li><li>1 bottle of Jenesse white wine from <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/7817\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a><\/li><li>fresh
+        herbs from the garden<\/li><li>50g of ox butter<\/li><\/ul><p>For the custard<\/p><ul><li>200ml
+        double ox cream<\/li><li>700ml whole milk<\/li><li>6 egg yolks<\/li><li>3
+        tbsp cornflour<\/li><li>100g caster sugar<\/li><li>2 vanilla leaves<\/li><li>pinch
+        of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5124\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12002\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12002\/tooltip\">Dulken<\/a>orange\u00a0salt<\/li><\/ul><h3>Preparation<\/h3><h4>Main
+        dish<\/h4><p>Cook the shrimp in a large bowl of boiling water and wine for
+        about 25 minutes.<\/p><p>In a large pan, mix the cut onions &amp; broccoli
+        in the butter until tender.<\/p><h4>Custard<\/h4><p>For the custard, mix the
+        cream and milk into a pan and heat up, avoiding boiling.\u00a0<\/p><p>In a
+        bowl, whisk the yolks, cornflour, and sugar together. Pour the mix into the
+        milk and cream, add the vanilla leaves, whisking constantly.\u00a0<\/p><p>Heat
+        gently, stirring regularly, until the custard is thick.<\/p><h3>Serving<\/h3><p>Place
+        the shrimp on one side of the plate, and the vegetables on another. Pour the
+        custard over the shrimp, leaving the pincers free of sauce. Sprinkle the herbs
+        over the whole plate.<\/p><p>Chef Mathal recommends serving with a light white
+        beer.<\/p><p><br \/><\/p>","image":"notes\/JPS2A5pWMpuWtDDAPGlMqg8aSHjNZ5Ddt3dWXeIv.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/YuppDTS4pTv8F2Uker6bdAY0OWs=\/smart\/src\/notes%2FJPS2A5pWMpuWtDDAPGlMqg8aSHjNZ5Ddt3dWXeIv.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/Xl8mqJEzSXZbW7uFWf-8qyvRoLo=\/40x40\/smart\/src\/notes%2FJPS2A5pWMpuWtDDAPGlMqg8aSHjNZ5Ddt3dWXeIv.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":988525,"tags":[],"created_at":"2020-09-17T12:52:55.000000Z","created_by":1,"updated_at":"2021-06-08T13:00:53.000000Z","updated_by":1,"type":"Recipe","note_id":null,"is_pinned":0},{"id":49549,"name":"Religions","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1038491,"tags":[],"created_at":"2020-10-04T16:22:47.000000Z","created_by":1,"updated_at":"2021-06-08T13:00:53.000000Z","updated_by":1,"type":null,"note_id":null,"is_pinned":0},{"id":49552,"name":"Kutai","entry":"<p>The
+        religion of <b>Kutai<\/b> is a minor religion on the continent of [location:28174].
+        Kutai is the ruling religion of [location:1038437].<\/p><p>The Kutaisi is
+        the combination of all the previous Kutaisi. When a Kutaisi dies, its soul
+        and knowledge of all the previous Kutaisis are transfered to a new host that
+        becomes the new Kutaisi.<\/p><p>The current ruler of the Kutai religion is
+        [character:1038462]. She became Kutaisi in 1018 AC at the age of 8, when the
+        previous Kutaisi Pridon transfered himself to her in 1017 AC.<\/p><p><br \/><\/p>","entry_parsed":"<p>The
+        religion of <b>Kutai<\/b> is a minor religion on the continent of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10906\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"28174\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28174\/tooltip\">Medina<\/a>.
+        Kutai is the ruling religion of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/257650\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"1038437\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/1038437\/tooltip\">Kutaiden
+        Der<\/a>.<\/p><p>The Kutaisi is the combination of all the previous Kutaisi.
+        When a Kutaisi dies, its soul and knowledge of all the previous Kutaisis are
+        transfered to a new host that becomes the new Kutaisi.<\/p><p>The current
+        ruler of the Kutai religion is <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/269455\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"1038462\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/1038462\/tooltip\">Marika
+        Keresdi<\/a>. She became Kutaisi in 1018 AC at the age of 8, when the previous
+        Kutaisi Pridon transfered himself to her in 1017 AC.<\/p><p><br \/><\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1038495,"tags":[],"created_at":"2020-10-04T16:26:47.000000Z","created_by":1,"updated_at":"2021-06-08T13:00:53.000000Z","updated_by":1,"type":"Religion","note_id":49549,"is_pinned":0},{"id":72236,"name":"Books","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1416260,"tags":[],"created_at":"2021-02-13T16:59:52.000000Z","created_by":1,"updated_at":"2021-06-08T13:00:53.000000Z","updated_by":1,"type":"Category","note_id":null,"is_pinned":0},{"id":72237,"name":"George
+        & George The Adventure","entry":"<p><b>George &amp; George The Adventure<\/b>\u00a0is
+        a short novel by author [character:1416267]\u00a0and sequel to his first book,
+        [note:1416269]. It was released in 1025 AC.<br \/><\/p>","entry_parsed":"<p><b>George
+        &amp; George The Adventure<\/b>\u00a0is a short novel by author <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/364025\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"1416267\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/1416267\/tooltip\">Alwin
+        Erstoff<\/a>\u00a0and sequel to his first book, <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/72238\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"1416269\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/1416269\/tooltip\">George
+        & George<\/a>. It was released in 1025 AC.<br \/><\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1416268,"tags":[],"created_at":"2021-02-13T17:02:22.000000Z","created_by":1,"updated_at":"2021-06-08T13:00:53.000000Z","updated_by":1,"type":"Book","note_id":72236,"is_pinned":0},{"id":72238,"name":"George
+        & George","entry":"<p><b>George &amp; George<\/b>\u00a0is a famous gay novel
+        by the author [character:1416267]\u00a0\u00a0between\u00a0two protagonists
+        called George. It was first published in 2021 AC. A sequel, [note:1416268]
+        was published in 2025 AC.<\/p>","entry_parsed":"<p><b>George &amp; George<\/b>\u00a0is
+        a famous gay novel by the author <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/364025\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"1416267\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/1416267\/tooltip\">Alwin
+        Erstoff<\/a>\u00a0\u00a0between\u00a0two protagonists called George. It was
+        first published in 2021 AC. A sequel, <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/72237\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"1416268\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/1416268\/tooltip\">George
+        & George The Adventure<\/a> was published in 2025 AC.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1416269,"tags":[],"created_at":"2021-02-13T17:02:22.000000Z","created_by":1,"updated_at":"2021-06-08T13:00:53.000000Z","updated_by":1,"type":"Book","note_id":null,"is_pinned":0}],"links":{"first":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/notes?page=1","last":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/notes?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/notes","per_page":45,"to":19,"total":19},"sync":"2021-09-22T17:46:12.757144Z"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d59f2ca9a2bf4-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:13 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HRyXi1syfm1niDRgKcfTZgglh2bqXOqqBLRrGpdZEimwHUHHIjDuVw706wpqZl83LItRMzhDaY4NBt39Qbojq16Df6p2XGXLeJhvil5FFKJ8zLIzsGoCemXsNA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '84869'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '78'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/notes
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/2263
+  response:
+    body:
+      string: '{"data":{"id":2263,"name":"Rivandol Nobility","type":"note","child_id":6,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2017-12-02T11:08:15.000000Z","created_by":null,"updated_at":"2019-05-21T13:37:25.000000Z","updated_by":1,"child":{"id":6,"name":"Rivandol
+        Nobility","entry":"\n<p>The Nobliliy of\u00a0[location:12006]\u00a0is the
+        ruling class of the kingdom. Houses can intermarry, but lands can''t be merged.<\/p>\n<p>A
+        leader of a family is elected every 9 years to be chancellor of the kingdom.
+        If the leader dies, a successor is determined by the chancellor in case this
+        happens.<\/p>\n<h2>Noble Families<\/h2>\n<ul><li>[family:227932]<\/li>\n<li>[family:227931]<\/li>\n<li>[family:227925]<\/li>\n<li>[family:227934]<\/li>\n<li>[family:227941]<\/li>\n<li>[family:12189]<\/li>\n<li>[family:12340]<\/li>\n<li>[family:12179]\u00a0(current
+        Chancellor)<\/li>\n<li>[family:227989]<\/li>\n<li>[family:227991]<\/li>\n<\/ul>","entry_parsed":"\n<p>The
+        Nobliliy of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>\u00a0is
+        the ruling class of the kingdom. Houses can intermarry, but lands can''t be
+        merged.<\/p>\n<p>A leader of a family is elected every 9 years to be chancellor
+        of the kingdom. If the leader dies, a successor is determined by the chancellor
+        in case this happens.<\/p>\n<h2>Noble Families<\/h2>\n<ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8828\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"227932\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227932\/tooltip\">Barrin<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8827\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"227931\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227931\/tooltip\">Burley<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8826\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"227925\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227925\/tooltip\">Dayne<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8829\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"227934\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227934\/tooltip\">Fletcher<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8831\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"227941\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227941\/tooltip\">Greentale<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/523\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12189\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12189\/tooltip\">Harrison<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/536\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12340\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12340\/tooltip\">Pyre<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/522\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12179\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12179\/tooltip\">Riddle<\/a>\u00a0(current
+        Chancellor)<\/li>\n<li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8833\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"227989\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227989\/tooltip\">Selter<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/8834\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"227991\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227991\/tooltip\">Whitehull<\/a><\/li>\n<\/ul>","image":"notes\/0WhcxhTieikCA4kMxvOXcqKpKn4sr8U5k9AO7cLU.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/OE1jGhjQAZGJI354X_ZZlylIsRA=\/smart\/src\/notes%2F0WhcxhTieikCA4kMxvOXcqKpKn4sr8U5k9AO7cLU.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/VPxhRsobPvHw8era3oOBbRvpqZ0=\/40x40\/smart\/src\/notes%2F0WhcxhTieikCA4kMxvOXcqKpKn4sr8U5k9AO7cLU.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2263,"tags":[],"created_at":"2017-11-11T22:54:20.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:15.000000Z","updated_by":1,"type":"Nobility","note_id":null,"is_pinned":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d59fb38c02b83-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:13 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=niOqSR1aB9sYPjf25Tgl2HB9bsd7UkFZDLXzYiLxg646i2voKCPRJJYl%2FpzphDnYCnjYkkkqxM3gF%2FeWQzKOkD62dp5RE1RMBlTavjFmVMi8gib3SvJuWnu3uQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '5019'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '77'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/2263
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12218
+  response:
+    body:
+      string: '{"data":{"id":12218,"name":"Divine Revival","type":"note","child_id":313,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-04T15:03:25.000000Z","created_by":null,"updated_at":"2018-06-24T16:24:15.000000Z","updated_by":null,"child":{"id":313,"name":"Divine
+        Revival","entry":"\n<p><em>6th-level diviniation (ritual)<\/em><\/p>\n<p><strong>Casting<\/strong>
+        <strong>Time<\/strong>: 1 hour<br \/><strong>Range<\/strong>: Touch<br \/><strong>Components<\/strong>:
+        V, S, M (a diamond worth at least 5000 gp placed on the target''s chest, which
+        the spell consumes, and dragon albumen covering the target completely)<br
+        \/><strong>Duration<\/strong>: Instantaneous<\/p>\n<p>You return a dead creature
+        you touch to life, provided that its body is used as a vessel for a God, and
+        that the heart is still beating. If the creature''s soul is both willing and
+        at liberty to rejoin the body, the creature returns to life with 1 hit points.<\/p>\n<p>This
+        spell also neutralises any poisons and cures nonmagical diseases that affected
+        the creature at the time it died. This spell doesn''t, however, remove magical
+        diseases, curses, or similar effects; if these aren''t first removed prior
+        to casting the spell, they take effect when the creature returns to life.<\/p>\n<p>This
+        spell closes all mortal wounds, but it doesn''t restore missing body parts.
+        If the creature is lacking body parts or organs integral for its survival,
+        its head, for instance, the spell automatically fails.<\/p>\n<p>Coming back
+        from the dead is an ordeal. The target takes a -4 penalty to all attack rolls,
+        saving throws, and ability checks. Every time the target finishes a long rest,
+        the penalty is reduced by 1 until it disappears.<\/p>\n<p>The creature and
+        the God as now combined and their destiny intertwined. The creature gains
+        traits related to the deity that the DM deems fit.<\/p>\n","entry_parsed":"\n<p><em>6th-level
+        diviniation (ritual)<\/em><\/p>\n<p><strong>Casting<\/strong> <strong>Time<\/strong>:
+        1 hour<br \/><strong>Range<\/strong>: Touch<br \/><strong>Components<\/strong>:
+        V, S, M (a diamond worth at least 5000 gp placed on the target''s chest, which
+        the spell consumes, and dragon albumen covering the target completely)<br
+        \/><strong>Duration<\/strong>: Instantaneous<\/p>\n<p>You return a dead creature
+        you touch to life, provided that its body is used as a vessel for a God, and
+        that the heart is still beating. If the creature''s soul is both willing and
+        at liberty to rejoin the body, the creature returns to life with 1 hit points.<\/p>\n<p>This
+        spell also neutralises any poisons and cures nonmagical diseases that affected
+        the creature at the time it died. This spell doesn''t, however, remove magical
+        diseases, curses, or similar effects; if these aren''t first removed prior
+        to casting the spell, they take effect when the creature returns to life.<\/p>\n<p>This
+        spell closes all mortal wounds, but it doesn''t restore missing body parts.
+        If the creature is lacking body parts or organs integral for its survival,
+        its head, for instance, the spell automatically fails.<\/p>\n<p>Coming back
+        from the dead is an ordeal. The target takes a -4 penalty to all attack rolls,
+        saving throws, and ability checks. Every time the target finishes a long rest,
+        the penalty is reduced by 1 until it disappears.<\/p>\n<p>The creature and
+        the God as now combined and their destiny intertwined. The creature gains
+        traits related to the deity that the DM deems fit.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12218,"tags":[],"created_at":"2018-04-04T15:03:25.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:37.000000Z","updated_by":null,"type":"Magic
+        Spell","note_id":null,"is_pinned":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d59fd9f3b2b10-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:14 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vJVZb1SGoS3pa%2FNHAsdMT28qKNXL8F03VJFoTivx2%2BU9vq3jgYopRqtCXn9Mp7mx8J4MmOtUdHSAZZ6JuZkcvWFuZfnqsFKjHY7Btok8nsT2KC0t8pHG44zxSQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '4009'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '76'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12218
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12339
+  response:
+    body:
+      string: '{"data":{"id":12339,"name":"Kingdom of Herun","type":"note","child_id":314,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-05T14:05:19.000000Z","created_by":null,"updated_at":"2018-04-05T14:05:19.000000Z","updated_by":null,"child":{"id":314,"name":"Kingdom
+        of Herun","entry":"\n<div>\n<div>\n<div>\n<div>\n<p>The <strong>Kingdom of
+        Herun<\/strong> was a kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>\u00a0that
+        split in two kingdoms in 881 AC when the brothers of House Herun formed the
+        Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\">Thasslia<\/a>\u00a0and
+        the Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\">Othiria<\/a>.<\/p>\n<h2>Claimants<\/h2>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/715\">Callum<\/a>\u00a0(dead)<\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4153\">Bathair MacPhaiden<\/a>\u00a0(dead)<\/li>\n<\/ul><\/div>\n<\/div>\n<\/div>\n<\/div>\n","entry_parsed":"\n<div>\n<div>\n<div>\n<div>\n<p>The
+        <strong>Kingdom of Herun<\/strong> was a kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>\u00a0that
+        split in two kingdoms in 881 AC when the brothers of House Herun formed the
+        Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\">Thasslia<\/a>\u00a0and
+        the Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\">Othiria<\/a>.<\/p>\n<h2>Claimants<\/h2>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/715\">Callum<\/a>\u00a0(dead)<\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4153\">Bathair MacPhaiden<\/a>\u00a0(dead)<\/li>\n<\/ul><\/div>\n<\/div>\n<\/div>\n<\/div>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12339,"tags":[],"created_at":"2018-04-05T14:05:19.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:37.000000Z","updated_by":null,"type":"Kingdom","note_id":null,"is_pinned":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d59ff4cf529fa-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:14 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tHMdTR1c8tjb9O%2FoR%2BZUQtR9gnLEalfbsvYb5W2w2vsARi0R4ZFwQk6d7i1Cti775U4OcryX260QU358C8W%2FoOsjjIaGLZxDM0WL%2Bdd22FHLSb%2FV19CRbpY%2BpQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2323'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '75'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12339
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/21901
+  response:
+    body:
+      string: '{"data":{"id":21901,"name":"Main Entities","type":"note","child_id":556,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"","header_image":null,"image_uuid":null,"created_at":"2018-05-22T10:18:51.000000Z","created_by":null,"updated_at":"2020-10-04T08:40:09.000000Z","updated_by":1,"child":{"id":556,"name":"Main
+        Entities","entry":"<h4>Primary Entities<\/h4><ul><li>[location:12000]\n<ul><li>[location:2046]\u00a0(kingdom)\n<ul><li>[location:2048]\u00a0(capital)\n<ul><li>[character:12073]\u00a0(spymaster)<\/li>\n<li>[character:12054]\u00a0von\u00a0[family:983]\u00a0(king)<\/li>\n<li>[location:12082]\u00a0(Pelor''s
+        temple)<\/li>\n<\/ul><\/li>\n<\/ul><\/li>\n<\/ul><\/li>\n<li>[location:96249]\u00a0(islands)\n<ul><li>[location:96254]\u00a0(island)\n<ul><li>[location:96258]<\/li>\n<li>[location:96649]<\/li><\/ul><\/li><\/ul><\/li><li>[location:28178]<ul><li>[location:100528]\u00a0(capital)<\/li><li>[location:993304]\u00a0(starting
+        area)<\/li><li>[location:984952]\u00a0(closest city)<\/li><\/ul><\/li>\n<\/ul><h4>Campaigns<\/h4><ul><li>[tag:96237]<ul><li>[character:12072],\u00a0[character:12044],
+        [character:22867|Zook],\u00a0[character:93798], [character:19679]<\/li><\/ul><\/li><li>[tag:104393]<ul><li><a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\" class=\"mention\">Kitty
+        Whiskers<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Kyrion<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Nyx Eichh\u00f6rnchen<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Chase<\/a><br \/><\/li><\/ul><\/li><li>[tag:993110]<ul><li>[character:993120|Ratash],
+        [character:993116|Nalin''shandra],\u00a0[character:993118], [character:993122],
+        [character:993111]<br \/><\/li><\/ul><\/li><\/ul>","entry_parsed":"<h4>Primary
+        Entities<\/h4><ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5122\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12000\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12000\/tooltip\">Thaelia<\/a>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>\u00a0(kingdom)\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/930\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2048\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2048\/tooltip\">Arburg<\/a>\u00a0(capital)\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4128\" class=\"entity-mention\"
+        data-entity-tags=\"id-24197 yasemin id-19193 carrics-hope\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12073\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12073\/tooltip\">Dion<\/a>\u00a0(spymaster)<\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4114\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12054\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12054\/tooltip\">Maximus<\/a>\u00a0von\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/74\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"983\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/983\/tooltip\">Rosenberg<\/a>\u00a0(king)<\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5164\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12082\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12082\/tooltip\">Temple
+        of Life<\/a>\u00a0(Pelor''s temple)<\/li>\n<\/ul><\/li>\n<\/ul><\/li>\n<\/ul><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30649\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"96249\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96249\/tooltip\">Three
+        Thieves<\/a>\u00a0(islands)\n<ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30652\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"96254\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96254\/tooltip\">Kemali<\/a>\u00a0(island)\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30653\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"96258\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96258\/tooltip\">Port
+        Giza<\/a><\/li>\n<li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30752\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"96649\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96649\/tooltip\">Kashora<\/a><\/li><\/ul><\/li><\/ul><\/li><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10909\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"28178\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28178\/tooltip\">Torchio<\/a><ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/31699\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"100528\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/100528\/tooltip\">Panere<\/a>\u00a0(capital)<\/li><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/246165\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"993304\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993304\/tooltip\">Asolo<\/a>\u00a0(starting
+        area)<\/li><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/244397\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"984952\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/984952\/tooltip\">Savino<\/a>\u00a0(closest
+        city)<\/li><\/ul><\/li>\n<\/ul><h4>Campaigns<\/h4><ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/tags\/4340\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"96237\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96237\/tooltip\">Ardenian
+        Heritage<\/a><ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4127\"
+        class=\"entity-mention\" data-entity-tags=\"id-287 players id-4340 ardenian-heritage
+        id-24197 yasemin\" data-toggle=\"tooltip-ajax\" data-id=\"12072\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12072\/tooltip\">Auron<\/a>,\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4107\" class=\"entity-mention\"
+        data-entity-tags=\"id-287 players id-4340 ardenian-heritage id-24198 patrick\"
+        data-toggle=\"tooltip-ajax\" data-id=\"12044\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12044\/tooltip\">Lex<\/a>,
+        <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/7590\" class=\"entity-mention\"
+        data-entity-tags=\"id-287 players id-4340 ardenian-heritage id-24199 maximilian\"
+        data-toggle=\"tooltip-ajax\" data-id=\"22867\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/22867\/tooltip\">Zook<\/a>,\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/28127\" class=\"entity-mention\"
+        data-entity-tags=\"id-4340 ardenian-heritage id-287 players\" data-toggle=\"tooltip-ajax\"
+        data-id=\"93798\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/93798\/tooltip\">Medb<\/a>,
+        <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/6694\" class=\"entity-mention\"
+        data-entity-tags=\"id-287 players id-4340 ardenian-heritage id-24200 lisa\"
+        data-toggle=\"tooltip-ajax\" data-id=\"19679\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19679\/tooltip\">Levin<\/a><\/li><\/ul><\/li><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/tags\/5224\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"104393\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/104393\/tooltip\">Kemali
+        Uprising<\/a><ul><li><a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Kitty Whiskers<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Kyrion<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Nyx Eichh\u00f6rnchen<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/556\/edit#\"
+        class=\"mention\">Chase<\/a><br \/><\/li><\/ul><\/li><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/tags\/76724\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"993110\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993110\/tooltip\">Sands
+        of Medina<\/a><ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259014\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24202
+        marco\" data-toggle=\"tooltip-ajax\" data-id=\"993120\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993120\/tooltip\">Ratash<\/a>,
+        <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259011\" class=\"entity-mention\"
+        data-entity-tags=\"id-76724 sands-of-medina id-24197 yasemin\" data-toggle=\"tooltip-ajax\"
+        data-id=\"993116\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993116\/tooltip\">Nalin''shandra<\/a>,\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259013\" class=\"entity-mention\"
+        data-entity-tags=\"id-76724 sands-of-medina id-24200 lisa\" data-toggle=\"tooltip-ajax\"
+        data-id=\"993118\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993118\/tooltip\">Agron
+        \"Leto\"<\/a>, <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259016\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24203
+        ann-kathrin\" data-toggle=\"tooltip-ajax\" data-id=\"993122\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993122\/tooltip\">Diony
+        Hyazinthe Leimoniade<\/a>, <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259009\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24199
+        maximilian\" data-toggle=\"tooltip-ajax\" data-id=\"993111\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993111\/tooltip\">Dalakhad<\/a><br
+        \/><\/li><\/ul><\/li><\/ul>","image":"notes\/Lm4xDnlUCugvGh3738JDGv4akTuCHW2RVxMJnuYh.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/y74Pj8TR1C7p2QWJe1iHa7lqzeY=\/smart\/src\/notes%2FLm4xDnlUCugvGh3738JDGv4akTuCHW2RVxMJnuYh.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/EyGWJVFAy_9r85oujJ9vd8iXjiQ=\/40x40\/smart\/src\/notes%2FLm4xDnlUCugvGh3738JDGv4akTuCHW2RVxMJnuYh.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":21901,"tags":[],"created_at":"2018-05-22T10:18:51.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":1,"type":"Pinned
+        Note","note_id":null,"is_pinned":1}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a00fa1bf23e-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:15 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iVK9eI1Y9%2Bid60ebrhJ9NnsRBjFMcKx1ad8i4MRmcH0R%2F9rfd3mA6Vkbd4CjihKwytikDt2FsElBluRtINXjjki5vd0hxRoJS4wpOxargleohA91tMnLNIsOFA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '11315'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '74'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/21901
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/25638
+  response:
+    body:
+      string: '{"data":{"id":25638,"name":"States","type":"note","child_id":635,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-06-10T09:07:01.000000Z","created_by":null,"updated_at":"2018-06-10T09:07:01.000000Z","updated_by":null,"child":{"id":635,"name":"States","entry":"\n<h3>Kingdoms<\/h3>\n<ul><li>[location:2046],\u00a0<a
+        title=\"Arburg\/Arcastle\u00a0is the capital city of\u00a0Arden, located in
+        the\u00a0Arden\u00a0province on the\u00a0Maiden Plains, on the west of the
+        continent of\u00a0Thaelia. It is the most populated city of\u00a0Arden. Arburg
+        expands upon the\u00a0Leibal River. Recognised as the capital...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\"
+        data-toggle=\"tooltip\">Arburg<\/a><\/li>\n<li><a title=\"The Kingdom of Buschow
+        is a small kingdom of Thaelia. It''s capital and biggest city is Zweihofen.
+        The kingdom borders the Kingdom of Arden, Kingdom of Thasslia, the Kingdom
+        of Kiern\u00a0and the Kingdom of Wiseth.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5123\"
+        data-toggle=\"tooltip\">Buschow<\/a>, Zweihofen<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Caedor\u00a0is a kingdom of\u00a0Thaelia\u00a0bordered by the Kingdoms
+        of\u00a0Othiria\u00a0and\u00a0Dulken. It''s capital if the city of\u00a0Thornley.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7765\" data-toggle=\"tooltip\">Caedor<\/a>,
+        Thornley<\/li>\n<li><a title=\"The Kingdom of Dulken, also known as the Silent
+        Kingdom, is located on the continent of Thaelia. It''s capital and biggest
+        city is Midmar. The kingdom is situated on the eastern-southern part of Thaelia
+        and borders the Republic of Orlene, the Republic...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5124\"
+        data-toggle=\"tooltip\">Dulken<\/a>,\u00a0<a title=\"Midmar is the capital
+        and biggest city of the Kingdom of Dulken, located in the Lower Euthis province
+        by the Euthis river on the south-east of the continent of Thaelia.\u00a0 The
+        city retains little of its original dwarven structure or architecture, and
+        ...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5231\" data-toggle=\"tooltip\">Midmar<\/a><\/li>\n<li><a
+        title=\"The Kingdom of Ingwen\u00a0is a kingdom of Thaelia. It''s capital
+        and biggest city is Spiketuin. The kingdom borders the kingdoms of\u00a0Rivandol\u00a0and\u00a0Three
+        Rivers Federation. Culture: Dutch\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5196\"
+        data-toggle=\"tooltip\">Ingwen<\/a>, Spiketuin<\/li>\n<li><a title=\"The dukedom
+        of Kiern is a dukedom of Thaelia. It''s capital and biggest city is Grauspitz.
+        The kingdom borders the Kingdom of Wiseth, Kingdom of Thasslia\u00a0and the
+        Kingdom of Buschow.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5126\"
+        data-toggle=\"tooltip\">Kiern<\/a>,\u00a0Grauspitz<\/li>\n<li><a title=\"The
+        kingdom of\u00a0Lorcia\u00a0is a small kingdom on the eastern tip of the continent
+        of\u00a0Thaelia. It borders the\u00a0Three Rivers Federation.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7764\"
+        data-toggle=\"tooltip\">Lorcia<\/a>, Balcrove<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of March is a kingdom located on the continent of\u00a0Thaelia. It''s capital
+        and biggest city is Adestry. It is surrounded by the Kingdom of\u00a0Thasslia.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10034\" data-toggle=\"tooltip\">March<\/a>,
+        Adestry<\/li>\n<li><a title=\"The\u00a0Kingdom of Othiria\u00a0is an independent
+        kingdom on Thaelia. It''s capital is\u00a0Drunah\u00a0while its biggest city
+        is\u00a0Redford. The kingdom is situated on the middle southern part of Thaelia
+        and borders the\u00a0Kingdom of Dulken,\u00a0Kingdom of Thasslia,\u00a0Repu...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\" data-toggle=\"tooltip\">Othiria<\/a>,\u00a0<a
+        title=\"Drunah\u00a0is the capital of the Kingdom of\u00a0Othiria and second
+        biggest city of the kingdom after Redford.\u00a0The city is located on the
+        southern part of the continent of Thaelia\u00a0on the Drunah Bay, and is the
+        seat of House MacPhaiden. It is slowly recove...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5183\"
+        data-toggle=\"tooltip\">Drunah<\/a><\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Thasslia\u00a0is a kingdom of Thaelia\u00a0and is fairly poor. The land
+        is flat but not very arable, and the weather is usually rainy because of its
+        position to the sea. It''s capital and biggest city is Craic. Military Thasslia
+        has a strong t...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\"
+        data-toggle=\"tooltip\">Thasslia<\/a>,\u00a0<a title=\"Craic is the capital
+        and biggest city of the kingdom of\u00a0Thasslia. It is home to the Goldengate
+        Castle, the home of House\u00a0Pryde.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5244\"
+        data-toggle=\"tooltip\">Craic<\/a><\/li>\n<li><a title=\"The Kingdom of\u00a0Ulaeria
+        is a state on the island of\u00a0Ulaeryn\u00a0off the\u00a0Thaelian\u00a0continent.
+        Its capital and biggest city if\u00a0Rodonen.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7768\"
+        data-toggle=\"tooltip\">Ulaeria<\/a>, Rodonen<\/li>\n<li><a title=\"The Kingdom
+        of Vlakeland\u00a0is a kingdom of Thaelia. It''s capital and biggest city
+        is Daleiden. The kingdom borders the Kingdom of Arden, the Republic of\u00a0Rivandol\u00a0and
+        the Kingdom of\u00a0Ingwen. Culture: Dutch\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7763\"
+        data-toggle=\"tooltip\">Vlakeland<\/a>, Daleiden<\/li>\n<li><a title=\"The
+        Kingdom of Volya is a small kingdom of Thaelia. It''s capital and biggest
+        city is Premsby. The kingdom is completely enclosed by the Republic of\u00a0Rivandol.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5198\" data-toggle=\"tooltip\">Volya<\/a>,\u00a0Premsby<\/li>\n<\/ul><h3>Republics<\/h3>\n<ul><li>[location:12006],
+        Kinros<\/li>\n<li>[location:12005],\u00a0<a title=\"Owlchester is the capital
+        of the Republic of\u00a0Orlene\u00a0and the most populous city of the continent
+        of\u00a0Thaelia. Inspiration: Venice \/ Constantinople\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7817\"
+        data-toggle=\"tooltip\">Owlchester<\/a><\/li>\n<li><a title=\"The\u00a0Republic
+        of Slevia is a republic located on the continent of\u00a0Thaelia. It''s capital
+        and biggest city is Bad Loz.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10024\"
+        data-toggle=\"tooltip\">Slevia<\/a>, Bad Loz<\/li>\n<\/ul><h3>Free Cities<\/h3>\n<ul><li><a
+        title=\"Porthclaw is the free city of the Claw Peninsula, located by the Inner
+        Blue Sea, on the west of the continent of Thaelia. It has always been a free
+        city and has control over most of the Peninsula. It is known for slave trading
+        and lawlessness. Geogra...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5193\"
+        data-toggle=\"tooltip\">Porthclaw<\/a>,\u00a0<a title=\"Porthclaw is the free
+        city of the Claw Peninsula, located by the Inner Blue Sea, on the west of
+        the continent of Thaelia. It has always been a free city and has control over
+        most of the Peninsula. It is known for slave trading and lawlessness. Geogra...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5193\" data-toggle=\"tooltip\">Porthclaw<\/a><\/li>\n<li><a
+        title=\"The\u00a0Free City of Freyburg is an independant state located on
+        the continent of\u00a0Thaelia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10029\"
+        data-toggle=\"tooltip\">Freyburg<\/a>,\u00a0<a title=\"The\u00a0Free City
+        of Freyburg is an independant state located on the continent of\u00a0Thaelia.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10029\" data-toggle=\"tooltip\">Freyburg<\/a><\/li>\n<\/ul><h3>Theocracies<\/h3>\n<ul><li><a
+        title=\"Frynia, also known as the Elvish Kingdom, is a theocracy on the continent
+        of Thaelia. It''s capital and biggest city is Aavoch. The kingdom is very
+        isolationist and doesn''t interact with other entities. Demographics The population
+        is estimated at abou...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5125\"
+        data-toggle=\"tooltip\">Frynia<\/a>,\u00a0<a title=\"Ayr\u00a0(full name Ayr-su-Arymis)
+        is the capital of the kingdom of\u00a0Frynia\u00a0on the continent of Thaelia.
+        The city was once the biggest of the continent, with a population of over
+        2 million inhabitants of all races. It now has a population of just over 1...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5186\" data-toggle=\"tooltip\">Ayr<\/a><\/li>\n<li><a
+        title=\"M\u00f3r Cermain is a theocratic state on the island of\u00a0Ulaeryn.
+        Its capital and biggest city if Durry. It is ruled by the Church of Cermain.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7767\" data-toggle=\"tooltip\">M\u00f3r
+        Cermain<\/a>, Durry<\/li>\n<\/ul><h3>Dukedoms<\/h3>\n<ul><li>Bergach, Bergach<\/li>\n<li><a
+        title=\"Grinelatter\u00a0is a dukedom located on the continent of Thaelia.
+        It is surrounded by the Republic of Rivandol, the Kingdom of Vlakeland\u00a0and
+        the\u00a0Ruya League.\u00a0It''s capital and biggest city is Brecht.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10036\"
+        data-toggle=\"tooltip\">Grinelatter<\/a>,\u00a0<a title=\"Brecht is the capital
+        and biggest city of the Duchy of\u00a0Grinelatter.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10037\"
+        data-toggle=\"tooltip\">Brecht<\/a><\/li>\n<li>Mithlir, Mithlir<\/li>\n<li><a
+        title=\"Styrnia is a semi-independant dukedom loyal to the Kingdom of\u00a0Arden.
+        It is located on the continent of\u00a0Thaelia. Its capital and biggest city
+        is\u00a0Griesstein.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10091\"
+        data-toggle=\"tooltip\">Styrnia<\/a>,\u00a0<a title=\"Griesstein\u00a0is the
+        capital and biggest city of the dukedom of\u00a0Styrnia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5153\"
+        data-toggle=\"tooltip\">Griesstein<\/a><\/li>\n<li><a title=\"Tovalon\u00a0is
+        an dutchy located on the continent of\u00a0Thaelia. It is completely surrounded
+        by the Republic of\u00a0Rivandol\u00a0and the Sea of Andol. It''s capital
+        and biggest city is Faypeak.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10032\"
+        data-toggle=\"tooltip\">Tovalon<\/a>,\u00a0<a title=\"Faypeak is the capital
+        and biggest city of the Dutchy of\u00a0Tovalon.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10033\"
+        data-toggle=\"tooltip\">Faypeak<\/a><\/li>\n<\/ul><h3>Leagues<\/h3>\n<ul><li><a
+        title=\"The\u00a0Ruya League is a state located on the continent of\u00a0Thaelia.
+        It''s capital and biggest city is Grensach.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10030\"
+        data-toggle=\"tooltip\">Ruya League<\/a>,\u00a0<a title=\"Grensach is the
+        capital and biggest city of the\u00a0Ruya League.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10031\"
+        data-toggle=\"tooltip\">Grensach<\/a><\/li>\n<li><a title=\"The League of
+        Wieseth is a state located on the continent of Thaelia. It''s capital and
+        biggest city is Herzfelden. The state borders the Kingdom of Buschow, the
+        Kingdom of Tejn, the Principality of Kvarnassen, The Council of Jakkvik and
+        the Kingdom o...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5199\"
+        data-toggle=\"tooltip\">Wieseth<\/a>, Hertzfelden<\/li>\n<li><a title=\"The
+        League of Ilwythin is a small state located south of the Herun teeth on the
+        continent of\u00a0Thaelia. It''s capital and biggest city is Hullbeck.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10022\"
+        data-toggle=\"tooltip\">Ilwythin<\/a>,\u00a0<a title=\"Hullbeck is the capital
+        and biggest city of the Kingdom of\u00a0Ilwythin. It is located south of the
+        Herun Teeth and by the Gulf of Herun on the continent of\u00a0Thaelia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10023\"
+        data-toggle=\"tooltip\">Hullbeck<\/a><\/li>\n<li>House of Lune, Luener<\/li>\n<\/ul><h3>Federations<\/h3>\n<ul><li><a
+        title=\"The\u00a0United Hewen Plains is an independant state located on the
+        continent of\u00a0Thaelia. It''s capital and biggest city is Morncaster.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10038\" data-toggle=\"tooltip\">Hewen<\/a>,\u00a0<a
+        title=\"Morncaster is the capital and second biggest city of the United\u00a0Hewen\u00a0Plains.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10039\" data-toggle=\"tooltip\">Morncaster<\/a><\/li>\n<li>[location:12007],\u00a0[location:12125]<\/li>\n<\/ul><h3>Councils<\/h3>\n<ul><li><a
+        title=\"The\u00a0Council of Jakkvik is an independant state located on the
+        northern part of the continent of\u00a0Thaelia. Its capital and biggest city
+        if Jakkvik.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10042\"
+        data-toggle=\"tooltip\">Council of Jakkvik<\/a>, Jakkvik<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Tejn is a petty kingdom located on the continent of\u00a0Thaelia. It''s
+        capital and biggest city is Tejn\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10040\"
+        data-toggle=\"tooltip\">Kingdom of Tejn<\/a>, Tejn<\/li>\n<\/ul><h3>Dynasty<\/h3>\n<ul><li><a
+        title=\"The\u00a0Ekthunli Dynasty is a dwarven kingdom located in the Andol
+        Mountains on the continent of\u00a0Thaelia. It''s capital and biggest city
+        is Mount Khor.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10026\"
+        data-toggle=\"tooltip\">Ekthunli Dynasty<\/a>,\u00a0<a title=\"Mount Khor\u00a0is
+        an underground capital and biggest city of the dwarven\u00a0Ekthunli Dynasty.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10027\" data-toggle=\"tooltip\">Mount
+        Khor<\/a><\/li>\n<\/ul>","entry_parsed":"\n<h3>Kingdoms<\/h3>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>,\u00a0<a
+        title=\"Arburg\/Arcastle\u00a0is the capital city of\u00a0Arden, located in
+        the\u00a0Arden\u00a0province on the\u00a0Maiden Plains, on the west of the
+        continent of\u00a0Thaelia. It is the most populated city of\u00a0Arden. Arburg
+        expands upon the\u00a0Leibal River. Recognised as the capital...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\"
+        data-toggle=\"tooltip\">Arburg<\/a><\/li>\n<li><a title=\"The Kingdom of Buschow
+        is a small kingdom of Thaelia. It''s capital and biggest city is Zweihofen.
+        The kingdom borders the Kingdom of Arden, Kingdom of Thasslia, the Kingdom
+        of Kiern\u00a0and the Kingdom of Wiseth.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5123\"
+        data-toggle=\"tooltip\">Buschow<\/a>, Zweihofen<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Caedor\u00a0is a kingdom of\u00a0Thaelia\u00a0bordered by the Kingdoms
+        of\u00a0Othiria\u00a0and\u00a0Dulken. It''s capital if the city of\u00a0Thornley.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7765\" data-toggle=\"tooltip\">Caedor<\/a>,
+        Thornley<\/li>\n<li><a title=\"The Kingdom of Dulken, also known as the Silent
+        Kingdom, is located on the continent of Thaelia. It''s capital and biggest
+        city is Midmar. The kingdom is situated on the eastern-southern part of Thaelia
+        and borders the Republic of Orlene, the Republic...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5124\"
+        data-toggle=\"tooltip\">Dulken<\/a>,\u00a0<a title=\"Midmar is the capital
+        and biggest city of the Kingdom of Dulken, located in the Lower Euthis province
+        by the Euthis river on the south-east of the continent of Thaelia.\u00a0 The
+        city retains little of its original dwarven structure or architecture, and
+        ...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5231\" data-toggle=\"tooltip\">Midmar<\/a><\/li>\n<li><a
+        title=\"The Kingdom of Ingwen\u00a0is a kingdom of Thaelia. It''s capital
+        and biggest city is Spiketuin. The kingdom borders the kingdoms of\u00a0Rivandol\u00a0and\u00a0Three
+        Rivers Federation. Culture: Dutch\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5196\"
+        data-toggle=\"tooltip\">Ingwen<\/a>, Spiketuin<\/li>\n<li><a title=\"The dukedom
+        of Kiern is a dukedom of Thaelia. It''s capital and biggest city is Grauspitz.
+        The kingdom borders the Kingdom of Wiseth, Kingdom of Thasslia\u00a0and the
+        Kingdom of Buschow.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5126\"
+        data-toggle=\"tooltip\">Kiern<\/a>,\u00a0Grauspitz<\/li>\n<li><a title=\"The
+        kingdom of\u00a0Lorcia\u00a0is a small kingdom on the eastern tip of the continent
+        of\u00a0Thaelia. It borders the\u00a0Three Rivers Federation.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7764\"
+        data-toggle=\"tooltip\">Lorcia<\/a>, Balcrove<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of March is a kingdom located on the continent of\u00a0Thaelia. It''s capital
+        and biggest city is Adestry. It is surrounded by the Kingdom of\u00a0Thasslia.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10034\" data-toggle=\"tooltip\">March<\/a>,
+        Adestry<\/li>\n<li><a title=\"The\u00a0Kingdom of Othiria\u00a0is an independent
+        kingdom on Thaelia. It''s capital is\u00a0Drunah\u00a0while its biggest city
+        is\u00a0Redford. The kingdom is situated on the middle southern part of Thaelia
+        and borders the\u00a0Kingdom of Dulken,\u00a0Kingdom of Thasslia,\u00a0Repu...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\" data-toggle=\"tooltip\">Othiria<\/a>,\u00a0<a
+        title=\"Drunah\u00a0is the capital of the Kingdom of\u00a0Othiria and second
+        biggest city of the kingdom after Redford.\u00a0The city is located on the
+        southern part of the continent of Thaelia\u00a0on the Drunah Bay, and is the
+        seat of House MacPhaiden. It is slowly recove...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5183\"
+        data-toggle=\"tooltip\">Drunah<\/a><\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Thasslia\u00a0is a kingdom of Thaelia\u00a0and is fairly poor. The land
+        is flat but not very arable, and the weather is usually rainy because of its
+        position to the sea. It''s capital and biggest city is Craic. Military Thasslia
+        has a strong t...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\"
+        data-toggle=\"tooltip\">Thasslia<\/a>,\u00a0<a title=\"Craic is the capital
+        and biggest city of the kingdom of\u00a0Thasslia. It is home to the Goldengate
+        Castle, the home of House\u00a0Pryde.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5244\"
+        data-toggle=\"tooltip\">Craic<\/a><\/li>\n<li><a title=\"The Kingdom of\u00a0Ulaeria
+        is a state on the island of\u00a0Ulaeryn\u00a0off the\u00a0Thaelian\u00a0continent.
+        Its capital and biggest city if\u00a0Rodonen.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7768\"
+        data-toggle=\"tooltip\">Ulaeria<\/a>, Rodonen<\/li>\n<li><a title=\"The Kingdom
+        of Vlakeland\u00a0is a kingdom of Thaelia. It''s capital and biggest city
+        is Daleiden. The kingdom borders the Kingdom of Arden, the Republic of\u00a0Rivandol\u00a0and
+        the Kingdom of\u00a0Ingwen. Culture: Dutch\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7763\"
+        data-toggle=\"tooltip\">Vlakeland<\/a>, Daleiden<\/li>\n<li><a title=\"The
+        Kingdom of Volya is a small kingdom of Thaelia. It''s capital and biggest
+        city is Premsby. The kingdom is completely enclosed by the Republic of\u00a0Rivandol.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5198\" data-toggle=\"tooltip\">Volya<\/a>,\u00a0Premsby<\/li>\n<\/ul><h3>Republics<\/h3>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>,
+        Kinros<\/li>\n<li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5127\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12005\/tooltip\">Orlene<\/a>,\u00a0<a
+        title=\"Owlchester is the capital of the Republic of\u00a0Orlene\u00a0and
+        the most populous city of the continent of\u00a0Thaelia. Inspiration: Venice
+        \/ Constantinople\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7817\"
+        data-toggle=\"tooltip\">Owlchester<\/a><\/li>\n<li><a title=\"The\u00a0Republic
+        of Slevia is a republic located on the continent of\u00a0Thaelia. It''s capital
+        and biggest city is Bad Loz.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10024\"
+        data-toggle=\"tooltip\">Slevia<\/a>, Bad Loz<\/li>\n<\/ul><h3>Free Cities<\/h3>\n<ul><li><a
+        title=\"Porthclaw is the free city of the Claw Peninsula, located by the Inner
+        Blue Sea, on the west of the continent of Thaelia. It has always been a free
+        city and has control over most of the Peninsula. It is known for slave trading
+        and lawlessness. Geogra...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5193\"
+        data-toggle=\"tooltip\">Porthclaw<\/a>,\u00a0<a title=\"Porthclaw is the free
+        city of the Claw Peninsula, located by the Inner Blue Sea, on the west of
+        the continent of Thaelia. It has always been a free city and has control over
+        most of the Peninsula. It is known for slave trading and lawlessness. Geogra...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5193\" data-toggle=\"tooltip\">Porthclaw<\/a><\/li>\n<li><a
+        title=\"The\u00a0Free City of Freyburg is an independant state located on
+        the continent of\u00a0Thaelia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10029\"
+        data-toggle=\"tooltip\">Freyburg<\/a>,\u00a0<a title=\"The\u00a0Free City
+        of Freyburg is an independant state located on the continent of\u00a0Thaelia.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10029\" data-toggle=\"tooltip\">Freyburg<\/a><\/li>\n<\/ul><h3>Theocracies<\/h3>\n<ul><li><a
+        title=\"Frynia, also known as the Elvish Kingdom, is a theocracy on the continent
+        of Thaelia. It''s capital and biggest city is Aavoch. The kingdom is very
+        isolationist and doesn''t interact with other entities. Demographics The population
+        is estimated at abou...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5125\"
+        data-toggle=\"tooltip\">Frynia<\/a>,\u00a0<a title=\"Ayr\u00a0(full name Ayr-su-Arymis)
+        is the capital of the kingdom of\u00a0Frynia\u00a0on the continent of Thaelia.
+        The city was once the biggest of the continent, with a population of over
+        2 million inhabitants of all races. It now has a population of just over 1...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5186\" data-toggle=\"tooltip\">Ayr<\/a><\/li>\n<li><a
+        title=\"M\u00f3r Cermain is a theocratic state on the island of\u00a0Ulaeryn.
+        Its capital and biggest city if Durry. It is ruled by the Church of Cermain.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7767\" data-toggle=\"tooltip\">M\u00f3r
+        Cermain<\/a>, Durry<\/li>\n<\/ul><h3>Dukedoms<\/h3>\n<ul><li>Bergach, Bergach<\/li>\n<li><a
+        title=\"Grinelatter\u00a0is a dukedom located on the continent of Thaelia.
+        It is surrounded by the Republic of Rivandol, the Kingdom of Vlakeland\u00a0and
+        the\u00a0Ruya League.\u00a0It''s capital and biggest city is Brecht.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10036\"
+        data-toggle=\"tooltip\">Grinelatter<\/a>,\u00a0<a title=\"Brecht is the capital
+        and biggest city of the Duchy of\u00a0Grinelatter.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10037\"
+        data-toggle=\"tooltip\">Brecht<\/a><\/li>\n<li>Mithlir, Mithlir<\/li>\n<li><a
+        title=\"Styrnia is a semi-independant dukedom loyal to the Kingdom of\u00a0Arden.
+        It is located on the continent of\u00a0Thaelia. Its capital and biggest city
+        is\u00a0Griesstein.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10091\"
+        data-toggle=\"tooltip\">Styrnia<\/a>,\u00a0<a title=\"Griesstein\u00a0is the
+        capital and biggest city of the dukedom of\u00a0Styrnia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5153\"
+        data-toggle=\"tooltip\">Griesstein<\/a><\/li>\n<li><a title=\"Tovalon\u00a0is
+        an dutchy located on the continent of\u00a0Thaelia. It is completely surrounded
+        by the Republic of\u00a0Rivandol\u00a0and the Sea of Andol. It''s capital
+        and biggest city is Faypeak.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10032\"
+        data-toggle=\"tooltip\">Tovalon<\/a>,\u00a0<a title=\"Faypeak is the capital
+        and biggest city of the Dutchy of\u00a0Tovalon.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10033\"
+        data-toggle=\"tooltip\">Faypeak<\/a><\/li>\n<\/ul><h3>Leagues<\/h3>\n<ul><li><a
+        title=\"The\u00a0Ruya League is a state located on the continent of\u00a0Thaelia.
+        It''s capital and biggest city is Grensach.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10030\"
+        data-toggle=\"tooltip\">Ruya League<\/a>,\u00a0<a title=\"Grensach is the
+        capital and biggest city of the\u00a0Ruya League.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10031\"
+        data-toggle=\"tooltip\">Grensach<\/a><\/li>\n<li><a title=\"The League of
+        Wieseth is a state located on the continent of Thaelia. It''s capital and
+        biggest city is Herzfelden. The state borders the Kingdom of Buschow, the
+        Kingdom of Tejn, the Principality of Kvarnassen, The Council of Jakkvik and
+        the Kingdom o...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5199\"
+        data-toggle=\"tooltip\">Wieseth<\/a>, Hertzfelden<\/li>\n<li><a title=\"The
+        League of Ilwythin is a small state located south of the Herun teeth on the
+        continent of\u00a0Thaelia. It''s capital and biggest city is Hullbeck.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10022\"
+        data-toggle=\"tooltip\">Ilwythin<\/a>,\u00a0<a title=\"Hullbeck is the capital
+        and biggest city of the Kingdom of\u00a0Ilwythin. It is located south of the
+        Herun Teeth and by the Gulf of Herun on the continent of\u00a0Thaelia.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10023\"
+        data-toggle=\"tooltip\">Hullbeck<\/a><\/li>\n<li>House of Lune, Luener<\/li>\n<\/ul><h3>Federations<\/h3>\n<ul><li><a
+        title=\"The\u00a0United Hewen Plains is an independant state located on the
+        continent of\u00a0Thaelia. It''s capital and biggest city is Morncaster.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10038\" data-toggle=\"tooltip\">Hewen<\/a>,\u00a0<a
+        title=\"Morncaster is the capital and second biggest city of the United\u00a0Hewen\u00a0Plains.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10039\" data-toggle=\"tooltip\">Morncaster<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5129\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"12007\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12007\/tooltip\">Three
+        Rivers Federation<\/a>,\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5177\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12125\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12125\/tooltip\">Enida<\/a><\/li>\n<\/ul><h3>Councils<\/h3>\n<ul><li><a
+        title=\"The\u00a0Council of Jakkvik is an independant state located on the
+        northern part of the continent of\u00a0Thaelia. Its capital and biggest city
+        if Jakkvik.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10042\"
+        data-toggle=\"tooltip\">Council of Jakkvik<\/a>, Jakkvik<\/li>\n<li><a title=\"The\u00a0Kingdom
+        of Tejn is a petty kingdom located on the continent of\u00a0Thaelia. It''s
+        capital and biggest city is Tejn\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10040\"
+        data-toggle=\"tooltip\">Kingdom of Tejn<\/a>, Tejn<\/li>\n<\/ul><h3>Dynasty<\/h3>\n<ul><li><a
+        title=\"The\u00a0Ekthunli Dynasty is a dwarven kingdom located in the Andol
+        Mountains on the continent of\u00a0Thaelia. It''s capital and biggest city
+        is Mount Khor.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10026\"
+        data-toggle=\"tooltip\">Ekthunli Dynasty<\/a>,\u00a0<a title=\"Mount Khor\u00a0is
+        an underground capital and biggest city of the dwarven\u00a0Ekthunli Dynasty.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10027\" data-toggle=\"tooltip\">Mount
+        Khor<\/a><\/li>\n<\/ul>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":25638,"tags":[],"created_at":"2018-06-10T09:07:01.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":null,"type":null,"note_id":null,"is_pinned":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a054fbd2d6a-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:15 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5vWoWnDmnggkGcb%2BSRMd64DyMnw9vXepwUEdkaVhX9jVf6U2gxgN7I2%2BYlz8w8P53Za7DQ34M1us%2FeIReswPnitLoJYkshgUfdaSVCXn58PMrClQl4WIwOQlFw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '28404'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '73'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/25638
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/27498
+  response:
+    body:
+      string: '{"data":{"id":27498,"name":"Atlas Stone","type":"note","child_id":680,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-06-22T15:43:16.000000Z","created_by":null,"updated_at":"2018-06-22T15:43:16.000000Z","updated_by":null,"child":{"id":680,"name":"Atlas
+        Stone","entry":"\n<h1><span style=\"font-weight:400;\">Legend<\/span><\/h1>\n<p><span
+        style=\"font-weight:400;\">The Atlas Stone statue is a mythical item whose
+        existence is not known, but mentioned in the old tales and books. The statue
+        is said to be made of pure gold, with the Atlas said to be made out of pure
+        black Diamond. The statue measure 1m10 in height, 230 kilos of weight, and
+        cannot be destroyed.<\/span><\/p>\n<p><span style=\"font-weight:400;\">The
+        statue was commissioned by the old king <\/span><strong>Jalid Ishaq Kajalia
+        II<\/strong><span style=\"font-weight:400;\"> of Weymouth after the <\/span><strong>Catal-Greghian
+        war<\/strong><span style=\"font-weight:400;\">, when the Gregh tribes from
+        the Eastern sea tried to invade the old kingdom of Catal, whose capital was
+        Weymouth. Once the Greghs defeated, they gave as payment and tribute the black
+        diamond. They said that during a rest on the legendary island of Helia, the
+        island volcano erupted and the stone crashed next to the Gregh leader\u2019s
+        tent. <\/span><strong>Jalid<\/strong><span style=\"font-weight:400;\"> and
+        his council decided to create the Stone Atlas out of the diamond, and had
+        it placed at the top of the palace, as a reminder of their might and defeat
+        over the invaders.<\/span><\/p>\n<p><span style=\"font-weight:400;\">The legend
+        says that the Atlas is also magic, and whoever finds the statue will be granted
+        one wish. Should the statue be found by several people at the same time, each
+        person will be granted one wish if it doesn\u2019t contradict with another
+        person''s wish. <\/span><\/p>\n<p><span style=\"font-weight:400;\">Another
+        legend says that there are two magical items in the world, and should they
+        be melted into one, they would lead to the Atlas Stone.<\/span><\/p>\n","entry_parsed":"\n<h1><span
+        style=\"font-weight:400;\">Legend<\/span><\/h1>\n<p><span style=\"font-weight:400;\">The
+        Atlas Stone statue is a mythical item whose existence is not known, but mentioned
+        in the old tales and books. The statue is said to be made of pure gold, with
+        the Atlas said to be made out of pure black Diamond. The statue measure 1m10
+        in height, 230 kilos of weight, and cannot be destroyed.<\/span><\/p>\n<p><span
+        style=\"font-weight:400;\">The statue was commissioned by the old king <\/span><strong>Jalid
+        Ishaq Kajalia II<\/strong><span style=\"font-weight:400;\"> of Weymouth after
+        the <\/span><strong>Catal-Greghian war<\/strong><span style=\"font-weight:400;\">,
+        when the Gregh tribes from the Eastern sea tried to invade the old kingdom
+        of Catal, whose capital was Weymouth. Once the Greghs defeated, they gave
+        as payment and tribute the black diamond. They said that during a rest on
+        the legendary island of Helia, the island volcano erupted and the stone crashed
+        next to the Gregh leader\u2019s tent. <\/span><strong>Jalid<\/strong><span
+        style=\"font-weight:400;\"> and his council decided to create the Stone Atlas
+        out of the diamond, and had it placed at the top of the palace, as a reminder
+        of their might and defeat over the invaders.<\/span><\/p>\n<p><span style=\"font-weight:400;\">The
+        legend says that the Atlas is also magic, and whoever finds the statue will
+        be granted one wish. Should the statue be found by several people at the same
+        time, each person will be granted one wish if it doesn\u2019t contradict with
+        another person''s wish. <\/span><\/p>\n<p><span style=\"font-weight:400;\">Another
+        legend says that there are two magical items in the world, and should they
+        be melted into one, they would lead to the Atlas Stone.<\/span><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27498,"tags":[],"created_at":"2018-06-22T15:43:16.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":null,"type":"Legend","note_id":null,"is_pinned":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a085e43293d-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:15 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=L%2FKkWphv0%2FBDVEhYTwK6w2hkcmWdQRBxNvdrBJP8UKoWJVeVcnkftbpFqPhZ0B%2Fb2va%2BrmWi8ScXKx16ZvHIKLKxFMEzhsAzEagH49GvbrZ6f9sG6FwF4GvLqg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '4378'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '72'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/27498
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/28094
+  response:
+    body:
+      string: '{"data":{"id":28094,"name":"Ichodas","type":"note","child_id":717,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-06-25T10:37:10.000000Z","created_by":null,"updated_at":"2018-06-25T10:37:10.000000Z","updated_by":null,"child":{"id":717,"name":"Ichodas","entry":"\n<p><strong>Ichodas<\/strong>
+        is the bigger of the two moons visible from the Material Plane. The smaller
+        moon is\u00a0<a title=\"Nafren is the smaller of the two moons visible at
+        night on the material plane. The bigger moon is\u00a0Ichodas.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/718\"
+        data-toggle=\"tooltip\">Nafren<\/a>.<\/p>\n","entry_parsed":"\n<p><strong>Ichodas<\/strong>
+        is the bigger of the two moons visible from the Material Plane. The smaller
+        moon is\u00a0<a title=\"Nafren is the smaller of the two moons visible at
+        night on the material plane. The bigger moon is\u00a0Ichodas.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/718\"
+        data-toggle=\"tooltip\">Nafren<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28094,"tags":[],"created_at":"2018-06-25T10:37:10.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":null,"type":"Moon","note_id":null,"is_pinned":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a0adb6b2b24-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:16 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mLRzFg3bSoWjh9%2Bjb6sxKRxI1u6SlLYcJPAajYjluwKyq2SfRg5ulLOenEZHhYxJ8mVKAaFlJYG%2BUsvo0OYodYCtnS9dUtZnIzNHJL6MeEf6alUihgdtAHOfdQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1532'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '71'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/28094
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/28095
+  response:
+    body:
+      string: '{"data":{"id":28095,"name":"Nafren","type":"note","child_id":718,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-06-25T10:37:49.000000Z","created_by":null,"updated_at":"2018-06-25T10:37:49.000000Z","updated_by":null,"child":{"id":718,"name":"Nafren","entry":"\n<p><strong>Nafren<\/strong>
+        is the smaller of the two moons visible at night on the material plane. The
+        bigger moon is\u00a0<a title=\"Ichodas is the bigger of the two moons visible
+        from the Material Plane.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/717\"
+        data-toggle=\"tooltip\">Ichodas<\/a>.<\/p>\n","entry_parsed":"\n<p><strong>Nafren<\/strong>
+        is the smaller of the two moons visible at night on the material plane. The
+        bigger moon is\u00a0<a title=\"Ichodas is the bigger of the two moons visible
+        from the Material Plane.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/notes\/717\"
+        data-toggle=\"tooltip\">Ichodas<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28095,"tags":[],"created_at":"2018-06-25T10:37:49.000000Z","created_by":null,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":null,"type":"Moon","note_id":null,"is_pinned":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a0d8c5be20e-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:17 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=v5kXN4sXmcYnqsO9e4knyWlFt%2FwZMf0nKrAvvpOZyei%2BkAVtPjSFEK3xG3kbM%2FoawBVVMhswPzU1iCKg5Ylcq12MnSkAUWxRX5iiSbdK6wY2xg8KCPNATBzQWg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1464'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '70'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/28095
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/31054
+  response:
+    body:
+      string: '{"data":{"id":31054,"name":"The Principles of Death among the Blood
+        Elves","type":"note","child_id":836,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-07-16T15:21:07.000000Z","created_by":1,"updated_at":"2018-07-16T15:21:07.000000Z","updated_by":1,"child":{"id":836,"name":"The
+        Principles of Death among the Blood Elves","entry":"\n<p><strong>The Principles
+        of Death among the Blood Elves<\/strong> is a book written in 80 BC (1100
+        years ago) about the rituals surrounding death in communities of blood elves.\u00a0<\/p>\n<p>The\u00a0<strong>Blood<\/strong><strong>
+        Elves<\/strong> were a sub-species of elves located in what is now the north
+        of\u00a0[location:2046]. As other elves, they live thousands of years. Death
+        was viewed as a moment to pass on ones knowledge and wisdom to others of the
+        community, and as such, when a blood elf died, their brains were eaten by
+        the youngest members of the community, while the family ate the rest.\u00a0<\/p>\n<p>Preparing
+        the brains involved making small openings in the skull to poor wine and spices
+        in the skull. After a day of fermenting, the brain is extracted, cut into
+        chunks and fed to the children. The body would be cooked and mixed with various
+        other meats and ingredients favoured by the deceased, and eaten by the family.<\/p>\n<p>The
+        blood elves were already dwindling in population due to a disease in their
+        communities by the time of the writing of this book, and the last communities
+        died out in about 180 AC.<\/p>\n","entry_parsed":"\n<p><strong>The Principles
+        of Death among the Blood Elves<\/strong> is a book written in 80 BC (1100
+        years ago) about the rituals surrounding death in communities of blood elves.\u00a0<\/p>\n<p>The\u00a0<strong>Blood<\/strong><strong>
+        Elves<\/strong> were a sub-species of elves located in what is now the north
+        of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>.
+        As other elves, they live thousands of years. Death was viewed as a moment
+        to pass on ones knowledge and wisdom to others of the community, and as such,
+        when a blood elf died, their brains were eaten by the youngest members of
+        the community, while the family ate the rest.\u00a0<\/p>\n<p>Preparing the
+        brains involved making small openings in the skull to poor wine and spices
+        in the skull. After a day of fermenting, the brain is extracted, cut into
+        chunks and fed to the children. The body would be cooked and mixed with various
+        other meats and ingredients favoured by the deceased, and eaten by the family.<\/p>\n<p>The
+        blood elves were already dwindling in population due to a disease in their
+        communities by the time of the writing of this book, and the last communities
+        died out in about 180 AC.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":31054,"tags":[],"created_at":"2018-07-16T15:21:07.000000Z","created_by":1,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":1,"type":"Book","note_id":null,"is_pinned":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a115d306356-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:17 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Jcv5aavilDipwe9GZsuJ%2BzCLd224WW%2F5wDdDSbNAI%2BHy1zsm0JCTOwF6kfgM7jcvMRyy4ijxxagu4DkTZMWcvBZbmxtHwLe1hQhSxYUId2OcZWi9kr63GXAzPg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '3430'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '69'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/31054
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/31058
+  response:
+    body:
+      string: '{"data":{"id":31058,"name":"On the Utility of Necromancy","type":"note","child_id":837,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-07-16T15:32:17.000000Z","created_by":1,"updated_at":"2018-07-16T15:32:17.000000Z","updated_by":1,"child":{"id":837,"name":"On
+        the Utility of Necromancy","entry":"\n<p>Author: Vash Xhalieron (Tiefling)<br
+        \/>Date: 540 AC<\/p>\n<p><strong>On the Utility of Necromancy<\/strong> is
+        an essay by Vash Xhalieron defending the usefulness of a society for necromancy.
+        It goes into the details of how various cultures and societies have viewed
+        and used necromancy in the past.<\/p>\n<p>He argues that necromancy can be
+        useful in legal matters - knowing who committed a crime, what to do in case
+        of an inheritance and no will is present, or finding family heirlooms lost
+        to an untimely death.\u00a0<\/p>\n<p>He argues against necromancy by stating
+        that robbing life of an unquestionably truth; death; will destroy the fabric
+        of society, as examples in the past have shown. The most notably one is the
+        Essem Empire (Northen Beidra) that collapsed in complete revolt when factions
+        killed heirs to the thrown but they all kept coming back to life. He also
+        argues that wealth accumulates a lot stronger, as wealth isn''t split up between
+        individuals on a person''s death. Elves have overcome this problem by having
+        a shared system of wealth, but in a society where private property exists,
+        it creates many problems.<\/p>\n<p>He disregards the moral argument as being
+        non-pragmatic and stifling debate among scholars.\u00a0<\/p>\n","entry_parsed":"\n<p>Author:
+        Vash Xhalieron (Tiefling)<br \/>Date: 540 AC<\/p>\n<p><strong>On the Utility
+        of Necromancy<\/strong> is an essay by Vash Xhalieron defending the usefulness
+        of a society for necromancy. It goes into the details of how various cultures
+        and societies have viewed and used necromancy in the past.<\/p>\n<p>He argues
+        that necromancy can be useful in legal matters - knowing who committed a crime,
+        what to do in case of an inheritance and no will is present, or finding family
+        heirlooms lost to an untimely death.\u00a0<\/p>\n<p>He argues against necromancy
+        by stating that robbing life of an unquestionably truth; death; will destroy
+        the fabric of society, as examples in the past have shown. The most notably
+        one is the Essem Empire (Northen Beidra) that collapsed in complete revolt
+        when factions killed heirs to the thrown but they all kept coming back to
+        life. He also argues that wealth accumulates a lot stronger, as wealth isn''t
+        split up between individuals on a person''s death. Elves have overcome this
+        problem by having a shared system of wealth, but in a society where private
+        property exists, it creates many problems.<\/p>\n<p>He disregards the moral
+        argument as being non-pragmatic and stifling debate among scholars.\u00a0<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":31058,"tags":[],"created_at":"2018-07-16T15:32:17.000000Z","created_by":1,"updated_at":"2021-06-08T12:59:38.000000Z","updated_by":1,"type":"Book","note_id":null,"is_pinned":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a152ebb2aa5-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:18 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Zl7kXfianFYUpK9OVRAxmkelH5Rs5ZlxFKCgsDhsz1kjTTLus3ol3ujWLEPi4G7aRSSc5DlLFqWXhuVgWtzAV24AOOJZE2kizJ%2FbEpRWt8WwZyArhhw48LzcpA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '3374'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '68'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/31058
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+version: 1
