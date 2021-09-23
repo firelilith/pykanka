@@ -1,0 +1,684 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/quests
+  response:
+    body:
+      string: '{"data":[{"id":1026,"name":"Ambitious Brother","entry":"\n<p><strong>Ambitious
+        Brother<\/strong> is a side quest in\u00a0[location:19591]. It is started
+        by investigating into the local thieves guild and asking for some jobs.<\/p>\n<p>[character:27968]\u00a0wants
+        his brother [character:27969]\u00a0to be killed and is offering 500 GP for
+        the job.<\/p>\n","entry_parsed":"\n<p><strong>Ambitious Brother<\/strong>
+        is a side quest in\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/7817\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a>.
+        It is started by investigating into the local thieves guild and asking for
+        some jobs.<\/p>\n<p><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9217\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27968\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27968\/tooltip\">Andrew
+        Rancent<\/a>\u00a0wants his brother <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9218\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27969\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27969\/tooltip\">Michael
+        Rancent<\/a>\u00a0to be killed and is offering 500 GP for the job.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/quests_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":39898,"tags":[],"created_at":"2018-09-10T12:26:12.000000Z","created_by":1,"updated_at":"2019-05-30T11:14:16.000000Z","updated_by":1,"character_id":9217,"type":"Side
+        Quest","date":null,"is_completed":true,"quest_id":null,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":2,"elements":[{"colour":null,"created_at":"2021-04-27T15:38:22.000000Z","created_by":1,"description":"\n\n","description_parsed":"\n\n","entity_id":27968,"id":2455,"is_private":false,"role":null,"updated_at":"2021-04-27T15:38:22.000000Z","updated_by":null,"visibility":"all"},{"colour":null,"created_at":"2021-04-27T15:38:22.000000Z","created_by":1,"description":"\n<p>Target<\/p>\n","description_parsed":"\n<p>Target<\/p>\n","entity_id":27969,"id":2456,"is_private":false,"role":null,"updated_at":"2021-04-27T15:38:22.000000Z","updated_by":null,"visibility":"all"}]},{"id":1027,"name":"Presence
+        at the Hospital","entry":"\n<p><strong>Presence at the Hospital<\/strong>
+        is a quest in\u00a0[location:19591], where princess\u00a0[character:12050]''s
+        presence is requested for the opening ceremony of the new\u00a0[location:28030].<\/p>\n<p>It
+        is initiated by\u00a0[character:27992]\u00a0who will seek out the Princess''s
+        presence after being contacted by the local nobles of Owlchester, lead by\u00a0[character:28102].<\/p>\n<p>During
+        the opening of the hospital, the party is attacked by two assassins and a
+        stone golem. The assassins are working for the\u00a0[organisation:12188].<\/p>\n<p>The
+        reward is 1000 GP each and a 10 year pass for Owlchester for each member of
+        the party.<\/p>\n","entry_parsed":"\n<p><strong>Presence at the Hospital<\/strong>
+        is a quest in\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/7817\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a>,
+        where princess\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4111\"
+        class=\"entity-mention\" data-entity-tags=\"id-4340 ardenian-heritage id-19260
+        jessica\" data-toggle=\"tooltip-ajax\" data-id=\"12050\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12050\/tooltip\">Hildegard
+        Rosenberg<\/a>''s presence is requested for the opening ceremony of the new\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10861\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"28030\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28030\/tooltip\">Dawnfather
+        Hospital<\/a>.<\/p>\n<p>It is initiated by\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9232\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27992\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27992\/tooltip\">Hannelore
+        Krampitz<\/a>\u00a0who will seek out the Princess''s presence after being
+        contacted by the local nobles of Owlchester, lead by\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9259\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"28102\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28102\/tooltip\">Elandorr
+        Dawne<\/a>.<\/p>\n<p>During the opening of the hospital, the party is attacked
+        by two assassins and a stone golem. The assassins are working for the\u00a0<i
+        class=\"unknown-mention unknown-entity\">Unknown<\/i>.<\/p>\n<p>The reward
+        is 1000 GP each and a 10 year pass for Owlchester for each member of the party.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/quests_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":39899,"tags":[],"created_at":"2018-09-10T12:29:17.000000Z","created_by":1,"updated_at":"2018-09-10T12:35:07.000000Z","updated_by":1,"character_id":9232,"type":"Quest","date":null,"is_completed":true,"quest_id":1028,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":1,"elements":[{"colour":null,"created_at":"2021-04-27T15:39:50.000000Z","created_by":1,"description":"\n<p>Wants
+        to convince\u00a0[character:12050]\u00a0for a speech at the hospital opening.<\/p>\n","description_parsed":"\n<p>Wants
+        to convince\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4111\"
+        class=\"entity-mention\" data-entity-tags=\"id-4340 ardenian-heritage id-19260
+        jessica\" data-toggle=\"tooltip-ajax\" data-id=\"12050\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12050\/tooltip\">Hildegard
+        Rosenberg<\/a>\u00a0for a speech at the hospital opening.<\/p>\n","entity_id":27992,"id":9211,"is_private":false,"role":null,"updated_at":"2021-04-27T15:39:50.000000Z","updated_by":null,"visibility":"all"}]},{"id":1028,"name":"Wyvern
+        Egg","entry":"\n<p><strong>Wyvern Egg<\/strong> is a main quest that brings
+        the party to\u00a0[location:19591]\u00a0in the search of a wyvern egg for
+        the\u00a0[note:12218]\u00a0ritual.<\/p>\n<p>The party gathers information
+        about the famous wyvern riders of Owlchester, bringing them to\u00a0[character:27980]\u00a0at
+        the\u00a0[location:27979].<\/p>\n<p>The goal of the quest is to get access
+        to a wyvern egg, which can be done by finding Blanche''s daughter and bringing
+        her back.<\/p>\n","entry_parsed":"\n<p><strong>Wyvern Egg<\/strong> is a main
+        quest that brings the party to\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/7817\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a>\u00a0in
+        the search of a wyvern egg for the\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/313\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12218\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12218\/tooltip\">Divine
+        Revival<\/a>\u00a0ritual.<\/p>\n<p>The party gathers information about the
+        famous wyvern riders of Owlchester, bringing them to\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9225\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27980\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27980\/tooltip\">Blanche
+        Whitewood<\/a>\u00a0at the\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10839\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27979\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27979\/tooltip\">Dragoon
+        Academy<\/a>.<\/p>\n<p>The goal of the quest is to get access to a wyvern
+        egg, which can be done by finding Blanche''s daughter and bringing her back.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/quests_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":39900,"tags":[],"created_at":"2018-09-10T12:32:54.000000Z","created_by":1,"updated_at":"2019-05-30T11:14:20.000000Z","updated_by":1,"character_id":null,"type":"Quest","date":null,"is_completed":true,"quest_id":1029,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":2,"elements":[{"colour":null,"created_at":"2021-04-27T15:38:22.000000Z","created_by":1,"description":"\n<p>Focal
+        point of the quest. Players must find out about her daughter relation to Elandorr.<\/p>\n","description_parsed":"\n<p>Focal
+        point of the quest. Players must find out about her daughter relation to Elandorr.<\/p>\n","entity_id":27980,"id":2352,"is_private":false,"role":null,"updated_at":"2021-04-27T15:38:22.000000Z","updated_by":null,"visibility":"all"},{"colour":null,"created_at":"2021-04-27T15:38:22.000000Z","created_by":1,"description":"\n<p>Main
+        \"Enemy\" of the quest. He had the child kidnapped and brought back to his
+        place in the Feywild.<\/p>\n","description_parsed":"\n<p>Main \"Enemy\" of
+        the quest. He had the child kidnapped and brought back to his place in the
+        Feywild.<\/p>\n","entity_id":28102,"id":2353,"is_private":false,"role":null,"updated_at":"2021-04-27T15:38:22.000000Z","updated_by":null,"visibility":"all"}]},{"id":1029,"name":"Lex''s
+        Revival","entry":"\n<p><strong>Lex''s Revival<\/strong> is the main quest
+        of the 4th story arc.<\/p>\n<p>Goal: Bring Lex back to life.<\/p>\n<p>Reward:
+        Lex lives again.<\/p>\n","entry_parsed":"\n<p><strong>Lex''s Revival<\/strong>
+        is the main quest of the 4th story arc.<\/p>\n<p>Goal: Bring Lex back to life.<\/p>\n<p>Reward:
+        Lex lives again.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/quests_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":39901,"tags":[],"created_at":"2018-09-10T12:36:27.000000Z","created_by":1,"updated_at":"2019-05-30T11:14:14.000000Z","updated_by":1,"character_id":4107,"type":"Main","date":null,"is_completed":true,"quest_id":null,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":0,"elements":[]},{"id":1030,"name":"Hanging
+        Island Treasure","entry":"\n<p><strong>Hanging Island Treasure<\/strong> is
+        a quest located in\u00a0[location:12005], which aims to bring the party to
+        process a diamond worth 5000 GP.<\/p>\n<p>Reward: 1 diamond worth 5000 GP.<\/p>\n","entry_parsed":"\n<p><strong>Hanging
+        Island Treasure<\/strong> is a quest located in\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5127\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12005\/tooltip\">Orlene<\/a>,
+        which aims to bring the party to process a diamond worth 5000 GP.<\/p>\n<p>Reward:
+        1 diamond worth 5000 GP.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/quests_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":39902,"tags":[],"created_at":"2018-09-10T12:36:44.000000Z","created_by":1,"updated_at":"2018-09-10T12:36:44.000000Z","updated_by":1,"character_id":null,"type":"Quest","date":null,"is_completed":false,"quest_id":1029,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":0,"elements":[]},{"id":41833,"name":"Content
+        pack quest","entry":"<p>With an image?<\/p>","entry_parsed":"<p>With an image?<\/p>","image":"quests\/b23bbebb-02e3-4002-854e-37c3d7a949ba.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Wf1kiw7GGLCo3aFJoBR6i48VAUs=\/smart\/src\/quests%2Fb23bbebb-02e3-4002-854e-37c3d7a949ba.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/n1UFUl6QD6gqzLohHEqvXoUI_ME=\/40x40\/smart\/src\/quests%2Fb23bbebb-02e3-4002-854e-37c3d7a949ba.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2045984,"tags":[],"created_at":"2021-08-11T08:48:50.000000Z","created_by":1,"updated_at":"2021-08-11T08:53:14.000000Z","updated_by":1,"character_id":null,"type":null,"date":null,"is_completed":false,"quest_id":null,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":0,"elements":[]}],"links":{"first":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/quests?page=1","last":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/quests?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/quests","per_page":45,"to":6,"total":6},"sync":"2021-09-22T17:46:24.270394Z"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a3c28582958-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:24 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2yzt02Nwj8YeJ7z2B3dJtpi2GKNn92Dhmg6ZIcrFP9FM57fVm72cXnIOqoK09Bt0Y8O0CRwNJzIIdDNJF1I7QUd0mLk3ErKtQHlJP63mkmERlIuMYnPW%2BMRNFQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '13659'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '56'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/quests
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/39898
+  response:
+    body:
+      string: '{"data":{"id":39898,"name":"Ambitious Brother","type":"quest","child_id":1026,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-09-10T12:26:12.000000Z","created_by":1,"updated_at":"2019-05-30T11:14:16.000000Z","updated_by":1,"child":{"id":1026,"name":"Ambitious
+        Brother","entry":"\n<p><strong>Ambitious Brother<\/strong> is a side quest
+        in\u00a0[location:19591]. It is started by investigating into the local thieves
+        guild and asking for some jobs.<\/p>\n<p>[character:27968]\u00a0wants his
+        brother [character:27969]\u00a0to be killed and is offering 500 GP for the
+        job.<\/p>\n","entry_parsed":"\n<p><strong>Ambitious Brother<\/strong> is a
+        side quest in\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/7817\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a>.
+        It is started by investigating into the local thieves guild and asking for
+        some jobs.<\/p>\n<p><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9217\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27968\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27968\/tooltip\">Andrew
+        Rancent<\/a>\u00a0wants his brother <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9218\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27969\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27969\/tooltip\">Michael
+        Rancent<\/a>\u00a0to be killed and is offering 500 GP for the job.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/quests_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":39898,"tags":[],"created_at":"2018-09-10T12:26:12.000000Z","created_by":1,"updated_at":"2019-05-30T11:14:16.000000Z","updated_by":1,"character_id":9217,"type":"Side
+        Quest","date":null,"is_completed":true,"quest_id":null,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":2,"elements":[{"colour":null,"created_at":"2021-04-27T15:38:22.000000Z","created_by":1,"description":"\n\n","description_parsed":"\n\n","entity_id":27968,"id":2455,"is_private":false,"role":null,"updated_at":"2021-04-27T15:38:22.000000Z","updated_by":null,"visibility":"all"},{"colour":null,"created_at":"2021-04-27T15:38:22.000000Z","created_by":1,"description":"\n<p>Target<\/p>\n","description_parsed":"\n<p>Target<\/p>\n","entity_id":27969,"id":2456,"is_private":false,"role":null,"updated_at":"2021-04-27T15:38:22.000000Z","updated_by":null,"visibility":"all"}]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a3f0c977f98-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:24 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tDP9lLKQHf2V5ZrMFbDhoPVvPw%2FUpXQt0bh0UQyNjTTQS44ogEbMSxPWyZd1UBIj6usqeWMRhbqUXrahBNBBb1AQOEP%2B0pvmwdC%2Bong5S2QktbhyZDhJhlc0hQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2885'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '55'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/39898
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/39899
+  response:
+    body:
+      string: '{"data":{"id":39899,"name":"Presence at the Hospital","type":"quest","child_id":1027,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-09-10T12:29:17.000000Z","created_by":1,"updated_at":"2018-09-10T12:29:17.000000Z","updated_by":1,"child":{"id":1027,"name":"Presence
+        at the Hospital","entry":"\n<p><strong>Presence at the Hospital<\/strong>
+        is a quest in\u00a0[location:19591], where princess\u00a0[character:12050]''s
+        presence is requested for the opening ceremony of the new\u00a0[location:28030].<\/p>\n<p>It
+        is initiated by\u00a0[character:27992]\u00a0who will seek out the Princess''s
+        presence after being contacted by the local nobles of Owlchester, lead by\u00a0[character:28102].<\/p>\n<p>During
+        the opening of the hospital, the party is attacked by two assassins and a
+        stone golem. The assassins are working for the\u00a0[organisation:12188].<\/p>\n<p>The
+        reward is 1000 GP each and a 10 year pass for Owlchester for each member of
+        the party.<\/p>\n","entry_parsed":"\n<p><strong>Presence at the Hospital<\/strong>
+        is a quest in\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/7817\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a>,
+        where princess\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4111\"
+        class=\"entity-mention\" data-entity-tags=\"id-4340 ardenian-heritage id-19260
+        jessica\" data-toggle=\"tooltip-ajax\" data-id=\"12050\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12050\/tooltip\">Hildegard
+        Rosenberg<\/a>''s presence is requested for the opening ceremony of the new\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10861\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"28030\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28030\/tooltip\">Dawnfather
+        Hospital<\/a>.<\/p>\n<p>It is initiated by\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9232\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27992\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27992\/tooltip\">Hannelore
+        Krampitz<\/a>\u00a0who will seek out the Princess''s presence after being
+        contacted by the local nobles of Owlchester, lead by\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9259\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"28102\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28102\/tooltip\">Elandorr
+        Dawne<\/a>.<\/p>\n<p>During the opening of the hospital, the party is attacked
+        by two assassins and a stone golem. The assassins are working for the\u00a0<i
+        class=\"unknown-mention unknown-entity\">Unknown<\/i>.<\/p>\n<p>The reward
+        is 1000 GP each and a 10 year pass for Owlchester for each member of the party.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/quests_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":39899,"tags":[],"created_at":"2018-09-10T12:29:17.000000Z","created_by":1,"updated_at":"2018-09-10T12:35:07.000000Z","updated_by":1,"character_id":9232,"type":"Quest","date":null,"is_completed":true,"quest_id":1028,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":1,"elements":[{"colour":null,"created_at":"2021-04-27T15:39:50.000000Z","created_by":1,"description":"\n<p>Wants
+        to convince\u00a0[character:12050]\u00a0for a speech at the hospital opening.<\/p>\n","description_parsed":"\n<p>Wants
+        to convince\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4111\"
+        class=\"entity-mention\" data-entity-tags=\"id-4340 ardenian-heritage id-19260
+        jessica\" data-toggle=\"tooltip-ajax\" data-id=\"12050\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12050\/tooltip\">Hildegard
+        Rosenberg<\/a>\u00a0for a speech at the hospital opening.<\/p>\n","entity_id":27992,"id":9211,"is_private":false,"role":null,"updated_at":"2021-04-27T15:39:50.000000Z","updated_by":null,"visibility":"all"}]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a411f752c34-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:25 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6fIjST%2BpOk1JAU5Su1nMbyXaXXP0UQyQtV%2F4etpU0n1MAbEg%2FpoSrxyJFpCP%2FtJdbAXNQ1%2BoSodyfEWf3tFs0n4%2BonZAv%2Fq7lHmh2Z3jS4SHto5rNLYvRf%2FgYQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '4386'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '54'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/39899
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/39900
+  response:
+    body:
+      string: '{"data":{"id":39900,"name":"Wyvern Egg","type":"quest","child_id":1028,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-09-10T12:32:54.000000Z","created_by":1,"updated_at":"2019-05-30T11:14:20.000000Z","updated_by":1,"child":{"id":1028,"name":"Wyvern
+        Egg","entry":"\n<p><strong>Wyvern Egg<\/strong> is a main quest that brings
+        the party to\u00a0[location:19591]\u00a0in the search of a wyvern egg for
+        the\u00a0[note:12218]\u00a0ritual.<\/p>\n<p>The party gathers information
+        about the famous wyvern riders of Owlchester, bringing them to\u00a0[character:27980]\u00a0at
+        the\u00a0[location:27979].<\/p>\n<p>The goal of the quest is to get access
+        to a wyvern egg, which can be done by finding Blanche''s daughter and bringing
+        her back.<\/p>\n","entry_parsed":"\n<p><strong>Wyvern Egg<\/strong> is a main
+        quest that brings the party to\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/7817\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a>\u00a0in
+        the search of a wyvern egg for the\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/313\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12218\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12218\/tooltip\">Divine
+        Revival<\/a>\u00a0ritual.<\/p>\n<p>The party gathers information about the
+        famous wyvern riders of Owlchester, bringing them to\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9225\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27980\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27980\/tooltip\">Blanche
+        Whitewood<\/a>\u00a0at the\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10839\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27979\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27979\/tooltip\">Dragoon
+        Academy<\/a>.<\/p>\n<p>The goal of the quest is to get access to a wyvern
+        egg, which can be done by finding Blanche''s daughter and bringing her back.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/quests_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":39900,"tags":[],"created_at":"2018-09-10T12:32:54.000000Z","created_by":1,"updated_at":"2019-05-30T11:14:20.000000Z","updated_by":1,"character_id":null,"type":"Quest","date":null,"is_completed":true,"quest_id":1029,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":2,"elements":[{"colour":null,"created_at":"2021-04-27T15:38:22.000000Z","created_by":1,"description":"\n<p>Focal
+        point of the quest. Players must find out about her daughter relation to Elandorr.<\/p>\n","description_parsed":"\n<p>Focal
+        point of the quest. Players must find out about her daughter relation to Elandorr.<\/p>\n","entity_id":27980,"id":2352,"is_private":false,"role":null,"updated_at":"2021-04-27T15:38:22.000000Z","updated_by":null,"visibility":"all"},{"colour":null,"created_at":"2021-04-27T15:38:22.000000Z","created_by":1,"description":"\n<p>Main
+        \"Enemy\" of the quest. He had the child kidnapped and brought back to his
+        place in the Feywild.<\/p>\n","description_parsed":"\n<p>Main \"Enemy\" of
+        the quest. He had the child kidnapped and brought back to his place in the
+        Feywild.<\/p>\n","entity_id":28102,"id":2353,"is_private":false,"role":null,"updated_at":"2021-04-27T15:38:22.000000Z","updated_by":null,"visibility":"all"}]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a432f40632d-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:25 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hw7EVzNUpWt1kG8E9kzleTUgUt5PTtEMXMlNnWMN%2BCK0MjZA6Usa%2FcA9IASC29zamRbBByfFbzwivwUq%2FDdXcyuiH%2BjtbnpQPf%2F5Ja%2FoeG3KzFGfw9Ws0wLonA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '3846'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '53'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/39900
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/39901
+  response:
+    body:
+      string: '{"data":{"id":39901,"name":"Lex''s Revival","type":"quest","child_id":1029,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-09-10T12:36:27.000000Z","created_by":1,"updated_at":"2019-05-30T11:14:14.000000Z","updated_by":1,"child":{"id":1029,"name":"Lex''s
+        Revival","entry":"\n<p><strong>Lex''s Revival<\/strong> is the main quest
+        of the 4th story arc.<\/p>\n<p>Goal: Bring Lex back to life.<\/p>\n<p>Reward:
+        Lex lives again.<\/p>\n","entry_parsed":"\n<p><strong>Lex''s Revival<\/strong>
+        is the main quest of the 4th story arc.<\/p>\n<p>Goal: Bring Lex back to life.<\/p>\n<p>Reward:
+        Lex lives again.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/quests_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":39901,"tags":[],"created_at":"2018-09-10T12:36:27.000000Z","created_by":1,"updated_at":"2019-05-30T11:14:14.000000Z","updated_by":1,"character_id":4107,"type":"Main","date":null,"is_completed":true,"quest_id":null,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":0,"elements":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a4508b92bb3-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:25 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EvkiqUNQKk5JL8hlX6Kaoq4vY%2F5%2F8rKb0kbDP5w0d3eOwio%2FnsRcSOcjD7fqyyQFi2P382heNLCC%2FsiM9x9%2F96oh18T5nSY%2FpTg3XDqIj3BYSKQAPNhtAk3Q8Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1312'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '52'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/39901
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/39902
+  response:
+    body:
+      string: '{"data":{"id":39902,"name":"Hanging Island Treasure","type":"quest","child_id":1030,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-09-10T12:36:44.000000Z","created_by":1,"updated_at":"2018-09-10T12:36:44.000000Z","updated_by":1,"child":{"id":1030,"name":"Hanging
+        Island Treasure","entry":"\n<p><strong>Hanging Island Treasure<\/strong> is
+        a quest located in\u00a0[location:12005], which aims to bring the party to
+        process a diamond worth 5000 GP.<\/p>\n<p>Reward: 1 diamond worth 5000 GP.<\/p>\n","entry_parsed":"\n<p><strong>Hanging
+        Island Treasure<\/strong> is a quest located in\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5127\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12005\/tooltip\">Orlene<\/a>,
+        which aims to bring the party to process a diamond worth 5000 GP.<\/p>\n<p>Reward:
+        1 diamond worth 5000 GP.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/quests_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":39902,"tags":[],"created_at":"2018-09-10T12:36:44.000000Z","created_by":1,"updated_at":"2018-09-10T12:36:44.000000Z","updated_by":1,"character_id":null,"type":"Quest","date":null,"is_completed":false,"quest_id":1029,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":0,"elements":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a471afe2bfb-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:26 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hlwGZ%2FuBEeQPPzw8NGy2IVlVZVmPCibA52JBgrNuqEW9%2Bo0lq8%2BI5m9Mu8Kma4rsq%2FhS%2BacniLiRZY4%2BSwixnBngmMG5NbNsNDTlj4EZFwvAlunhCMEHK83M1g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1669'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '51'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/39902
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/2045984
+  response:
+    body:
+      string: '{"data":{"id":2045984,"name":"Content pack quest","type":"quest","child_id":41833,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-08-11T08:48:50.000000Z","created_by":1,"updated_at":"2021-08-11T08:53:14.000000Z","updated_by":1,"child":{"id":41833,"name":"Content
+        pack quest","entry":"<p>With an image?<\/p>","entry_parsed":"<p>With an image?<\/p>","image":"quests\/b23bbebb-02e3-4002-854e-37c3d7a949ba.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Wf1kiw7GGLCo3aFJoBR6i48VAUs=\/smart\/src\/quests%2Fb23bbebb-02e3-4002-854e-37c3d7a949ba.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/n1UFUl6QD6gqzLohHEqvXoUI_ME=\/40x40\/smart\/src\/quests%2Fb23bbebb-02e3-4002-854e-37c3d7a949ba.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2045984,"tags":[],"created_at":"2021-08-11T08:48:50.000000Z","created_by":1,"updated_at":"2021-08-11T08:53:14.000000Z","updated_by":1,"character_id":null,"type":null,"date":null,"is_completed":false,"quest_id":null,"calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null,"elements_count":0,"elements":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d5a495e032a24-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:46:26 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FVxJGZV7aYsbVJe8sNmDXO8xFBbcS7J3EgeE2qaHKzWp92p2mCFKz5yRF0fpjSUPGC5yk6RCvixazCPTaVRckHAzOKsb2fx2CrjuIIp1jT%2BYH4npQhfbsLO%2FKw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1320'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '50'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/2045984
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+version: 1
