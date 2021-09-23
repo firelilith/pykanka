@@ -86,7 +86,7 @@ class GenericChildType:
         :return: requests.response
         """
 
-        payload, files = self.client._prepare_post(json_data, **kwargs)
+        payload, files = self._prepare_post(json_data, **kwargs)
 
         return self.client.request_post(f"{self.base_url}", json=payload)
 
@@ -203,7 +203,7 @@ class Organisation(GenericChildType):
     """A class representing a Organisation child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "organization_id", "location_id", "tags", "is_private", "image_full",
+    _possible_keys = ["name", "entry", "type", "organisation_id", "location_id", "tags", "is_private", "image_full",
                       "header_full",
                       "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
@@ -212,7 +212,7 @@ class Organisation(GenericChildType):
     _file_keys = ["image"]
 
     data: OrganisationData = OrganisationData()
-    endpoint: str = "organizations"
+    endpoint: str = "organisations"
 
 
 @dataclass
