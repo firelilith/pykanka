@@ -170,17 +170,47 @@ class AbilityData(GenericChildData):
 
 @dataclass
 class CalendarData(GenericChildData):
+    """The /calendars/ endpoint of the Kanka API is hopelessly broken. Don't expect this to be stable or make sense"""
+    current_year: Optional[int] = None
+    current_month: Optional[int] = None
+    current_day: Optional[int] = None
+
+    month_name: Optional[List[str]] = None
+    month_length: Optional[List[int]] = None
+    month_type: Optional[List[str]] = None
+
+    year_name: Optional[List[str]] = None
+    year_number: Optional[int] = None
+
+    moon_name: Optional[List[str]] = None
+    moon_fullmoon: Optional[List[int]] = None
+
+    weekday: Optional[List[str]] = None
+
+    epoch_name: Optional[List[str]] = None
+
+    season_name: Optional[List[str]] = None
+    season_month: Optional[List[int]] = None
+    season_day: Optional[List[int]] = None
+
+    has_leap_year: Optional[bool] = None
+    leap_year_amount: Optional[int] = None
+    leap_year_start: Optional[int] = None
+    leap_year_offset: Optional[int] = None
+
+    # the following fields get returned by GET, but aren't used by POST
+
+    leap_year_month: Optional[int] = None
+
     suffix: Optional[str] = None
-    parameters: Optional[str] = None
-    weekdays: Optional[str] = None
-    leap_year_offset: Optional[str] = None
-    seasons: Optional[str] = None
-    moons: Optional[str] = None
-    leap_year_amount: Optional[str] = None
-    leap_year_month: Optional[str] = None
+    parameters: Optional[None] = None
+
+    weekdays: Optional[List[str]] = None
+
+    seasons: Optional[List[dict]] = None
+    moons: Optional[List[dict]] = None
+    years: Optional[dict] = None
+    months: Optional[List[dict]] = None
+
+    start_offset: Optional[int] = None
     date: Optional[str] = None
-    years: Optional[str] = None
-    has_leap_year: Optional[str] = None
-    leap_year_start: Optional[str] = None
-    start_offset: Optional[str] = None
-    months: Optional[str] = None
