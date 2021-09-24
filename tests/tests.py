@@ -9,30 +9,42 @@ from sample_data import sample_data
 import vcr
 
 class TestPykanka(unittest.TestCase):
+    """Test Classes for pykanka module"""
+
     def setUp(self) -> None:
+        """Set up the client
+        API_TOKEN is a placeholder. Since we are using cassettes that filter out the authorization header,
+        there is no need for a working token. Use "generate_cassettes.py" to generate cassettes for this test.
+        The cassettes set up the response for campaign_id 1. This is the sample campaign on Kanka."""
         self.campaign = KankaClient("API_TOKEN", 1)
 
     def test_get_all(self):
+        """Tests the client.all_{child} method and the children returned
+        The test gets all of each child type, then surveys the first ten objects.
+        For each sampled child the test verifies that:
+            The child is of the expected type (a charcter should be of Character type)
+            The child's parent is of Entity type
+            The child's data is the expected type (a character's data should be of CharacterData type)
+        """
         all_children = [
-            (self.campaign.all_abilities, Ability),
-            (self.campaign.all_calendars, Calendar),
-            (self.campaign.all_characters, Character),
-            (self.campaign.all_events, Event),
-            (self.campaign.all_families, Family),
-            (self.campaign.all_items, Item),
-            (self.campaign.all_journals, Journal),
-            (self.campaign.all_locations, Location),
-            (self.campaign.all_maps, Map),
-            (self.campaign.all_notes, Note),
-            # (self.campaign.all_organisations, Organisation),
-            (self.campaign.all_quests, Quest),
-            (self.campaign.all_races, Race),
-            (self.campaign.all_tags, Tag),
-            (self.campaign.all_timelines, Timeline)
+            (self.campaign.all_abilities, Ability, AbilityData),
+            (self.campaign.all_calendars, Calendar, CalendarData),
+            (self.campaign.all_characters, Character, CharacterData),
+            (self.campaign.all_events, Event, EventData),
+            (self.campaign.all_families, Family, FamilyData),
+            (self.campaign.all_items, Item, ItemData),
+            (self.campaign.all_journals, Journal, JournalData),
+            (self.campaign.all_locations, Location, LocationData),
+            (self.campaign.all_maps, Map, MapData),
+            (self.campaign.all_notes, Note, NoteData),
+            # (self.campaign.all_organisations, Organisation, OrganisationData), # Not working
+            (self.campaign.all_quests, Quest, QuestData),
+            (self.campaign.all_races, Race, RaceData),
+            (self.campaign.all_tags, Tag, TagData),
+            (self.campaign.all_timelines, Timeline, TimelineData)
         ]
 
-        for all_child, ChildType in all_children:
-            # print(f'fixtures/vcr_cassettes/get_all/{ChildType.__name__}.yaml')
+        for all_child, ChildType, ChildDataType in all_children:
             with self.subTest(msg=f"get_all_{ChildType.__name__}'".lower()):
                 with vcr.use_cassette((f'fixtures/vcr_cassettes/get_all/{ChildType.__name__}.yaml'), filter_headers=['authorization'],
                                       decode_compressed_response=True):
@@ -40,10 +52,15 @@ class TestPykanka(unittest.TestCase):
                     for child in children[:10]:
                         self.assertIsInstance(child, ChildType)
                         self.assertIsInstance(child.parent, Entity)
-                        # self.assertIsInstance(timeline.data, TimelineData)
+                        self.assertIsInstance(child.data, ChildDataType)
                     pass
 
     def test_create(self):
+        """Tests the {child}.post() method and the data returned from the server
+        The test takes sample data (provided by sample_data.py) for a set of children and attempts to post them
+        to the server. The test then verifies that all the returned data is the same as the sample data
+        NOTE: Not all child types are implemented yet.
+        """
         children = [
             (sample_data["event"], Event),
             (sample_data["character"], Character),
