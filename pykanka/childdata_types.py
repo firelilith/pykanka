@@ -73,7 +73,7 @@ class OrganisationData(GenericChildData):
 
 @dataclass
 class TimelineData(GenericChildData):
-    eras: Optional[str] = None
+    eras: Optional[List[dict]] = None
     timeline_id: Optional[int] = None
     revert_order: Optional[bool] = None
 
@@ -130,7 +130,7 @@ class QuestData(GenericChildData):
     calendar_day: Optional[str] = None
     date: Optional[str] = None
     elements_count: Optional[str] = None
-    elements: Optional[str] = None
+    elements: Optional[List[int]] = None
     is_completed: Optional[str] = None
 
 
@@ -164,7 +164,7 @@ class EventData(GenericChildData):
 @dataclass
 class AbilityData(GenericChildData):
     ability_id: Optional[int] = None
-    abilities: Optional[str] = None
+    abilities: Optional[List[int]] = None
     charges: Optional[str] = None
 
 
