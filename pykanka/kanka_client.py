@@ -37,7 +37,6 @@ class KankaClient:
         self._headers = {
             "Authorization": f"Bearer {token}",
             "Accept": "application/json",
-            "Content-Type": "application/json"
         }
         self._api_base_url = "https://kanka.io/api/1.0/campaigns/"
 
