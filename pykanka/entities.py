@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 from typing import Optional, List, Union
 
 import pykanka
@@ -20,13 +21,19 @@ class EntityData:
     tags:                   Optional[List[int]] = None
     tooltip:                Optional[str] = None
 
-    updated_at:             Optional[str] = None
+    updated_at:             Optional[Union[datetime, str]] = None
     updated_by:             Optional[str] = None
-    created_at:             Optional[str] = None
+    created_at:             Optional[Union[datetime, str]] = None
     created_by:             Optional[str] = None
 
     header_image:           Optional[str] = None
     image_uuid:             Optional[str] = None
+
+    def __post_init__(self):
+        if type(self.created_at) == str:
+            self.created_at = datetime.fromisoformat(self.created_at.replace("Z", "+00:00"))
+        if type(self.updated_at) == str:
+            self.updated_at = datetime.fromisoformat(self.updated_at.replace("Z", "+00:00"))
 
 
 @dataclass
