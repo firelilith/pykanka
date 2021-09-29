@@ -1,7 +1,21 @@
-import pykanka.child_types
 from pykanka import KankaClient
 from pykanka.entities import Entity
-from pykanka.child_types import GenericChildType, Character, Event, Item, Journal, Note, Race
+from pykanka.child_types import (GenericChildType, Location,
+                                                   Character,
+                                                   Organisation,
+                                                   Timeline,
+                                                   Race,
+                                                   Family,
+                                                   Note,
+                                                   Tag,
+                                                   Quest,
+                                                   Journal,
+                                                   Item,
+                                                   Event,
+                                                   Ability,
+                                                   Calendar
+                                                   )
+
 import vcr
 from kanka_credentials import KANKA_TOKEN, CAMPAIGN_ID
 from sample_data import sample_data
@@ -33,10 +47,11 @@ def before_record_response(response):
     return response
 
 def create_child(data: dict, ChildType, cassette_dir: str = "fixtures/vcr_cassettes/create" ):
-    """Generate cassette files for creating Kanka children objects.
+    """Generate cassette files for creating and updating Kanka children objects.
 
       :param data: Dictionary data for the object
       :param ChildType: Class for the child time
+
       """
     with vcr.use_cassette((f'{cassette_dir}/create_{ChildType.__name__}.yaml'.lower()),
                           filter_headers=[
@@ -49,9 +64,13 @@ def create_child(data: dict, ChildType, cassette_dir: str = "fixtures/vcr_casset
                           ):
         # Create new child object
         new = ChildType.from_json(campaign, content=data)
+        print(new)
         # Post the new child object
         response = new.post()
         # Get the data from the post response
+        if not response.json().get('data'):
+            print('no data')
+            pass
         new_data = response.json()['data']
         # Retrieve entity for what is now in the server
         retrieved_entity = campaign.get_entity(new_data['entity_id'])
@@ -59,8 +78,15 @@ def create_child(data: dict, ChildType, cassette_dir: str = "fixtures/vcr_casset
         retrieved_child = retrieved_entity.child.from_id(campaign, retrieved_entity.data.child_id)
         # Assert what we inputted is what came back from the server
         for key, value in data.items():
+            print(f"{key=}, {retrieved_child.data.__dict__[key]=}, {value=}")
             assert retrieved_child.data.__dict__[key] == value
         pass
+
+        #update by modifying data
+        retrieved_child.data.name = retrieved_child.data.name + " (revised)"
+        retrieved_child.data.entry = retrieved_child.data.entry + "<p>Dolor Sit Amet.</p>"
+
+        # retrieved_child.patch()
 
 if __name__ == '__main__':
     # Use this script to generate VCR.py "cassettes" for use in unit testing. More info at https://vcrpy.readthedocs.io
@@ -70,12 +96,20 @@ if __name__ == '__main__':
 
     campaign = KankaClient(KANKA_TOKEN, CAMPAIGN_ID)
     children = [
-        (sample_data["event"], Event),
+        # (sample_data["location"], Location), # "entry" is not being returned correctly, it's always None.
         (sample_data["character"], Character),
-        (sample_data["item"], Item),
-        (sample_data["note"], Note),
+        (sample_data["organisation"], Organisation),
+        (sample_data["timeline"], Timeline),
         (sample_data["race"], Race),
-        (sample_data["journal"], Journal)
+        (sample_data["family"], Family), # Not working, getting a 404
+        (sample_data["note"], Note),
+        (sample_data["tag"], Tag),
+        (sample_data["quest"], Quest),
+        (sample_data["journal"], Journal),
+        (sample_data["item"], Item),
+        (sample_data["event"], Event),
+        (sample_data["ability"], Ability),
+        # (sample_data["calendar"], Calendar), # Skipping for now
     ]
     entities = [
         (sample_data['entity'], Entity)

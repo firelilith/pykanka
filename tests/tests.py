@@ -1,10 +1,8 @@
-import random
 import unittest
 from pykanka import KankaClient
 from pykanka.entities import Entity
 from pykanka.child_types import *
 # from pykanka.childdata_types import *
-# from pykanka.child_types.Character import Character.Character.CharacterData as CharacterData
 from sample_data import sample_data
 import vcr
 
@@ -22,7 +20,7 @@ class TestPykanka(unittest.TestCase):
         """Tests the client.all_{child} method and the children returned
         The test gets all of each child type, then surveys the first ten objects.
         For each sampled child the test verifies that:
-            The child is of the expected type (a charcter should be of Character type)
+            The child is of the expected type (a character should be of Character type)
             The child's parent is of Entity type
             The child's data is the expected type (a character's data should be of CharacterData type)
         """
@@ -62,16 +60,24 @@ class TestPykanka(unittest.TestCase):
         NOTE: Not all child types are implemented yet.
         """
         children = [
-            (sample_data["event"], Event),
+            # (sample_data["location"], Location), # "entry" is not being returned correctly, it's always None.
             (sample_data["character"], Character),
-            (sample_data["item"], Item),
-            (sample_data["note"], Note),
+            (sample_data["organisation"], Organisation),
+            (sample_data["timeline"], Timeline),
             (sample_data["race"], Race),
-            (sample_data["journal"], Journal)
+            # (sample_data["family"], Family),  # Not working, getting a 404
+            (sample_data["note"], Note),
+            (sample_data["tag"], Tag),
+            (sample_data["quest"], Quest),
+            (sample_data["journal"], Journal),
+            (sample_data["item"], Item),
+            (sample_data["event"], Event),
+            (sample_data["ability"], Ability),
+            # (sample_data["calendar"], Calendar), # Skipping for now
         ]
 
         for data, ChildType in children:
-            with self.subTest(msg=f"get_all_{ChildType.__name__}'".lower()):
+            with self.subTest(msg=f"get_all_{ChildType.__name__}".lower()):
                 with vcr.use_cassette((f'fixtures/vcr_cassettes/create/create_{ChildType.__name__}.yaml'.lower()),
                                       filter_headers=['authorization', 'x-req-url'],
                                       decode_compressed_response=True,
