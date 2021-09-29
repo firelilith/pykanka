@@ -1,0 +1,222 @@
+interactions:
+- request:
+    body: '{"name": "Spear", "entry": "<p>Lorem Ipsum.</p>", "type": "Weapon", "price":
+      "25 gp", "size": "1 lb.", "tags": [], "is_private": true}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '134'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://kanka.io/api/1.0/campaigns/1/items/
+  response:
+    body:
+      string: '{"data":{"id":167747,"name":"Spear","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
+        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/items_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2176957,"tags":[],"created_at":"2021-09-23T15:25:59.000000Z","created_by":88716,"updated_at":"2021-09-23T15:25:59.000000Z","updated_by":88716,"location_id":null,"character_id":null,"type":"Weapon","price":"25
+        gp","size":"1 lb."}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 6934c9ee9eb42cb8-ORD
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '592'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 23 Sep 2021 15:25:59 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6D0ZnvYnfNNUGERuCdQiblDEfIUWEM%2FFAZzEYZGqgJyr%2FFs0FaHS9Ad%2FBZsTbu6RB6eMtVNn9avgXFVzh752ItnixWIub7RwuKpkdTg4s3%2BUxIoxhbLan8r4fw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '83'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/items/
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 201
+      message: Created
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/2176957
+  response:
+    body:
+      string: '{"data":{"id":2176957,"name":"Spear","type":"item","child_id":167747,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-09-23T15:25:59.000000Z","created_by":88716,"updated_at":"2021-09-23T15:25:59.000000Z","updated_by":88716,"child":{"id":167747,"name":"Spear","entry":"<p>Lorem
+        Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/items_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2176957,"tags":[],"created_at":"2021-09-23T15:25:59.000000Z","created_by":88716,"updated_at":"2021-09-23T15:25:59.000000Z","updated_by":88716,"location_id":null,"character_id":null,"type":"Weapon","price":"25
+        gp","size":"1 lb."}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 6934c9f0fd792bb1-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 23 Sep 2021 15:26:00 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=R63MtPpqS%2FADcxa55E4KMHfq4lvxedE3UOHX4DGCkVbtCso4tr%2BVYOwrcIbJT56x18v2z2YYbWZautaPo38IDhdPq9vZI4B9Q%2BxEk2CgNrVUBjMA1bR%2Fo%2Bj%2BMw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '937'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '82'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/2176957
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/items/167747
+  response:
+    body:
+      string: '{"data":{"id":167747,"name":"Spear","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
+        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/items_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2176957,"tags":[],"created_at":"2021-09-23T15:25:59.000000Z","created_by":88716,"updated_at":"2021-09-23T15:25:59.000000Z","updated_by":88716,"location_id":null,"character_id":null,"type":"Weapon","price":"25
+        gp","size":"1 lb."}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 6934c9f33ef77f90-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 23 Sep 2021 15:26:00 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=v0JBJeyHmwPeqpI2gF4YWB3QMxyA7aSolJlrn9iSq3cI44FZB%2FqRrXWH%2FfEykEf4cKXWPPJkPpmNKxCE%2Fjj3ltBIc6u57KLZowYzPEbWDYjPbrsHEzfhOKcZzA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '592'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '81'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/items/167747
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+version: 1

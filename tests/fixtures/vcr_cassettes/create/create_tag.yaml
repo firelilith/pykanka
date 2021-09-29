@@ -1,0 +1,219 @@
+interactions:
+- request:
+    body: '{"name": "Religion", "entry": "<p>Lorem Ipsum.</p>", "type": "Lore", "colour":
+      "green", "is_private": true}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '107'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://kanka.io/api/1.0/campaigns/1/tags/
+  response:
+    body:
+      string: '{"data":{"id":159251,"name":"Religion","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
+        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2193327,"tags":[],"created_at":"2021-09-29T12:54:15.000000Z","created_by":88716,"updated_at":"2021-09-29T12:54:15.000000Z","updated_by":88716,"type":"Lore","tag_id":null,"colour":"green","entities":[]}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69655be9bc3067ce-MIA
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '567'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 29 Sep 2021 12:54:15 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FALKFn%2BYuoOZik%2BLkZM1BdWhZ8Yd5%2FTVj7fdqRyvxOYEN9w%2FwKg5VToQvcuJra5P%2BqEiPG7xW%2FCgMMd%2BJwhKSyrUnt40Suihr%2BE8acDyYOIc%2BgwIJsB0ECv1%2Bw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '89'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/tags/
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 201
+      message: Created
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/2193327
+  response:
+    body:
+      string: '{"data":{"id":2193327,"name":"Religion","type":"tag","child_id":159251,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-09-29T12:54:15.000000Z","created_by":88716,"updated_at":"2021-09-29T12:54:15.000000Z","updated_by":88716,"child":{"id":159251,"name":"Religion","entry":"<p>Lorem
+        Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2193327,"tags":[],"created_at":"2021-09-29T12:54:15.000000Z","created_by":88716,"updated_at":"2021-09-29T12:54:15.000000Z","updated_by":88716,"type":"Lore","tag_id":null,"colour":"green","entities":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69655bee2cc15724-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 29 Sep 2021 12:54:16 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=T2x4C5PWB9DE9pfrPejzxt8thn8auFq2zoD%2BT9uXJCEpsFCV3JkK%2FiYQwLIkFQKdx3JypTK3H9a89AkZ6p%2FhQSoSQYiRRF75zlRkHCF4azIOLonry9gdED8jfw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '914'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '88'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/2193327
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/tags/159251
+  response:
+    body:
+      string: '{"data":{"id":159251,"name":"Religion","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
+        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2193327,"tags":[],"created_at":"2021-09-29T12:54:15.000000Z","created_by":88716,"updated_at":"2021-09-29T12:54:15.000000Z","updated_by":88716,"type":"Lore","tag_id":null,"colour":"green","entities":[]}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69655bf2790567da-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 29 Sep 2021 12:54:17 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fWwwYW2csmtGPzqv2u1eUogha9fHSa0YXEGdLEjxhBr2K6n2%2BYJtJ8uFhidy6kkN%2BYnwx2Rc34klSWk37aB8iljeeBTke4RM6J7gVvjabxkwn%2F%2Fn6%2BADkvAStw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '567'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '87'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/tags/159251
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+version: 1

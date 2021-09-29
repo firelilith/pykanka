@@ -1,0 +1,348 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/calendars
+  response:
+    body:
+      string: '{"data":[{"id":34,"name":"Thaelian","entry":"\n<p>The Thaelian calendar
+        is the most widespread used calendar system on the continent of <a title=\"Thaelia
+        is a continent on the northern hemisphere. It borders the continent of Beira,
+        and has a population of around 11 million humanoid races.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\"
+        data-toggle=\"tooltip\">Thaelia<\/a>. It inherits from the old calendars which
+        came before it. It was created in 42 AE once the <a href=\"#\">Last Rebellion<\/a>
+        was conquered.<\/p>\n","entry_parsed":"\n<p>The Thaelian calendar is the most
+        widespread used calendar system on the continent of <a title=\"Thaelia is
+        a continent on the northern hemisphere. It borders the continent of Beira,
+        and has a population of around 11 million humanoid races.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\"
+        data-toggle=\"tooltip\">Thaelia<\/a>. It inherits from the old calendars which
+        came before it. It was created in 42 AE once the <a href=\"#\">Last Rebellion<\/a>
+        was conquered.<\/p>\n","image":"calendars\/ZLWJuOnIVDfu68Qt3lFg3FllZiTPyW2Awm8VyDLQ.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/l-zlh7hDDmSRRvuqVwkrUm86eUw=\/smart\/src\/calendars%2FZLWJuOnIVDfu68Qt3lFg3FllZiTPyW2Awm8VyDLQ.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/9WAtUTQUB3ET16zHdkx5m-FS--8=\/40x40\/smart\/src\/calendars%2FZLWJuOnIVDfu68Qt3lFg3FllZiTPyW2Awm8VyDLQ.jpeg?webpfallback","has_custom_image":true,"header_full":"https:\/\/images.kanka.io\/user\/4TGTrS2QDugD5ffoPUr7Ecx-K5U=\/smart\/src\/campaign%2F1%2FJngoboCvy1JaahmIEGoFE8m1dgopOEAP1WGcQmNY.jpeg?webpfallback","has_custom_header":true,"is_private":false,"is_template":false,"entity_id":19019,"tags":[],"created_at":"2018-05-05T16:10:52.000000Z","created_by":null,"updated_at":"2021-05-13T15:19:03.000000Z","updated_by":1,"type":"Calendar","date":"1025-4-16","parameters":null,"months":[{"name":"Vanay","length":30,"type":"standard","alias":"Children"},{"name":"Mauar","length":30,"type":"standard","alias":"Flowers"},{"name":"Uajai","length":30,"type":"standard","alias":"Growth"},{"name":"Tunay","length":30,"type":"standard","alias":"Rest"},{"name":"Kizor","length":30,"type":"standard","alias":"Sun"},{"name":"Muvay","length":30,"type":"standard","alias":"Rain"},{"name":"Avunai","length":30,"type":"standard","alias":"Harvest"},{"name":"Baray","length":30,"type":"standard","alias":"Change"},{"name":"Sikor","length":30,"type":"standard","alias":"Night"},{"name":"Tena","length":12,"type":"standard","alias":"Rebirth"}],"weekdays":["Father''s
+        Day","Monday","Elorday","Sunday","Ivinday","Alurday","Thursday","Mother''s
+        Day"],"years":{"1":"Year of Conquest","22":"Year of Standardization","665":"Year
+        of the Great Death","883":"Year of Bloodshed"},"seasons":[{"name":"Winter","month":9,"day":1},{"name":"Spring","month":2,"day":20},{"name":"Summer","month":5,"day":10},{"name":"Autumn","month":8,"day":20}],"moons":[{"name":"Suuil","fullmoon":"20","offset":0,"colour":"maroon","id":1},{"name":"Annan","fullmoon":"31","offset":0,"colour":"orange","id":2}],"start_offset":0,"suffix":"AE","has_leap_year":0,"leap_year_amount":null,"leap_year_month":null,"leap_year_offset":null,"leap_year_start":null},{"id":609,"name":"Sunea
+        Calendar","entry":"<p>The Sunea Calendar is the oldest calendar still in use
+        to this day, mostly on the continent of\u00a0[location:104446].<\/p>\n<p>It
+        has 7 months of 40 days each, and 10 leap days every fifth year.<\/p>\n<p>The
+        first three months are those dedicated to working the fields, the 4th to rest
+        (summer) and the last 3 to pruning the crops.<\/p>","entry_parsed":"<p>The
+        Sunea Calendar is the oldest calendar still in use to this day, mostly on
+        the continent of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/32757\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"104446\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/104446\/tooltip\">Baira<\/a>.<\/p>\n<p>It
+        has 7 months of 40 days each, and 10 leap days every fifth year.<\/p>\n<p>The
+        first three months are those dedicated to working the fields, the 4th to rest
+        (summer) and the last 3 to pruning the crops.<\/p>","image":"calendars\/bGkh1f7xJsHfQvYvB1YPnTnwtdYFBMzRZLZcN74L.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/7tNPmF7i-k7laxfm17Bm-1letDM=\/smart\/src\/calendars%2FbGkh1f7xJsHfQvYvB1YPnTnwtdYFBMzRZLZcN74L.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/Z725s5qAi6MmvU6Yb3rl4tbIb9c=\/40x40\/smart\/src\/calendars%2FbGkh1f7xJsHfQvYvB1YPnTnwtdYFBMzRZLZcN74L.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":105524,"tags":[],"created_at":"2019-01-24T08:47:31.000000Z","created_by":1,"updated_at":"2021-05-13T15:19:04.000000Z","updated_by":1,"type":"Calendar","date":"2439-5-5","parameters":null,"months":[{"name":"Goli","length":40,"type":"standard","alias":""},{"name":"Sara","length":40,"type":"standard","alias":""},{"name":"Bari","length":40,"type":"standard","alias":""},{"name":"Musk","length":40,"type":"standard","alias":""},{"name":"Sima","length":40,"type":"standard","alias":""},{"name":"Taui","length":40,"type":"standard","alias":""},{"name":"Leyo","length":40,"type":"standard","alias":""}],"weekdays":["River","Tree","Wind","Sky","Sun","Moon"],"years":[],"seasons":[{"name":"Dawn","month":1,"day":1},{"name":"Sun","month":4,"day":1},{"name":"Dusk","month":5,"day":1}],"moons":[],"start_offset":0,"suffix":null,"has_leap_year":1,"leap_year_amount":10,"leap_year_month":7,"leap_year_offset":5,"leap_year_start":1},{"id":2065,"name":"Georgian","entry":"\n<p>Example
+        of implementing the <a href=\"https:\/\/en.wikipedia.org\/wiki\/Gregorian_calendar\"
+        target=\"_blank\" rel=\"noreferrer noopener\">Georgian<\/a> calendar in Kanka.<\/p>\n","entry_parsed":"\n<p>Example
+        of implementing the <a href=\"https:\/\/en.wikipedia.org\/wiki\/Gregorian_calendar\"
+        target=\"_blank\" rel=\"noreferrer noopener\">Georgian<\/a> calendar in Kanka.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/calendars_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":364069,"tags":[],"created_at":"2019-10-17T11:59:57.000000Z","created_by":1,"updated_at":"2021-09-22T00:00:02.000000Z","updated_by":1,"type":"Calendar","date":"2021-9-22","parameters":null,"months":[{"name":"January","length":31,"type":"standard","alias":""},{"name":"February","length":28,"type":"standard","alias":""},{"name":"March","length":31,"type":"standard","alias":""},{"name":"April","length":30,"type":"standard","alias":""},{"name":"Mai","length":31,"type":"standard","alias":""},{"name":"June","length":30,"type":"standard","alias":""},{"name":"July","length":31,"type":"standard","alias":""},{"name":"August","length":31,"type":"standard","alias":""},{"name":"September","length":30,"type":"standard","alias":""},{"name":"October","length":31,"type":"standard","alias":""},{"name":"November","length":30,"type":"standard","alias":""},{"name":"December","length":31,"type":"standard","alias":""}],"weekdays":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"years":[],"seasons":[{"name":"Spring","month":3,"day":21},{"name":"Summer","month":6,"day":21},{"name":"Autumn","month":9,"day":21},{"name":"Winter","month":12,"day":21}],"moons":[],"start_offset":5,"suffix":"AD","has_leap_year":1,"leap_year_amount":1,"leap_year_month":2,"leap_year_offset":4,"leap_year_start":4}],"links":{"first":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/calendars?page=1","last":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/calendars?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/calendars","per_page":45,"to":3,"total":3},"sync":"2021-09-22T17:41:24.914749Z"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d52ebfd912ae2-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:41:25 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pEMEa%2F98i83sKgOF9WdJlml7ZtIuxcVLK30JXdRCQ7oF77zjop62mR3nblpi9FNdmCmiw%2FbjQV4gacxlTDgXX2F6aQGurHze3otQ5T1nbEvWyga8RPphhREixw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '8047'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '78'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/calendars
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/19019
+  response:
+    body:
+      string: '{"data":{"id":19019,"name":"Thaelian","type":"calendar","child_id":34,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":"campaign\/1\/JngoboCvy1JaahmIEGoFE8m1dgopOEAP1WGcQmNY.jpeg","image_uuid":null,"created_at":"2018-05-05T16:10:52.000000Z","created_by":null,"updated_at":"2020-09-26T11:03:52.000000Z","updated_by":1,"child":{"id":34,"name":"Thaelian","entry":"\n<p>The
+        Thaelian calendar is the most widespread used calendar system on the continent
+        of <a title=\"Thaelia is a continent on the northern hemisphere. It borders
+        the continent of Beira, and has a population of around 11 million humanoid
+        races.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\" data-toggle=\"tooltip\">Thaelia<\/a>.
+        It inherits from the old calendars which came before it. It was created in
+        42 AE once the <a href=\"#\">Last Rebellion<\/a> was conquered.<\/p>\n","entry_parsed":"\n<p>The
+        Thaelian calendar is the most widespread used calendar system on the continent
+        of <a title=\"Thaelia is a continent on the northern hemisphere. It borders
+        the continent of Beira, and has a population of around 11 million humanoid
+        races.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\" data-toggle=\"tooltip\">Thaelia<\/a>.
+        It inherits from the old calendars which came before it. It was created in
+        42 AE once the <a href=\"#\">Last Rebellion<\/a> was conquered.<\/p>\n","image":"calendars\/ZLWJuOnIVDfu68Qt3lFg3FllZiTPyW2Awm8VyDLQ.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/l-zlh7hDDmSRRvuqVwkrUm86eUw=\/smart\/src\/calendars%2FZLWJuOnIVDfu68Qt3lFg3FllZiTPyW2Awm8VyDLQ.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/9WAtUTQUB3ET16zHdkx5m-FS--8=\/40x40\/smart\/src\/calendars%2FZLWJuOnIVDfu68Qt3lFg3FllZiTPyW2Awm8VyDLQ.jpeg?webpfallback","has_custom_image":true,"header_full":"https:\/\/images.kanka.io\/user\/4TGTrS2QDugD5ffoPUr7Ecx-K5U=\/smart\/src\/campaign%2F1%2FJngoboCvy1JaahmIEGoFE8m1dgopOEAP1WGcQmNY.jpeg?webpfallback","has_custom_header":true,"is_private":false,"is_template":false,"entity_id":19019,"tags":[],"created_at":"2018-05-05T16:10:52.000000Z","created_by":null,"updated_at":"2021-05-13T15:19:03.000000Z","updated_by":1,"type":"Calendar","date":"1025-4-16","parameters":null,"months":[{"name":"Vanay","length":30,"type":"standard","alias":"Children"},{"name":"Mauar","length":30,"type":"standard","alias":"Flowers"},{"name":"Uajai","length":30,"type":"standard","alias":"Growth"},{"name":"Tunay","length":30,"type":"standard","alias":"Rest"},{"name":"Kizor","length":30,"type":"standard","alias":"Sun"},{"name":"Muvay","length":30,"type":"standard","alias":"Rain"},{"name":"Avunai","length":30,"type":"standard","alias":"Harvest"},{"name":"Baray","length":30,"type":"standard","alias":"Change"},{"name":"Sikor","length":30,"type":"standard","alias":"Night"},{"name":"Tena","length":12,"type":"standard","alias":"Rebirth"}],"weekdays":["Father''s
+        Day","Monday","Elorday","Sunday","Ivinday","Alurday","Thursday","Mother''s
+        Day"],"years":{"1":"Year of Conquest","22":"Year of Standardization","665":"Year
+        of the Great Death","883":"Year of Bloodshed"},"seasons":[{"name":"Winter","month":9,"day":1},{"name":"Spring","month":2,"day":20},{"name":"Summer","month":5,"day":10},{"name":"Autumn","month":8,"day":20}],"moons":[{"name":"Suuil","fullmoon":"20","offset":0,"colour":"maroon","id":1},{"name":"Annan","fullmoon":"31","offset":0,"colour":"orange","id":2}],"start_offset":0,"suffix":"AE","has_leap_year":0,"leap_year_amount":null,"leap_year_month":null,"leap_year_offset":null,"leap_year_start":null}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d52effd7b29fd-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:41:25 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=P2JEYq3jXOdlPKfX3Vcm%2BwJEQmk%2F3scuqH8mYOsx4E2R19pQMIq4AzuOMgNSPdroqS%2FFWUHLKhtRpVsy0hYmajBMEADmb1TzpMBwDPuP84pp4vhVtZmHCA438g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '3651'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '77'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/19019
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/105524
+  response:
+    body:
+      string: '{"data":{"id":105524,"name":"Sunea Calendar","type":"calendar","child_id":609,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"","header_image":null,"image_uuid":null,"created_at":"2019-01-24T08:47:31.000000Z","created_by":1,"updated_at":"2020-09-22T09:43:16.000000Z","updated_by":1,"child":{"id":609,"name":"Sunea
+        Calendar","entry":"<p>The Sunea Calendar is the oldest calendar still in use
+        to this day, mostly on the continent of\u00a0[location:104446].<\/p>\n<p>It
+        has 7 months of 40 days each, and 10 leap days every fifth year.<\/p>\n<p>The
+        first three months are those dedicated to working the fields, the 4th to rest
+        (summer) and the last 3 to pruning the crops.<\/p>","entry_parsed":"<p>The
+        Sunea Calendar is the oldest calendar still in use to this day, mostly on
+        the continent of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/32757\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"104446\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/104446\/tooltip\">Baira<\/a>.<\/p>\n<p>It
+        has 7 months of 40 days each, and 10 leap days every fifth year.<\/p>\n<p>The
+        first three months are those dedicated to working the fields, the 4th to rest
+        (summer) and the last 3 to pruning the crops.<\/p>","image":"calendars\/bGkh1f7xJsHfQvYvB1YPnTnwtdYFBMzRZLZcN74L.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/7tNPmF7i-k7laxfm17Bm-1letDM=\/smart\/src\/calendars%2FbGkh1f7xJsHfQvYvB1YPnTnwtdYFBMzRZLZcN74L.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/Z725s5qAi6MmvU6Yb3rl4tbIb9c=\/40x40\/smart\/src\/calendars%2FbGkh1f7xJsHfQvYvB1YPnTnwtdYFBMzRZLZcN74L.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":105524,"tags":[],"created_at":"2019-01-24T08:47:31.000000Z","created_by":1,"updated_at":"2021-05-13T15:19:04.000000Z","updated_by":1,"type":"Calendar","date":"2439-5-5","parameters":null,"months":[{"name":"Goli","length":40,"type":"standard","alias":""},{"name":"Sara","length":40,"type":"standard","alias":""},{"name":"Bari","length":40,"type":"standard","alias":""},{"name":"Musk","length":40,"type":"standard","alias":""},{"name":"Sima","length":40,"type":"standard","alias":""},{"name":"Taui","length":40,"type":"standard","alias":""},{"name":"Leyo","length":40,"type":"standard","alias":""}],"weekdays":["River","Tree","Wind","Sky","Sun","Moon"],"years":[],"seasons":[{"name":"Dawn","month":1,"day":1},{"name":"Sun","month":4,"day":1},{"name":"Dusk","month":5,"day":1}],"moons":[],"start_offset":0,"suffix":null,"has_leap_year":1,"leap_year_amount":10,"leap_year_month":7,"leap_year_offset":5,"leap_year_start":1}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d52f1cdcde1f2-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:41:25 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qjDReYSg6AfvaKzM86chLYf26Lhr%2FFq%2Bg%2BJdgs%2FrL8ppHR9mvuX99aasToSPvFKySg7GMXD4UOZquW%2B1JCLxPzt4wcTlFd4D1gS1rfbwbjcWx1%2BCYM55K5qehA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2792'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '76'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/105524
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/364069
+  response:
+    body:
+      string: '{"data":{"id":364069,"name":"Georgian","type":"calendar","child_id":2065,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2019-10-17T11:59:57.000000Z","created_by":1,"updated_at":"2020-05-17T08:06:07.000000Z","updated_by":1,"child":{"id":2065,"name":"Georgian","entry":"\n<p>Example
+        of implementing the <a href=\"https:\/\/en.wikipedia.org\/wiki\/Gregorian_calendar\"
+        target=\"_blank\" rel=\"noreferrer noopener\">Georgian<\/a> calendar in Kanka.<\/p>\n","entry_parsed":"\n<p>Example
+        of implementing the <a href=\"https:\/\/en.wikipedia.org\/wiki\/Gregorian_calendar\"
+        target=\"_blank\" rel=\"noreferrer noopener\">Georgian<\/a> calendar in Kanka.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/calendars_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":364069,"tags":[],"created_at":"2019-10-17T11:59:57.000000Z","created_by":1,"updated_at":"2021-09-22T00:00:02.000000Z","updated_by":1,"type":"Calendar","date":"2021-9-22","parameters":null,"months":[{"name":"January","length":31,"type":"standard","alias":""},{"name":"February","length":28,"type":"standard","alias":""},{"name":"March","length":31,"type":"standard","alias":""},{"name":"April","length":30,"type":"standard","alias":""},{"name":"Mai","length":31,"type":"standard","alias":""},{"name":"June","length":30,"type":"standard","alias":""},{"name":"July","length":31,"type":"standard","alias":""},{"name":"August","length":31,"type":"standard","alias":""},{"name":"September","length":30,"type":"standard","alias":""},{"name":"October","length":31,"type":"standard","alias":""},{"name":"November","length":30,"type":"standard","alias":""},{"name":"December","length":31,"type":"standard","alias":""}],"weekdays":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"years":[],"seasons":[{"name":"Spring","month":3,"day":21},{"name":"Summer","month":6,"day":21},{"name":"Autumn","month":9,"day":21},{"name":"Winter","month":12,"day":21}],"moons":[],"start_offset":5,"suffix":"AD","has_leap_year":1,"leap_year_amount":1,"leap_year_month":2,"leap_year_offset":4,"leap_year_start":4}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 692d52f55f1c639e-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 22 Sep 2021 17:41:26 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=61XlmkJxSSky9Y252TwtOvglQM6jh0b4Dc7OjjUGMSEMIFfXmz%2B83SLE9USPG7nT5wB7BAtIq2WvL1nYMi630eb7OJ23nv6ejPyT4DGunerBkmLYIxlmMMt6kQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2343'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '75'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/364069
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+version: 1
