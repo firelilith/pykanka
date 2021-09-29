@@ -32,12 +32,15 @@ class KankaClient:
         entity=ent.Entity
     )
 
-    def __init__(self, token: str, campaign: Union[str, int] = None, cache_duration: int = 600, on_request: Callable = None):
+    def __init__(self, token: str, campaign: Union[str, int] = None, cache_duration: int = 600, on_request: Callable = None, kanka_locale: str = None):
         self._api_token = token
         self._headers = {
             "Authorization": f"Bearer {token}",
             "Accept": "application/json",
         }
+        if kanka_locale:
+            self._headers["kanka-locale"] = kanka_locale
+
         self._api_base_url = "https://kanka.io/api/1.0/campaigns/"
 
         self._cache = dict()
