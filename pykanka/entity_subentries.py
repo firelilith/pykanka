@@ -91,9 +91,9 @@ class Attribute(GenericSubentry):                                           # Wo
 
 
 @dataclass
-class EntityEvent(GenericSubentry):                                         # Currently broken, either code 500 or closes remote API connection
-    _required: ClassVar[Set[str]] = {"name", "day", "month", "year", "length", "entity_id"}
-    _possible: ClassVar[Set[str]] = {"name", "day", "month", "year", "length", "recurring_periodicity", "recurring_until", "colour", "comment", "entity_id", "is_private", "type_id", "visibility"}
+class EntityEvent(GenericSubentry):                                         # Working
+    _required: ClassVar[Set[str]] = {"calendar_id", "name", "day", "month", "year", "length", "entity_id"}
+    _possible: ClassVar[Set[str]] = {"calendar_id", "name", "day", "month", "year", "length", "recurring_periodicity", "recurring_until", "colour", "comment", "entity_id", "is_private", "type_id", "visibility"}
     _endpoint: ClassVar[str] = "entity_events"
 
     calendar_id:            Optional[int] = None
@@ -177,8 +177,8 @@ class Inventory(GenericSubentry):                                           # Wa
 
 
 @dataclass
-class EntityNotes(GenericSubentry):                                         # Broken, code 500
-    _required: ClassVar[Set[str]] = {"name", "entity_id", "visibility"}
+class EntityNotes(GenericSubentry):                                         # Working
+    _required: ClassVar[Set[str]] = {"name", "entity_id", "visibility", "entry"}
     _possible: ClassVar[Set[str]] = {"name", "entry", "entity_id", "visibility", "position", "settings"}
     _endpoint: ClassVar[str] = "entity_notes"
 
