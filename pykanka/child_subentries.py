@@ -2,7 +2,6 @@ import json
 import typing
 from typing import Dict
 
-import pykanka
 from pykanka.exceptions import *
 
 

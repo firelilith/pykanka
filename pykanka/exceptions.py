@@ -24,3 +24,7 @@ class ParameterMissingError(Error, ValueError):
 
 class DeletingNonExistentError(Error, ValueError):
     pass
+
+
+class AccessingNonExistentError(Error):
+    pass

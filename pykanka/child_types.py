@@ -1,23 +1,21 @@
-import typing
-import json
-from typing import List, Optional
-
 import requests
 
-import pykanka
-import pykanka.child_subentries as st
-from pykanka.exceptions import *
-from dataclasses import dataclass, InitVar
-from pykanka.childdata_types import *
+import json
+from typing import Optional, Union, List
+from dataclasses import dataclass
 
+import pykanka.childdata_types
+import pykanka.entities
+import pykanka.child_subentries
+from pykanka.exceptions import *
 
 @dataclass
 class GenericChildType:
     client: Optional["pykanka.KankaClient"]
-    _parent: Optional["pykanka.entities.Entity"] = None
+    _parent: Optional["Entity"] = None
     base_url: Optional[str] = str()
     endpoint: Optional[str] = str()  # Overidden by inheritors
-    data: Optional[GenericChildData] = GenericChildData() # Overidden by inheritors
+    data: Optional[pykanka.childdata_types.GenericChildData] = pykanka.childdata_types.GenericChildData() # Overidden by inheritors
 
     """Generic class for child types. 
     Shouldn't be used directly, it is used as a base class for specialized child types."""
@@ -60,7 +58,7 @@ class GenericChildType:
         return obj
 
     @classmethod
-    def from_json(cls, client: "pykanka.KankaClient", content: typing.Union[str, dict],
+    def from_json(cls, client: "pykanka.KankaClient", content: Union[str, dict],
                   parent: "pykanka.entities.Entity" = None) -> "GenericChildType":
 
         if type(content) == str:
@@ -171,7 +169,7 @@ class Location(GenericChildType):
     _file_keys = ["image", "map"]
 
     child_id: Optional[int] = None
-    data: LocationData = LocationData()
+    data: pykanka.childdata_types.LocationData = pykanka.childdata_types.LocationData()
     endpoint: str = "locations"
 
     def get_map_image(self) -> "requests.Response.raw":
@@ -191,7 +189,7 @@ class Character(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: CharacterData = CharacterData()
+    data: pykanka.childdata_types.CharacterData = pykanka.childdata_types.CharacterData()
     endpoint: str = "characters"
 
 
@@ -208,7 +206,7 @@ class Organisation(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: OrganisationData = OrganisationData()
+    data: pykanka.childdata_types.OrganisationData = pykanka.childdata_types.OrganisationData()
     endpoint: str = "organisations"
 
 
@@ -224,7 +222,7 @@ class Timeline(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: TimelineData = TimelineData()
+    data: pykanka.childdata_types.TimelineData = pykanka.childdata_types.TimelineData()
     endpoint: str = "timelines"
 
 
@@ -240,7 +238,7 @@ class Race(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: RaceData = RaceData()
+    data: pykanka.childdata_types.RaceData = pykanka.childdata_types.RaceData()
     endpoint: str = "races"
 
 
@@ -257,7 +255,7 @@ class Family(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: FamilyData = FamilyData()
+    data: pykanka.childdata_types.FamilyData = pykanka.childdata_types.FamilyData()
     endpoint: str = "families"
 
 
@@ -273,7 +271,7 @@ class Note(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: NoteData = NoteData()
+    data: pykanka.childdata_types.NoteData = pykanka.childdata_types.NoteData()
     endpoint: str = "notes"
 
 
@@ -290,10 +288,10 @@ class Map(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: MapData = MapData()
+    data: pykanka.childdata_types.MapData = pykanka.childdata_types.MapData()
     endpoint: str = "maps"
 
-    def all_markers(self) -> List["st.MapMarker"]:
+    def all_markers(self) -> List["MapMarker"]:
         """Returns a list of all existing map markers"""
         markers = []
         url = f"{self.base_url}{self.data.id}/map_markers"
@@ -302,7 +300,7 @@ class Map(GenericChildType):
         while not done:
             response = self.client.request_get(url).json()
             for entry in response["data"]:
-                markers.append(st.MapMarker(self, values=entry))
+                markers.append(pykanka.child_subentries.MapMarker(self, values=entry))
                 if response["links"]["next"]:
                     url = response["links"]["next"]
                 else:
@@ -310,7 +308,7 @@ class Map(GenericChildType):
 
         return markers
 
-    def get_marker(self, marker_id: int = None) -> "st.MapMarker":
+    def get_marker(self, marker_id: int = None) -> "MapMarker":
         """
         Returns either the map marker with the specified ID, or, if none is given, an empty map marker.
 
@@ -321,9 +319,9 @@ class Map(GenericChildType):
             response = self.client.request_get(f"{self.base_url}{self.data.id}/map_markers/{marker_id}")
             if not response.ok:
                 raise ResponseNotOkError(f"Response not OK, code {response.status_code}: {response.text}")
-            marker = st.MapMarker(parent_map=self, values=response.json()["data"])
+            marker = pykanka.child_subentries.MapMarker(parent_map=self, values=response.json()["data"])
         else:
-            marker = st.MapMarker(parent_map=self)
+            marker = pykanka.child_subentries.MapMarker(parent_map=self)
         return marker
 
     @staticmethod
@@ -346,7 +344,7 @@ class Tag(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: TagData = TagData()
+    data: pykanka.childdata_types.TagData = pykanka.childdata_types.TagData()
     endpoint: str = "tags"
 
 
@@ -363,7 +361,7 @@ class Quest(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: QuestData = QuestData()
+    data: pykanka.childdata_types.QuestData = pykanka.childdata_types.QuestData()
     endpoint: str = "quests"
 
 
@@ -379,7 +377,7 @@ class Journal(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: JournalData = JournalData()
+    data: pykanka.childdata_types.JournalData = pykanka.childdata_types.JournalData()
     endpoint: str = "journals"
 
 
@@ -396,7 +394,7 @@ class Item(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: ItemData = ItemData()
+    data: pykanka.childdata_types.ItemData = pykanka.childdata_types.ItemData()
     endpoint: str = "items"
 
 
@@ -412,7 +410,7 @@ class Event(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: EventData = EventData()
+    data: pykanka.childdata_types.EventData = pykanka.childdata_types.EventData()
     endpoint: str = "events"
 
 
@@ -429,7 +427,7 @@ class Ability(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: AbilityData = AbilityData()
+    data: pykanka.childdata_types.AbilityData = pykanka.childdata_types.AbilityData()
     endpoint: str = "abilities"
 
 
@@ -449,7 +447,7 @@ class Calendar(GenericChildType):
     # fields that accept stream object, not yet supported in API 1.0
     _file_keys = ["image"]
 
-    data: CalendarData = CalendarData()
+    data: pykanka.childdata_types.CalendarData = pykanka.childdata_types.CalendarData()
     endpoint: str = "calendars"
 
     @staticmethod

@@ -1,11 +1,14 @@
 import json
-from datetime import datetime
-from typing import Optional, List, Union
-
-import pykanka
-from pykanka.exceptions import *
 from dataclasses import dataclass
-from pykanka.child_types import child_type_dictionary
+from datetime import datetime
+from typing import Optional, List, Union, Callable
+
+import pykanka.entity_subentries
+import pykanka.child_types
+from pykanka.exceptions import *
+
+
+# from pykanka.child_types import child_type_dictionary
 
 @dataclass
 class EntityData:
@@ -45,7 +48,7 @@ class Entity:
     data:       Optional[EntityData] = EntityData()
     base_url:   Optional[str] = str()
     endpoint:   Optional[str] = "entities"
-    _child:                  "pykanka.child_types.GenericChildType" = None
+    _child:     "pykanka.child_types.GenericChildType" = None
 
 
     def __post_init__(self):
@@ -152,6 +155,113 @@ class Entity:
 
     @classmethod
     def _get_child_class(cls, child_type: str):
-        type_dictionary = child_type_dictionary
+        type_dictionary = pykanka.child_types.child_type_dictionary
 
         return type_dictionary[child_type]
+
+    def _check_that_i_exist(self):              # if this Entity instance was locally created, it won't exist on the server yet and not have an entity_id
+        if not self.data.id:
+            raise AccessingNonExistentError("this entity doesn't have an id yet, does it exist on the server?")
+
+    def get_attribute(self, attribute_id: int = None):
+        self._check_that_i_exist()
+        if attribute_id:
+            return pykanka.entity_subentries.Attribute.from_id(client=self.client, entity_id=self.data.id, subentry_id=attribute_id)
+        else:
+            return pykanka.entity_subentries.Attribute(_client=self.client, entity_id=self.data.id)
+
+    def get_event(self, attribute_id: int = None):
+        self._check_that_i_exist()
+        if attribute_id:
+            return pykanka.entity_subentries.EntityEvent.from_id(client=self.client, entity_id=self.data.id, subentry_id=attribute_id)
+        else:
+            return pykanka.entity_subentries.EntityEvent(_client=self.client, entity_id=self.data.id)
+
+    def get_file(self, attribute_id: int = None):
+        self._check_that_i_exist()
+        if attribute_id:
+            return pykanka.entity_subentries.EntityFile.from_id(client=self.client, entity_id=self.data.id, subentry_id=attribute_id)
+        else:
+            return pykanka.entity_subentries.EntityFile(_client=self.client, entity_id=self.data.id)
+
+    def get_note(self, attribute_id: int = None):
+        self._check_that_i_exist()
+        if attribute_id:
+            return pykanka.entity_subentries.EntityNote.from_id(client=self.client, entity_id=self.data.id, subentry_id=attribute_id)
+        else:
+            return pykanka.entity_subentries.EntityNote(_client=self.client, entity_id=self.data.id)
+
+    def get_tag(self, attribute_id: int = None):
+        self._check_that_i_exist()
+        if attribute_id:
+            return pykanka.entity_subentries.EntityTag.from_id(client=self.client, entity_id=self.data.id, subentry_id=attribute_id)
+        else:
+            return pykanka.entity_subentries.EntityTag(_client=self.client, entity_id=self.data.id)
+
+    def get_relation(self, attribute_id: int = None):
+        self._check_that_i_exist()
+        if attribute_id:
+            return pykanka.entity_subentries.Relation.from_id(client=self.client, entity_id=self.data.id, subentry_id=attribute_id)
+        else:
+            return pykanka.entity_subentries.Relation(_client=self.client, owner_id=self.data.id)
+
+    def get_inventory(self, attribute_id: int = None):
+        self._check_that_i_exist()
+        if attribute_id:
+            return pykanka.entity_subentries.EntityInventory.from_id(client=self.client, entity_id=self.data.id, subentry_id=attribute_id)
+        else:
+            return pykanka.entity_subentries.EntityInventory(_client=self.client, entity_id=self.data.id)
+
+    def get_ability(self, attribute_id: int = None):
+        self._check_that_i_exist()
+        if attribute_id:
+            return pykanka.entity_subentries.EntityAbility.from_id(client=self.client, entity_id=self.data.id, subentry_id=attribute_id)
+        else:
+            return pykanka.entity_subentries.EntityAbility(_client=self.client, entity_id=self.data.id)
+
+    def get_link(self, attribute_id: int = None):
+        self._check_that_i_exist()
+        if attribute_id:
+            return pykanka.entity_subentries.EntityLink.from_id(client=self.client, entity_id=self.data.id, subentry_id=attribute_id)
+        else:
+            return pykanka.entity_subentries.EntityLink(_client=self.client, entity_id=self.data.id)
+
+    def _get_all_of_type(self, endpoint, cls):
+        self._check_that_i_exist()
+        url = f"{self.base_url}{self.data.id}/{endpoint}"
+
+        response = self.client.request_get(url)
+
+        objects = []
+
+        for entry in response.json()["data"]:
+            objects.append(cls(_client=self.client, **entry))
+
+        return objects
+
+    def all_attributes(self):
+        return self._get_all_of_type("attributes", pykanka.entity_subentries.Attribute)
+
+    def all_events(self):
+        return self._get_all_of_type("entity_events", pykanka.entity_subentries.EntityEvent)
+
+    def all_files(self):
+        return self._get_all_of_type("entity_files", pykanka.entity_subentries.EntityFile)
+
+    def all_notes(self):
+        return self._get_all_of_type("entity_notes", pykanka.entity_subentries.EntityNote)
+
+    def all_tags(self):
+        return self._get_all_of_type("entity_tags", pykanka.entity_subentries.EntityTag)
+
+    def all_relations(self):
+        return self._get_all_of_type("relations", pykanka.entity_subentries.Relation)
+
+    def all_inventories(self):
+        return self._get_all_of_type("inventory", pykanka.entity_subentries.EntityInventory)
+
+    def all_abilities(self):
+        return self._get_all_of_type("entity_abilities", pykanka.entity_subentries.EntityAbility)
+
+    def all_links(self):
+        return self._get_all_of_type("entity_links", pykanka.entity_subentries.EntityLink)

@@ -1,11 +1,11 @@
-import requests
-from typing import Generator, Union, Callable, Dict, Any
-import tenacity
 import time
+from typing import Generator, Union, Callable, Dict, Any
 
-import pykanka.entities as ent
-import pykanka.child_types as ct
+import requests
+import tenacity
 
+import pykanka.child_types
+import pykanka.entities
 from pykanka.exceptions import *
 
 
@@ -13,23 +13,23 @@ class KankaClient:
     """Main client for interacting with the Kanka.io API"""
 
     _type_dictionary = dict(
-        location=ct.Location,
-        character=ct.Character,
-        family=ct.Family,
-        organisation=ct.Organisation,
-        timeline=ct.Timeline,
-        race=ct.Race,
-        note=ct.Note,
-        map=ct.Map,
-        tag=ct.Tag,
-        quest=ct.Quest,
-        journal=ct.Journal,
-        item=ct.Item,
-        event=ct.Event,
-        ability=ct.Ability,
-        calendar=ct.Calendar,
+        location=pykanka.child_types.Location,
+        character=pykanka.child_types.Character,
+        family=pykanka.child_types.Family,
+        organisation=pykanka.child_types.Organisation,
+        timeline=pykanka.child_types.Timeline,
+        race=pykanka.child_types.Race,
+        note=pykanka.child_types.Note,
+        map=pykanka.child_types.Map,
+        tag=pykanka.child_types.Tag,
+        quest=pykanka.child_types.Quest,
+        journal=pykanka.child_types.Journal,
+        item=pykanka.child_types.Item,
+        event=pykanka.child_types.Event,
+        ability=pykanka.child_types.Ability,
+        calendar=pykanka.child_types.Calendar,
 
-        entity=ent.Entity
+        entity=pykanka.entities.Entity
     )
 
     def __init__(self, token: str, campaign: Union[str, int] = None, cache_duration: int = 600, on_request: Callable = None, kanka_locale: str = None):
@@ -173,98 +173,98 @@ class KankaClient:
                 entity = cls.from_json(self, entry)
                 yield entity
 
-    def get_entity(self, entity_id: int = None, refresh: bool = False) -> ent.Entity:
+    def get_entity(self, entity_id: int = None, refresh: bool = False) -> pykanka.entities.Entity:
         return self.get_entity_of_type(type_name="entity", type_specific_id=entity_id, refresh=refresh)
 
-    def get_ability(self, ability_id: int = None, refresh: bool = False) -> ct.Ability:
+    def get_ability(self, ability_id: int = None, refresh: bool = False) -> pykanka.child_types.Ability:
         return self.get_entity_of_type(type_name="ability", type_specific_id=ability_id, refresh=refresh)
 
-    def get_calendar(self, calendar_id: int = None, refresh: bool = False) -> ct.Calendar:
+    def get_calendar(self, calendar_id: int = None, refresh: bool = False) -> pykanka.child_types.Calendar:
         return self.get_entity_of_type(type_name="calendar", type_specific_id=calendar_id, refresh=refresh)
 
-    def get_character(self, character_id: int = None, refresh: bool = False) -> ct.Character:
+    def get_character(self, character_id: int = None, refresh: bool = False) -> pykanka.child_types.Character:
         return self.get_entity_of_type(type_name="character", type_specific_id=character_id, refresh=refresh)
 
-    def get_event(self, event_id: int = None, refresh: bool = False) -> ct.Event:
+    def get_event(self, event_id: int = None, refresh: bool = False) -> pykanka.child_types.Event:
         return self.get_entity_of_type(type_name="event", type_specific_id=event_id, refresh=refresh)
 
-    def get_family(self, family_id: int = None, refresh: bool = False) -> ct.Family:
+    def get_family(self, family_id: int = None, refresh: bool = False) -> pykanka.child_types.Family:
         return self.get_entity_of_type(type_name="family", type_specific_id=family_id, refresh=refresh)
 
-    def get_item(self, item_id: int = None, refresh: bool = False) -> ct.Item:
+    def get_item(self, item_id: int = None, refresh: bool = False) -> pykanka.child_types.Item:
         return self.get_entity_of_type(type_name="item", type_specific_id=item_id, refresh=refresh)
 
-    def get_journal(self, journal_id: int = None, refresh: bool = False) -> ct.Journal:
+    def get_journal(self, journal_id: int = None, refresh: bool = False) -> pykanka.child_types.Journal:
         return self.get_entity_of_type(type_name="journal", type_specific_id=journal_id, refresh=refresh)
 
-    def get_location(self, location_id: int = None, refresh: bool = False) -> ct.Location:
+    def get_location(self, location_id: int = None, refresh: bool = False) -> pykanka.child_types.Location:
         return self.get_entity_of_type(type_name="location", type_specific_id=location_id, refresh=refresh)
 
-    def get_map(self, map_id: int = None, refresh: bool = False) -> ct.Map:
+    def get_map(self, map_id: int = None, refresh: bool = False) -> pykanka.child_types.Map:
         return self.get_entity_of_type(type_name="map", type_specific_id=map_id, refresh=refresh)
 
-    def get_note(self, note_id: int = None, refresh: bool = False) -> ct.Note:
+    def get_note(self, note_id: int = None, refresh: bool = False) -> pykanka.child_types.Note:
         return self.get_entity_of_type(type_name="note", type_specific_id=note_id, refresh=refresh)
 
-    def get_organisation(self, organisation_id: int = None, refresh: bool = False) -> ct.Organisation:
+    def get_organisation(self, organisation_id: int = None, refresh: bool = False) -> pykanka.child_types.Organisation:
         return self.get_entity_of_type(type_name="organisation", type_specific_id=organisation_id, refresh=refresh)
 
-    def get_quest(self, quest_id: int = None, refresh: bool = False) -> ct.Quest:
+    def get_quest(self, quest_id: int = None, refresh: bool = False) -> pykanka.child_types.Quest:
         return self.get_entity_of_type(type_name="quest", type_specific_id=quest_id, refresh=refresh)
 
-    def get_race(self, race_id: int = None, refresh: bool = False) -> ct.Race:
+    def get_race(self, race_id: int = None, refresh: bool = False) -> pykanka.child_types.Race:
         return self.get_entity_of_type(type_name="race", type_specific_id=race_id, refresh=refresh)
 
-    def get_tag(self, tag_id: int = None, refresh: bool = False) -> ct.Tag:
+    def get_tag(self, tag_id: int = None, refresh: bool = False) -> pykanka.child_types.Tag:
         return self.get_entity_of_type(type_name="tag", type_specific_id=tag_id, refresh=refresh)
 
-    def get_timeline(self, timeline_id: int = None, refresh: bool = False) -> ct.Timeline:
+    def get_timeline(self, timeline_id: int = None, refresh: bool = False) -> pykanka.child_types.Timeline:
         return self.get_entity_of_type(type_name="timeline", type_specific_id=timeline_id, refresh=refresh)
 
-    def all_entities(self, refresh: bool = False) -> Generator[ent.Entity, None, None]:
+    def all_entities(self, refresh: bool = False) -> Generator[pykanka.entities.Entity, None, None]:
         return self.get_all_of_type(type_name="entity", refresh=refresh)
 
-    def all_abilities(self, refresh: bool = False) -> Generator[ct.Ability, None, None]:
+    def all_abilities(self, refresh: bool = False) -> Generator[pykanka.child_types.Ability, None, None]:
         return self.get_all_of_type(type_name="ability", refresh=refresh)
 
-    def all_calendars(self, refresh: bool = False) -> Generator[ct.Calendar, None, None]:
+    def all_calendars(self, refresh: bool = False) -> Generator[pykanka.child_types.Calendar, None, None]:
         return self.get_all_of_type(type_name="calendar", refresh=refresh)
 
-    def all_characters(self, refresh: bool = False) -> Generator[ct.Character, None, None]:
+    def all_characters(self, refresh: bool = False) -> Generator[pykanka.child_types.Character, None, None]:
         return self.get_all_of_type(type_name="character", refresh=refresh)
 
-    def all_events(self, refresh: bool = False) -> Generator[ct.Event, None, None]:
+    def all_events(self, refresh: bool = False) -> Generator[pykanka.child_types.Event, None, None]:
         return self.get_all_of_type(type_name="event", refresh=refresh)
 
-    def all_families(self, refresh: bool = False) -> Generator[ct.Family, None, None]:
+    def all_families(self, refresh: bool = False) -> Generator[pykanka.child_types.Family, None, None]:
         return self.get_all_of_type(type_name="family", refresh=refresh)
 
-    def all_items(self, refresh: bool = False) -> Generator[ct.Item, None, None]:
+    def all_items(self, refresh: bool = False) -> Generator[pykanka.child_types.Item, None, None]:
         return self.get_all_of_type(type_name="item", refresh=refresh)
 
-    def all_journals(self, refresh: bool = False) -> Generator[ct.Journal, None, None]:
+    def all_journals(self, refresh: bool = False) -> Generator[pykanka.child_types.Journal, None, None]:
         return self.get_all_of_type(type_name="journal", refresh=refresh)
 
-    def all_locations(self, refresh: bool = False) -> Generator[ct.Location, None, None]:
+    def all_locations(self, refresh: bool = False) -> Generator[pykanka.child_types.Location, None, None]:
         return self.get_all_of_type(type_name="location", refresh=refresh)
 
-    def all_maps(self, refresh: bool = False) -> Generator[ct.Map, None, None]:
+    def all_maps(self, refresh: bool = False) -> Generator[pykanka.child_types.Map, None, None]:
         return self.get_all_of_type(type_name="map", refresh=refresh)
 
-    def all_notes(self, refresh: bool = False) -> Generator[ct.Note, None, None]:
+    def all_notes(self, refresh: bool = False) -> Generator[pykanka.child_types.Note, None, None]:
         return self.get_all_of_type(type_name="note", refresh=refresh)
 
-    def all_organisations(self, refresh: bool = False) -> Generator[ct.Organisation, None, None]:
+    def all_organisations(self, refresh: bool = False) -> Generator[pykanka.child_types.Organisation, None, None]:
         return self.get_all_of_type(type_name="organisation", refresh=refresh)
 
-    def all_quests(self, refresh: bool = False) -> Generator[ct.Quest, None, None]:
+    def all_quests(self, refresh: bool = False) -> Generator[pykanka.child_types.Quest, None, None]:
         return self.get_all_of_type(type_name="quest", refresh=refresh)
 
-    def all_races(self, refresh: bool = False) -> Generator[ct.Race, None, None]:
+    def all_races(self, refresh: bool = False) -> Generator[pykanka.child_types.Race, None, None]:
         return self.get_all_of_type(type_name="race", refresh=refresh)
 
-    def all_tags(self, refresh: bool = False) -> Generator[ct.Tag, None, None]:
+    def all_tags(self, refresh: bool = False) -> Generator[pykanka.child_types.Tag, None, None]:
         return self.get_all_of_type(type_name="tag", refresh=refresh)
 
-    def all_timelines(self, refresh: bool = False) -> Generator[ct.Timeline, None, None]:
+    def all_timelines(self, refresh: bool = False) -> Generator[pykanka.child_types.Timeline, None, None]:
         return self.get_all_of_type(type_name="timeline", refresh=refresh)

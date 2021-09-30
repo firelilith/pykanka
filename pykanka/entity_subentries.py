@@ -1,12 +1,8 @@
-import datetime
-
-from pykanka import KankaClient
-from pykanka.entities import Entity
-from pykanka.exceptions import *
-
-from datetime import datetime
 from dataclasses import dataclass
+from datetime import datetime
 from typing import Optional, ClassVar, Set, Union, IO
+
+from pykanka.exceptions import *
 
 
 @dataclass
@@ -15,12 +11,20 @@ class GenericSubentry:
     _possible: ClassVar[Set[str]]
     _endpoint: ClassVar[str] = ""
 
-    _client: KankaClient
+    _client: "KankaClient"
 
     id: int = None
 
     def __post_init__(self):
         self._base_url: str = f"{self._client.campaign_base_url}entities/"
+
+    @classmethod
+    def from_id(cls, client: "KankaClient", entity_id: int, subentry_id: int):
+        url = f"{client.campaign_base_url}entities/{entity_id}/{cls._endpoint}/{subentry_id}"
+        response = client.request_get(url)
+        if not response.ok:
+            raise ResponseNotOkError(response.text)
+        return cls(response.json()["data"])
 
     def post(self, **kwargs):
         data, url = self._prepare_post(kwargs)
@@ -42,6 +46,9 @@ class GenericSubentry:
                 data[key] = val
             else:
                 raise WrongParametersPassedToEntity(key)
+
+            if key in {"entity_id", "owner_id"}:
+                raise WrongParametersPassedToEntity("can't alter parent entity")
 
         if not self._required.issubset(data.keys()):
             raise ParameterMissingError(self._required - data.keys())
@@ -98,6 +105,9 @@ class EntityEvent(GenericSubentry):                                         # Wo
 
     calendar_id:            Optional[int] = None
     comment:                Optional[str] = None
+    colour:                 Optional[str] = None
+    day:                    Optional[int] = None
+    month:                  Optional[int] = None
     created_at:             Optional[Union[datetime, str]] = None
     created_by:             Optional[int] = None
     date:                   Optional[str] = None
@@ -131,6 +141,7 @@ class EntityFile(GenericSubentry):                                              
     path:                   Optional[str] = None
     size:                   Optional[str] = None
     type:                   Optional[str] = None
+    is_private:             Optional[bool] = None
     updated_at:             Optional[Union[datetime, str]] = None
     updated_by:             Optional[int] = None
 
@@ -158,6 +169,7 @@ class EntityFile(GenericSubentry):                                              
         return self._client.request_get(self.path, stream=True).raw.data
 
 
+"""
 @dataclass
 class Inventory(GenericSubentry):                                           # Warning! In the documentation sidebar this is called "Entity Inventory"
     _required: ClassVar[Set[str]] = {"item_id", "entity_id"}
@@ -174,10 +186,10 @@ class Inventory(GenericSubentry):                                           # Wa
     position:               Optional[int] = None
     updated_at:             Optional[Union[datetime, str]] = None
     updated_by:             Optional[int] = None
-
+"""
 
 @dataclass
-class EntityNotes(GenericSubentry):                                         # Working
+class EntityNote(GenericSubentry):                                         # Working
     _required: ClassVar[Set[str]] = {"name", "entity_id", "visibility", "entry"}
     _possible: ClassVar[Set[str]] = {"name", "entry", "entity_id", "visibility", "position", "settings"}
     _endpoint: ClassVar[str] = "entity_notes"
@@ -192,12 +204,13 @@ class EntityNotes(GenericSubentry):                                         # Wo
     visibility:             Optional[str] = None
     name:                   Optional[str] = None
     settings:               Optional[list] = None
+    is_private:             Optional[bool] = None
     updated_at:             Optional[Union[datetime, str]] = None
     updated_by:             Optional[int] = None
 
 
 @dataclass
-class EntityTags(GenericSubentry):                                        # Working
+class EntityTag(GenericSubentry):                                        # Working
     _required: ClassVar[Set[str]] = {"entity_id", "tag_id"}
     _possible: ClassVar[Set[str]] = {"entity_id", "tag_id"}
     _endpoint: ClassVar[str] = "entity_tags"
@@ -215,6 +228,7 @@ class Relation(GenericSubentry):                                           # Wor
 
     owner_id:               Optional[int] = None
     target_id:              Optional[int] = None
+    mirror_id:              Optional[int] = None
     relation:               Optional[str] = None
     attitude:               Optional[int] = None
     visibility:             Optional[str] = None
@@ -240,8 +254,13 @@ class EntityInventory(GenericSubentry):                                         
     is_private:             Optional[bool] = None
     item:                   Optional[dict] = None
     name:                   Optional[str] = None
+    description:            Optional[str] = None
     position:               Optional[str] = None
     visibility:             Optional[str] = None
+    created_at:             Optional[Union[datetime, str]] = None
+    created_by:             Optional[int] = None
+    updated_at:             Optional[Union[datetime, str]] = None
+    updated_by:             Optional[int] = None
 
     def _extra_validation(self, data):
         if not ("item_id" in data or "name" in data):
@@ -282,6 +301,7 @@ class EntityLink(GenericSubentry):                                  # Working
     url:                    Optional[str] = None
     icon:                   Optional[str] = None
     position:               Optional[int] = None
+    is_private:             Optional[bool] = None
     updated_at:             Optional[Union[datetime, str]] = None
     updated_by:             Optional[int] = None
 
