@@ -22,7 +22,7 @@ from sample_data import sample_data
 
 def before_record_request(request):
     """A callback to manipulate the HTTP request before adding it to the cassette. This one removes references to
-    the actually Kanka ID used to generate the cassette and replaces it with "1", which is the sample campaign ID.
+    the actual Kanka ID used to generate the cassette and replaces it with "1", which is the sample campaign ID.
 
     :param request: HTTP response received during cassette generation
     """

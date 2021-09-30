@@ -1,0 +1,1725 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/families
+  response:
+    body:
+      string: '{"data":[{"id":13,"name":"Stellar","entry":"<p>Hallo<\/p>\n\n<p>Dicki<\/p>","entry_parsed":"<p>Hallo<\/p>\n\n<p>Dicki<\/p>","image":"families\/ckwPJdURpnJhgoAtN0Xc9BMwFI6Mg7geLjKwmXMC.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/0eqK12prFmQm4mb_t5C76hrtBSs=\/smart\/src\/families%2FckwPJdURpnJhgoAtN0Xc9BMwFI6Mg7geLjKwmXMC.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/XnidUWhqAwKtqSmh0x020rhFjMA=\/40x40\/smart\/src\/families%2FckwPJdURpnJhgoAtN0Xc9BMwFI6Mg7geLjKwmXMC.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":927,"tags":[],"created_at":"2017-11-10T20:11:12.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:39.000000Z","updated_by":null,"location_id":null,"type":null,"family_id":null,"members":[]},{"id":74,"name":"Rosenberg","entry":"<p><strong>House
+        Rosenberg of Arcastle<\/strong>\u00a0is a Great House of Thaelia, ruling over
+        the kingdom of Ardenfrom their seat in Arcastle, recently attacked by House
+        MacPhaiden of Othiria It is the founding family of the kingdom of Arden, and
+        has rules for over 800 years. The head of the house if lord Maximus von Rosenberg.<\/p>\n\n<p>Sigfrid
+        von Rosenberg rebelled against\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Orlene\">Orlene<\/a>rule
+        in 318 from the city of\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Rosen\">Rosen<\/a>.
+        Through good planning, high moral and discipline and good diplomacy, Sigfrid
+        secured the southern coast of the\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Inner_Blue_Sea\">Inner
+        Blue Sea<\/a>\u00a0for himself, including Arcastle. Shortly after,\u00a0<a
+        href=\"http:\/\/dnd.jpayne.ch\/index.php?title=House_Blumenthal\">House Blumenthal<\/a>\u00a0rebelled
+        and won independence. House Blumenthal and House Rosenberg married, merging
+        their kingdoms into Arden, and the capital was moved to Arcastle.<\/p>","entry_parsed":"<p><strong>House
+        Rosenberg of Arcastle<\/strong>\u00a0is a Great House of Thaelia, ruling over
+        the kingdom of Ardenfrom their seat in Arcastle, recently attacked by House
+        MacPhaiden of Othiria It is the founding family of the kingdom of Arden, and
+        has rules for over 800 years. The head of the house if lord Maximus von Rosenberg.<\/p>\n\n<p>Sigfrid
+        von Rosenberg rebelled against\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Orlene\">Orlene<\/a>rule
+        in 318 from the city of\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Rosen\">Rosen<\/a>.
+        Through good planning, high moral and discipline and good diplomacy, Sigfrid
+        secured the southern coast of the\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Inner_Blue_Sea\">Inner
+        Blue Sea<\/a>\u00a0for himself, including Arcastle. Shortly after,\u00a0<a
+        href=\"http:\/\/dnd.jpayne.ch\/index.php?title=House_Blumenthal\">House Blumenthal<\/a>\u00a0rebelled
+        and won independence. House Blumenthal and House Rosenberg married, merging
+        their kingdoms into Arden, and the capital was moved to Arcastle.<\/p>","image":"families\/j2WEJwcRvfLqSQOXQt6x2lByQBCyVpv0z7ylpP6E.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/rrSMFNPFXt3CDZ5McUrZwCp8Nm4=\/smart\/src\/families%2Fj2WEJwcRvfLqSQOXQt6x2lByQBCyVpv0z7ylpP6E.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/KvnZj6WonW9YkvyY63Fa_B7k3pQ=\/40x40\/smart\/src\/families%2Fj2WEJwcRvfLqSQOXQt6x2lByQBCyVpv0z7ylpP6E.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":983,"tags":[],"created_at":"2017-11-15T21:17:23.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:46.000000Z","updated_by":null,"location_id":928,"type":null,"family_id":null,"members":[4111,4113,4114,4115,4116,8939,50819]},{"id":75,"name":"MacPhaiden","entry":"\n<p><strong>House
+        MacPhaiden of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5183\">Drunah<\/a><\/strong>\u00a0was
+        a Great House of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        which rules over the kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\">Othiria<\/a>.
+        It controls the kingdom of Othiria since 150 years following a rebellion against
+        the previous House Hennang.<\/p>\n<p>The current leader is Sephan MacPhaiden,
+        following the death of his brother and previous King, Bathair.<\/p>\n","entry_parsed":"\n<p><strong>House
+        MacPhaiden of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5183\">Drunah<\/a><\/strong>\u00a0was
+        a Great House of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        which rules over the kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\">Othiria<\/a>.
+        It controls the kingdom of Othiria since 150 years following a rebellion against
+        the previous House Hennang.<\/p>\n<p>The current leader is Sephan MacPhaiden,
+        following the death of his brother and previous King, Bathair.<\/p>\n","image":"families\/RaWBBM0eJMMOzYwRaxTFLYI7Wzk2NfmyY4g2yAAa.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/S4t-egXfHD4t56Zjr8uFk2GgV2c=\/smart\/src\/families%2FRaWBBM0eJMMOzYwRaxTFLYI7Wzk2NfmyY4g2yAAa.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/adysLeuyL-cmZYIp5njc6Lp2qnE=\/40x40\/smart\/src\/families%2FRaWBBM0eJMMOzYwRaxTFLYI7Wzk2NfmyY4g2yAAa.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":984,"tags":[],"created_at":"2017-11-15T21:17:57.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:46.000000Z","updated_by":null,"location_id":933,"type":null,"family_id":null,"members":[4153,4154,192223]},{"id":76,"name":"Pryde","entry":"\n<p><strong>House
+        Pryde<\/strong>\u00a0is a Great House of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        ruling over the Kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\">Thasslia\u00a0<\/a>from
+        their seat in Goldengate Castle, Craic. It took over control of the Kingdom
+        of Thasslia in 923 AC during the War of the Cousins.<\/p>\n<p>The family founded
+        the town of Whitescar\u00a0and has ruled it since. During the War of the Cousins,
+        it sided with House\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/75\">MacPhaiden<\/a>\u00a0and
+        took power over the kingdom.<\/p>\n","entry_parsed":"\n<p><strong>House Pryde<\/strong>\u00a0is
+        a Great House of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        ruling over the Kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\">Thasslia\u00a0<\/a>from
+        their seat in Goldengate Castle, Craic. It took over control of the Kingdom
+        of Thasslia in 923 AC during the War of the Cousins.<\/p>\n<p>The family founded
+        the town of Whitescar\u00a0and has ruled it since. During the War of the Cousins,
+        it sided with House\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/75\">MacPhaiden<\/a>\u00a0and
+        took power over the kingdom.<\/p>\n","image":"families\/d0upI1DnChINTcCd0aWvkRXZ7tnqCV6hgWXL7RXF.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/de-r_DQu-6MhEN_mkP4r9OU4cO0=\/smart\/src\/families%2Fd0upI1DnChINTcCd0aWvkRXZ7tnqCV6hgWXL7RXF.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/rvtxdXERbyF6bloerVbZ3_ktvbQ=\/40x40\/smart\/src\/families%2Fd0upI1DnChINTcCd0aWvkRXZ7tnqCV6hgWXL7RXF.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":985,"tags":[],"created_at":"2017-11-15T21:22:56.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:46.000000Z","updated_by":null,"location_id":5245,"type":null,"family_id":null,"members":[715,8952,8953]},{"id":513,"name":"Blumenthal","entry":"\n<p>House
+        Blumenthal of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5150\">Sollas<\/a>\u00a0is
+        a vassal house that holds fealty to House <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/74\">Rosenberg<\/a>
+        of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\">Arcastle<\/a>.
+        Their lands are northwest of Arcastle, located by the Inner Blue Sea. Their
+        stronghold is a castle called Sollas.<\/p>\n","entry_parsed":"\n<p>House Blumenthal
+        of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5150\">Sollas<\/a>\u00a0is
+        a vassal house that holds fealty to House <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/74\">Rosenberg<\/a>
+        of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\">Arcastle<\/a>.
+        Their lands are northwest of Arcastle, located by the Inner Blue Sea. Their
+        stronghold is a castle called Sollas.<\/p>\n","image":"families\/l66xnrVjMHLFhSxvfooej99geGMLpCEXEvk3pTK1.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/1jRwazSvyf48ge78JZvz75go__w=\/smart\/src\/families%2Fl66xnrVjMHLFhSxvfooej99geGMLpCEXEvk3pTK1.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/Plxv09oL5fb7g0r0ja6OH3NG6uE=\/40x40\/smart\/src\/families%2Fl66xnrVjMHLFhSxvfooej99geGMLpCEXEvk3pTK1.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12040,"tags":[],"created_at":"2018-04-03T19:10:31.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":5150,"type":null,"family_id":null,"members":[]},{"id":515,"name":"White","entry":"\n<p>The
+        White family is of elven lineage, with most of the family living in\u00a0<a
+        title=\"Frynia, also known as the Elvish Kingdom, is a theocracy on the continent
+        of Thaelia. It''s capital and biggest city is Aavoch. The kingdom is very
+        isolationist and doesn''t interact with other entities. Demographics The population
+        is estimated at abou...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5125\"
+        data-toggle=\"tooltip\">Frynia<\/a>.<\/p>\n","entry_parsed":"\n<p>The White
+        family is of elven lineage, with most of the family living in\u00a0<a title=\"Frynia,
+        also known as the Elvish Kingdom, is a theocracy on the continent of Thaelia.
+        It''s capital and biggest city is Aavoch. The kingdom is very isolationist
+        and doesn''t interact with other entities. Demographics The population is
+        estimated at abou...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5125\"
+        data-toggle=\"tooltip\">Frynia<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12047,"tags":[],"created_at":"2018-04-03T19:17:02.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":5125,"type":null,"family_id":null,"members":[4107,4110]},{"id":516,"name":"Weisshafen","entry":"\n<p>The
+        von Weisshafen family is an old lineage of Thaelia. They currently rule over
+        the city of Whitehaven, and the head of the family is Ludwig von Weisshaffn.<\/p>\n","entry_parsed":"\n<p>The
+        von Weisshafen family is an old lineage of Thaelia. They currently rule over
+        the city of Whitehaven, and the head of the family is Ludwig von Weisshaffn.<\/p>\n","image":"families\/94v4yrrxuALX05oqjw6L1oLEeNeq4903Rrbk8jph.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Av9aXWMvVoV7eBAQ2t0JhsNk90o=\/smart\/src\/families%2F94v4yrrxuALX05oqjw6L1oLEeNeq4903Rrbk8jph.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/UhQCq7ki2tGTRTaEscHr4oYwTpA=\/40x40\/smart\/src\/families%2F94v4yrrxuALX05oqjw6L1oLEeNeq4903Rrbk8jph.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12057,"tags":[],"created_at":"2018-04-03T19:37:08.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":5179,"type":null,"family_id":null,"members":[4117]},{"id":517,"name":"Frey","entry":"\n<p>House
+        Frey is a vassal house to House <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/74\">Rosenberg<\/a>\u00a0in
+        the Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/928\">Arden<\/a>.
+        King <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4114\">Maximus<\/a>\u00a0of
+        House Rosenberg gave House Frey the title Lord of Freiwald in honour their
+        continued support and help to the kingdom of Arden.<\/p>\n","entry_parsed":"\n<p>House
+        Frey is a vassal house to House <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/74\">Rosenberg<\/a>\u00a0in
+        the Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/928\">Arden<\/a>.
+        King <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4114\">Maximus<\/a>\u00a0of
+        House Rosenberg gave House Frey the title Lord of Freiwald in honour their
+        continued support and help to the kingdom of Arden.<\/p>\n","image":"families\/zCmuMdEYPGjgsNOiVEdaDJSWPeRqBzsquRRAxswL.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/L4DZu9h0WSOGmy5ILtWB-J21j6k=\/smart\/src\/families%2FzCmuMdEYPGjgsNOiVEdaDJSWPeRqBzsquRRAxswL.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/jOkYB4NH6DjXWrGjrfGMWggp4bE=\/40x40\/smart\/src\/families%2FzCmuMdEYPGjgsNOiVEdaDJSWPeRqBzsquRRAxswL.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12063,"tags":[],"created_at":"2018-04-03T19:45:23.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":928,"type":null,"family_id":null,"members":[4122,4123,4124]},{"id":518,"name":"al
+        Sha''hiri","entry":"\n<p>The al Sha''hiri family is a tiefling family on\u00a0<a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>.
+        They were originally from\u00a0<a title=\"Whitehaven\u00a0is a city in the\u00a0Three
+        Rivers Federation\u00a0and capital of the South Santiy region. Topology Whitehaven
+        is located by the sea. Several smaller rivers pass the city and allow boats
+        to connect to various buildings. Geography and Climate The ...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5179\"
+        data-toggle=\"tooltip\">Whitehaven<\/a>.<\/p>\n","entry_parsed":"\n<p>The
+        al Sha''hiri family is a tiefling family on\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>.
+        They were originally from\u00a0<a title=\"Whitehaven\u00a0is a city in the\u00a0Three
+        Rivers Federation\u00a0and capital of the South Santiy region. Topology Whitehaven
+        is located by the sea. Several smaller rivers pass the city and allow boats
+        to connect to various buildings. Geography and Climate The ...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5179\"
+        data-toggle=\"tooltip\">Whitehaven<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12071,"tags":[],"created_at":"2018-04-03T19:55:12.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":5122,"type":null,"family_id":null,"members":[4127,4128,4130]},{"id":522,"name":"Riddle","entry":"\n<p>House
+        <strong>Riddle<\/strong> is a Great House of [note:2263].<\/p>\n<p>It is headed
+        by [character:12180]\u00a0and has dominion over the towns of [location:228030].<\/p>\n","entry_parsed":"\n<p>House
+        <strong>Riddle<\/strong> is a Great House of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/6\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2263\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2263\/tooltip\">Rivandol
+        Nobility<\/a>.<\/p>\n<p>It is headed by <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4156\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12180\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12180\/tooltip\">Jorden
+        Riddle<\/a>\u00a0and has dominion over the towns of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/64547\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"228030\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/228030\/tooltip\">Costlinlen<\/a>.<\/p>\n","image":"families\/8Plb3oHk3Th7O1Mb5O0tCnBFeZJ7wZz9vbvu5x7v.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/PjzumrrSfis9P6tLX8I9W-W1US8=\/smart\/src\/families%2F8Plb3oHk3Th7O1Mb5O0tCnBFeZJ7wZz9vbvu5x7v.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/Mb66uNaj0E0h4n-XMG4jYJ44Efs=\/40x40\/smart\/src\/families%2F8Plb3oHk3Th7O1Mb5O0tCnBFeZJ7wZz9vbvu5x7v.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12179,"tags":[],"created_at":"2018-04-04T10:16:24.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":1,"location_id":5128,"type":null,"family_id":null,"members":[4156]},{"id":523,"name":"Harrison","entry":"\n<p>The\u00a0<strong>Harrison<\/strong>\u00a0family
+        is a noble family of [location:12006], part of the [note:2263].<\/p>\n<p>They
+        control the city of [location:227973].<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Harrison<\/strong>\u00a0family
+        is a noble family of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>,
+        part of the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/6\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2263\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2263\/tooltip\">Rivandol
+        Nobility<\/a>.<\/p>\n<p>They control the city of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/64540\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"227973\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/227973\/tooltip\">Hillstead<\/a>.<\/p>\n","image":"families\/GRohw8noXHzuHq4Fx7JCYM5e949qOKcHrUxQ3sBu.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/6YBTGXTQp40V7nkwv7MtpU1lp50=\/smart\/src\/families%2FGRohw8noXHzuHq4Fx7JCYM5e949qOKcHrUxQ3sBu.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/XUIsb1neSHeYt2V8ErfSi0cWewU=\/40x40\/smart\/src\/families%2FGRohw8noXHzuHq4Fx7JCYM5e949qOKcHrUxQ3sBu.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12189,"tags":[],"created_at":"2018-04-04T10:34:00.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":1,"location_id":5128,"type":null,"family_id":null,"members":[4161,4162]},{"id":533,"name":"Yarwood","entry":"\n<p>House
+        <strong>Yarwood<\/strong> of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5124\">Dulken<\/a>\u00a0is
+        a Great House of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        ruling over the Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5124\">Dulken<\/a>
+        from their seat in <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5231\">Midmar<\/a>.
+        The head of the house is the Lady of Midmar.<\/p>\n<p>\u00a0<\/p>\n","entry_parsed":"\n<p>House
+        <strong>Yarwood<\/strong> of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5124\">Dulken<\/a>\u00a0is
+        a Great House of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        ruling over the Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5124\">Dulken<\/a>
+        from their seat in <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5231\">Midmar<\/a>.
+        The head of the house is the Lady of Midmar.<\/p>\n<p>\u00a0<\/p>\n","image":"families\/V8pgaWLPxiWPo5Tl8E63XmUeYR2qY2hP6VQjkwOv.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/EYN6xve8S3j1y0zofvnP3sMdgdo=\/smart\/src\/families%2FV8pgaWLPxiWPo5Tl8E63XmUeYR2qY2hP6VQjkwOv.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/jBywOr9NQZV3sgFxoBKuBwJYmJg=\/40x40\/smart\/src\/families%2FV8pgaWLPxiWPo5Tl8E63XmUeYR2qY2hP6VQjkwOv.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12324,"tags":[],"created_at":"2018-04-05T13:11:54.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":5124,"type":null,"family_id":null,"members":[4205,4206]},{"id":534,"name":"Corrington","entry":"\n<p>House\u00a0<strong>Corrington<\/strong>
+        was a great house of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        which controlled the kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5240\">Dovaria<\/a>.
+        Its last ruler,\u00a0Treave Corrington, died in 1018 AC.<\/p>\n","entry_parsed":"\n<p>House\u00a0<strong>Corrington<\/strong>
+        was a great house of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        which controlled the kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5240\">Dovaria<\/a>.
+        Its last ruler,\u00a0Treave Corrington, died in 1018 AC.<\/p>\n","image":"families\/emzLvRIdg5neivFHlA6bzJWKkh4lptBPU5vwThb3.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/x8-R8ToVN51jI5PDiki4kNl8b9o=\/smart\/src\/families%2FemzLvRIdg5neivFHlA6bzJWKkh4lptBPU5vwThb3.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/1bBAQ2G2Ku1vQx334QTG0jvUEFE=\/40x40\/smart\/src\/families%2FemzLvRIdg5neivFHlA6bzJWKkh4lptBPU5vwThb3.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12333,"tags":[],"created_at":"2018-04-05T13:31:30.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":5240,"type":null,"family_id":null,"members":[]},{"id":535,"name":"Browler","entry":"\n<p>House
+        <strong>Browler<\/strong> of Blackburn is a vassal house that holds fealty
+        to House <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/76\">Pryde<\/a>\u00a0of
+        Craic. They rule <strong>Blackburn<\/strong>, the second biggest city of <a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\">Thasslia<\/a>.
+        The head of the house is the Lord of Blackburn.<\/p>\n<p>Their House words
+        are: \"Now our enemies rest\".<\/p>\n<h2>History<\/h2>\n<p>The family was
+        granted the title\u00a0<a href=\"http:\/\/dnd.loc\/index.php\/Lord_of_Blackburn\">Lord
+        of Blackburn<\/a>\u00a0in 802 AC when the previous rulers died without an
+        heir.<\/p>\n<h3>Members<\/h3>\n<ul><li>Lord Harryi Browler (37), Lord of Blackburn.\n<ul><li>Lady
+        Arian Browler (35), his commoner wife.<\/li>\n<li>Prince Bedyw Browler (15),
+        their first son, lawful Lord of Blackburn.<\/li>\n<li>Lady Elaine Pryde (38),
+        sister of Callum, married to\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/715\">Callum.<\/a><\/li>\n<\/ul><\/li>\n<\/ul>","entry_parsed":"\n<p>House
+        <strong>Browler<\/strong> of Blackburn is a vassal house that holds fealty
+        to House <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/76\">Pryde<\/a>\u00a0of
+        Craic. They rule <strong>Blackburn<\/strong>, the second biggest city of <a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\">Thasslia<\/a>.
+        The head of the house is the Lord of Blackburn.<\/p>\n<p>Their House words
+        are: \"Now our enemies rest\".<\/p>\n<h2>History<\/h2>\n<p>The family was
+        granted the title\u00a0<a href=\"http:\/\/dnd.loc\/index.php\/Lord_of_Blackburn\">Lord
+        of Blackburn<\/a>\u00a0in 802 AC when the previous rulers died without an
+        heir.<\/p>\n<h3>Members<\/h3>\n<ul><li>Lord Harryi Browler (37), Lord of Blackburn.\n<ul><li>Lady
+        Arian Browler (35), his commoner wife.<\/li>\n<li>Prince Bedyw Browler (15),
+        their first son, lawful Lord of Blackburn.<\/li>\n<li>Lady Elaine Pryde (38),
+        sister of Callum, married to\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/715\">Callum.<\/a><\/li>\n<\/ul><\/li>\n<\/ul>","image":"families\/SWRgRGl12dBahgaFOc5IJZx3ONfsFMRDoaUi1w39.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/E-uDBZ0iT7CBUqWIrXogTkJEwcY=\/smart\/src\/families%2FSWRgRGl12dBahgaFOc5IJZx3ONfsFMRDoaUi1w39.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/cJ2fX_eBRqjkOAcAfwZKB3jMpBM=\/40x40\/smart\/src\/families%2FSWRgRGl12dBahgaFOc5IJZx3ONfsFMRDoaUi1w39.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12334,"tags":[],"created_at":"2018-04-05T13:57:07.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":934,"type":null,"family_id":null,"members":[4209,4210,4211,4212]},{"id":536,"name":"Pyre","entry":"\n<p>The
+        Pyre family is a noble family of [location:12006], part of the Rivandol Nobility.<\/p>\n<p>\u00a0<\/p>\n","entry_parsed":"\n<p>The
+        Pyre family is a noble family of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>,
+        part of the Rivandol Nobility.<\/p>\n<p>\u00a0<\/p>\n","image":"families\/ti3dZpgVSuT1wdsWhYbXrM5CbqINdiENsENK2JDm.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/F-P0-osCK5xfizeMxm2BQygnNg8=\/smart\/src\/families%2Fti3dZpgVSuT1wdsWhYbXrM5CbqINdiENsENK2JDm.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/4WycxXuAmKle9O8mC-Zebqe2eWU=\/40x40\/smart\/src\/families%2Fti3dZpgVSuT1wdsWhYbXrM5CbqINdiENsENK2JDm.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12340,"tags":[],"created_at":"2018-04-05T14:09:21.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":1,"location_id":7811,"type":null,"family_id":null,"members":[4118,4121,4213,4214,4215,4216]},{"id":941,"name":"Bennet","entry":"\n<p>The
+        Bennet family is located in Dulken.<\/p>\n","entry_parsed":"\n<p>The Bennet
+        family is located in Dulken.<\/p>\n","image":"families\/AfeqNxCaWcgQQ6zuFmqgnJqiZmQfkfPA6ks1Esvv.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/lxYBcVvd8dYRUZuEED48eIOg3T4=\/smart\/src\/families%2FAfeqNxCaWcgQQ6zuFmqgnJqiZmQfkfPA6ks1Esvv.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/wk9QbA6GT8vnTj2MxSnWVj3TY0E=\/40x40\/smart\/src\/families%2FAfeqNxCaWcgQQ6zuFmqgnJqiZmQfkfPA6ks1Esvv.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":21930,"tags":[],"created_at":"2018-05-22T12:13:19.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:49.000000Z","updated_by":null,"location_id":5124,"type":null,"family_id":null,"members":[4155,7295,7296]},{"id":1163,"name":"Wernicke","entry":"\n<p>The\u00a0<strong>Wernicke<\/strong>
+        family is a wealthy family with various businesses and property in the kingdom
+        of\u00a0[location:2046], with most of their wealth in the province of the
+        capital and the capital city of\u00a0<a title=\"Arburg\/Arcastle\u00a0is the
+        capital city of\u00a0Arden, located in the\u00a0Arden\u00a0province on the\u00a0Maiden
+        Plains, on the west of the continent of\u00a0Thaelia. It is the most populated
+        city of\u00a0Arden. Arburg expands upon the\u00a0Leibal River. Recognised
+        as the capital...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\"
+        data-toggle=\"tooltip\">Arburg<\/a>.<\/p>\n<h3>Property and methods<\/h3>\n<h3><a
+        title=\"Arburg\/Arcastle\u00a0is the capital city of\u00a0Arden, located in
+        the\u00a0Arden\u00a0province on the\u00a0Maiden Plains, on the west of the
+        continent of\u00a0Thaelia. It is the most populated city of\u00a0Arden. Arburg
+        expands upon the\u00a0Leibal River. Recognised as the capital...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\"
+        data-toggle=\"tooltip\">Arburg<\/a><\/h3>\n<ul><li>Gesundheitskreuz - Apothecary<\/li>\n<li><a
+        title=\"The\u00a0Wernicke Brauerei\u00a0brewery is located in\u00a0Arburg\u00a0and
+        belongs to the\u00a0Wernicke\u00a0family.\u00a0 Most taverns in Arburg and
+        the capital province provide their beer, with some taverns having exclusive
+        deals to only sell Wernicke beer. The brewery tried ...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10600\"
+        data-toggle=\"tooltip\">Wernicke Brauerei<\/a>\u00a0- Brewery<\/li>\n<li><a
+        title=\"Der Talisman is a casino in\u00a0Arburg\u00a0reserved for nobleman
+        and diplomats. It is owned by the\u00a0Wernicke\u00a0family. Lennart Noffke\u00a0manages
+        the casino.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10601\"
+        data-toggle=\"tooltip\">Der Talisman<\/a>\u00a0- Casino<\/li>\n<li>Der Scharlachrote
+        - Cabaret<\/li>\n<li>Das Goldene Tor - Security &amp; Guards\u00a0<\/li>\n<\/ul>","entry_parsed":"\n<p>The\u00a0<strong>Wernicke<\/strong>
+        family is a wealthy family with various businesses and property in the kingdom
+        of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>,
+        with most of their wealth in the province of the capital and the capital city
+        of\u00a0<a title=\"Arburg\/Arcastle\u00a0is the capital city of\u00a0Arden,
+        located in the\u00a0Arden\u00a0province on the\u00a0Maiden Plains, on the
+        west of the continent of\u00a0Thaelia. It is the most populated city of\u00a0Arden.
+        Arburg expands upon the\u00a0Leibal River. Recognised as the capital...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\" data-toggle=\"tooltip\">Arburg<\/a>.<\/p>\n<h3>Property
+        and methods<\/h3>\n<h3><a title=\"Arburg\/Arcastle\u00a0is the capital city
+        of\u00a0Arden, located in the\u00a0Arden\u00a0province on the\u00a0Maiden
+        Plains, on the west of the continent of\u00a0Thaelia. It is the most populated
+        city of\u00a0Arden. Arburg expands upon the\u00a0Leibal River. Recognised
+        as the capital...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\"
+        data-toggle=\"tooltip\">Arburg<\/a><\/h3>\n<ul><li>Gesundheitskreuz - Apothecary<\/li>\n<li><a
+        title=\"The\u00a0Wernicke Brauerei\u00a0brewery is located in\u00a0Arburg\u00a0and
+        belongs to the\u00a0Wernicke\u00a0family.\u00a0 Most taverns in Arburg and
+        the capital province provide their beer, with some taverns having exclusive
+        deals to only sell Wernicke beer. The brewery tried ...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10600\"
+        data-toggle=\"tooltip\">Wernicke Brauerei<\/a>\u00a0- Brewery<\/li>\n<li><a
+        title=\"Der Talisman is a casino in\u00a0Arburg\u00a0reserved for nobleman
+        and diplomats. It is owned by the\u00a0Wernicke\u00a0family. Lennart Noffke\u00a0manages
+        the casino.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/10601\"
+        data-toggle=\"tooltip\">Der Talisman<\/a>\u00a0- Casino<\/li>\n<li>Der Scharlachrote
+        - Cabaret<\/li>\n<li>Das Goldene Tor - Security &amp; Guards\u00a0<\/li>\n<\/ul>","image":"families\/6XSx5XR69BxZaFpdZeHlBzOWz2veLHtEm24DtYVA.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/kFGo9MY_4L4mfYSKuIu8waR2fn0=\/smart\/src\/families%2F6XSx5XR69BxZaFpdZeHlBzOWz2veLHtEm24DtYVA.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/3i5qM0jRwY3bHMlO3IVRUqoBFI4=\/40x40\/smart\/src\/families%2F6XSx5XR69BxZaFpdZeHlBzOWz2veLHtEm24DtYVA.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27186,"tags":[],"created_at":"2018-06-20T08:15:54.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:50.000000Z","updated_by":null,"location_id":928,"type":null,"family_id":null,"members":[8975,8976,8977,8978]},{"id":1190,"name":"Rancent","entry":"\n<p>The\u00a0<strong>Rancent<\/strong>
+        family is located in Owlchester. They own a local hunting guild.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Rancent<\/strong>
+        family is located in Owlchester. They own a local hunting guild.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27967,"tags":[],"created_at":"2018-06-24T18:28:07.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:50.000000Z","updated_by":null,"location_id":7817,"type":null,"family_id":null,"members":[9217,9218]},{"id":1191,"name":"Cossale","entry":"\n<p><strong>Cossale<\/strong>
+        is a banking family of the city of\u00a0[location:12005],\u00a0<a title=\"Gabriel
+        Cossale is a human male and current president of the republic of\u00a0Orlene.
+        He was elected president in 1022 AC for an initial 6 years. He grew up in
+        Luton to a family of bankers, which paid for his education in Owlchester where
+        he quickly beca...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/9226\"
+        data-toggle=\"tooltip\">Gabriel Cossale<\/a>.<\/p>\n","entry_parsed":"\n<p><strong>Cossale<\/strong>
+        is a banking family of the city of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5127\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12005\/tooltip\">Orlene<\/a>,\u00a0<a
+        title=\"Gabriel Cossale is a human male and current president of the republic
+        of\u00a0Orlene. He was elected president in 1022 AC for an initial 6 years.
+        He grew up in Luton to a family of bankers, which paid for his education in
+        Owlchester where he quickly beca...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/9226\"
+        data-toggle=\"tooltip\">Gabriel Cossale<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27983,"tags":[],"created_at":"2018-06-24T18:53:00.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:50.000000Z","updated_by":null,"location_id":10840,"type":null,"family_id":null,"members":[9226]},{"id":1192,"name":"Morley","entry":"\n<p>The\u00a0<strong>Morley<\/strong>
+        family is an old and powerful family in\u00a0<a title=\"Owlchester is the
+        capital of the Republic of\u00a0Orlene\u00a0and the most populous city of
+        the continent of\u00a0Thaelia. The inner city has a population of around 40''000
+        inhabitants, with an extra 120''000 living up to a day''s distance from the
+        city. The city i...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7817\"
+        data-toggle=\"tooltip\">Owlchester<\/a>. They have owned several mines for
+        generations and yield political power in the republic.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Morley<\/strong>
+        family is an old and powerful family in\u00a0<a title=\"Owlchester is the
+        capital of the Republic of\u00a0Orlene\u00a0and the most populous city of
+        the continent of\u00a0Thaelia. The inner city has a population of around 40''000
+        inhabitants, with an extra 120''000 living up to a day''s distance from the
+        city. The city i...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7817\"
+        data-toggle=\"tooltip\">Owlchester<\/a>. They have owned several mines for
+        generations and yield political power in the republic.<\/p>\n","image":"families\/TML8NfbHHC3HIjN4uY46tu9aCpEzDmiHwtAjXxSm.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/HtPRzht5PV3RoKcGBNmEmzy_D4A=\/smart\/src\/families%2FTML8NfbHHC3HIjN4uY46tu9aCpEzDmiHwtAjXxSm.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/jNxg6-6s0RcOVnNcEJg28Cz0Enw=\/40x40\/smart\/src\/families%2FTML8NfbHHC3HIjN4uY46tu9aCpEzDmiHwtAjXxSm.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28067,"tags":[],"created_at":"2018-06-25T07:53:24.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:50.000000Z","updated_by":null,"location_id":7817,"type":null,"family_id":null,"members":[9255,232533]},{"id":1210,"name":"Niehaus","entry":"\n<p><strong>Niehaus<\/strong>
+        is a noble family from\u00a0[location:2046]\u00a0located in <a title=\"Arburg\/Arcastle\u00a0is
+        the capital city of\u00a0Arden, located in the\u00a0Arden\u00a0province on
+        the\u00a0Maiden Plains, on the west of the continent of\u00a0Thaelia. It is
+        the most populated city of\u00a0Arden. Arburg expands upon the\u00a0Leibal
+        River. Recognised as the capital...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\"
+        data-toggle=\"tooltip\">Arburg<\/a>. They own land in various provinces of
+        the kingdom and produce several valuable resources.<\/p>\n<p>The current head
+        of the family is\u00a0Eckard Niehaus. The family has close ties with the royal
+        family\u00a0<a title=\"House Rosenberg of Arcastle\u00a0is a Great House of
+        Thaelia, ruling over the kingdom of Ardenfrom their seat in Arcastle, recently
+        attacked by House MacPhaiden of Othiria It is the founding family of the kingdom
+        of Arden, and has rules for over 800 year...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/74\"
+        data-toggle=\"tooltip\">Rosenberg<\/a>.<\/p>\n","entry_parsed":"\n<p><strong>Niehaus<\/strong>
+        is a noble family from\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>\u00a0located
+        in <a title=\"Arburg\/Arcastle\u00a0is the capital city of\u00a0Arden, located
+        in the\u00a0Arden\u00a0province on the\u00a0Maiden Plains, on the west of
+        the continent of\u00a0Thaelia. It is the most populated city of\u00a0Arden.
+        Arburg expands upon the\u00a0Leibal River. Recognised as the capital...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\" data-toggle=\"tooltip\">Arburg<\/a>.
+        They own land in various provinces of the kingdom and produce several valuable
+        resources.<\/p>\n<p>The current head of the family is\u00a0Eckard Niehaus.
+        The family has close ties with the royal family\u00a0<a title=\"House Rosenberg
+        of Arcastle\u00a0is a Great House of Thaelia, ruling over the kingdom of Ardenfrom
+        their seat in Arcastle, recently attacked by House MacPhaiden of Othiria It
+        is the founding family of the kingdom of Arden, and has rules for over 800
+        year...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/74\" data-toggle=\"tooltip\">Rosenberg<\/a>.<\/p>\n","image":"families\/V8pZrRViMfPioOymItqJC9H5GrmFHNbVEJjxOryL.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/mN2jn_xUTharFDAmLjeQRUPgKcA=\/smart\/src\/families%2FV8pZrRViMfPioOymItqJC9H5GrmFHNbVEJjxOryL.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/KjQAEJUnsZCZ59rRFwATTol-9xQ=\/40x40\/smart\/src\/families%2FV8pZrRViMfPioOymItqJC9H5GrmFHNbVEJjxOryL.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28673,"tags":[],"created_at":"2018-06-29T09:31:37.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:50.000000Z","updated_by":null,"location_id":928,"type":null,"family_id":null,"members":[9410,9411]},{"id":3597,"name":"Ironhide","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":92891,"tags":[],"created_at":"2018-12-29T15:07:10.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:55.000000Z","updated_by":1,"location_id":5153,"type":null,"family_id":null,"members":[7590]},{"id":3607,"name":"Riesmann","entry":"\n<p>The
+        <strong>Riesmann<\/strong> family is a very rich family from\u00a0[location:12029].
+        They own the\u00a0[organisation:93379]\u00a0company.<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Riesmann<\/strong> family is a very rich family from\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5149\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12029\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12029\/tooltip\">Malden<\/a>.
+        They own the\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/organisations\/4508\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"93379\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/93379\/tooltip\">Rieswagen<\/a>\u00a0company.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":93380,"tags":[],"created_at":"2018-12-30T14:41:23.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:55.000000Z","updated_by":1,"location_id":5149,"type":null,"family_id":null,"members":[28034]},{"id":3673,"name":"Steinhafen","entry":"\n<p>The
+        <strong>Steinhafen<\/strong> family is a noble family in Malden who own several
+        stone quarries outside of the city.<\/p>\n","entry_parsed":"\n<p>The <strong>Steinhafen<\/strong>
+        family is a noble family in Malden who own several stone quarries outside
+        of the city.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":95545,"tags":[],"created_at":"2019-01-05T12:58:59.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:55.000000Z","updated_by":1,"location_id":5149,"type":null,"family_id":null,"members":[28549,28550,36701]},{"id":3840,"name":"Haddad","entry":"\n<p>The
+        Haddad dynasty is the ruling family of\u00a0[location:101013].<\/p>\n","entry_parsed":"\n<p>The
+        Haddad dynasty is the ruling family of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/31798\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"101013\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/101013\/tooltip\">Zarnagesh<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":101014,"tags":[],"created_at":"2019-01-15T11:23:05.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":31798,"type":null,"family_id":null,"members":[31261,31264,31265]},{"id":3969,"name":"Linden","entry":"\n<p>The\u00a0<strong>Linden\u00a0<\/strong>is
+        a gnome family with members scattered around the world, but their home is
+        in the\u00a0[location:104447].<\/p>\n<p>\u00a0<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Linden\u00a0<\/strong>is
+        a gnome family with members scattered around the world, but their home is
+        in the\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/32758\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"104447\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/104447\/tooltip\">Springleaf
+        Forest<\/a>.<\/p>\n<p>\u00a0<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":104431,"tags":[5224],"created_at":"2019-01-22T10:36:43.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":32758,"type":null,"family_id":null,"members":[28721,28786,30826,30827]},{"id":8826,"name":"Dayne","entry":"\n<p>House\u00a0<strong>Dayne<\/strong>
+        is one of the noble houses of the [note:2263]\u00a0in [location:12006]. They
+        have control over the province of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/64538\">Spadling<\/a>.<\/p>\n","entry_parsed":"\n<p>House\u00a0<strong>Dayne<\/strong>
+        is one of the noble houses of the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/6\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2263\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2263\/tooltip\">Rivandol
+        Nobility<\/a>\u00a0in <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>.
+        They have control over the province of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/64538\">Spadling<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":227925,"tags":[],"created_at":"2019-05-21T12:45:15.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":64538,"type":null,"family_id":null,"members":[62422,62423]},{"id":8827,"name":"Burley","entry":"\n<p>House
+        <strong>Burley<\/strong> is a noble house of [location:12006], part of the
+        [note:2263]. It is one of the weaker houses.<\/p>\n<p>It is headed by Jonah
+        O''Tracy and has dominion over the province and town of [location:12182].<\/p>\n","entry_parsed":"\n<p>House
+        <strong>Burley<\/strong> is a noble house of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>,
+        part of the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/6\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2263\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2263\/tooltip\">Rivandol
+        Nobility<\/a>. It is one of the weaker houses.<\/p>\n<p>It is headed by Jonah
+        O''Tracy and has dominion over the province and town of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5190\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12182\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12182\/tooltip\">Shademire<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":227931,"tags":[],"created_at":"2019-05-21T12:53:53.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":5190,"type":null,"family_id":null,"members":[]},{"id":8828,"name":"Barrin","entry":"\n<p>House
+        <strong>Barrin\u00a0<\/strong>is a noble house of [location:12006], part of
+        the [note:2263].<\/p>\n<p>It is headed by [location:36317].<\/p>\n","entry_parsed":"\n<p>House
+        <strong>Barrin\u00a0<\/strong>is a noble house of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>,
+        part of the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/6\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2263\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2263\/tooltip\">Rivandol
+        Nobility<\/a>.<\/p>\n<p>It is headed by <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/13294\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"36317\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/36317\/tooltip\">Bridgewater<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":227932,"tags":[],"created_at":"2019-05-21T12:56:59.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":13294,"type":null,"family_id":null,"members":[62465]},{"id":8829,"name":"Fletcher","entry":"\n<p>House
+        <strong>Fletcher\u00a0<\/strong>is a noble house of [location:12006], part
+        of the [note:2263].<\/p>\n<p>It is headed by Lord Peter Merewin Fletcher and
+        has dominion over the province and town of Woodstone.<\/p>\n","entry_parsed":"\n<p>House
+        <strong>Fletcher\u00a0<\/strong>is a noble house of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>,
+        part of the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/6\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2263\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2263\/tooltip\">Rivandol
+        Nobility<\/a>.<\/p>\n<p>It is headed by Lord Peter Merewin Fletcher and has
+        dominion over the province and town of Woodstone.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":227934,"tags":[],"created_at":"2019-05-21T13:00:33.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":64535,"type":null,"family_id":null,"members":[62424]},{"id":8831,"name":"Greentale","entry":"\n<p>House
+        <strong>Greentale\u00a0<\/strong>is a noble house of [location:12006], part
+        of the [note:2263].<\/p>\n<p>It is headed by Lord Ambrose Greentale and has
+        dominion over the province and town of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/64534\">Howe<\/a>.<\/p>\n","entry_parsed":"\n<p>House
+        <strong>Greentale\u00a0<\/strong>is a noble house of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>,
+        part of the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/6\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2263\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2263\/tooltip\">Rivandol
+        Nobility<\/a>.<\/p>\n<p>It is headed by Lord Ambrose Greentale and has dominion
+        over the province and town of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/64534\">Howe<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":227941,"tags":[],"created_at":"2019-05-21T13:11:11.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":64534,"type":null,"family_id":null,"members":[62426]},{"id":8833,"name":"Selter","entry":"\n<p>House
+        <strong>Selter\u00a0<\/strong>is a enatic noble house of [location:12006],
+        part of the [note:2263].<\/p>\n<p>It is headed by Lady <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/62452\">Fortune
+        Helewis Selter<\/a>\u00a0and has dominion over the province and town of <a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/64536\">Riverfront<\/a>.<\/p>\n","entry_parsed":"\n<p>House
+        <strong>Selter\u00a0<\/strong>is a enatic noble house of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>,
+        part of the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/6\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2263\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2263\/tooltip\">Rivandol
+        Nobility<\/a>.<\/p>\n<p>It is headed by Lady <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/62452\">Fortune
+        Helewis Selter<\/a>\u00a0and has dominion over the province and town of <a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/64536\">Riverfront<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":227989,"tags":[],"created_at":"2019-05-21T13:28:43.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":64536,"type":null,"family_id":null,"members":[62452]},{"id":8834,"name":"Whitehull","entry":"\n<p>House
+        <strong>Whitehull\u00a0<\/strong>is a noble house of [location:12006], part
+        of the [note:2263].<\/p>\n<p>It is headed by Lord [character:228006]\u00a0
+        and has dominion over the province and town of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/64537\">Mistshore<\/a>.<\/p>\n","entry_parsed":"\n<p>House
+        <strong>Whitehull\u00a0<\/strong>is a noble house of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5128\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12006\/tooltip\">Rivandol<\/a>,
+        part of the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/6\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2263\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2263\/tooltip\">Rivandol
+        Nobility<\/a>.<\/p>\n<p>It is headed by Lord <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/62455\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"228006\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/228006\/tooltip\">Wulfgar
+        Sigor Whitehull<\/a>\u00a0 and has dominion over the province and town of
+        <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/64537\">Mistshore<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":227991,"tags":[],"created_at":"2019-05-21T13:29:04.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":64537,"type":null,"family_id":null,"members":[62455]},{"id":11194,"name":"Atteshi","entry":"\n<p>The\u00a0<strong>Atteshi<\/strong>
+        family is a powerful family that controls the city of [location:301414]. The
+        head of the family is ruled by [character:301419].<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Atteshi<\/strong>
+        family is a powerful family that controls the city of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/81383\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"301414\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/301414\/tooltip\">Kaartash<\/a>.
+        The head of the family is ruled by <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/82971\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"301419\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/301419\/tooltip\">Xhenala<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301415,"tags":[],"created_at":"2019-08-09T15:27:25.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":81383,"type":null,"family_id":null,"members":[82971,82972]},{"id":11196,"name":"Cavalere","entry":"\n<p>The
+        Cavalere family is the current ruling family of the empire of Torchio.<\/p>\n","entry_parsed":"\n<p>The
+        Cavalere family is the current ruling family of the empire of Torchio.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301442,"tags":[],"created_at":"2019-08-09T15:45:16.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":10909,"type":null,"family_id":null,"members":[82982,82985]},{"id":11263,"name":"Talsarar","entry":"\n<p><strong>Talsarar<\/strong>
+        is a noble family or Kashora. They own an estate with vineyards that they
+        produce and turn into wine, which they sell and export to various local towns.<\/p>\n<p>Their
+        wealth allows them to finance several projects in Kashora.<\/p>\n","entry_parsed":"\n<p><strong>Talsarar<\/strong>
+        is a noble family or Kashora. They own an estate with vineyards that they
+        produce and turn into wine, which they sell and export to various local towns.<\/p>\n<p>Their
+        wealth allows them to finance several projects in Kashora.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":304063,"tags":[],"created_at":"2019-08-12T13:32:44.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":30752,"type":null,"family_id":null,"members":[28718,30727,83739]},{"id":34124,"name":"Peregrina","entry":"<p>The
+        <b>Peregrina <\/b>family is a powerful noble family in the empire of [location:28178].
+        They ruled the lands of Udrino north of the Medinan continent\u00a0 on the
+        Ethylian Sea. The small country was annexed by the empire of Torchio in 850
+        AC, and the family continued ruling their lands under their new liege.<\/p><p>The
+        family rose to prominence when [character:978575] moved with his young daughter
+        [character:978554|Amatia] to the capital of [location:100528], where he involved
+        himself in the politics of the empire, gaining a reputation for routing out
+        corruption and bringing reform to the legal and tax system, called today the
+        Lax Peregrina. His daughter studied politics and magic at the Lutrero Accademy.
+        She paved the way for his daughter to become Augusta in 1009 AC.<\/p><p><br
+        \/><\/p>","entry_parsed":"<p>The <b>Peregrina <\/b>family is a powerful noble
+        family in the empire of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10909\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"28178\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28178\/tooltip\">Torchio<\/a>.
+        They ruled the lands of Udrino north of the Medinan continent\u00a0 on the
+        Ethylian Sea. The small country was annexed by the empire of Torchio in 850
+        AC, and the family continued ruling their lands under their new liege.<\/p><p>The
+        family rose to prominence when <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/255640\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"978575\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/978575\/tooltip\">Hammon
+        Peregrina<\/a> moved with his young daughter <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/255634\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"978554\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/978554\/tooltip\">Amatia<\/a>
+        to the capital of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/31699\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"100528\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/100528\/tooltip\">Panere<\/a>,
+        where he involved himself in the politics of the empire, gaining a reputation
+        for routing out corruption and bringing reform to the legal and tax system,
+        called today the Lax Peregrina. His daughter studied politics and magic at
+        the Lutrero Accademy. She paved the way for his daughter to become Augusta
+        in 1009 AC.<\/p><p><br \/><\/p>","image":"families\/9PWvTFKWXElbLmJjPgX9ENwz3VWJeNxim0QMPsn4.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/zNlH9k7xFwWkJN0-efVpwSdGtWQ=\/smart\/src\/families%2F9PWvTFKWXElbLmJjPgX9ENwz3VWJeNxim0QMPsn4.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/prXIE8CqT4Upomu1fIsrHJc7-co=\/40x40\/smart\/src\/families%2F9PWvTFKWXElbLmJjPgX9ENwz3VWJeNxim0QMPsn4.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":978553,"tags":[],"created_at":"2020-09-14T08:32:39.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":242868,"type":"Noble","family_id":null,"members":[255634,255640,259128]},{"id":34528,"name":"Pesciali","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":993328,"tags":[],"created_at":"2020-09-19T12:22:29.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":null,"type":null,"family_id":null,"members":[259071,259073]},{"id":34561,"name":"Ficarra","entry":"<p>The
+        <b>Ficarra<\/b> family were rulers of the Kingdom of Geminia until they were
+        invaded by the empire of [location:28178]\u00a0in 842. Most family members
+        were killed, with only the very young kept alive and groomed to be rulers
+        of the new province in the empire. However they don''t hold any power, and
+        are more royal prisoners of the empire. Several rebellions were attempted
+        between 870 and 910 AC but none were successful, leading in more deaths of
+        the family.<\/p><p>The current head of the family is Lady [character:994163],
+        who became the leader in 2023 AC when here father was exiled by the empire.<\/p>","entry_parsed":"<p>The
+        <b>Ficarra<\/b> family were rulers of the Kingdom of Geminia until they were
+        invaded by the empire of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10909\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"28178\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28178\/tooltip\">Torchio<\/a>\u00a0in
+        842. Most family members were killed, with only the very young kept alive
+        and groomed to be rulers of the new province in the empire. However they don''t
+        hold any power, and are more royal prisoners of the empire. Several rebellions
+        were attempted between 870 and 910 AC but none were successful, leading in
+        more deaths of the family.<\/p><p>The current head of the family is Lady <a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259319\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"994163\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/994163\/tooltip\">Rita
+        Ficarra<\/a>, who became the leader in 2023 AC when here father was exiled
+        by the empire.<\/p>","image":"families\/4z7vGdbUbaTh8Wsq0W6E9ZkMAx09s5AF4EGsbNmI.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/BNKbZ7N6WmVurSWHBWP0bds8j_o=\/smart\/src\/families%2F4z7vGdbUbaTh8Wsq0W6E9ZkMAx09s5AF4EGsbNmI.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/fEgdN6H7G1B7XkXoNFcZgPmgzZ4=\/40x40\/smart\/src\/families%2F4z7vGdbUbaTh8Wsq0W6E9ZkMAx09s5AF4EGsbNmI.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":994130,"tags":[],"created_at":"2020-09-19T17:23:29.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":242873,"type":"Royal","family_id":null,"members":[259319,259322,259389]},{"id":34572,"name":"Almunia","entry":"<p>The
+        royal family of Almunia rules over the kingdom of Meherin. They reside in
+        the Almunia Palace in [location:994201].<\/p>","entry_parsed":"<p>The royal
+        family of Almunia rules over the kingdom of Meherin. They reside in the Almunia
+        Palace in <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/246330\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"994201\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/994201\/tooltip\">Galazio<\/a>.<\/p>","image":"families\/sIwbzkd2pUjMEZ1TnIZe65gn0KHrK4UcAdxE25uB.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/i3aFWoUM5cTQBMUjWY6mAc5D-jE=\/smart\/src\/families%2FsIwbzkd2pUjMEZ1TnIZe65gn0KHrK4UcAdxE25uB.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/KoTYELuBH5kaulX-PTAVpqV5TGA=\/40x40\/smart\/src\/families%2FsIwbzkd2pUjMEZ1TnIZe65gn0KHrK4UcAdxE25uB.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":994223,"tags":[],"created_at":"2020-09-19T17:44:12.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":246329,"type":"Royal","family_id":null,"members":[259325]},{"id":34580,"name":"Imperio","entry":"<p>The
+        Imperio family is a rich family of Panere. They own the Imperio Bank which
+        is close to the empire.<\/p>","entry_parsed":"<p>The Imperio family is a rich
+        family of Panere. They own the Imperio Bank which is close to the empire.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":994476,"tags":[],"created_at":"2020-09-19T18:49:45.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":10909,"type":"Rich","family_id":null,"members":[259380,259382]},{"id":34686,"name":"Kumglug","entry":"<p><b>Kumglug<\/b>
+        is a tribe of Kobold that controls the province of Meridogna in the empire
+        of Torchio. The area was never stable, with several tribes of various folks
+        vying for power over the centuries, and chaos erupting after the death of
+        each ruler. Following a brief war in 968-969 AC, the province was annexed
+        by the empire. The Kumglug tribe worked with the empire to win the war and
+        was given control over the province and some autonomy in exchange for their
+        help.<\/p>","entry_parsed":"<p><b>Kumglug<\/b> is a tribe of Kobold that controls
+        the province of Meridogna in the empire of Torchio. The area was never stable,
+        with several tribes of various folks vying for power over the centuries, and
+        chaos erupting after the death of each ruler. Following a brief war in 968-969
+        AC, the province was annexed by the empire. The Kumglug tribe worked with
+        the empire to win the war and was given control over the province and some
+        autonomy in exchange for their help.<\/p>","image":"families\/5X3eOML8OGYIMnMfR3NjYaO8ACa8YO8QhWu4WIBd.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/M-vpS_aKZ2B-Znq4PqrMi4Rvkyk=\/smart\/src\/families%2F5X3eOML8OGYIMnMfR3NjYaO8ACa8YO8QhWu4WIBd.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/k7TkK55RJOrpZBZV5mTiLPylt78=\/40x40\/smart\/src\/families%2F5X3eOML8OGYIMnMfR3NjYaO8ACa8YO8QhWu4WIBd.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":998887,"tags":[],"created_at":"2020-09-21T08:01:25.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":247648,"type":"Tribe","family_id":null,"members":[260387]},{"id":34743,"name":"Thani","entry":"<p>The
+        <b>Thani <\/b>family is a tiefling family, with members on the continents
+        of Thaelia and Medina.<\/p>","entry_parsed":"<p>The <b>Thani <\/b>family is
+        a tiefling family, with members on the continents of Thaelia and Medina.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1002041,"tags":[],"created_at":"2020-09-21T22:43:36.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":null,"type":null,"family_id":null,"members":[4129,259011]},{"id":35270,"name":"Astoria","entry":"<p><b>Astoria<\/b>
+        is a powerful family located in Panere. They are rich from the opium plantations
+        and other affairs that are close to being illegal in the empire of Torchio.<\/p>","entry_parsed":"<p><b>Astoria<\/b>
+        is a powerful family located in Panere. They are rich from the opium plantations
+        and other affairs that are close to being illegal in the empire of Torchio.<\/p>","image":"families\/cMXf95VRUkfIEReL5cV8hd5aBVY73N2aqeDo6fHG.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/oWMSnZlsJe5PY3dVW2OAPATftR8=\/smart\/src\/families%2FcMXf95VRUkfIEReL5cV8hd5aBVY73N2aqeDo6fHG.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/LU0Z9JV_2vKhfVqAeKKUmGOooSI=\/40x40\/smart\/src\/families%2FcMXf95VRUkfIEReL5cV8hd5aBVY73N2aqeDo6fHG.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1015694,"tags":[],"created_at":"2020-09-26T10:49:02.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":31699,"type":null,"family_id":null,"members":[263780,263786,263803]},{"id":35422,"name":"Di''Adinno","entry":"<p>The
+        <b>Di''Adinno<\/b>\u00a0family is a powerful family in the empire of torchio
+        and rulers of the Adinno province.<\/p>","entry_parsed":"<p>The <b>Di''Adinno<\/b>\u00a0family
+        is a powerful family in the empire of torchio and rulers of the Adinno province.<\/p>","image":"families\/Ej3yuvStJz5UoSOHhAbAgvANDibmZJHlSKata4bx.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/2yBJgU6GJTj5sj-mEo68Wvtqn0c=\/smart\/src\/families%2FEj3yuvStJz5UoSOHhAbAgvANDibmZJHlSKata4bx.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/hH0y4Ba6DsONyxkMOzqW5kSLDAs=\/40x40\/smart\/src\/families%2FEj3yuvStJz5UoSOHhAbAgvANDibmZJHlSKata4bx.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1021870,"tags":[],"created_at":"2020-09-28T12:20:57.000000Z","created_by":1,"updated_at":"2021-06-08T12:27:56.000000Z","updated_by":1,"location_id":254120,"type":"Noble","family_id":null,"members":[265252]}],"links":{"first":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/families?page=1","last":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/families?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/families","per_page":45,"to":45,"total":45},"sync":"2021-09-30T13:46:03.204643Z"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de5275ab367b7-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:03 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jYyrzN1%2FU1pPEuYhyPgfABKF2A4io2h8PRGPyFlfJdu3M%2BXcbf8BjpPee6EqPGDsevaGuqOvCh0TsScvmE%2Buc1ksoprfHA02AeYAPsNZeag%2FxDmw4At%2BnC5zAA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '72785'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '89'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/families
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/927
+  response:
+    body:
+      string: '{"data":{"id":927,"name":"Stellar","type":"family","child_id":13,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2017-12-02T11:08:12.000000Z","created_by":null,"updated_at":"2017-12-02T11:08:12.000000Z","updated_by":null,"child":{"id":13,"name":"Stellar","entry":"<p>Hallo<\/p>\n\n<p>Dicki<\/p>","entry_parsed":"<p>Hallo<\/p>\n\n<p>Dicki<\/p>","image":"families\/ckwPJdURpnJhgoAtN0Xc9BMwFI6Mg7geLjKwmXMC.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/0eqK12prFmQm4mb_t5C76hrtBSs=\/smart\/src\/families%2FckwPJdURpnJhgoAtN0Xc9BMwFI6Mg7geLjKwmXMC.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/XnidUWhqAwKtqSmh0x020rhFjMA=\/40x40\/smart\/src\/families%2FckwPJdURpnJhgoAtN0Xc9BMwFI6Mg7geLjKwmXMC.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":927,"tags":[],"created_at":"2017-11-10T20:11:12.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:39.000000Z","updated_by":null,"location_id":null,"type":null,"family_id":null,"members":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de52ebf9202a4-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:04 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ixHBdMilLhifUG9sbDZSxxy9igiV2p%2BVSQsnAdtlGQVPGOWv9f4uBZVvz15n4y5uTO9Do2XO7GYEdjNufpeejPQertsMctcqwY1v57oAWkx9wDzXZWRYha7Ejw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1199'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '88'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/927
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/983
+  response:
+    body:
+      string: '{"data":{"id":983,"name":"Rosenberg","type":"family","child_id":74,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2017-12-02T11:08:13.000000Z","created_by":null,"updated_at":"2017-12-02T11:08:13.000000Z","updated_by":null,"child":{"id":74,"name":"Rosenberg","entry":"<p><strong>House
+        Rosenberg of Arcastle<\/strong>\u00a0is a Great House of Thaelia, ruling over
+        the kingdom of Ardenfrom their seat in Arcastle, recently attacked by House
+        MacPhaiden of Othiria It is the founding family of the kingdom of Arden, and
+        has rules for over 800 years. The head of the house if lord Maximus von Rosenberg.<\/p>\n\n<p>Sigfrid
+        von Rosenberg rebelled against\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Orlene\">Orlene<\/a>rule
+        in 318 from the city of\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Rosen\">Rosen<\/a>.
+        Through good planning, high moral and discipline and good diplomacy, Sigfrid
+        secured the southern coast of the\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Inner_Blue_Sea\">Inner
+        Blue Sea<\/a>\u00a0for himself, including Arcastle. Shortly after,\u00a0<a
+        href=\"http:\/\/dnd.jpayne.ch\/index.php?title=House_Blumenthal\">House Blumenthal<\/a>\u00a0rebelled
+        and won independence. House Blumenthal and House Rosenberg married, merging
+        their kingdoms into Arden, and the capital was moved to Arcastle.<\/p>","entry_parsed":"<p><strong>House
+        Rosenberg of Arcastle<\/strong>\u00a0is a Great House of Thaelia, ruling over
+        the kingdom of Ardenfrom their seat in Arcastle, recently attacked by House
+        MacPhaiden of Othiria It is the founding family of the kingdom of Arden, and
+        has rules for over 800 years. The head of the house if lord Maximus von Rosenberg.<\/p>\n\n<p>Sigfrid
+        von Rosenberg rebelled against\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Orlene\">Orlene<\/a>rule
+        in 318 from the city of\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Rosen\">Rosen<\/a>.
+        Through good planning, high moral and discipline and good diplomacy, Sigfrid
+        secured the southern coast of the\u00a0<a href=\"http:\/\/dnd.jpayne.ch\/index.php?title=Inner_Blue_Sea\">Inner
+        Blue Sea<\/a>\u00a0for himself, including Arcastle. Shortly after,\u00a0<a
+        href=\"http:\/\/dnd.jpayne.ch\/index.php?title=House_Blumenthal\">House Blumenthal<\/a>\u00a0rebelled
+        and won independence. House Blumenthal and House Rosenberg married, merging
+        their kingdoms into Arden, and the capital was moved to Arcastle.<\/p>","image":"families\/j2WEJwcRvfLqSQOXQt6x2lByQBCyVpv0z7ylpP6E.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/rrSMFNPFXt3CDZ5McUrZwCp8Nm4=\/smart\/src\/families%2Fj2WEJwcRvfLqSQOXQt6x2lByQBCyVpv0z7ylpP6E.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/KvnZj6WonW9YkvyY63Fa_B7k3pQ=\/40x40\/smart\/src\/families%2Fj2WEJwcRvfLqSQOXQt6x2lByQBCyVpv0z7ylpP6E.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":983,"tags":[],"created_at":"2017-11-15T21:17:23.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:46.000000Z","updated_by":null,"location_id":928,"type":null,"family_id":null,"members":[4111,4113,4114,4115,4116,8939,50819]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de532b80d0314-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:05 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tiOGL9ahEGbyeMd1nGPGF3bHiCeugUhHXfEWqflz8SORBJ3ulef4zJ0fzprqbhYHVJJ%2BeYbQBb3S7DRNs0nb1eXjNObpbFEgAMI2L8msRY7rKQjvh3W%2F2oEkkQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '3318'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '87'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/983
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/984
+  response:
+    body:
+      string: '{"data":{"id":984,"name":"MacPhaiden","type":"family","child_id":75,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2017-12-02T11:08:13.000000Z","created_by":null,"updated_at":"2017-12-02T11:08:13.000000Z","updated_by":null,"child":{"id":75,"name":"MacPhaiden","entry":"\n<p><strong>House
+        MacPhaiden of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5183\">Drunah<\/a><\/strong>\u00a0was
+        a Great House of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        which rules over the kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\">Othiria<\/a>.
+        It controls the kingdom of Othiria since 150 years following a rebellion against
+        the previous House Hennang.<\/p>\n<p>The current leader is Sephan MacPhaiden,
+        following the death of his brother and previous King, Bathair.<\/p>\n","entry_parsed":"\n<p><strong>House
+        MacPhaiden of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5183\">Drunah<\/a><\/strong>\u00a0was
+        a Great House of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        which rules over the kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\">Othiria<\/a>.
+        It controls the kingdom of Othiria since 150 years following a rebellion against
+        the previous House Hennang.<\/p>\n<p>The current leader is Sephan MacPhaiden,
+        following the death of his brother and previous King, Bathair.<\/p>\n","image":"families\/RaWBBM0eJMMOzYwRaxTFLYI7Wzk2NfmyY4g2yAAa.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/S4t-egXfHD4t56Zjr8uFk2GgV2c=\/smart\/src\/families%2FRaWBBM0eJMMOzYwRaxTFLYI7Wzk2NfmyY4g2yAAa.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/adysLeuyL-cmZYIp5njc6Lp2qnE=\/40x40\/smart\/src\/families%2FRaWBBM0eJMMOzYwRaxTFLYI7Wzk2NfmyY4g2yAAa.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":984,"tags":[],"created_at":"2017-11-15T21:17:57.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:46.000000Z","updated_by":null,"location_id":933,"type":null,"family_id":null,"members":[4153,4154,192223]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de536dd9521f1-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:05 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZHPmoHhBYRrkLnpsg52Y1VmzHIcebP79Y4ZHm06l9zZt%2FK6MJHkfJvr4RGii2yY9oCQXTYR7VV1tP435zqMQdYP%2FYfLu%2BmNytR04K6pBAXj8suSGy5krzCfsrg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2303'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '86'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/984
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/985
+  response:
+    body:
+      string: '{"data":{"id":985,"name":"Pryde","type":"family","child_id":76,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2017-12-02T11:08:13.000000Z","created_by":null,"updated_at":"2017-12-02T11:08:13.000000Z","updated_by":null,"child":{"id":76,"name":"Pryde","entry":"\n<p><strong>House
+        Pryde<\/strong>\u00a0is a Great House of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        ruling over the Kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\">Thasslia\u00a0<\/a>from
+        their seat in Goldengate Castle, Craic. It took over control of the Kingdom
+        of Thasslia in 923 AC during the War of the Cousins.<\/p>\n<p>The family founded
+        the town of Whitescar\u00a0and has ruled it since. During the War of the Cousins,
+        it sided with House\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/75\">MacPhaiden<\/a>\u00a0and
+        took power over the kingdom.<\/p>\n","entry_parsed":"\n<p><strong>House Pryde<\/strong>\u00a0is
+        a Great House of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>,
+        ruling over the Kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/934\">Thasslia\u00a0<\/a>from
+        their seat in Goldengate Castle, Craic. It took over control of the Kingdom
+        of Thasslia in 923 AC during the War of the Cousins.<\/p>\n<p>The family founded
+        the town of Whitescar\u00a0and has ruled it since. During the War of the Cousins,
+        it sided with House\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/75\">MacPhaiden<\/a>\u00a0and
+        took power over the kingdom.<\/p>\n","image":"families\/d0upI1DnChINTcCd0aWvkRXZ7tnqCV6hgWXL7RXF.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/de-r_DQu-6MhEN_mkP4r9OU4cO0=\/smart\/src\/families%2Fd0upI1DnChINTcCd0aWvkRXZ7tnqCV6hgWXL7RXF.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/rvtxdXERbyF6bloerVbZ3_ktvbQ=\/40x40\/smart\/src\/families%2Fd0upI1DnChINTcCd0aWvkRXZ7tnqCV6hgWXL7RXF.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":985,"tags":[],"created_at":"2017-11-15T21:22:56.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:46.000000Z","updated_by":null,"location_id":5245,"type":null,"family_id":null,"members":[715,8952,8953]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de5399e6f224b-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:06 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hLFYGKTrt0AQEFF8mk16Zq%2FW%2B7JdfSBkiqxPVR7dnULy4Dn8gsDltj7bP9aU1laUVnhnG91Gl4YpyuamXGWQ2GdtAWltQAr%2FO%2F1QmgTlUhTnXY3O8H%2Bo5wK0ZQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2445'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '85'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/985
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12040
+  response:
+    body:
+      string: '{"data":{"id":12040,"name":"Blumenthal","type":"family","child_id":513,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-03T19:10:31.000000Z","created_by":null,"updated_at":"2018-04-03T19:10:31.000000Z","updated_by":null,"child":{"id":513,"name":"Blumenthal","entry":"\n<p>House
+        Blumenthal of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5150\">Sollas<\/a>\u00a0is
+        a vassal house that holds fealty to House <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/74\">Rosenberg<\/a>
+        of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\">Arcastle<\/a>.
+        Their lands are northwest of Arcastle, located by the Inner Blue Sea. Their
+        stronghold is a castle called Sollas.<\/p>\n","entry_parsed":"\n<p>House Blumenthal
+        of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5150\">Sollas<\/a>\u00a0is
+        a vassal house that holds fealty to House <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/74\">Rosenberg<\/a>
+        of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\">Arcastle<\/a>.
+        Their lands are northwest of Arcastle, located by the Inner Blue Sea. Their
+        stronghold is a castle called Sollas.<\/p>\n","image":"families\/l66xnrVjMHLFhSxvfooej99geGMLpCEXEvk3pTK1.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/1jRwazSvyf48ge78JZvz75go__w=\/smart\/src\/families%2Fl66xnrVjMHLFhSxvfooej99geGMLpCEXEvk3pTK1.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/Plxv09oL5fb7g0r0ja6OH3NG6uE=\/40x40\/smart\/src\/families%2Fl66xnrVjMHLFhSxvfooej99geGMLpCEXEvk3pTK1.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12040,"tags":[],"created_at":"2018-04-03T19:10:31.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":5150,"type":null,"family_id":null,"members":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de53dee7b21c1-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:06 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QrKCB27OpHxkZSYaLQtws7GrOg9A6eUmJ49SFg8yx94BdCnRoD2KzF%2BltpYhgM6fSY3XFlq4SQAfjPhVe5pYSoCjtiPPAPXWnSVM%2BOjaUtx%2FHKhqF5wFXrsh8A%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2010'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '84'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12040
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12047
+  response:
+    body:
+      string: '{"data":{"id":12047,"name":"White","type":"family","child_id":515,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-03T19:17:02.000000Z","created_by":null,"updated_at":"2018-04-03T19:17:02.000000Z","updated_by":null,"child":{"id":515,"name":"White","entry":"\n<p>The
+        White family is of elven lineage, with most of the family living in\u00a0<a
+        title=\"Frynia, also known as the Elvish Kingdom, is a theocracy on the continent
+        of Thaelia. It''s capital and biggest city is Aavoch. The kingdom is very
+        isolationist and doesn''t interact with other entities. Demographics The population
+        is estimated at abou...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5125\"
+        data-toggle=\"tooltip\">Frynia<\/a>.<\/p>\n","entry_parsed":"\n<p>The White
+        family is of elven lineage, with most of the family living in\u00a0<a title=\"Frynia,
+        also known as the Elvish Kingdom, is a theocracy on the continent of Thaelia.
+        It''s capital and biggest city is Aavoch. The kingdom is very isolationist
+        and doesn''t interact with other entities. Demographics The population is
+        estimated at abou...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5125\"
+        data-toggle=\"tooltip\">Frynia<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12047,"tags":[],"created_at":"2018-04-03T19:17:02.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":5125,"type":null,"family_id":null,"members":[4107,4110]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de540cc420341-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:07 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=diZuWXjjQpt0WH3naN0yC6wFXknwhk5UHUvbMwkBNnVVNYKpyIQb9fkkcJITOYTO4bo7lTAlMeWBvxZAwjREpStXWlEUMUNkVN8v4I%2Bb0x2Q8Qa1rE1DWrSQuw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1778'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '83'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12047
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12057
+  response:
+    body:
+      string: '{"data":{"id":12057,"name":"Weisshafen","type":"family","child_id":516,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-03T19:37:08.000000Z","created_by":null,"updated_at":"2018-04-04T09:15:20.000000Z","updated_by":null,"child":{"id":516,"name":"Weisshafen","entry":"\n<p>The
+        von Weisshafen family is an old lineage of Thaelia. They currently rule over
+        the city of Whitehaven, and the head of the family is Ludwig von Weisshaffn.<\/p>\n","entry_parsed":"\n<p>The
+        von Weisshafen family is an old lineage of Thaelia. They currently rule over
+        the city of Whitehaven, and the head of the family is Ludwig von Weisshaffn.<\/p>\n","image":"families\/94v4yrrxuALX05oqjw6L1oLEeNeq4903Rrbk8jph.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Av9aXWMvVoV7eBAQ2t0JhsNk90o=\/smart\/src\/families%2F94v4yrrxuALX05oqjw6L1oLEeNeq4903Rrbk8jph.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/UhQCq7ki2tGTRTaEscHr4oYwTpA=\/40x40\/smart\/src\/families%2F94v4yrrxuALX05oqjw6L1oLEeNeq4903Rrbk8jph.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12057,"tags":[],"created_at":"2018-04-03T19:37:08.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":5179,"type":null,"family_id":null,"members":[4117]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de5439b1e0a2a-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:07 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cThiLTMesOOwT6me2%2BYT7O1FGoQ4Tf%2F3FfZunBUC%2BYU3rxqrPdGbVkZRTglT%2Fq9VGe3XF3gMZBHouQ4cv3yWMJGwKw3rrUZu8pTW25fV5jRFXsx%2BcN%2BUOnc%2F4A%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1490'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '82'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12057
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12063
+  response:
+    body:
+      string: '{"data":{"id":12063,"name":"Frey","type":"family","child_id":517,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-03T19:45:23.000000Z","created_by":null,"updated_at":"2018-04-03T19:45:23.000000Z","updated_by":null,"child":{"id":517,"name":"Frey","entry":"\n<p>House
+        Frey is a vassal house to House <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/74\">Rosenberg<\/a>\u00a0in
+        the Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/928\">Arden<\/a>.
+        King <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4114\">Maximus<\/a>\u00a0of
+        House Rosenberg gave House Frey the title Lord of Freiwald in honour their
+        continued support and help to the kingdom of Arden.<\/p>\n","entry_parsed":"\n<p>House
+        Frey is a vassal house to House <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/families\/74\">Rosenberg<\/a>\u00a0in
+        the Kingdom of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/928\">Arden<\/a>.
+        King <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4114\">Maximus<\/a>\u00a0of
+        House Rosenberg gave House Frey the title Lord of Freiwald in honour their
+        continued support and help to the kingdom of Arden.<\/p>\n","image":"families\/zCmuMdEYPGjgsNOiVEdaDJSWPeRqBzsquRRAxswL.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/L4DZu9h0WSOGmy5ILtWB-J21j6k=\/smart\/src\/families%2FzCmuMdEYPGjgsNOiVEdaDJSWPeRqBzsquRRAxswL.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/jOkYB4NH6DjXWrGjrfGMWggp4bE=\/40x40\/smart\/src\/families%2FzCmuMdEYPGjgsNOiVEdaDJSWPeRqBzsquRRAxswL.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12063,"tags":[],"created_at":"2018-04-03T19:45:23.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":928,"type":null,"family_id":null,"members":[4122,4123,4124]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de5478f9421fd-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:08 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2F6V3vjllSKVMf%2Fuq97rqtNeVAEYJjnHZGl%2Feh6BW1CQx7QgM5fCbm%2BNuVn%2F3R%2B2PsJk3Z9o%2B4rsfY1Y6NeUPevBamJJ2E891rSOWSuX4JoGjObmmEnx6kYnQXA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2040'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '81'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12063
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12071
+  response:
+    body:
+      string: '{"data":{"id":12071,"name":"al Sha''hiri","type":"family","child_id":518,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-03T19:55:12.000000Z","created_by":null,"updated_at":"2018-04-03T19:55:12.000000Z","updated_by":null,"child":{"id":518,"name":"al
+        Sha''hiri","entry":"\n<p>The al Sha''hiri family is a tiefling family on\u00a0<a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>.
+        They were originally from\u00a0<a title=\"Whitehaven\u00a0is a city in the\u00a0Three
+        Rivers Federation\u00a0and capital of the South Santiy region. Topology Whitehaven
+        is located by the sea. Several smaller rivers pass the city and allow boats
+        to connect to various buildings. Geography and Climate The ...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5179\"
+        data-toggle=\"tooltip\">Whitehaven<\/a>.<\/p>\n","entry_parsed":"\n<p>The
+        al Sha''hiri family is a tiefling family on\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5122\">Thaelia<\/a>.
+        They were originally from\u00a0<a title=\"Whitehaven\u00a0is a city in the\u00a0Three
+        Rivers Federation\u00a0and capital of the South Santiy region. Topology Whitehaven
+        is located by the sea. Several smaller rivers pass the city and allow boats
+        to connect to various buildings. Geography and Climate The ...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5179\"
+        data-toggle=\"tooltip\">Whitehaven<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12071,"tags":[],"created_at":"2018-04-03T19:55:12.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":null,"location_id":5122,"type":null,"family_id":null,"members":[4127,4128,4130]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de549cafe02c6-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:08 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YGbUVz5ovydAU0n76M7084x98ufH%2BtgMki5SW6jdhik3VAPs2VIm6tMdx4XMmdY4x4InaJKjwioo3rNuUcQRDGWXMyg6Vu6cUjV9T3SLCHDkE9CvADewniO5Jw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1997'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '80'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12071
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12179
+  response:
+    body:
+      string: '{"data":{"id":12179,"name":"Riddle","type":"family","child_id":522,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-04T10:16:24.000000Z","created_by":null,"updated_at":"2019-05-21T13:50:49.000000Z","updated_by":1,"child":{"id":522,"name":"Riddle","entry":"\n<p>House
+        <strong>Riddle<\/strong> is a Great House of [note:2263].<\/p>\n<p>It is headed
+        by [character:12180]\u00a0and has dominion over the towns of [location:228030].<\/p>\n","entry_parsed":"\n<p>House
+        <strong>Riddle<\/strong> is a Great House of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/6\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2263\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2263\/tooltip\">Rivandol
+        Nobility<\/a>.<\/p>\n<p>It is headed by <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4156\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12180\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12180\/tooltip\">Jorden
+        Riddle<\/a>\u00a0and has dominion over the towns of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/64547\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"228030\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/228030\/tooltip\">Costlinlen<\/a>.<\/p>\n","image":"families\/8Plb3oHk3Th7O1Mb5O0tCnBFeZJ7wZz9vbvu5x7v.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/PjzumrrSfis9P6tLX8I9W-W1US8=\/smart\/src\/families%2F8Plb3oHk3Th7O1Mb5O0tCnBFeZJ7wZz9vbvu5x7v.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/Mb66uNaj0E0h4n-XMG4jYJ44Efs=\/40x40\/smart\/src\/families%2F8Plb3oHk3Th7O1Mb5O0tCnBFeZJ7wZz9vbvu5x7v.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12179,"tags":[],"created_at":"2018-04-04T10:16:24.000000Z","created_by":null,"updated_at":"2021-06-08T12:27:48.000000Z","updated_by":1,"location_id":5128,"type":null,"family_id":null,"members":[4156]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de54c7f43d4f1-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:09 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yZn40RL9xFEGG4Uad%2Fp5xaUUKJ3HgwunhU14dKGIBjydXOik%2B%2FC342K8h3vDKYgJsVpZTeXlkGDLweozN6inKPY2ZNHgj4qbgvNeWCowx6Bmo8ehOvAwehxX%2Fw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2217'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '79'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12179
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"name": "Adams", "entry": "<p>Lorem Ipsum.</p>", "tags": [], "is_private":
+      true}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '81'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://kanka.io/api/1.0/campaigns/1/families/
+  response:
+    body:
+      string: '{"data":{"id":71059,"name":"Adams","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
+        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2196112,"tags":[],"created_at":"2021-09-30T13:46:09.000000Z","created_by":88716,"updated_at":"2021-09-30T13:46:09.000000Z","updated_by":88716,"location_id":null,"type":null,"family_id":null,"members":[]}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de5512bc42251-MIA
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '569'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:09 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nipJGcMfakgf3fnUvJsQm7o%2B8pooGKOzYxqreeaOIa%2Bki0x6L7jqQYsjDvCKNTptP5Nan0ztEFheVVmm%2B0ohMKSuLX6xkxuWPSyiL30j0DLSsgmOHNjaB4eiog%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '78'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/families/
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 201
+      message: Created
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/2196112
+  response:
+    body:
+      string: '{"data":{"id":2196112,"name":"Adams","type":"family","child_id":71059,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-09-30T13:46:09.000000Z","created_by":88716,"updated_at":"2021-09-30T13:46:09.000000Z","updated_by":88716,"child":{"id":71059,"name":"Adams","entry":"<p>Lorem
+        Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2196112,"tags":[],"created_at":"2021-09-30T13:46:09.000000Z","created_by":88716,"updated_at":"2021-09-30T13:46:09.000000Z","updated_by":88716,"location_id":null,"type":null,"family_id":null,"members":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de5555a37ef22-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:10 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=05wSPaDdwMSGreDDN%2Bq0AYBUg7rtSVIKcObi6TjDGpIVBRmqO1AMtm9aSdzcRYWZL0Su1sk5uvE5zsgy8tJOkyTrf1gHhm1T2xn8kVtkbJ6ZPgW7ghg17s2h3g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '915'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '77'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/2196112
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/families/71059
+  response:
+    body:
+      string: '{"data":{"id":71059,"name":"Adams","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
+        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2196112,"tags":[],"created_at":"2021-09-30T13:46:09.000000Z","created_by":88716,"updated_at":"2021-09-30T13:46:09.000000Z","updated_by":88716,"location_id":null,"type":null,"family_id":null,"members":[]}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de5598ac767e7-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:11 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BoXbgb2OFthw8FEI%2BRXtf%2FX1QpWCUmPsG2tdjfrbDzo6uAng1yU2cBgRagSNtRoPP3NoBZKWFBqrQ2sNEjIkBwClhBm29OIfvLzswCQ%2B9kuH6MAzlPsJEtl3cg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '569'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '76'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/families/71059
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"name": "Adams (revised)", "entry": "<p>Lorem Ipsum.</p><p>Dolor Sit Amet.</p>",
+      "tags": [], "is_private": true, "header_full": "", "has_custom_header": false}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '160'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: PATCH
+    uri: https://kanka.io/api/1.0/campaigns/1/families/71059
+  response:
+    body:
+      string: '{"data":{"id":71059,"name":"Adams (revised)","entry":"<p>Lorem Ipsum.<\/p><p>Dolor
+        Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/families_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2196112,"tags":[],"created_at":"2021-09-30T13:46:09.000000Z","created_by":88716,"updated_at":"2021-09-30T13:46:11.000000Z","updated_by":88716,"location_id":null,"type":null,"family_id":null,"members":[]}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de55c3cb509ba-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:46:11 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MkxBCxPV0K1488r%2FjIJRSJxn78JfMa%2BDGmI8iIyUlOjE6JdhnokzXK2ba0OY6izJd%2BgrnSFo%2FKM2FRIAMB7iE%2FPaSf2%2B4vWeOyUX6eJX0%2BtGADozBShvcYN%2FIg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '625'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '75'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/families/71059
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: DELETE
+    uri: https://kanka.io/api/1.0/campaigns/1/families/71059
+  response:
+    body:
+      string: ''
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696de55f7fe609de-MIA
+      Connection:
+      - keep-alive
+      Date:
+      - Thu, 30 Sep 2021 13:46:12 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZJWqti8yCjUu1PAlsSuEQbTcznf97lrG31wrzuBL8bUOmZejs7iD4yR50ZgwptM1E%2FLeQSMy%2B%2FN8GQkR80iTosFm8eB614GVltNNxO2yJ6XiL7zYto67l0Yh2A%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '74'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/families/71059
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 204
+      message: No Content
+version: 1
