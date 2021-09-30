@@ -1,0 +1,1276 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/tags
+  response:
+    body:
+      string: '{"data":[{"id":285,"name":"Religion","entry":null,"entry_parsed":null,"image":"sections\/9QJDU1qWLi8fln9UgF2iIrkqialpudl6tB1AKsTo.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/mabpnt1tA2YmRX2Wo1mbAaChDWQ=\/smart\/src\/sections%2F9QJDU1qWLi8fln9UgF2iIrkqialpudl6tB1AKsTo.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/7YgAdC7sTsnQr2r3F8H80VkEloA=\/40x40\/smart\/src\/sections%2F9QJDU1qWLi8fln9UgF2iIrkqialpudl6tB1AKsTo.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":23447,"tags":[],"created_at":"2018-05-29T10:58:42.000000Z","created_by":null,"updated_at":"2021-06-08T12:17:22.000000Z","updated_by":null,"type":"Religion","tag_id":null,"colour":null,"entities":[12132,23449]},{"id":286,"name":"Pelor","entry":"\n<p>All
+        things related to the God Pelor.<\/p>\n","entry_parsed":"\n<p>All things related
+        to the God Pelor.<\/p>\n","image":"sections\/S30BIGbVpErIoLdqo3xyJaIDA0vN3xBwZ6yqixka.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/4B9haNrtTRUYySbPqIRqMlMdjkA=\/smart\/src\/sections%2FS30BIGbVpErIoLdqo3xyJaIDA0vN3xBwZ6yqixka.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/kzJfNznQxNpjAKlrOg7hXqcgUBI=\/40x40\/smart\/src\/sections%2FS30BIGbVpErIoLdqo3xyJaIDA0vN3xBwZ6yqixka.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":23449,"tags":[285],"created_at":"2018-05-29T12:59:07.000000Z","created_by":null,"updated_at":"2021-06-08T12:17:22.000000Z","updated_by":null,"type":"Religion","tag_id":285,"colour":null,"entities":[94028,181376]},{"id":287,"name":"Players","entry":"\n<p>All
+        things related to the players.<\/p>\n","entry_parsed":"\n<p>All things related
+        to the players.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":23454,"tags":[],"created_at":"2018-05-29T11:05:56.000000Z","created_by":null,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":null,"type":null,"tag_id":null,"colour":null,"entities":[12044,12049,12072,19679,22867,23457,93515,94042,93293,96234,96236,39879,96243,105724,301278,353438,93798]},{"id":4332,"name":"Skalonian
+        Pantheon","entry":"\n<p>The Skalonian Pantheon is a set of religious beliefs
+        that are dominant in the Skalonia region.<\/p>\n<p>Dievas is considered to
+        be the supreme diety, along with other dieties by his side.<\/p>\n","entry_parsed":"\n<p>The
+        Skalonian Pantheon is a set of religious beliefs that are dominant in the
+        Skalonia region.<\/p>\n<p>Dievas is considered to be the supreme diety, along
+        with other dieties by his side.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":96073,"tags":[],"created_at":"2019-01-06T10:53:31.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:22.000000Z","updated_by":1,"type":"Pantheon","tag_id":285,"colour":null,"entities":[]},{"id":4340,"name":"Ardenian
+        Heritage","entry":"\n<p>The\u00a0<strong>Ardenian Heritage<\/strong> is a
+        campaign group revolving around the problems facing the Kingdom of\u00a0[location:2046]
+        (2016 - present). It takes place 25 years after the [tag:239710] campaign.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Ardenian
+        Heritage<\/strong> is a campaign group revolving around the problems facing
+        the Kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>
+        (2016 - present). It takes place 25 years after the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/tags\/19193\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"239710\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/239710\/tooltip\">Carric''s
+        Hope<\/a> campaign.<\/p>\n","image":"tags\/Uq4oOYtVRxLk5rq6nfjSQVRdyS35Bhzm9xvYhogT.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/jWAas5MKporFI6JOVSRN2Ln8YNM=\/smart\/src\/tags%2FUq4oOYtVRxLk5rq6nfjSQVRdyS35Bhzm9xvYhogT.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/qplbl8bo4LBoveABsL96jI0WDeA=\/40x40\/smart\/src\/tags%2FUq4oOYtVRxLk5rq6nfjSQVRdyS35Bhzm9xvYhogT.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":96237,"tags":[],"created_at":"2019-01-06T18:18:51.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":"Campaign","tag_id":24369,"colour":"maroon","entities":[39879,22867,12049,93293,12072,19679,12044,12050,93515,24472,301278,12076,94042,301281,301282,27103,2260,12215,12216,12217,24473,27503,27504,353438,93798,1921271]},{"id":5224,"name":"Kemali
+        Uprising","entry":"\n<p>All entities related to the\u00a0<strong>Kemali Uprising<\/strong>
+        campaign. The campaign takes place on the island of\u00a0[location:96254].<\/p>\n<p>\u00a0<\/p>\n","entry_parsed":"\n<p>All
+        entities related to the\u00a0<strong>Kemali Uprising<\/strong> campaign. The
+        campaign takes place on the island of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30652\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"96254\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96254\/tooltip\">Kemali<\/a>.<\/p>\n<p>\u00a0<\/p>\n","image":"tags\/GvtOvRnkJqxX9yrStqOcSSQy33ORTOcBlv0pLsXe.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/-m5syLd-D3_V-ReIewAsHna6caY=\/smart\/src\/tags%2FGvtOvRnkJqxX9yrStqOcSSQy33ORTOcBlv0pLsXe.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/ZAjtKQHVkO8yu095irnEepgqMJ4=\/40x40\/smart\/src\/tags%2FGvtOvRnkJqxX9yrStqOcSSQy33ORTOcBlv0pLsXe.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":104393,"tags":[],"created_at":"2019-01-22T07:02:47.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":"Campaign","tag_id":24369,"colour":"green","entities":[96243,96234,96236,103847,104431,104432,104433,104434,100999,105763,105724,133017,144568,154409,163082,170343,206678,208771,208901,228050,240385,269871,271109,301335,310697,330514,334990,406003,408016,637021,637042,684766]},{"id":19193,"name":"Carric''s
+        Hope","entry":"\n<p><strong>Carric''s Hope<\/strong> was the first campaign
+        in the world of Thaelia (2013-2015).<\/p>\n<p><strong>Characters<\/strong><\/p>\n<ul><li>[character:12076]<\/li>\n<li>[character:12073]<\/li>\n<li>[character:239709]<\/li>\n<li>[character:27495]<\/li>\n<li>Sylken<\/li>\n<\/ul>","entry_parsed":"\n<p><strong>Carric''s
+        Hope<\/strong> was the first campaign in the world of Thaelia (2013-2015).<\/p>\n<p><strong>Characters<\/strong><\/p>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4131\" class=\"entity-mention\"
+        data-entity-tags=\"id-19193 carrics-hope id-19260 jessica id-4340 ardenian-heritage\"
+        data-toggle=\"tooltip-ajax\" data-id=\"12076\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12076\/tooltip\">Gwyny<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4128\" class=\"entity-mention\"
+        data-entity-tags=\"id-24197 yasemin id-19193 carrics-hope\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12073\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12073\/tooltip\">Dion<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/65263\" class=\"entity-mention\"
+        data-entity-tags=\"id-19193 carrics-hope id-24199 maximilian\" data-toggle=\"tooltip-ajax\"
+        data-id=\"239709\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/239709\/tooltip\">Barynor<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9078\" class=\"entity-mention\"
+        data-entity-tags=\"id-19193 carrics-hope id-24201 peter\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27495\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27495\/tooltip\">Aesh
+        Shasvar<\/a><\/li>\n<li>Sylken<\/li>\n<\/ul>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":239710,"tags":[],"created_at":"2019-06-01T20:00:05.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":null,"tag_id":24369,"colour":"yellow","entities":[239709,27495,12076,12073,304068]},{"id":19260,"name":"Jessica","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":240199,"tags":[],"created_at":"2019-06-02T12:26:26.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":1,"type":null,"tag_id":287,"colour":null,"entities":[12076,12050,27103,96234]},{"id":20236,"name":"D&Dirty","entry":"\n<p>D&amp;D
+        dirty a campaign in northern Thaelia.<\/p>\n<p><strong>Characters<\/strong><\/p>\n<ul><li>?<\/li>\n<li>[character:208768]<\/li>\n<li>?<\/li>\n<li>?<\/li>\n<li>?<\/li>\n<\/ul>","entry_parsed":"\n<p>D&amp;D
+        dirty a campaign in northern Thaelia.<\/p>\n<p><strong>Characters<\/strong><\/p>\n<ul><li>?<\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/57620\" class=\"entity-mention\"
+        data-entity-tags=\"id-20236 ddirty\" data-toggle=\"tooltip-ajax\" data-id=\"208768\"
+        data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/208768\/tooltip\">Ganesh
+        Donnerbart<\/a><\/li>\n<li>?<\/li>\n<li>?<\/li>\n<li>?<\/li>\n<\/ul>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":251454,"tags":[],"created_at":"2019-06-16T08:20:35.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":null,"tag_id":24369,"colour":"aqua","entities":[251453,170404,208768]},{"id":24197,"name":"Yasemin","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301270,"tags":[],"created_at":"2019-08-09T10:29:33.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":1,"type":null,"tag_id":287,"colour":null,"entities":[12072,12073,993116]},{"id":24198,"name":"Patrick","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301271,"tags":[],"created_at":"2019-08-09T10:30:13.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":1,"type":null,"tag_id":287,"colour":null,"entities":[12044,12049,304068]},{"id":24199,"name":"Maximilian","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301272,"tags":[],"created_at":"2019-08-09T10:30:44.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":1,"type":null,"tag_id":287,"colour":null,"entities":[22867,301278,105724,239709,993111]},{"id":24200,"name":"Lisa","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301279,"tags":[],"created_at":"2019-08-09T10:33:05.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":1,"type":null,"tag_id":287,"colour":null,"entities":[19679,993118]},{"id":24201,"name":"Peter","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301280,"tags":[],"created_at":"2019-08-09T10:33:33.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":1,"type":null,"tag_id":287,"colour":null,"entities":[39879,94042,27495]},{"id":24202,"name":"Marco","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301283,"tags":[],"created_at":"2019-08-09T12:41:42.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":1,"type":null,"tag_id":287,"colour":null,"entities":[993120,96236]},{"id":24203,"name":"Ann-Kathrin","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301285,"tags":[],"created_at":"2019-08-09T10:42:12.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":1,"type":null,"tag_id":287,"colour":null,"entities":[96243,993122]},{"id":24369,"name":"Campaigns","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":304065,"tags":[],"created_at":"2019-08-12T13:35:00.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":null,"tag_id":null,"colour":null,"entities":[]},{"id":38713,"name":"AR:
+        Sessions","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":486046,"tags":[],"created_at":"2020-02-08T14:05:53.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":"Sessions","tag_id":4340,"colour":"maroon","entities":[12144,12145,12146,12147,12148,12149,12150,12151,12152,12153,12154,12155,12156,12157,12158,12159,12160,12161,12162,12163,12164,12165,12166,12167,12168,12169,12170,12171,12172,12173,12174,12175,12176,12178,12228,24461,25646,26698,27031,28037,34074,39885,41962,73808,75374,81259,87319,88110,90460,90875,94039,94527,95549,121555,123884,137959,164323,227913,312915,319769,330580,330644,352551,357020,352556,476048,487584,731222,748939,777985,895249,899250,950572,990535,1030815,1365565,1369215,1413552,1441303]},{"id":68663,"name":"Pantheons","entry":"\n<p>A
+        tag to group all the pantheons of the world of Thaelia.<\/p>\n","entry_parsed":"\n<p>A
+        tag to group all the pantheons of the world of Thaelia.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":886709,"tags":[],"created_at":"2020-08-10T13:09:07.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":"Religion","tag_id":null,"colour":"yellow","entities":[]},{"id":68664,"name":"Thalian
+        Gods","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":886710,"tags":[],"created_at":"2020-08-10T13:09:25.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":"Deities","tag_id":68663,"colour":"yellow","entities":[]},{"id":68665,"name":"Deities","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":886711,"tags":[],"created_at":"2020-08-10T13:09:38.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":null,"tag_id":68663,"colour":"yellow","entities":[27024,93412,27027,27022,27033,27019,27032,27030,27025,27020,235102,27023,27021,19023,235104]},{"id":74111,"name":"Backgrounds","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":953488,"tags":[],"created_at":"2020-09-05T15:10:07.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":null,"tag_id":null,"colour":null,"entities":[]},{"id":74112,"name":"Noble","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":953489,"tags":[],"created_at":"2020-09-05T15:10:30.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":null,"tag_id":74111,"colour":"purple","entities":[]},{"id":76724,"name":"Sands
+        of Medina","entry":"<p>The S<b>ands of Medina<\/b> campaign centers around
+        [character:993122|Diony] the satyr bard, [character:993111|Dalakad] the kalashtar
+        druid, [character:993116|Nalin] the tiefling ranger, [character:993118|Agron]
+        the shifter rogue, and [character:993120|Ratash] the leonin fighter. The campaign
+        starts in the small coastal town of [location:993304]\u00a0during a local
+        festival dedicated to the sea Godess, during which the adventurers learn about
+        the plight of the town.<\/p>","entry_parsed":"<p>The S<b>ands of Medina<\/b>
+        campaign centers around <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259016\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24203
+        ann-kathrin\" data-toggle=\"tooltip-ajax\" data-id=\"993122\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993122\/tooltip\">Diony<\/a>
+        the satyr bard, <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259009\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24199
+        maximilian\" data-toggle=\"tooltip-ajax\" data-id=\"993111\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993111\/tooltip\">Dalakad<\/a>
+        the kalashtar druid, <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259011\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24197
+        yasemin\" data-toggle=\"tooltip-ajax\" data-id=\"993116\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993116\/tooltip\">Nalin<\/a>
+        the tiefling ranger, <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259013\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24200
+        lisa\" data-toggle=\"tooltip-ajax\" data-id=\"993118\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993118\/tooltip\">Agron<\/a>
+        the shifter rogue, and <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259014\"
+        class=\"entity-mention\" data-entity-tags=\"id-76724 sands-of-medina id-24202
+        marco\" data-toggle=\"tooltip-ajax\" data-id=\"993120\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993120\/tooltip\">Ratash<\/a>
+        the leonin fighter. The campaign starts in the small coastal town of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/246165\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"993304\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993304\/tooltip\">Asolo<\/a>\u00a0during
+        a local festival dedicated to the sea Godess, during which the adventurers
+        learn about the plight of the town.<\/p>","image":"tags\/UUlWEu5dbiOIJDOsdEpH4LiMCFyjRRqDrTrloj5E.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/GiCm1yABhkZPYxdl_xFpjbDubtU=\/smart\/src\/tags%2FUUlWEu5dbiOIJDOsdEpH4LiMCFyjRRqDrTrloj5E.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/6annOBeDEZllZ6BfjiWVoAy0UWQ=\/40x40\/smart\/src\/tags%2FUUlWEu5dbiOIJDOsdEpH4LiMCFyjRRqDrTrloj5E.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":993110,"tags":[],"created_at":"2020-09-19T09:56:07.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":"Campaign","tag_id":24369,"colour":"yellow","entities":[993111,993116,993118,993120,993122,1002100,1003997,1141759,1487240,1501438,1637003,1646838,1696014]},{"id":144524,"name":"Elder''s
+        Rest","entry":"<p>Elder''s Rest is a campaign run for the Kanka Tales from
+        Everwhere community games.<\/p>","entry_parsed":"<p>Elder''s Rest is a campaign
+        run for the Kanka Tales from Everwhere community games.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1983273,"tags":[],"created_at":"2021-07-23T12:46:01.000000Z","created_by":1,"updated_at":"2021-07-23T12:46:01.000000Z","updated_by":1,"type":"Campaign","tag_id":24369,"colour":"aqua","entities":[2013851,1983293]}],"links":{"first":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/tags?page=1","last":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/tags?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"http:\/\/kanka.io\/api\/1.0\/campaigns\/1\/tags","per_page":45,"to":25,"total":25},"sync":"2021-09-30T13:49:26.799731Z"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea1fa8cd67c9-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:27 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5TARqDoR983V0tK3gEeoYtfHM0NflnByI%2Fct6zNh%2FKn%2BRy0vNKmCRqpZXR59bb%2BdSHtoUXRRpitDId6CSL6e7PRFnj4M6zjN5A9lo%2BT1o8XE88ZeyL1fo9GzGg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '23252'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '89'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/tags
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/23447
+  response:
+    body:
+      string: '{"data":{"id":23447,"name":"Religion","type":"tag","child_id":285,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-05-29T10:58:42.000000Z","created_by":null,"updated_at":"2018-05-29T10:58:42.000000Z","updated_by":null,"child":{"id":285,"name":"Religion","entry":null,"entry_parsed":null,"image":"sections\/9QJDU1qWLi8fln9UgF2iIrkqialpudl6tB1AKsTo.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/mabpnt1tA2YmRX2Wo1mbAaChDWQ=\/smart\/src\/sections%2F9QJDU1qWLi8fln9UgF2iIrkqialpudl6tB1AKsTo.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/7YgAdC7sTsnQr2r3F8H80VkEloA=\/40x40\/smart\/src\/sections%2F9QJDU1qWLi8fln9UgF2iIrkqialpudl6tB1AKsTo.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":23447,"tags":[],"created_at":"2018-05-29T10:58:42.000000Z","created_by":null,"updated_at":"2021-06-08T12:17:22.000000Z","updated_by":null,"type":"Religion","tag_id":null,"colour":null,"entities":[12132,23449]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea25d8600a2e-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:27 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TYCv5NvyBdOf9980KKo8yc%2BhykeomzEg0rh2zoTHq8dF7dIIFpPbNVZG1fRHcRo6LQXd4phzRBtZVmGNte1INeYHLE601vRUKwKkybxCLfe9gwmvb4g9XddvuA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1155'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '88'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/23447
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/23449
+  response:
+    body:
+      string: '{"data":{"id":23449,"name":"Pelor","type":"tag","child_id":286,"tags":[285],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-05-29T10:59:07.000000Z","created_by":null,"updated_at":"2018-05-29T10:59:07.000000Z","updated_by":null,"child":{"id":286,"name":"Pelor","entry":"\n<p>All
+        things related to the God Pelor.<\/p>\n","entry_parsed":"\n<p>All things related
+        to the God Pelor.<\/p>\n","image":"sections\/S30BIGbVpErIoLdqo3xyJaIDA0vN3xBwZ6yqixka.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/4B9haNrtTRUYySbPqIRqMlMdjkA=\/smart\/src\/sections%2FS30BIGbVpErIoLdqo3xyJaIDA0vN3xBwZ6yqixka.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/kzJfNznQxNpjAKlrOg7hXqcgUBI=\/40x40\/smart\/src\/sections%2FS30BIGbVpErIoLdqo3xyJaIDA0vN3xBwZ6yqixka.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":23449,"tags":[285],"created_at":"2018-05-29T12:59:07.000000Z","created_by":null,"updated_at":"2021-06-08T12:17:22.000000Z","updated_by":null,"type":"Religion","tag_id":285,"colour":null,"entities":[94028,181376]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea29a8c667c2-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:28 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2z%2BoTtx6vYkdy%2BwHhJ2DSIgiWgA%2FStMUJPrYj7vNyzN1YfGw9zknxsqYx5zhKtbpQp3zZ0qCl2LQ4jB8p1oe5WFnttJGFs0pKYk%2FCDu3Q%2BKzl0%2F0U0%2FWVIPXUg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1247'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '87'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/23449
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/23454
+  response:
+    body:
+      string: '{"data":{"id":23454,"name":"Players","type":"tag","child_id":287,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-05-29T11:05:56.000000Z","created_by":null,"updated_at":"2018-05-29T11:05:56.000000Z","updated_by":null,"child":{"id":287,"name":"Players","entry":"\n<p>All
+        things related to the players.<\/p>\n","entry_parsed":"\n<p>All things related
+        to the players.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":23454,"tags":[],"created_at":"2018-05-29T11:05:56.000000Z","created_by":null,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":null,"type":null,"tag_id":null,"colour":null,"entities":[12044,12049,12072,19679,22867,23457,93515,94042,93293,96234,96236,39879,96243,105724,301278,353438,93798]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea2dff5f12af-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:29 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mZwvWqakkNYLTTndpTGD81sYzOyAatRnpicUoult81uGPVpJS6odtYn2lU3DkwPp9Azrm36k6tJmKgX7CunpiFJnLJrq6z7jIqUEZn5O6iZvNTIh5exKhS9h9w%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1047'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '86'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/23454
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/96073
+  response:
+    body:
+      string: '{"data":{"id":96073,"name":"Skalonian Pantheon","type":"tag","child_id":4332,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2019-01-06T09:53:31.000000Z","created_by":1,"updated_at":"2019-01-06T09:53:31.000000Z","updated_by":1,"child":{"id":4332,"name":"Skalonian
+        Pantheon","entry":"\n<p>The Skalonian Pantheon is a set of religious beliefs
+        that are dominant in the Skalonia region.<\/p>\n<p>Dievas is considered to
+        be the supreme diety, along with other dieties by his side.<\/p>\n","entry_parsed":"\n<p>The
+        Skalonian Pantheon is a set of religious beliefs that are dominant in the
+        Skalonia region.<\/p>\n<p>Dievas is considered to be the supreme diety, along
+        with other dieties by his side.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":96073,"tags":[],"created_at":"2019-01-06T10:53:31.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:22.000000Z","updated_by":1,"type":"Pantheon","tag_id":285,"colour":null,"entities":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea321f8d09ea-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:29 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=u3e8PuLDTP%2FffnwCKKT5t5XuH3ejWuhKfPY1XAplPUoiCv6ycyOjguBdL5s8H5vJu9QapfCl06EAk7Otrfq2OrkDdyaajbLZe9F0N4NLQoKkjKorXxTyUzacnQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1266'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '85'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/96073
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/96237
+  response:
+    body:
+      string: '{"data":{"id":96237,"name":"Ardenian Heritage","type":"tag","child_id":4340,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2019-01-06T18:18:51.000000Z","created_by":1,"updated_at":"2019-08-12T14:25:34.000000Z","updated_by":1,"child":{"id":4340,"name":"Ardenian
+        Heritage","entry":"\n<p>The\u00a0<strong>Ardenian Heritage<\/strong> is a
+        campaign group revolving around the problems facing the Kingdom of\u00a0[location:2046]
+        (2016 - present). It takes place 25 years after the [tag:239710] campaign.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Ardenian
+        Heritage<\/strong> is a campaign group revolving around the problems facing
+        the Kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>
+        (2016 - present). It takes place 25 years after the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/tags\/19193\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"239710\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/239710\/tooltip\">Carric''s
+        Hope<\/a> campaign.<\/p>\n","image":"tags\/Uq4oOYtVRxLk5rq6nfjSQVRdyS35Bhzm9xvYhogT.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/jWAas5MKporFI6JOVSRN2Ln8YNM=\/smart\/src\/tags%2FUq4oOYtVRxLk5rq6nfjSQVRdyS35Bhzm9xvYhogT.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/qplbl8bo4LBoveABsL96jI0WDeA=\/40x40\/smart\/src\/tags%2FUq4oOYtVRxLk5rq6nfjSQVRdyS35Bhzm9xvYhogT.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":96237,"tags":[],"created_at":"2019-01-06T18:18:51.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":"Campaign","tag_id":24369,"colour":"maroon","entities":[39879,22867,12049,93293,12072,19679,12044,12050,93515,24472,301278,12076,94042,301281,301282,27103,2260,12215,12216,12217,24473,27503,27504,353438,93798,1921271]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea34f89d21d9-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:30 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LMXOdj2dk8p7oxvzS76VPWAsqkId8HtSZd3tphxmYmAYOA%2Blt1lMyt7b7wogg2sebHiSGFaeE9SNuEwRacykPnxYHPtsOwDox1iVT%2F5GePX98cHP9w0beydzIg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2225'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '84'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/96237
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/104393
+  response:
+    body:
+      string: '{"data":{"id":104393,"name":"Kemali Uprising","type":"tag","child_id":5224,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2019-01-22T07:02:47.000000Z","created_by":1,"updated_at":"2019-08-12T13:35:01.000000Z","updated_by":1,"child":{"id":5224,"name":"Kemali
+        Uprising","entry":"\n<p>All entities related to the\u00a0<strong>Kemali Uprising<\/strong>
+        campaign. The campaign takes place on the island of\u00a0[location:96254].<\/p>\n<p>\u00a0<\/p>\n","entry_parsed":"\n<p>All
+        entities related to the\u00a0<strong>Kemali Uprising<\/strong> campaign. The
+        campaign takes place on the island of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30652\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"96254\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96254\/tooltip\">Kemali<\/a>.<\/p>\n<p>\u00a0<\/p>\n","image":"tags\/GvtOvRnkJqxX9yrStqOcSSQy33ORTOcBlv0pLsXe.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/-m5syLd-D3_V-ReIewAsHna6caY=\/smart\/src\/tags%2FGvtOvRnkJqxX9yrStqOcSSQy33ORTOcBlv0pLsXe.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/ZAjtKQHVkO8yu095irnEepgqMJ4=\/40x40\/smart\/src\/tags%2FGvtOvRnkJqxX9yrStqOcSSQy33ORTOcBlv0pLsXe.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":104393,"tags":[],"created_at":"2019-01-22T07:02:47.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":"Campaign","tag_id":24369,"colour":"green","entities":[96243,96234,96236,103847,104431,104432,104433,104434,100999,105763,105724,133017,144568,154409,163082,170343,206678,208771,208901,228050,240385,269871,271109,301335,310697,330514,334990,406003,408016,637021,637042,684766]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea379a920996-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:30 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2dwchKAOdnQLsh0zfQHoaeJBQ%2BvqVDy8mb4iJQ%2FkOMWHTjVwSnLkJebxCeWhSEE%2B1A%2FhpaUAp4BQ0EZJnKv4vV11pfyJaLbqevyRiTu5LntxNbZPV9Y5hKcqUw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1932'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '83'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/104393
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/239710
+  response:
+    body:
+      string: '{"data":{"id":239710,"name":"Carric''s Hope","type":"tag","child_id":19193,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2019-06-01T20:00:05.000000Z","created_by":1,"updated_at":"2019-08-12T13:43:41.000000Z","updated_by":1,"child":{"id":19193,"name":"Carric''s
+        Hope","entry":"\n<p><strong>Carric''s Hope<\/strong> was the first campaign
+        in the world of Thaelia (2013-2015).<\/p>\n<p><strong>Characters<\/strong><\/p>\n<ul><li>[character:12076]<\/li>\n<li>[character:12073]<\/li>\n<li>[character:239709]<\/li>\n<li>[character:27495]<\/li>\n<li>Sylken<\/li>\n<\/ul>","entry_parsed":"\n<p><strong>Carric''s
+        Hope<\/strong> was the first campaign in the world of Thaelia (2013-2015).<\/p>\n<p><strong>Characters<\/strong><\/p>\n<ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4131\" class=\"entity-mention\"
+        data-entity-tags=\"id-19193 carrics-hope id-19260 jessica id-4340 ardenian-heritage\"
+        data-toggle=\"tooltip-ajax\" data-id=\"12076\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12076\/tooltip\">Gwyny<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/4128\" class=\"entity-mention\"
+        data-entity-tags=\"id-24197 yasemin id-19193 carrics-hope\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12073\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12073\/tooltip\">Dion<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/65263\" class=\"entity-mention\"
+        data-entity-tags=\"id-19193 carrics-hope id-24199 maximilian\" data-toggle=\"tooltip-ajax\"
+        data-id=\"239709\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/239709\/tooltip\">Barynor<\/a><\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/9078\" class=\"entity-mention\"
+        data-entity-tags=\"id-19193 carrics-hope id-24201 peter\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27495\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27495\/tooltip\">Aesh
+        Shasvar<\/a><\/li>\n<li>Sylken<\/li>\n<\/ul>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":239710,"tags":[],"created_at":"2019-06-01T20:00:05.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":null,"tag_id":24369,"colour":"yellow","entities":[239709,27495,12076,12073,304068]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea3a4ac712af-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:31 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=j0h9yz6E4RysGdjV1EuYRQve0aB05QBXiHWYdZ%2FeXMiRa1ljZ9QCO595kZEdisoLdsLgvIno%2FQRhkn%2BbPavCpH5lkJq0T3qwmVRSo83eP8yibbQXFu4wO6Lizg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2590'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '82'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/239710
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/240199
+  response:
+    body:
+      string: '{"data":{"id":240199,"name":"Jessica","type":"tag","child_id":19260,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2019-06-02T12:26:26.000000Z","created_by":1,"updated_at":"2019-08-12T13:39:24.000000Z","updated_by":1,"child":{"id":19260,"name":"Jessica","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":240199,"tags":[],"created_at":"2019-06-02T12:26:26.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":1,"type":null,"tag_id":287,"colour":null,"entities":[12076,12050,27103,96234]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea3ef8da67d8-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:31 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GVsKfEl%2BIOiChGdIPXMO1wjg9PwHT0yGCCKErT%2BDOZq6FujAUntko1NuWuh5ejrhtV9V9Siug2%2FUDkPjDqaYqRihYjlgWTIAd3PsoItk%2BXHRY7pNk6SskH414Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '871'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '81'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/240199
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/251454
+  response:
+    body:
+      string: '{"data":{"id":251454,"name":"D&Dirty","type":"tag","child_id":20236,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2019-06-16T08:20:35.000000Z","created_by":1,"updated_at":"2019-08-12T13:38:27.000000Z","updated_by":1,"child":{"id":20236,"name":"D&Dirty","entry":"\n<p>D&amp;D
+        dirty a campaign in northern Thaelia.<\/p>\n<p><strong>Characters<\/strong><\/p>\n<ul><li>?<\/li>\n<li>[character:208768]<\/li>\n<li>?<\/li>\n<li>?<\/li>\n<li>?<\/li>\n<\/ul>","entry_parsed":"\n<p>D&amp;D
+        dirty a campaign in northern Thaelia.<\/p>\n<p><strong>Characters<\/strong><\/p>\n<ul><li>?<\/li>\n<li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/57620\" class=\"entity-mention\"
+        data-entity-tags=\"id-20236 ddirty\" data-toggle=\"tooltip-ajax\" data-id=\"208768\"
+        data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/208768\/tooltip\">Ganesh
+        Donnerbart<\/a><\/li>\n<li>?<\/li>\n<li>?<\/li>\n<li>?<\/li>\n<\/ul>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":251454,"tags":[],"created_at":"2019-06-16T08:20:35.000000Z","created_by":1,"updated_at":"2021-06-08T12:18:25.000000Z","updated_by":1,"type":null,"tag_id":24369,"colour":"aqua","entities":[251453,170404,208768]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea417f080975-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:32 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zvkcpG9GUF1j0v1kl8m83JLNUYSs7DiXmRmxCRahSUPrwB7Va7WnD2IEwS3qmt%2FS0vpDnrBP9srDzDXgbx3BTZmTUdJ7omuuyXwpDVh2DSetyfSocyyO3EDM3g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1505'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '80'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/251454
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/301270
+  response:
+    body:
+      string: '{"data":{"id":301270,"name":"Yasemin","type":"tag","child_id":24197,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2019-08-09T10:29:33.000000Z","created_by":1,"updated_at":"2019-08-12T13:40:21.000000Z","updated_by":1,"child":{"id":24197,"name":"Yasemin","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301270,"tags":[],"created_at":"2019-08-09T10:29:33.000000Z","created_by":1,"updated_at":"2021-06-08T12:17:49.000000Z","updated_by":1,"type":null,"tag_id":287,"colour":null,"entities":[12072,12073,993116]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea45ee0f127f-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:33 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eVpwzqYQDbT1FfxUg%2BzFy1zyU64SkE%2FMak1Weco5vz0So1YrLAx6%2F4DA8RqGcCswfc%2BJgoV1ZAtnl58oYlTcPygHc1P53Zzd4wBngZEBxV5e3pqzjgQyWp6IRA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '866'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '79'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/301270
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"name": "Religion", "entry": "<p>Lorem Ipsum.</p>", "type": "Lore", "colour":
+      "green", "is_private": true}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '107'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://kanka.io/api/1.0/campaigns/1/tags/
+  response:
+    body:
+      string: '{"data":{"id":159457,"name":"Religion","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
+        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2196129,"tags":[],"created_at":"2021-09-30T13:49:33.000000Z","created_by":88716,"updated_at":"2021-09-30T13:49:33.000000Z","updated_by":88716,"type":"Lore","tag_id":null,"colour":"green","entities":[]}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea4a3d360a2e-MIA
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '567'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:33 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=g%2B9CmZQCMKHMWI09YogNnKlvFzt956yIQ7JRQBq73Hb7MsaF6Hv0%2BSUWvUF80TUs8RSJc6GK%2BiXzfcOazY2XTft33jM6izQGQ3WqzeY4hHBNi99nKqALlRzTEg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '78'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/tags/
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 201
+      message: Created
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/2196129
+  response:
+    body:
+      string: '{"data":{"id":2196129,"name":"Religion","type":"tag","child_id":159457,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-09-30T13:49:33.000000Z","created_by":88716,"updated_at":"2021-09-30T13:49:33.000000Z","updated_by":88716,"child":{"id":159457,"name":"Religion","entry":"<p>Lorem
+        Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2196129,"tags":[],"created_at":"2021-09-30T13:49:33.000000Z","created_by":88716,"updated_at":"2021-09-30T13:49:33.000000Z","updated_by":88716,"type":"Lore","tag_id":null,"colour":"green","entities":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea4d59020a22-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:33 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fpxVah%2BB7DXL54U0HH2MRT%2FKnjf6s%2BiUkdW4fvMRSGLeNWnMbbvAycpAwuKK8Rr%2FeXCANAelyWlhhU3E2OFeWohEN%2BfIp01hofJAoj11V8E1KmNTGMaO4t3W1w%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '914'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '77'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/2196129
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/tags/159457
+  response:
+    body:
+      string: '{"data":{"id":159457,"name":"Religion","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
+        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2196129,"tags":[],"created_at":"2021-09-30T13:49:33.000000Z","created_by":88716,"updated_at":"2021-09-30T13:49:33.000000Z","updated_by":88716,"type":"Lore","tag_id":null,"colour":"green","entities":[]}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea4fda3dd4f5-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:34 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oqm5ETMTRsdWtdaz8oMZIc9EDqwkhr1hwvxXeA23ysQBM65uFQt5dFCIZIZ6O%2B%2BndmOJu2fv0fq2Xht5RI%2BSiGpExe3oOZOElltivFC8qTZoAwBPJCmC0JvwHg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '567'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '76'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/tags/159457
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"name": "Religion (revised)", "entry": "<p>Lorem Ipsum.</p><p>Dolor Sit
+      Amet.</p>", "type": "Lore", "colour": "green", "is_private": true, "header_full":
+      "", "has_custom_header": false}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '186'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: PATCH
+    uri: https://kanka.io/api/1.0/campaigns/1/tags/159457
+  response:
+    body:
+      string: '{"data":{"id":159457,"name":"Religion (revised)","entry":"<p>Lorem
+        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor
+        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/tags_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2196129,"tags":[],"created_at":"2021-09-30T13:49:33.000000Z","created_by":88716,"updated_at":"2021-09-30T13:49:34.000000Z","updated_by":88716,"type":"Lore","tag_id":null,"colour":"green","entities":[]}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea541df22251-MIA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 30 Sep 2021 13:49:35 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cKvdBXtHIMDhFGvJXZrpNsl%2Bfq75U96LccZ4GKNobXeg2jQUySoAKv9CnqEjJzvp4SMtwRQs9gmkt59U8eva9ztcWcudndybh5AuKY%2BvyHXXkRaMy9oHgwvwhQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '623'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '75'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/tags/159457
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: DELETE
+    uri: https://kanka.io/api/1.0/campaigns/1/tags/159457
+  response:
+    body:
+      string: ''
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 696dea57791367b6-MIA
+      Connection:
+      - keep-alive
+      Date:
+      - Thu, 30 Sep 2021 13:49:35 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ek0HIRiMl60X%2FLYby4wby2EcAmMLLh876hVBSK6dbDTfcTsr4QakPCsfjPI8AmC%2BQQ3E2SjZR1vgSKoHwWaS49W2jnZYViuOv5tOl6h77RztLWPz9BAQp%2BLB7g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '74'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/tags/159457
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 204
+      message: No Content
+version: 1
