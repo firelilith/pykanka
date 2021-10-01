@@ -593,3 +593,95 @@ class TestPykanka(unittest.TestCase):
             "leap_year_start": 233
         }
         pass
+
+    # @vcr.use_cassette(f'{CASSETTE_DIR}/menulink.yaml', **cassette_kwargs)
+    def test_menulink(self):
+        with self.subTest(msg=f"get all"):
+            self._get_and_test_all_of_childtype(self.read_campaign.all_menulinks,
+                                                MenuLink,
+                                                MenuLinkData)
+        with self.subTest(msg=f"create"):
+            # Sample data from Kanka API documentation, with some keys removed.
+            # https://kanka.io/en-US/docs/1.0/menu-links
+            # TODO this test doesn't have the right sample data to work correctly
+            data = {
+                "name": "Random Chara",
+                "filters": None,
+                "icon": None,
+                "is_private": 0,
+                "menu": None,
+                "random_entity_type": "character",
+                "type": None,
+                "tab": "",
+                "target": None,
+                "dashboard_id": None,
+                "options": {"is_nested": "1"}
+            }
+            new_child = self._create_and_test_new_of_childtype(self.write_campaign, MenuLink, data)
+        with self.subTest(msg=f"update"):
+            update_data = {
+                "name": f"{data['name']} (revised)"
+            }
+            updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
+
+        with self.subTest(msg=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+
+    # @vcr.use_cassette(f'{CASSETTE_DIR}/dashboardwidget.yaml', **cassette_kwargs)
+    def test_dashboardwidget(self):
+        with self.subTest(msg=f"get all"):
+            self._get_and_test_all_of_childtype(self.read_campaign.all_dashboardwidgets,
+                                                DashboardWidget,
+                                                DashboardWidgetData)
+        with self.subTest(msg=f"create"):
+            # Sample data from Kanka API documentation, with some keys removed.
+            # https://kanka.io/en-US/docs/1.0/dashboard-widgets
+            # TODO name is not required for dashboardwidgets, but is required for GenericChild
+            data = {
+                "entity_id": 6,
+                "widget": "preview",
+                "config": {
+                    "full": "1"
+                },
+                "width": 6,
+                "position": 2,
+                "tags": [],
+            }
+            new_child = self._create_and_test_new_of_childtype(self.write_campaign, DashboardWidget, data)
+        with self.subTest(msg=f"update"):
+            update_data = {
+                "position": 1
+            }
+            updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
+
+        with self.subTest(msg=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+
+    def test_dashboardwidget(self):
+        with self.subTest(msg=f"get all"):
+            self._get_and_test_all_of_childtype(self.read_campaign.all_dashboardwidgets,
+                                                DashboardWidget,
+                                                DashboardWidgetData)
+        with self.subTest(msg=f"create"):
+            # Sample data from Kanka API documentation, with some keys removed.
+            # https://kanka.io/en-US/docs/1.0/dashboard-widgets
+            # TODO name is not required for dashboardwidgets, but is required for GenericChild
+            data = {
+                "entity_id": 6,
+                "widget": "preview",
+                "config": {
+                    "full": "1"
+                },
+                "width": 6,
+                "position": 2,
+                "tags": [],
+            }
+            new_child = self._create_and_test_new_of_childtype(self.write_campaign, DashboardWidget, data)
+        with self.subTest(msg=f"update"):
+            update_data = {
+                "position": 1
+            }
+            updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
+
+        with self.subTest(msg=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)

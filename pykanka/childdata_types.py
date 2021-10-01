@@ -1,6 +1,6 @@
 import typing
 import json
-from typing import List, Optional
+from typing import List, Optional, Dict
 
 import requests
 
@@ -12,7 +12,7 @@ from dataclasses import dataclass, InitVar
 
 @dataclass
 class GenericChildData:
-    name: str = None
+    name: Optional[str] = None
     id: Optional[int] = None
     type: Optional[str] = None
     entity_id: Optional[int] = None
@@ -214,3 +214,25 @@ class CalendarData(GenericChildData):
 
     start_offset: Optional[int] = None
     date: Optional[str] = None
+
+@dataclass
+class MenuLinkData(GenericChildData):
+    filters: Optional[List[str]] = None
+    icon: Optional[str] = None
+    filters: Optional[str] = None
+    icon: Optional[str] = None
+    menu: Optional[int] = None
+    random_entity_type: Optional[str] = None
+    tab: Optional[str] = None
+    target: Optional[str] = None
+    dashboard_id: Optional[int] = None
+    options: Optional[Dict[str, str]] = None
+
+@dataclass
+class DashboardWidgetData(GenericChildData):
+    campaign_id: Optional[int] = None
+    widget: Optional[str] = None
+    config: Optional[Dict[str, str]] = None
+    width: Optional[int] = None
+    position: Optional[List[int]] = None
+    tags: Optional[str] = None

@@ -472,6 +472,34 @@ class Calendar(GenericChildType):
         if len(values["weekday"]) < 2:
             raise ValueError("'weekday' needs at least two entries, but has fewer")
 
+@dataclass
+class MenuLink(GenericChildType):
+    """A class representing a Note child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entity_id", "type", "random_entity_type", "dashboard_id", "icon", "tab",
+                      "filters", "menu", "is_private", "options"]
+
+    # 'position' key is in listed in documentation, but not in responses
+
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    # _key_replacer = []
+
+    data: MenuLinkData = MenuLinkData()
+    endpoint: str = "menu_links"
+
+@dataclass
+class DashboardWidget(GenericChildType):
+    """A class representing a Note child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["widget", "entity_id", "config", "position", "tags"]
+
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    # _key_replacer = []
+
+    data: DashboardWidgetData = DashboardWidgetData()
+    endpoint: str = "campaign_dashboard_widgets"
 
 child_type_dictionary = dict(location=Location,
                              character=Character,

@@ -295,6 +295,12 @@ class KankaClient:
     def all_calendars(self) -> Tuple[typing.Generator["ct.Calendar", None, None], int]:
         return self._get_all_of_type(f"{self.campaign_base_url}calendars", ct.Calendar)
 
+    def all_menulinks(self) -> Tuple[typing.Generator["ct.MenuLink", None, None], int]:
+        return self._get_all_of_type(f"{self.campaign_base_url}{ct.MenuLink.endpoint}", ct.MenuLink)
+
+    def all_dashboardwidgets(self) -> Tuple[typing.Generator["ct.DashboardWidget", None, None], int]:
+        return self._get_all_of_type(f"{self.campaign_base_url}{ct.DashboardWidget.endpoint}", ct.DashboardWidget)
+
     def search(self, name: str, results: int = 1) -> List["ent.Entity"]:
         """
         Search for entities with a given name.
