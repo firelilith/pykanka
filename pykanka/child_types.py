@@ -480,7 +480,7 @@ class MenuLink(GenericChildType):
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     # _key_replacer = []
 
-    data: MenuLinkData = MenuLinkData()
+    data: pykanka.childdata_types.MenuLinkData = pykanka.childdata_types.MenuLinkData()
     endpoint: str = "menu_links"
 
 @dataclass
@@ -493,7 +493,7 @@ class DashboardWidget(GenericChildType):
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     # _key_replacer = []
 
-    data: DashboardWidgetData = DashboardWidgetData()
+    data: pykanka.childdata_types.DashboardWidgetData = pykanka.childdata_types.DashboardWidgetData()
     endpoint: str = "campaign_dashboard_widgets"
 
 child_type_dictionary = dict(location=Location,
