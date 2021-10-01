@@ -3,7 +3,7 @@ from typing import Callable, List, Type
 from pykanka import KankaClient
 from pykanka.entities import Entity
 from pykanka.child_types import *
-# from pykanka.childdata_types import *
+from pykanka.childdata_types import *
 import vcr
 from kanka_credentials import KANKA_TOKEN, CAMPAIGN_ID
 CASSETTE_DIR = "fixtures/vcr_cassettes"
@@ -57,7 +57,7 @@ class TestPykanka(unittest.TestCase):
             The child's parent is of Entity type
             The child's data is the expected type (a character's data should be of CharacterData type)
         """
-        children = [e for e in all_child()[0]]
+        children = [e for e in all_child()]
         for child in children[:10]:
             self.assertIsInstance(child, ChildType)
             self.assertIsInstance(child.parent, Entity)
