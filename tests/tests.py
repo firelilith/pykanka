@@ -46,6 +46,17 @@ cassette_kwargs = dict(
 class TestPykanka(unittest.TestCase):
     """Tests for pykanka module"""
 
+    def setUp(self) -> None:
+        """Set up the clients
+        If using cassettes, there is no need for a working token, as the authorization header is filtered out.
+        To generate new cassettes, a working token and writable campaign ID is required.
+        Campaign ID 1 is the sample campaign on Kanka. It can be read, but not edited. There is much pre-generated public
+        data here, so it makes sense to include this as part of the tests.
+        """
+        self.read_campaign = KankaClient(KANKA_TOKEN, 1)
+        self.write_campaign = KankaClient(KANKA_TOKEN, CAMPAIGN_ID, cache_duration=0)
+        pass
+
     def _get_and_test_all_of_childtype(self,
                        all_child: Callable[[], List[GenericChildType]],
                        ChildType: Type[GenericChildType],
@@ -91,6 +102,7 @@ class TestPykanka(unittest.TestCase):
                         """
         response = existing_child.patch(json_data=json.dumps(update_data))
         new_data = response.json()['data']
+        self.write_campaign._cache={} #TODO Cache should not have to be reset like this.
         retrieved_entity = client.get_entity(new_data['entity_id'])
         retrieved_child = retrieved_entity.child.from_id(client, retrieved_entity.data.child_id)
         for key, value in update_data.items():
@@ -105,14 +117,6 @@ class TestPykanka(unittest.TestCase):
         existing_entity_id = existing_child.data.entity_id
         response = existing_child.delete()
         self.assertEqual(response.status_code, 204, f"Expected {204}, response code {response.status_code} returned. {response.text}")
-
-    def setUp(self) -> None:
-        """Set up the clients
-        If using cassettes, there is no need for a working token, as the authorization header is filtered out.
-        To generate new cassettes, a working token and writable campaign ID is required.
-        Campaign ID 1 is the sample campaign on Kanka. It can be read, but not edited."""
-        self.read_campaign = KankaClient(KANKA_TOKEN, 1)
-        self.write_campaign = KankaClient(KANKA_TOKEN, CAMPAIGN_ID)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/location.yaml', **cassette_kwargs)
     def test_location(self):
@@ -140,45 +144,46 @@ class TestPykanka(unittest.TestCase):
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(functionality=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
+        # with self.subTest(functionality=f"delete"):
+        #     self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
         pass
 
-    # @vcr.use_cassette(f'{CASSETTE_DIR}/character.yaml', **cassette_kwargs)
+    @vcr.use_cassette(f'{CASSETTE_DIR}/character.yaml', **cassette_kwargs)
     def test_character(self):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_characters,
                                                 Character,
                                                 CharacterData)
-        with self.subTest(functionality=f"create"):
-            # Sample data from Kanka API documentation, with some keys removed.
-            # https://kanka.io/en-US/docs/1.0/characters
-            data = {
-                "name": "Jonathan Green",
-                "entry": "<p>Lorem Ipsum.</p>",
-                "has_custom_image": False,
-                "is_private": True,
-                "is_personality_visible": True,
-                "is_template": False,
-                "tags": [],
-                "title": None,
-                "age": "39",
-                "sex": "Male",
-                "pronouns": None,
-                "race_id": 3,
-                "type": None,
-                "is_dead": True,
-            }
-            new_child = self._create_and_test_new_of_childtype(self.write_campaign, Character, data)
-        with self.subTest(functionality=f"update"):
-            update_data = {
-                "name": f"{data['name']} (revised)",
-                "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
-            }
-            updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child,update_data)
+        with self.subTest():
+            with self.subTest(functionality=f"create"):
+                # Sample data from Kanka API documentation, with some keys removed.
+                # https://kanka.io/en-US/docs/1.0/characters
+                data = {
+                    "name": "Jonathan Green",
+                    "entry": "<p>Lorem Ipsum.</p>",
+                    "has_custom_image": False,
+                    "is_private": True,
+                    "is_personality_visible": True,
+                    "is_template": False,
+                    "tags": [],
+                    "title": None,
+                    "age": "39",
+                    "sex": "Male",
+                    "pronouns": None,
+                    "race_id": 3,
+                    "type": None,
+                    "is_dead": True,
+                }
+                new_child = self._create_and_test_new_of_childtype(self.write_campaign, Character, data)
+            with self.subTest(functionality=f"update"):
+                update_data = {
+                    "name": f"{data['name']} (revised)",
+                    "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
+                }
+                updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child,update_data)
 
-        with self.subTest(functionality=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
+            with self.subTest(functionality=f"delete"):
+                self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/organisation.yaml', **cassette_kwargs)
     def test_organisation(self):
