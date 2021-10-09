@@ -28,6 +28,8 @@ class KankaClient:
         event=pykanka.child_types.Event,
         ability=pykanka.child_types.Ability,
         calendar=pykanka.child_types.Calendar,
+        menu_link=pykanka.child_types.MenuLink,
+        dashboard_widget=pykanka.child_types.DashboardWidget,
 
         entity=pykanka.entities.Entity
     )
@@ -233,6 +235,9 @@ class KankaClient:
     def all_characters(self, refresh: bool = False) -> Generator[pykanka.child_types.Character, None, None]:
         return self.get_all_of_type(type_name="character", refresh=refresh)
 
+    def all_dashboardwidgets(self, refresh: bool = False) -> Generator[pykanka.child_types.DashboardWidget, None, None]:
+        return self.get_all_of_type(type_name="dashboard_widget", refresh=refresh)
+
     def all_events(self, refresh: bool = False) -> Generator[pykanka.child_types.Event, None, None]:
         return self.get_all_of_type(type_name="event", refresh=refresh)
 
@@ -250,6 +255,9 @@ class KankaClient:
 
     def all_maps(self, refresh: bool = False) -> Generator[pykanka.child_types.Map, None, None]:
         return self.get_all_of_type(type_name="map", refresh=refresh)
+
+    def all_menulinks(self, refresh: bool = False) -> Generator[pykanka.child_types.MenuLink, None, None]:
+        return self.get_all_of_type(type_name="menu_link", refresh=refresh)
 
     def all_notes(self, refresh: bool = False) -> Generator[pykanka.child_types.Note, None, None]:
         return self.get_all_of_type(type_name="note", refresh=refresh)

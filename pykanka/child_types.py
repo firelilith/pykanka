@@ -450,6 +450,37 @@ class Calendar(GenericChildType):
     data: pykanka.childdata_types.CalendarData = pykanka.childdata_types.CalendarData()
     endpoint: str = "calendars"
 
+@dataclass
+class MenuLink(GenericChildType):
+    # TODO MenuLink creation currently resolves to a 500 server error
+    """A class representing a Note child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["name", "entity_id", "type", "random_entity_type", "dashboard_id", "icon", "tab",
+                      "filters", "menu", "is_private", "options"]
+
+    # 'position' key is in listed in documentation, but not in responses
+
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    # _key_replacer = []
+
+    data: pykanka.childdata_types.MenuLinkData = pykanka.childdata_types.MenuLinkData()
+    endpoint: str = "menu_links"
+
+@dataclass
+class DashboardWidget(GenericChildType):
+    # TODO name is not required for dashboardwidgets, but is required for GenericChild
+    """A class representing a Note child contained within an Entity."""
+
+    # keys accepted by POST and also delivered by GET as per API documentation
+    _possible_keys = ["widget", "entity_id", "config", "position", "tags"]
+
+    # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
+    # _key_replacer = []
+
+    data: pykanka.childdata_types.DashboardWidgetData = pykanka.childdata_types.DashboardWidgetData()
+    endpoint: str = "campaign_dashboard_widgets"
+
     @staticmethod
     def _validate_parameters(values, files):
         if "name" not in values.keys():

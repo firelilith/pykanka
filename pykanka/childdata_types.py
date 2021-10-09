@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from datetime import datetime
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Dict
 
 import pykanka
 from pykanka.exceptions import *
@@ -216,3 +216,25 @@ class CalendarData(GenericChildData):
 
     start_offset: Optional[int] = None
     date: Optional[str] = None
+
+@dataclass
+class MenuLinkData(GenericChildData):
+    filters: Optional[List[str]] = None
+    icon: Optional[str] = None
+    filters: Optional[str] = None
+    icon: Optional[str] = None
+    menu: Optional[int] = None
+    random_entity_type: Optional[str] = None
+    tab: Optional[str] = None
+    target: Optional[str] = None
+    dashboard_id: Optional[int] = None
+    options: Optional[Dict[str, str]] = None
+
+@dataclass
+class DashboardWidgetData(GenericChildData):
+    campaign_id: Optional[int] = None
+    widget: Optional[str] = None
+    config: Optional[Dict[str, str]] = None
+    width: Optional[int] = None
+    position: Optional[List[int]] = None
+    tags: Optional[str] = None
