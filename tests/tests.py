@@ -50,7 +50,7 @@ class TestPykanka(unittest.TestCase):
                        all_child: Callable[[], List[GenericChildType]],
                        ChildType: Type[GenericChildType],
                        ChildDataType: Type[GenericChildData]) -> None:
-        """Tests the client.all_{child} method and the children returned
+        """Helper function that tests the client.all_{child} method and the children returned
         The test gets all of each child type, then surveys the first ten objects.
         For each sampled child the test verifies that:
             The child is of the expected type (a character should be of Character type)
@@ -59,9 +59,12 @@ class TestPykanka(unittest.TestCase):
         """
         children = [e for e in all_child()]
         for child in children[:10]:
-            self.assertIsInstance(child, ChildType)
-            self.assertIsInstance(child.parent, Entity)
-            self.assertIsInstance(child.data, ChildDataType)
+            with self.subTest("ChildType"):
+                self.assertIsInstance(child, ChildType)
+            with self.subTest("Entity"):
+                self.assertIsInstance(child.parent, Entity)
+            with self.subTest("ChildDataType"):
+                self.assertIsInstance(child.data, ChildDataType)
         pass
 
     def _create_and_test_new_of_childtype(self, client: KankaClient, ChildType: Type[GenericChildType], data: dict) -> GenericChildType:
@@ -75,7 +78,8 @@ class TestPykanka(unittest.TestCase):
         retrieved_entity = client.get_entity(new_data['entity_id'])
         retrieved_child = retrieved_entity.child.from_id(client, retrieved_entity.data.child_id)
         for key, value in data.items():
-            self.assertEqual(retrieved_child.data.__dict__[key], value)
+            with self.subTest(key=key):
+                self.assertEqual(retrieved_child.data.__dict__[key], value, f"Result: {retrieved_child.data.__dict__[key]}, Expected: {value}")
         pass
 
         return retrieved_child
@@ -89,9 +93,9 @@ class TestPykanka(unittest.TestCase):
         new_data = response.json()['data']
         retrieved_entity = client.get_entity(new_data['entity_id'])
         retrieved_child = retrieved_entity.child.from_id(client, retrieved_entity.data.child_id)
-        # TODO something about retrieving the new child doesn't work, using response instead. Disabling caching did not help.
         for key, value in update_data.items():
-            self.assertEqual(new_data[key], value)
+            with self.subTest(key=key):
+                self.assertEqual(retrieved_child.data.__dict__[key], value, f"Result: {retrieved_child.data.__dict__[key]}, Expected: {value}")
         pass
 
         return retrieved_child
@@ -100,7 +104,7 @@ class TestPykanka(unittest.TestCase):
         """Tests the {child}.delete() method"""
         existing_entity_id = existing_child.data.entity_id
         response = existing_child.delete()
-        self.assertEqual(response.status_code, 204)
+        self.assertEqual(response.status_code, 204, f"Expected {204}, response code {response.status_code} returned. {response.text}")
 
     def setUp(self) -> None:
         """Set up the clients
@@ -112,16 +116,16 @@ class TestPykanka(unittest.TestCase):
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/location.yaml', **cassette_kwargs)
     def test_location(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_locations,
                                                 Location,
                                                 LocationData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/locations
             data = {
                 "name": "Mordor",
-                # "entry": "<p>Lorem Ipsum.</p>", #TODO this test is failing: None != '<p>Lorem Ipsum.</p>'
+                "entry": "<p>Lorem Ipsum.</p>",
                 "has_custom_image": False,
                 "is_private": True,
                 "tags": [],
@@ -129,24 +133,24 @@ class TestPykanka(unittest.TestCase):
                 "type": "Kingdom"
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Location, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
-                # "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>" #TODO this test is failing: KeyError: 'entry'
+                "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
         pass
 
-    @vcr.use_cassette(f'{CASSETTE_DIR}/character.yaml', **cassette_kwargs)
+    # @vcr.use_cassette(f'{CASSETTE_DIR}/character.yaml', **cassette_kwargs)
     def test_character(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_characters,
                                                 Character,
                                                 CharacterData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/characters
             data = {
@@ -166,23 +170,23 @@ class TestPykanka(unittest.TestCase):
                 "is_dead": True,
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Character, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child,update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/organisation.yaml', **cassette_kwargs)
     def test_organisation(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_organisations,
                                                 Organisation,
                                                 OrganisationData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/organisations
             data = {
@@ -195,23 +199,23 @@ class TestPykanka(unittest.TestCase):
                 "members": []
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Organisation, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/timeline.yaml', **cassette_kwargs)
     def test_timeline(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_timelines,
                                                 Timeline,
                                                 TimelineData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/timelines
             # Note: There is a "links" and "meta" return from this endpoint
@@ -242,23 +246,23 @@ class TestPykanka(unittest.TestCase):
                 # ]
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Timeline, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/race.yaml', **cassette_kwargs)
     def test_race(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_races,
                                                 Race,
                                                 RaceData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/races
             data = {
@@ -270,23 +274,23 @@ class TestPykanka(unittest.TestCase):
                 "type": None
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Race, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/family.yaml', **cassette_kwargs)
     def test_family(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_families,
                                                 Family,
                                                 FamilyData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/families
             data = {
@@ -298,23 +302,23 @@ class TestPykanka(unittest.TestCase):
                 "type": None,
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Family, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/note.yaml', **cassette_kwargs)
     def test_note(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_notes,
                                                 Note,
                                                 NoteData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/notes
             data = {
@@ -327,23 +331,23 @@ class TestPykanka(unittest.TestCase):
                 "is_pinned": 0
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Note, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/tag.yaml', **cassette_kwargs)
     def test_tag(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_tags,
                                                 Tag,
                                                 TagData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/tags
             data = {
@@ -356,23 +360,23 @@ class TestPykanka(unittest.TestCase):
                 "colour": "green",
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Tag, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/quest.yaml', **cassette_kwargs)
     def test_quest(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_quests,
                                                 Quest,
                                                 QuestData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/quests
             data = {
@@ -381,28 +385,28 @@ class TestPykanka(unittest.TestCase):
                 "has_custom_image": False,
                 "is_private": True,
                 "tags": [],
-                # "date": "2020-04-20", #TODO Not working, returns None
+                "date": "2020-04-20",
                 "type": "Main",
                 "is_completed": False,
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Quest, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/journal.yaml', **cassette_kwargs)
     def test_journal(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_journals,
                                                 Journal,
                                                 JournalData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/journals
             data = {
@@ -415,23 +419,23 @@ class TestPykanka(unittest.TestCase):
                 "type": "Session"
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Journal, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/item.yaml', **cassette_kwargs)
     def test_item(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_items,
                                                 Item,
                                                 ItemData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/items
             data = {
@@ -445,23 +449,23 @@ class TestPykanka(unittest.TestCase):
                 "size": "1 lb."
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Item, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/event.yaml', **cassette_kwargs)
     def test_event(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_events,
                                                 Event,
                                                 EventData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/events
             data = {
@@ -474,23 +478,23 @@ class TestPykanka(unittest.TestCase):
                 "type": "Battle"
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Event, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/ability.yaml', **cassette_kwargs)
     def test_ability(self):
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_abilities,
                                                 Ability,
                                                 AbilityData)
-        with self.subTest(msg=f"create"):
+        with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/abilities
             data = {
@@ -504,20 +508,20 @@ class TestPykanka(unittest.TestCase):
                 "abilities": []
             }
             new_child = self._create_and_test_new_of_childtype(self.write_campaign, Ability, data)
-        with self.subTest(msg=f"update"):
+        with self.subTest(functionality=f"update"):
             update_data = {
                 "name": f"{data['name']} (revised)",
                 "entry": f"{data['entry']}<p>Dolor Sit Amet.</p>"
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        with self.subTest(msg=f"delete"):
-            self._delete_and_test_existing_of_childtype(self.write_campaign, updated_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/calendar.yaml', **cassette_kwargs)
     def test_calendar(self):
         #TODO Incomplete
-        with self.subTest(msg=f"get all"):
+        with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_abilities,
                                                 Ability,
                                                 AbilityData)
@@ -593,3 +597,66 @@ class TestPykanka(unittest.TestCase):
             "leap_year_start": 233
         }
         pass
+
+    # @vcr.use_cassette(f'{CASSETTE_DIR}/menulink.yaml', **cassette_kwargs)
+    def test_menulink(self):
+        with self.subTest(functionality=f"get all"):
+            self._get_and_test_all_of_childtype(self.read_campaign.all_menulinks,
+                                                MenuLink,
+                                                MenuLinkData)
+        with self.subTest(functionality=f"create"):
+            # Sample data from Kanka API documentation, with some keys removed.
+            # https://kanka.io/en-US/docs/1.0/menu-links
+            # TODO this test doesn't have the right sample data to work correctly
+            data = {
+                "name": "Random Chara",
+                "filters": None,
+                "icon": None,
+                "is_private": 0,
+                "menu": None,
+                "random_entity_type": "character",
+                "type": None,
+                "tab": "",
+                "target": None,
+                "dashboard_id": None,
+                "options": {"is_nested": "1"}
+            }
+            new_child = self._create_and_test_new_of_childtype(self.write_campaign, MenuLink, data)
+        with self.subTest(functionality=f"update"):
+            update_data = {
+                "name": f"{data['name']} (revised)"
+            }
+            updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
+
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
+
+    # @vcr.use_cassette(f'{CASSETTE_DIR}/dashboardwidget.yaml', **cassette_kwargs)
+    def test_dashboardwidget(self):
+        with self.subTest(functionality=f"get all"):
+            self._get_and_test_all_of_childtype(self.read_campaign.all_dashboardwidgets,
+                                                DashboardWidget,
+                                                DashboardWidgetData)
+        with self.subTest(functionality=f"create"):
+            # Sample data from Kanka API documentation, with some keys removed.
+            # https://kanka.io/en-US/docs/1.0/dashboard-widgets
+            # TODO name is not required for dashboardwidgets, but is required for GenericChild
+            data = {
+                "entity_id": 6,
+                "widget": "preview",
+                "config": {
+                    "full": "1"
+                },
+                "width": 6,
+                "position": 2,
+                "tags": [],
+            }
+            new_child = self._create_and_test_new_of_childtype(self.write_campaign, DashboardWidget, data)
+        with self.subTest(functionality=f"update"):
+            update_data = {
+                "position": 1
+            }
+            updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
+
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
