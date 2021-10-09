@@ -1,6 +1,5 @@
 import requests
-import typing
-from typing import Tuple, List
+from typing import Generator, Union, Callable, Dict, Any
 import tenacity
 import time
 
@@ -13,34 +12,47 @@ from pykanka.exceptions import *
 class KankaClient:
     """Main client for interacting with the Kanka.io API"""
 
-    def __init__(self, token: str, campaign: typing.Union[str, int], cache_duration=600):
-        """Create a client associated with a specific campaign.
+    _type_dictionary = dict(
+        location=ct.Location,
+        character=ct.Character,
+        family=ct.Family,
+        organisation=ct.Organisation,
+        timeline=ct.Timeline,
+        race=ct.Race,
+        note=ct.Note,
+        map=ct.Map,
+        tag=ct.Tag,
+        quest=ct.Quest,
+        journal=ct.Journal,
+        item=ct.Item,
+        event=ct.Event,
+        ability=ct.Ability,
+        calendar=ct.Calendar,
 
-        :param token: User API token from kanka.io
-        :param campaign: Campaign name or ID
-        """
+        entity=ent.Entity
+    )
 
+    def __init__(self, token: str, campaign: Union[str, int] = None, cache_duration: int = 600, on_request: Callable = None, kanka_locale: str = None):
         self._api_token = token
         self._headers = {
             "Authorization": f"Bearer {token}",
             "Accept": "application/json",
-            "Content-Type": "application/json"
         }
+        if kanka_locale:
+            self._headers["kanka-locale"] = kanka_locale
+
         self._api_base_url = "https://kanka.io/api/1.0/campaigns/"
 
         self._cache = dict()
         self._cache_duration = cache_duration
 
-        if type(campaign) == int:
-            self.campaign_id = campaign
-        elif type(campaign) == str:
-            self.campaign_id = self._get_campaign_id(campaign)
-        else:
-            raise ValueError("Campaign not valid, provide either a valid name or id")
+        self._campaign_id = None
+        self._campaign_base_url = None
 
-        self.campaign_base_url = f"{self._api_base_url}{self.campaign_id}/"
+        if campaign:
+            self.set_campaign(campaign)
 
-    #  Utility functions to locate campaign from its name
+        self._on_request = on_request
 
     @property
     def cache(self):
@@ -50,27 +62,48 @@ class KankaClient:
                 self._cache.pop(entry)
         return self._cache
 
-    def _get_campaigns(self):
-        campaigns = requests.get("https://kanka.io/api/1.0/campaigns/", headers=self._headers)
+    @property
+    def campaign_id(self):
+        return self._campaign_id
 
-        if not campaigns.ok:
-            raise ResponseNotOkError(f"Response not OK, code {campaigns.status_code}:\n{campaigns.text}")
+    @property
+    def campaign_base_url(self):
+        return self._campaign_base_url
 
-        return campaigns.json()
+    def view_campaigns(self):
+        return requests.get("https://kanka.io/api/1.0/campaigns/", headers=self._headers).json()
+
+    def set_campaign(self, campaign: Union[int, str]):
+        if type(campaign) == int:
+            self._campaign_id = campaign
+            self._campaign_base_url = f"{self._api_base_url}{self.campaign_id}/"
+        elif type(campaign) == str:
+            self._campaign_id = self._get_campaign_id(campaign)
+            self._campaign_base_url = f"{self._api_base_url}{self.campaign_id}/"
 
     def _get_campaign_id(self, name: str):
-        campaigns = self._get_campaigns()
+        campaigns = requests.get("https://kanka.io/api/1.0/campaigns/", headers=self._headers).json()
+        done = False
 
-        for campaign in campaigns["data"]:
-            if campaign["name"].lower() == name.lower():
-                campaign_id = campaign["id"]
-                return campaign_id
+        while not done:
+            for campaign in campaigns["data"]:
+                if campaign["name"].lower() == name.lower():
+                    campaign_id = campaign["id"]
+                    return campaign_id
+
+            if not campaigns["links"]["next"]:
+                done = True
+            else:
+                campaigns = requests.get(campaigns["links"]["next"], headers=self._headers).json()
 
         raise CampaignError(f"No campaign of the name '{name}' found")
 
     @tenacity.retry(retry=tenacity.retry_if_exception_type(ApiThrottlingError), wait=tenacity.wait_fixed(5))
     def _request(self, method, url, **kwargs):
         response = requests.request(method=method, url=url, headers=self._headers, **kwargs)
+
+        if self._on_request:
+            self._on_request(method=method, url=url, response=response, **kwargs)
 
         if response.status_code == 429:
             print("API request limit reached. Retrying in 5 seconds.")
@@ -82,7 +115,7 @@ class KankaClient:
         """get request with proper headers. usually shouldn't be accessed directly."""
         if not refresh:
             if url in self.cache:
-                return self._cache[url][0] #return the reponse portion of the cache
+                return self._cache[url][0]  # return the reponse portion of the cache
 
         response = self._request("get", url, **kwargs)
 
@@ -106,207 +139,132 @@ class KankaClient:
         """delete request with proper headers. usually shouldn't be accessed directly."""
         return self._request("delete", url, **kwargs)
 
-    def get_entity(self, entity_id: int = None, refresh=False) -> "ent.Entity":
-        """Returns specified entity or empty entity if no ID given"""
-        if entity_id:
-            return ent.Entity.from_id(self, entity_id, refresh=refresh)
-        else:
-            return ent.Entity(self)
+    def search(self, name: str, refresh: bool = True):
+        url = f"{self.campaign_base_url}search/{name}"
+        response = self.request_get(url=url, refresh=refresh)
+        for entry in response.json()["data"]:
+            yield self.get_entity(entity_id=entry["entity_id"], refresh=refresh)
 
-    def get_location(self, location_id: int = None, refresh=False) -> "ct.Location":
-        """returns specified location or empty location if no ID given"""
-        if location_id:
-            return ct.Location.from_id(self, location_id, refresh=refresh)
-        else:
-            return ct.Location(self)
+    def get_entity_of_type(self, type_name: str, type_specific_id: int = None, refresh: bool = False) -> Any:
+        if type_specific_id:
+            return self._type_dictionary[type_name].from_id(self, type_specific_id, refresh=refresh)
 
-    def get_organisation(self, organisation_id: int = None, refresh=False) -> "ct.Organisation":
-        """returns specified organisation or empty organisation if no ID given"""
-        if organisation_id:
-            return ct.Organisation.from_id(self, organisation_id, refresh=refresh)
-        else:
-            return ct.Organisation(self)
+        return self._type_dictionary[type_name](client=self)
 
-    def get_timeline(self, timeline_id: int = None, refresh=False) -> "ct.Timeline":
-        """returns specified timeline or empty timeline if no ID given"""
-        if timeline_id:
-            return ct.Timeline.from_id(self, timeline_id, refresh=refresh)
-        else:
-            return ct.Timeline(self)
+    def get_type_metadata(self, type_name: str, refresh: bool = True) -> Dict[str, Any]:
+        data = self.request_get(self.get_entity_of_type(type_name=type_name, refresh=refresh).base_url).json()["meta"]
+        data.pop("current_page")
+        data.pop("per_page")
+        data.pop("last_page")
+        data.pop("from")
+        data.pop("to")
+        return data
 
-    def get_race(self, race_id: int = None, refresh=False) -> "ct.Race":
-        """returns specified race or empty race if no ID given"""
-        if race_id:
-            return ct.Race.from_id(self, race_id, refresh=refresh)
-        else:
-            return ct.Race(self)
+    def get_all_of_type(self, type_name: str, refresh: bool = True):
+        url = self.get_entity_of_type(type_name=type_name).base_url
+        cls = self.get_entity_of_type(type_name=type_name).__class__
 
-    def get_family(self, family_id: int = None, refresh=False) -> "ct.Family":
-        """returns specified family or empty family if no ID given"""
-        if family_id:
-            return ct.Family.from_id(self, family_id, refresh=refresh)
-        else:
-            return ct.Family(self)
+        while url:
+            data = self.request_get(url, refresh=refresh).json()
 
-    def get_note(self, note_id: int = None, refresh=False) -> "ct.Note":
-        """returns specified note or empty note if no ID given"""
-        if note_id:
-            return ct.Note.from_id(self, note_id, refresh=refresh)
-        else:
-            return ct.Note(self)
+            url = data["links"]["next"]
 
-    def get_character(self, character_id: int = None, refresh=False) -> "ct.Character":
-        """returns specified character or empty character if no ID given"""
-        if character_id:
-            return ct.Character.from_id(self, character_id, refresh=refresh)
-        else:
-            return ct.Character(self)
+            for entry in data["data"]:
+                entity = cls.from_json(self, entry)
+                yield entity
 
-    def get_map(self, map_id: int = None, refresh=False) -> "ct.Map":
-        """returns specified map or empty map if no ID given"""
-        if map_id:
-            return ct.Map.from_id(self, map_id, refresh=refresh)
-        else:
-            return ct.Map(self)
+    def get_entity(self, entity_id: int = None, refresh: bool = False) -> ent.Entity:
+        return self.get_entity_of_type(type_name="entity", type_specific_id=entity_id, refresh=refresh)
 
-    def get_tag(self, tag_id: int = None, refresh=False) -> "ct.Tag":
-        """returns specified tag or empty tag if no ID given"""
-        if tag_id:
-            return ct.Tag.from_id(self, tag_id, refresh=refresh)
-        else:
-            return ct.Tag(self)
+    def get_ability(self, ability_id: int = None, refresh: bool = False) -> ct.Ability:
+        return self.get_entity_of_type(type_name="ability", type_specific_id=ability_id, refresh=refresh)
 
-    def get_quest(self, quest_id: int = None, refresh=False) -> "ct.Quest":
-        """returns specified quest or empty quest if no ID given"""
-        if quest_id:
-            return ct.Quest.from_id(self, quest_id, refresh=refresh)
-        else:
-            return ct.Quest(self)
+    def get_calendar(self, calendar_id: int = None, refresh: bool = False) -> ct.Calendar:
+        return self.get_entity_of_type(type_name="calendar", type_specific_id=calendar_id, refresh=refresh)
 
-    def get_journal(self, journal_id: int = None, refresh=False) -> "ct.Journal":
-        """returns specified journal or empty journal if no ID given"""
-        if journal_id:
-            return ct.Journal.from_id(self, journal_id, refresh=refresh)
-        else:
-            return ct.Journal(self)
+    def get_character(self, character_id: int = None, refresh: bool = False) -> ct.Character:
+        return self.get_entity_of_type(type_name="character", type_specific_id=character_id, refresh=refresh)
 
-    def get_item(self, item_id: int = None, refresh=False) -> "ct.Item":
-        """returns specified item or empty item if no ID given"""
-        if item_id:
-            return ct.Item.from_id(self, item_id, refresh=refresh)
-        else:
-            return ct.Item(self)
+    def get_event(self, event_id: int = None, refresh: bool = False) -> ct.Event:
+        return self.get_entity_of_type(type_name="event", type_specific_id=event_id, refresh=refresh)
 
-    def get_event(self, event_id: int = None, refresh=False) -> "ct.Event":
-        """returns specified event or empty event if no ID given"""
-        if event_id:
-            return ct.Event.from_id(self, event_id, refresh=refresh)
-        else:
-            return ct.Event(self)
+    def get_family(self, family_id: int = None, refresh: bool = False) -> ct.Family:
+        return self.get_entity_of_type(type_name="family", type_specific_id=family_id, refresh=refresh)
 
-    def get_ability(self, ability_id: int = None, refresh=False) -> "ct.Ability":
-        """returns specified ability or empty ability if no ID given"""
-        if ability_id:
-            return ct.Ability.from_id(self, ability_id, refresh=refresh)
-        else:
-            return ct.Ability(self)
+    def get_item(self, item_id: int = None, refresh: bool = False) -> ct.Item:
+        return self.get_entity_of_type(type_name="item", type_specific_id=item_id, refresh=refresh)
 
-    def get_calendar(self, calendar_id: int = None, refresh=False) -> "ct.Calendar":
-        """returns specified calendar or empty calendar if no ID given"""
-        if calendar_id:
-            return ct.Calendar.from_id(self, calendar_id, refresh=refresh)
-        else:
-            return ct.Calendar(self)
+    def get_journal(self, journal_id: int = None, refresh: bool = False) -> ct.Journal:
+        return self.get_entity_of_type(type_name="journal", type_specific_id=journal_id, refresh=refresh)
 
-    def _get_all_of_type(self, url, type_class) -> Tuple[typing.Generator[typing.Any, None, None], int]:
-        def all_of_type(data) -> typing.Generator[typing.Any, None, None]:
-            done = False
+    def get_location(self, location_id: int = None, refresh: bool = False) -> ct.Location:
+        return self.get_entity_of_type(type_name="location", type_specific_id=location_id, refresh=refresh)
 
-            while not done:
-                if not data["links"]["next"]:
-                    done = True
-                    new_url = None
-                else:
-                    new_url = data["links"]["next"]
+    def get_map(self, map_id: int = None, refresh: bool = False) -> ct.Map:
+        return self.get_entity_of_type(type_name="map", type_specific_id=map_id, refresh=refresh)
 
-                for entry in data["data"]:
-                    entity = type_class.from_json(self, entry)
-                    yield entity
+    def get_note(self, note_id: int = None, refresh: bool = False) -> ct.Note:
+        return self.get_entity_of_type(type_name="note", type_specific_id=note_id, refresh=refresh)
 
-                if not done:
-                    new_response = self.request_get(new_url)
-                    data = new_response.json()
-            return
+    def get_organisation(self, organisation_id: int = None, refresh: bool = False) -> ct.Organisation:
+        return self.get_entity_of_type(type_name="organisation", type_specific_id=organisation_id, refresh=refresh)
 
-        response = self.request_get(url)
+    def get_quest(self, quest_id: int = None, refresh: bool = False) -> ct.Quest:
+        return self.get_entity_of_type(type_name="quest", type_specific_id=quest_id, refresh=refresh)
 
-        if not response.ok:
-            raise ResponseNotOkError(f"Code {response.status_code}: {response.text}")
+    def get_race(self, race_id: int = None, refresh: bool = False) -> ct.Race:
+        return self.get_entity_of_type(type_name="race", type_specific_id=race_id, refresh=refresh)
 
-        content = response.json()
+    def get_tag(self, tag_id: int = None, refresh: bool = False) -> ct.Tag:
+        return self.get_entity_of_type(type_name="tag", type_specific_id=tag_id, refresh=refresh)
 
-        return all_of_type(content), content["meta"]["total"]
+    def get_timeline(self, timeline_id: int = None, refresh: bool = False) -> ct.Timeline:
+        return self.get_entity_of_type(type_name="timeline", type_specific_id=timeline_id, refresh=refresh)
 
-    def all_entities(self) -> Tuple[typing.Generator["ent.Entity", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}entities", ent.Entity)
+    def all_entities(self, refresh: bool = False) -> Generator[ent.Entity, None, None]:
+        return self.get_all_of_type(type_name="entity", refresh=refresh)
 
-    def all_locations(self) -> Tuple[typing.Generator["ct.Location", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}locations", ct.Location)
+    def all_abilities(self, refresh: bool = False) -> Generator[ct.Ability, None, None]:
+        return self.get_all_of_type(type_name="ability", refresh=refresh)
 
-    def all_organisations(self) -> Tuple[typing.Generator["ct.Organisation", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}organisations", ct.Organisation)
+    def all_calendars(self, refresh: bool = False) -> Generator[ct.Calendar, None, None]:
+        return self.get_all_of_type(type_name="calendar", refresh=refresh)
 
-    def all_timelines(self) -> Tuple[typing.Generator["ct.Timeline", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}timelines", ct.Timeline)
+    def all_characters(self, refresh: bool = False) -> Generator[ct.Character, None, None]:
+        return self.get_all_of_type(type_name="character", refresh=refresh)
 
-    def all_races(self) -> Tuple[typing.Generator["ct.Race", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}races", ct.Race)
+    def all_events(self, refresh: bool = False) -> Generator[ct.Event, None, None]:
+        return self.get_all_of_type(type_name="event", refresh=refresh)
 
-    def all_families(self) -> Tuple[typing.Generator["ct.Family", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}families", ct.Family)
+    def all_families(self, refresh: bool = False) -> Generator[ct.Family, None, None]:
+        return self.get_all_of_type(type_name="family", refresh=refresh)
 
-    def all_notes(self) -> Tuple[typing.Generator["ct.Note", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}notes", ct.Note)
+    def all_items(self, refresh: bool = False) -> Generator[ct.Item, None, None]:
+        return self.get_all_of_type(type_name="item", refresh=refresh)
 
-    def all_characters(self) -> Tuple[typing.Generator["ct.Character", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}characters", ct.Character)
+    def all_journals(self, refresh: bool = False) -> Generator[ct.Journal, None, None]:
+        return self.get_all_of_type(type_name="journal", refresh=refresh)
 
-    def all_maps(self) -> Tuple[typing.Generator["ct.Map", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}maps", ct.Map)
+    def all_locations(self, refresh: bool = False) -> Generator[ct.Location, None, None]:
+        return self.get_all_of_type(type_name="location", refresh=refresh)
 
-    def all_tags(self) -> Tuple[typing.Generator["ct.Tag", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}tags", ct.Tag)
+    def all_maps(self, refresh: bool = False) -> Generator[ct.Map, None, None]:
+        return self.get_all_of_type(type_name="map", refresh=refresh)
 
-    def all_quests(self) -> Tuple[typing.Generator["ct.Quest", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}quests", ct.Quest)
+    def all_notes(self, refresh: bool = False) -> Generator[ct.Note, None, None]:
+        return self.get_all_of_type(type_name="note", refresh=refresh)
 
-    def all_journals(self) -> Tuple[typing.Generator["ct.Journal", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}journals", ct.Journal)
+    def all_organisations(self, refresh: bool = False) -> Generator[ct.Organisation, None, None]:
+        return self.get_all_of_type(type_name="organisation", refresh=refresh)
 
-    def all_items(self) -> Tuple[typing.Generator["ct.Item", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}items", ct.Item)
+    def all_quests(self, refresh: bool = False) -> Generator[ct.Quest, None, None]:
+        return self.get_all_of_type(type_name="quest", refresh=refresh)
 
-    def all_events(self) -> Tuple[typing.Generator["ct.Event", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}events", ct.Event)
+    def all_races(self, refresh: bool = False) -> Generator[ct.Race, None, None]:
+        return self.get_all_of_type(type_name="race", refresh=refresh)
 
-    def all_abilities(self) -> Tuple[typing.Generator["ct.Ability", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}abilities", ct.Ability)
+    def all_tags(self, refresh: bool = False) -> Generator[ct.Tag, None, None]:
+        return self.get_all_of_type(type_name="tag", refresh=refresh)
 
-    def all_calendars(self) -> Tuple[typing.Generator["ct.Calendar", None, None], int]:
-        return self._get_all_of_type(f"{self.campaign_base_url}calendars", ct.Calendar)
-
-    def search(self, name: str, results: int = 1) -> List["ent.Entity"]:
-        """
-        Search for entities with a given name.
-
-        :param name: Name to be searched
-        :param results: Maximum number of results to be fetched. Each result requires its own API call, so be careful!
-        :return: List of Entities that match the name given.
-        """
-        response = self.request_get(f"{self.campaign_base_url}search/{name}").json()["data"]
-
-        res = []
-        for entry, _ in zip(response, range(results)):
-            res.append(self.get_entity(entry["entity_id"]))
-
-        return res
+    def all_timelines(self, refresh: bool = False) -> Generator[ct.Timeline, None, None]:
+        return self.get_all_of_type(type_name="timeline", refresh=refresh)

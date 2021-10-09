@@ -88,7 +88,7 @@ class GenericChildType:
 
         payload, files = self._prepare_post(json_data, **kwargs)
 
-        return self.client.request_post(f"{self.base_url}", json=payload)
+        return self.client.request_post(f"{self.base_url}", data=payload, files=files)
 
     def patch(self, json_data: str = None, **kwargs):
         """
@@ -106,7 +106,7 @@ class GenericChildType:
 
         payload, files = self._prepare_post(json_data, **kwargs)
 
-        return self.client.request_patch(f"{self.base_url}{self.data.id}", json=payload)
+        return self.client.request_patch(f"{self.base_url}{self.data.id}", data=payload)
 
     def delete(self):
         return self.client.request_delete(f"{self.base_url}{self.data.id}")
@@ -119,14 +119,12 @@ class GenericChildType:
         else:
             values = kwargs
 
-        # The API doesn't support file uploads as of now, placeholder to when it will become relevant.
-        files = dict()
+        files = []
 
         for key in self._file_keys:
             if key in values.keys():
-                files[key] = open(values[key], "rb")
+                files.append((key, values[key]))
                 values.pop(key)
-                print(f"API doesn't support direct file uploads yet, parameter {key} omitted. use url instead")
 
         existing_values = self._get_post_values()
         existing_values.update(values)
@@ -156,7 +154,7 @@ class GenericChildType:
 
     def get_image(self) -> "requests.Response.raw":
         """Returns file-like object of the child's image"""
-        return self.client.request_get(self.data.image_full, stream=True).raw
+        return self.client.request_get(self.data.image_full, stream=True).raw.data
 
 
 @dataclass
@@ -176,10 +174,9 @@ class Location(GenericChildType):
     data: LocationData = LocationData()
     endpoint: str = "locations"
 
-
     def get_map_image(self) -> "requests.Response.raw":
         """Returns file-like object of the entity's map image"""
-        return self.client.request_get(self.data.map, stream=True).raw
+        return self.client.request_get(self.data.map, stream=True).raw.data
 
 
 @dataclass
