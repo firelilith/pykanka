@@ -88,7 +88,7 @@ class GenericChildType:
 
         payload, files = self._prepare_post(json_data, **kwargs)
 
-        return self.client.request_post(f"{self.base_url}", data=payload, files=files)
+        return self.client.request_post(f"{self.base_url}", json=payload, files=files)
 
     def patch(self, json_data: str = None, **kwargs):
         """
@@ -106,7 +106,7 @@ class GenericChildType:
 
         payload, files = self._prepare_post(json_data, **kwargs)
 
-        return self.client.request_patch(f"{self.base_url}{self.data.id}", data=payload)
+        return self.client.request_patch(f"{self.base_url}{self.data.id}", json=payload)
 
     def delete(self):
         return self.client.request_delete(f"{self.base_url}{self.data.id}")
