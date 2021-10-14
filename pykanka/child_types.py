@@ -35,7 +35,7 @@ class GenericChildType:
             self._parent = pykanka.entities.Entity.from_id(self.client, self.data.entity_id, child=self)
             return self._parent
         else:
-            self._parent = pykanka.entities.Entity(self.client, child=self)
+            self._parent = pykanka.entities.Entity(self.client, _child=self)
             return self._parent
 
     @parent.setter
