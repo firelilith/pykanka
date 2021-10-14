@@ -3,7 +3,6 @@ from typing import Callable, List, Type
 from pykanka import KankaClient
 from pykanka.entities import Entity
 from pykanka.child_types import *
-from pykanka.childdata_types import *
 import vcr
 from kanka_credentials import KANKA_TOKEN, CAMPAIGN_ID
 CASSETTE_DIR = "fixtures/vcr_cassettes"
@@ -60,7 +59,7 @@ class TestPykanka(unittest.TestCase):
     def _get_and_test_all_of_childtype(self,
                        all_child: Callable[[], List[GenericChildType]],
                        ChildType: Type[GenericChildType],
-                       ChildDataType: Type[GenericChildData]) -> None:
+                       ChildDataType: Type[GenericChildType.GenericChildData]) -> None:
         """Helper function that tests the client.all_{child} method and the children returned
         The test gets all of each child type, then surveys the first ten objects.
         For each sampled child the test verifies that:
@@ -68,7 +67,7 @@ class TestPykanka(unittest.TestCase):
             The child's parent is of Entity type
             The child's data is the expected type (a character's data should be of CharacterData type)
         """
-        children = [e for e in all_child()]
+        children = [e for e in all_child()[0]]
         for child in children[:10]:
             with self.subTest("ChildType"):
                 self.assertIsInstance(child, ChildType)
@@ -127,7 +126,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_locations,
                                                 Location,
-                                                LocationData)
+                                                Location.LocationData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/locations
@@ -157,7 +156,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_characters,
                                                 Character,
-                                                CharacterData)
+                                                Character.CharacterData)
         with self.subTest():
             with self.subTest(functionality=f"create"):
                 # Sample data from Kanka API documentation, with some keys removed.
@@ -194,7 +193,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_organisations,
                                                 Organisation,
-                                                OrganisationData)
+                                                Organisation.OrganisationData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/organisations
@@ -223,7 +222,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_timelines,
                                                 Timeline,
-                                                TimelineData)
+                                                Timeline.TimelineData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/timelines
@@ -270,7 +269,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_races,
                                                 Race,
-                                                RaceData)
+                                                Race.RaceData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/races
@@ -298,7 +297,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_families,
                                                 Family,
-                                                FamilyData)
+                                                Family.FamilyData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/families
@@ -326,7 +325,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_notes,
                                                 Note,
-                                                NoteData)
+                                                Note.NoteData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/notes
@@ -355,7 +354,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_tags,
                                                 Tag,
-                                                TagData)
+                                                Tag.TagData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/tags
@@ -384,7 +383,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_quests,
                                                 Quest,
-                                                QuestData)
+                                                Quest.QuestData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/quests
@@ -414,7 +413,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_journals,
                                                 Journal,
-                                                JournalData)
+                                                Journal.JournalData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/journals
@@ -443,7 +442,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_items,
                                                 Item,
-                                                ItemData)
+                                                Item.ItemData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/items
@@ -473,7 +472,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_events,
                                                 Event,
-                                                EventData)
+                                                Event.EventData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/events
@@ -502,7 +501,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_abilities,
                                                 Ability,
-                                                AbilityData)
+                                                Ability.AbilityData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/abilities
@@ -533,7 +532,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_abilities,
                                                 Ability,
-                                                AbilityData)
+                                                Ability.AbilityData)
         # https://kanka.io/en-US/docs/1.0/calendars
         # Note: There is a "links" and "meta" return from this endpoint
         # It has been removed from this sample data
@@ -612,7 +611,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_menulinks,
                                                 MenuLink,
-                                                MenuLinkData)
+                                                MenuLink.MenuLinkData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/menu-links
@@ -644,7 +643,7 @@ class TestPykanka(unittest.TestCase):
         with self.subTest(functionality=f"get all"):
             self._get_and_test_all_of_childtype(self.read_campaign.all_dashboardwidgets,
                                                 DashboardWidget,
-                                                DashboardWidgetData)
+                                                DashboardWidget.DashboardWidgetData)
         with self.subTest(functionality=f"create"):
             # Sample data from Kanka API documentation, with some keys removed.
             # https://kanka.io/en-US/docs/1.0/dashboard-widgets
