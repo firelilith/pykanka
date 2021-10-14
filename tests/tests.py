@@ -147,8 +147,8 @@ class TestPykanka(unittest.TestCase):
             }
             updated_child = self._update_and_test_existing_of_childtype(self.write_campaign, new_child, update_data)
 
-        # with self.subTest(functionality=f"delete"):
-        #     self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
+        with self.subTest(functionality=f"delete"):
+            self._delete_and_test_existing_of_childtype(self.write_campaign, new_child)
         pass
 
     @vcr.use_cassette(f'{CASSETTE_DIR}/character.yaml', **cassette_kwargs)
