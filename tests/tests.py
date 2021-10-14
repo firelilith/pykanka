@@ -85,6 +85,8 @@ class TestPykanka(unittest.TestCase):
                 """
         new = ChildType.from_json(client, content=data)
         response = new.post()
+        self.assertEqual(response.status_code, 201,
+                         f"Expected {201}, response code {response.status_code} returned. {response.reason}")
         new_data = response.json()['data']
         retrieved_entity = client.get_entity(new_data['entity_id'])
         retrieved_child = retrieved_entity.child.from_id(client, retrieved_entity.data.child_id)
@@ -101,6 +103,8 @@ class TestPykanka(unittest.TestCase):
                         The test then verifies that all the returned data is the same as the sample data
                         """
         response = existing_child.patch(json_data=json.dumps(update_data))
+        self.assertEqual(response.status_code, 200,
+                         f"Expected {200}, response code {response.status_code} returned. {response.reason}")
         new_data = response.json()['data']
         self.write_campaign._cache={} #TODO Cache should not have to be reset like this.
         retrieved_entity = client.get_entity(new_data['entity_id'])
