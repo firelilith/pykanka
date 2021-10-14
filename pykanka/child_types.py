@@ -450,6 +450,23 @@ class Calendar(GenericChildType):
     data: pykanka.childdata_types.CalendarData = pykanka.childdata_types.CalendarData()
     endpoint: str = "calendars"
 
+    @staticmethod
+    def _validate_parameters(values, files):
+        if "name" not in values.keys():
+            raise ValueError("'name' is a required field, but is missing")
+        if "month_name" not in values.keys():
+            raise ValueError("'month_name' is a required field, but is missing")
+        if "month_length" not in values.keys():
+            raise ValueError("'month_length' is a required field, but is missing")
+        if "weekday" not in values.keys():
+            raise ValueError("'weekday' is a required field, but is missing")
+        if len(values["month_day"]) < 2:
+            raise ValueError("'month_name' needs at least two entries, but has fewer")
+        if len(values["month_length"]) < 2:
+            raise ValueError("'month_length' needs at least two entries, but has fewer")
+        if len(values["weekday"]) < 2:
+            raise ValueError("'weekday' needs at least two entries, but has fewer")
+
 @dataclass
 class MenuLink(GenericChildType):
     # TODO MenuLink creation currently resolves to a 500 server error
