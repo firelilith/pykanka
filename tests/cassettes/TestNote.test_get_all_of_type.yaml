@@ -833,24 +833,24 @@ interactions:
         first published in 2021 AC. A sequel, <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/notes\/72237\"
         class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
         data-id=\"1416268\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/1416268\/tooltip\">George
-        & George The Adventure<\/a> was published in 2025 AC.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1416269,"tags":[],"created_at":"2021-02-13T17:02:22.000000Z","created_by":1,"updated_at":"2021-06-08T13:00:53.000000Z","updated_by":1,"type":"Book","note_id":null,"is_pinned":0}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/notes?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/notes?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/notes","per_page":45,"to":19,"total":19},"sync":"2021-10-14T01:26:39.268531Z"}'
+        & George The Adventure<\/a> was published in 2025 AC.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1416269,"tags":[],"created_at":"2021-02-13T17:02:22.000000Z","created_by":1,"updated_at":"2021-06-08T13:00:53.000000Z","updated_by":1,"type":"Book","note_id":null,"is_pinned":0}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/notes?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/notes?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/notes","per_page":45,"to":19,"total":19},"sync":"2021-10-15T12:58:09.478895Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd054c0cf06375-ORD
+      - 69e9379fec592ade-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:40 GMT
+      - Fri, 15 Oct 2021 12:58:10 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3pgX3ZCi5Qu8rZFtd9FpIfdxPBDh4zaCnu4nBGBF7zfPVXPcYI8SfcWkhy7WfQ8RXIGl6Wh4m4%2FfZ79h797%2FYPEO9NSLzfsSxbeUgwaql%2BFRi1h9NqT68qLRxw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FEmNbAGo76QeDOd%2Bu%2F6%2F2wQrOj%2BgfJO%2BRvQiVAMNx%2B0oEdU%2FrRHpflIfl76GQcCkGewTwXKNYKjH55EbrO7ltcL8Y8reecrRzY%2FZ97zVMnrIqXcXLUUrTQNqmw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -869,7 +869,7 @@ interactions:
       content-length:
       - '84872'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -877,7 +877,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '89'
+      - '69'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -943,19 +943,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd05557b512ace-ORD
+      - 69e937a69ee92b8d-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:40 GMT
+      - Fri, 15 Oct 2021 12:58:10 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Tbjjv456Ey%2FscVLmsS%2FZZvO%2FZEge6r4RHp86ko%2F2pKAFWVR%2FebkZmkDsQo5ad1J53MTsY1aC2e4leReTnhluZ8VgihEzFLfHKX6Og1xqaeoPj04bqI5Gv72Hjg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7Tt8gRtrC4nCNINKmQW1Zj2qsPn7bE9l%2Fo425Xm3rciIpw4ZWL%2FKI8wxpry%2B0TE9hPATQZlcy4kbx8U3S%2BxN7HpVWDCCz0Xb9TPTgf7MXjekUMyZs0kyMK%2BQzQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -974,7 +974,7 @@ interactions:
       content-length:
       - '5019'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -982,7 +982,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '88'
+      - '68'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1055,19 +1055,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0559b8ee03c0-ORD
+      - 69e937a8b87b2937-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:41 GMT
+      - Fri, 15 Oct 2021 12:58:10 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=E8raY4CYemQk1kHhlb2XwC5KQnnD93nJDBi0HJRGnDvdxgLmVgT7uqqlVO6RRna7W3JhB%2BJsaE3RG1BO4LLlCJDrcpNVlVpKla8gpH19PlDWNkpoH2GFTNVeHw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=P3jQwdoscqqUYzJR1zNMa%2FIrAoDjfTQcv0s4GUFyKScxFZXB67qfgKnAnc57QwtFNgAyT5fgUHEBaYGyp6EnoAJT%2BQFBu9kAvNpXBIH0qYklKxiFpp6WYnXo1Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1086,7 +1086,7 @@ interactions:
       content-length:
       - '4009'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -1094,7 +1094,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '87'
+      - '67'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1139,19 +1139,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd055d98912b4b-ORD
+      - 69e937aa9f6f2d01-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:41 GMT
+      - Fri, 15 Oct 2021 12:58:11 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SCcYAcvXsWGdwuaiZV2zpuipf8JKefsUOXpSE6s530vUvwo4fsJ%2BKIUjSiQTmKrLNIE%2BEqBT2n35TXP9HZ2LlopEJZ1hQqNCy8IlooyYze3Utku9mrXMJL4lWA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fF3pjC0YnPtvtd%2BOlSbrtFHouA7mpz41RoeTwo4W%2F%2FadGBAIezHw%2FlD9kFMcQsjtTpTWGPqO4urchhlFNTRu1K7%2B74CwpznmMbYekr6ER7iefkqmdPTNuQgBOQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1170,7 +1170,7 @@ interactions:
       content-length:
       - '2323'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -1178,7 +1178,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '86'
+      - '66'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1301,19 +1301,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0560cdbf2a96-ORD
+      - 69e937ad19e5fd82-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:42 GMT
+      - Fri, 15 Oct 2021 12:58:12 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MLbKiS8U9wSTkPmC3ej9WXaP3FDODQ7vq0PcYA3S5GoIrr3r83k%2FnUtda4OJ9%2FTVwQRkx1%2FdJ6L%2B5FdqueqsGdXUAQ13J%2FLMi7A6UgmG3gtghkh%2FsOWoh3H3Cg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ptMl6VcK5eJvQqaRX41aIQ6Dep0XSJ9eWhBawSeoFv%2FkFXWivsJg05S5XH1022A%2B49emyTCuwns6NT0xWbiN%2BPQgE7zVXkY%2BKDHgJ0oQk2PGcbNoCxfYBp8fsQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1340,7 +1340,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '85'
+      - '65'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1684,19 +1684,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0565ec026386-ORD
+      - 69e937b1c8cf2b4b-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:43 GMT
+      - Fri, 15 Oct 2021 12:58:12 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2XwmSjWk%2Ft%2F55yjeyh0gM%2F7d%2FQ1lqCRg%2BBRcLUIKV7%2FeI7r2m20T8rYQIcuaAE4cg39h%2F5zeFAKABryPwH7qKE6y%2BX7ABQHb7CQ2f7p5J5j2zLyOUzTfz%2FWzgg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=APpTeISxnN5m9NCOj1KBmy%2B2xIqGFsLiI0101rfbOy%2FXqEy3IIaUISPCrGO2VcmfEmGv9vSpy7OkmWVPwGZMEdbtFxfxu%2FHtBbqSFCuBUrbarKX9u68TgVrxQQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1715,7 +1715,7 @@ interactions:
       content-length:
       - '28404'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -1723,7 +1723,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '84'
+      - '64'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1800,19 +1800,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd05687d7ae1ee-ORD
+      - 69e937b4eb480380-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:43 GMT
+      - Fri, 15 Oct 2021 12:58:13 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=L%2BzAaw8RXXQLvCuQUApk%2FVROMiAdH7d6jC6l8B6sOYCAR5XcZaraXQtUZCIJz6HdfV%2BiCapQpPAhAWPv2JTB%2BNpo32rCx%2Ft%2Bx1ac6R2AQ9P4yvIGNqP2%2BrDkIQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oV01ZDygUEgtWfRJabWUYQVdAyl0GZvnRBK5pNDuk%2F3ROCHB%2BdQw%2BmzrHoDZpMBVz3i4zqGWw5989pHRCHIN2a5iVaAjEofBJSuhh1TA9IVe73s722Dm1CuNPA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1831,7 +1831,7 @@ interactions:
       content-length:
       - '4378'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -1839,7 +1839,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '83'
+      - '63'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1879,19 +1879,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd056bff8162f4-ORD
+      - 69e937b93b966269-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:44 GMT
+      - Fri, 15 Oct 2021 12:58:13 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PuiuEZy4S7GsTiU3JjipdKfjzUH4SnQDRfwLHmF6mRNa1EhdqCYKEiw%2BwzdHWHul9eFTsQzFsGeURpo6c8wzQ8yLg275tukAHT9xXAVcht1c%2FNRq1mgeykbj6Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BjLyk6mzL4p%2FE3R1LsZu%2B5tSW8rDeb6SfRmEj5qJr8xkJjpQ5yP5MvqOIFtx1ca8OPotFkIBeHLdLmqyYVzLQBd6u8pUya%2BMTS0GzUUv7q1XQ8hfUG1SsOcx9g%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1918,7 +1918,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '82'
+      - '62'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1958,19 +1958,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd056e49cc2986-ORD
+      - 69e937bd1a902dae-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:44 GMT
+      - Fri, 15 Oct 2021 12:58:14 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eOMgv%2FG3IxLoNDiwM621Bs3HPmhnFyh3dsg45dL%2ByNsaSY0c%2FfRrf8tX5qxxBUg8HgszYWrbKrN833qNVgALnaToHITTAw23VRePBE%2Br8GJHatkuL4gSEsYbdQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wuwvHO34m9w%2BN4gLRsfpP4HwDL54I%2BBIw9tjIQjvo7G4Z90j4QN7WvfO0r%2FEN6KFRIN3mWzfEBRyeWXG8S6Tdl99Sxly%2FjSvjWzuRYt2k9itr130qhWzWWPbqQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1989,7 +1989,7 @@ interactions:
       content-length:
       - '1464'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -1997,7 +1997,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '81'
+      - '61'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -2062,19 +2062,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0572cd0229d8-ORD
+      - 69e937c03deb632d-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:45 GMT
+      - Fri, 15 Oct 2021 12:58:14 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SVhbne0EWdzHBnx3%2BD%2BpMfo3lTCM9zhxlr38mQkJtQp9qFAFdB%2F5Bk7DoxgSsHHs%2FU%2FBgj4nuxjmhk%2F9xzuCB4MM0GAPLUqUmNdAVWNyv%2BK%2FpnUUDqiJlMZhbQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iwJkMuQbtzPU7V6tqRGA7FXiYCVAMoBCdESBdjQiSgyGEtUtz%2F92Sxxw1lqC1egvwqyZXLM8noVKi%2FUpSaYit859Eebeg3Hw1wTM%2BLhrqgcfQemhJH8Zpygrlw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -2093,7 +2093,7 @@ interactions:
       content-length:
       - '3430'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -2101,7 +2101,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '80'
+      - '60'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -2166,19 +2166,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd05768bcc2d0d-ORD
+      - 69e937c2c9ef2a90-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:26:46 GMT
+      - Fri, 15 Oct 2021 12:58:15 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=w5QL2smGjIzKNWxmMkCgKEDOB8I5eE322%2BrKhYkDhw%2FFUauTx9w91uhH1Y6xeMUfH52Hm8pANe4aKNinrjnbqHPQG9kmC04%2FbYc1I%2FUnYE1zfYMh2q4AJWiwOw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hA7lBq7frsGeqQ66LQp3KhAKLcawjnhFz0gtweX5AmUE3tVHrof5g78O0f3qtneBAD4TAbRcodV%2F11%2FTRvcQMGsvtmOMHu0Doyp%2F9QypLDA9%2F4Kf0US5hLHGjw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -2197,7 +2197,7 @@ interactions:
       content-length:
       - '3374'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -2205,7 +2205,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '79'
+      - '59'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -2215,656 +2215,4 @@ interactions:
     status:
       code: 200
       message: OK
-- request:
-    body: '{"name": "Legends of the World", "entry": "<p>Lorem Ipsum.</p>", "type":
-      "Lore", "tags": [], "is_private": true}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '112'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: POST
-    uri: https://kanka.io/api/1.0/campaigns/1/notes/
-  response:
-    body:
-      string: '{"data":{"id":122960,"name":"Legends of the World","entry":"<p>Lorem
-        Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236635,"tags":[],"created_at":"2021-10-14T01:26:46.000000Z","created_by":88716,"updated_at":"2021-10-14T01:26:46.000000Z","updated_by":88716,"type":"Lore","note_id":null,"is_pinned":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd057bcbe5e1c2-ORD
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '564'
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:26:46 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CcbfBS6DDhxiTpVS2dZRjVnlAC%2FOnaFLXfNuOrunv6zWLmeusmoGVBHjaQDDquifRjjMVh2v6pZUr6nccGNpU4YpR3vckAx2JA7K5UmeHaQJ1hSGz%2Fpwss2Ngw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '78'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/notes/
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 201
-      message: Created
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236635
-  response:
-    body:
-      string: '{"data":{"id":2236635,"name":"Legends of the World","type":"note","child_id":122960,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:26:46.000000Z","created_by":88716,"updated_at":"2021-10-14T01:26:46.000000Z","updated_by":88716,"child":{"id":122960,"name":"Legends
-        of the World","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236635,"tags":[],"created_at":"2021-10-14T01:26:46.000000Z","created_by":88716,"updated_at":"2021-10-14T01:26:46.000000Z","updated_by":88716,"type":"Lore","note_id":null,"is_pinned":0}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd05802e952a30-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:26:47 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zZMinfZzf1VKeDAd3dxSW0qK2I9D0OhL9KmlwxNX0qnm6l9vcPbxcaEXyceH1IX6o5f3E%2Be5Izkj10YP89r34KJq7rNjEaZ4B0WTZ%2BcmUPdYLJQ0wX6FJAepwA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '924'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '77'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236635
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/notes/122960
-  response:
-    body:
-      string: '{"data":{"id":122960,"name":"Legends of the World","entry":"<p>Lorem
-        Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236635,"tags":[],"created_at":"2021-10-14T01:26:46.000000Z","created_by":88716,"updated_at":"2021-10-14T01:26:46.000000Z","updated_by":88716,"type":"Lore","note_id":null,"is_pinned":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0581c82b6318-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:26:47 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=t7geZCELVQam%2FAZtABrD%2FxBCgM8KWumHxt7u6MUejBrCP1xb%2F5pvyytXRf6IIvoiS%2FUVnwB%2BTuaulk0rR%2FpD%2Frhw0osEfhO2RZKDZEa00vptzBJyHkPGE%2Bs8ng%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '564'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '76'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/notes/122960
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/notes/122960
-  response:
-    body:
-      string: '{"data":{"id":122960,"name":"Legends of the World","entry":"<p>Lorem
-        Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236635,"tags":[],"created_at":"2021-10-14T01:26:46.000000Z","created_by":88716,"updated_at":"2021-10-14T01:26:46.000000Z","updated_by":88716,"type":"Lore","note_id":null,"is_pinned":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd05860ef72d32-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:26:48 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OazQlew404oK%2F7AEXXDSxeO4NIN4VoxroVVPHLzJUvYh167QwygrE1C2Wwzwb9bM9FanLhz4zXys1zx6gzXeikdZ4k6TAZJT05c05hOSudIgvhgVOhChtteubw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '564'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '75'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/notes/122960
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"name": "Legends of the World (revised)", "entry": "<p>Lorem Ipsum.</p><p>Dolor
-      Sit Amet.</p>", "type": "Lore", "tags": [], "is_private": true, "header_full":
-      "", "has_custom_header": false}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '191'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: PATCH
-    uri: https://kanka.io/api/1.0/campaigns/1/notes/122960
-  response:
-    body:
-      string: '{"data":{"id":122960,"name":"Legends of the World (revised)","entry":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236635,"tags":[],"created_at":"2021-10-14T01:26:46.000000Z","created_by":88716,"updated_at":"2021-10-14T01:26:48.000000Z","updated_by":88716,"type":"Lore","note_id":null,"is_pinned":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0587bbf629c3-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:26:48 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AR1ZTf1yWpeDFOy13SPHtIinb1F3Dujl9QcZyXiMBoG236%2BtixNeVB17LaD17QWJ99VelSBXn1uJp2pI%2FAUOsVce7OXrL%2BSXiSV5IbXtCAF%2FQElNHSQi3hHdLw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '620'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '74'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/notes/122960
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236635
-  response:
-    body:
-      string: '{"data":{"id":2236635,"name":"Legends of the World (revised)","type":"note","child_id":122960,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:26:46.000000Z","created_by":88716,"updated_at":"2021-10-14T01:26:48.000000Z","updated_by":88716,"child":{"id":122960,"name":"Legends
-        of the World (revised)","entry":"<p>Lorem Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236635,"tags":[],"created_at":"2021-10-14T01:26:46.000000Z","created_by":88716,"updated_at":"2021-10-14T01:26:48.000000Z","updated_by":88716,"type":"Lore","note_id":null,"is_pinned":0}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0589bcdd2dbe-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:26:49 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7Yk2BSGAzHwd5P6xyTUk%2F3Enno6Z7S71V0s%2F5vOQ9wYD6OICeePIz%2FS9WHJVrN4ULcVptsrWwzNkt11r%2B8EFP9PhDwncw9opKE1JsaZgxtuYUXn2izqXlkiqHw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '990'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '73'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236635
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/notes/122960
-  response:
-    body:
-      string: '{"data":{"id":122960,"name":"Legends of the World (revised)","entry":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236635,"tags":[],"created_at":"2021-10-14T01:26:46.000000Z","created_by":88716,"updated_at":"2021-10-14T01:26:48.000000Z","updated_by":88716,"type":"Lore","note_id":null,"is_pinned":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd058cfffa28ef-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:26:49 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Axt%2BBXp9%2FuBM%2FnLKRdCIzHAYVpVWI2d4xIa9%2FTJ6VY2NIeID%2Boej4WZ%2BYWxE0I20nywDXS%2BiVdc75KkHZn2BxFLYkpNMAQayuQNdZQy9W9aK7FXTXCR8zgAx7g%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '620'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '72'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/notes/122960
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/notes/122960
-  response:
-    body:
-      string: '{"data":{"id":122960,"name":"Legends of the World (revised)","entry":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/notes_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236635,"tags":[],"created_at":"2021-10-14T01:26:46.000000Z","created_by":88716,"updated_at":"2021-10-14T01:26:48.000000Z","updated_by":88716,"type":"Lore","note_id":null,"is_pinned":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd058f8cf72bf9-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:26:49 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=adMMhfJQZ4jMfWsuWMh%2FdwIQ6hwo%2BzGic9jCABdzwWPayz8AWwtIn8pEntjF5eB8XtoPmGYjNzoJWfUkM4UECBud9s%2BdTpD4YYh%2FUGM6JE0PpbW%2FAC26e26zUA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '620'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '71'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/notes/122960
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '0'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: DELETE
-    uri: https://kanka.io/api/1.0/campaigns/1/notes/122960
-  response:
-    body:
-      string: ''
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd05921a71c520-ORD
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 14 Oct 2021 01:26:50 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=h6rD3VAfIeaO8KMI5YITwEVAxIvT5MKD%2FCQAay5HbSCzVBotMsIogELaXOMh8tL5r3ZD%2FUfYg2tsHUo0T%2B0%2FNlnY4RpUoK5DGwjtYL8yq0EJvrlEzEdNQIz%2BHQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '70'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/notes/122960
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 204
-      message: No Content
 version: 1

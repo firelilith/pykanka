@@ -1193,24 +1193,24 @@ interactions:
         href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4209\">Harryi Browler<\/a>.<\/p>\n","entry_parsed":"\n<p>A
         commoner who married the Lord of Blackburn,\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4209\">Harryi
         Browler<\/a>.<\/p>\n","image":"characters\/dID7cpbwJFpB5REIkWipBpuLH3jlErYBzzg6hu1C.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/FigKsTZVkSSRZQLBZK__wfUJp1I=\/smart\/src\/characters%2FdID7cpbwJFpB5REIkWipBpuLH3jlErYBzzg6hu1C.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/tEv322flsGbAIfJ7rpAYyMtOun4=\/40x40\/smart\/src\/characters%2FdID7cpbwJFpB5REIkWipBpuLH3jlErYBzzg6hu1C.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12336,"tags":[],"created_at":"2018-04-05T14:00:34.000000Z","created_by":null,"updated_at":"2018-10-08T10:33:27.000000Z","updated_by":null,"location_id":934,"title":"Lady
-        of Blackburn","age":"33","sex":"Female","pronouns":null,"race_id":162,"type":null,"family_id":535,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":null,"next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=2"},"meta":{"current_page":1,"from":1,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":45,"total":456},"sync":"2021-10-14T01:20:40.738737Z"}'
+        of Blackburn","age":"33","sex":"Female","pronouns":null,"race_id":162,"type":null,"family_id":535,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":null,"next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=2"},"meta":{"current_page":1,"from":1,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":45,"total":456},"sync":"2021-10-14T23:42:45.869113Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfc8a3acb03d4-ORD
+      - 69e4aa7b98bd6302-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:41 GMT
+      - Thu, 14 Oct 2021 23:42:46 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aey0ghHjYjBf7FofWWvdsOmamVHk83%2BMT4dBguTzgozCFnb7gVPpkEDgA8mOnEw6JDI3MzJ%2FGugM2if6yz4DlMIiZf%2BH1qYMrR%2F0IB5%2BQFl0VwH8yH1pa7lgmw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2ZHbifs%2FMqGwhcZ6gvUC%2FC0nuQEttL%2Fc6QNTd8z4mBOC9uANRSL88x1Q9k3GGp2hKQQNU2%2FglOl9mOnjkaZ%2F01vf6zewFYSevVUWxiu4QJHlk%2BCJ88NzTGMhNQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1237,7 +1237,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '89'
+      - '80'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -2148,24 +2148,24 @@ interactions:
         continent of Thaelia\u00a0on the Drunah Bay, and is the seat of House MacPhaiden.
         It is slowly recove...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5183\"
         data-toggle=\"tooltip\">Drunah<\/a>. She is trying to get inside the Sinking
-        Temple, and will reward Auron \"like a hero\" if he helps.<\/p>\n","image":"characters\/DsqBrlm870Gwf3Ul0Rp8UJmk7XgBvYq7JymJ79No.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/K5yQOIxCQ4jYz_4nrcLnyjw4GNo=\/smart\/src\/characters%2FDsqBrlm870Gwf3Ul0Rp8UJmk7XgBvYq7JymJ79No.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/SkZmo2NWfacTnnpdiroG_DNhtfw=\/40x40\/smart\/src\/characters%2FDsqBrlm870Gwf3Ul0Rp8UJmk7XgBvYq7JymJ79No.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27105,"tags":[],"created_at":"2018-06-19T20:07:11.000000Z","created_by":null,"updated_at":"2018-10-08T10:33:42.000000Z","updated_by":null,"location_id":5183,"title":null,"age":"30","sex":"Female","pronouns":null,"race_id":1192,"type":"NPC","family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=3"},"meta":{"current_page":2,"from":46,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":90,"total":456},"sync":"2021-10-14T01:20:42.563456Z"}'
+        Temple, and will reward Auron \"like a hero\" if he helps.<\/p>\n","image":"characters\/DsqBrlm870Gwf3Ul0Rp8UJmk7XgBvYq7JymJ79No.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/K5yQOIxCQ4jYz_4nrcLnyjw4GNo=\/smart\/src\/characters%2FDsqBrlm870Gwf3Ul0Rp8UJmk7XgBvYq7JymJ79No.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/SkZmo2NWfacTnnpdiroG_DNhtfw=\/40x40\/smart\/src\/characters%2FDsqBrlm870Gwf3Ul0Rp8UJmk7XgBvYq7JymJ79No.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27105,"tags":[],"created_at":"2018-06-19T20:07:11.000000Z","created_by":null,"updated_at":"2018-10-08T10:33:42.000000Z","updated_by":null,"location_id":5183,"title":null,"age":"30","sex":"Female","pronouns":null,"race_id":1192,"type":"NPC","family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=3"},"meta":{"current_page":2,"from":46,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":90,"total":456},"sync":"2021-10-14T23:42:47.885748Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfc96bd332d91-ORD
+      - 69e4aa8afca82bcc-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:43 GMT
+      - Thu, 14 Oct 2021 23:42:48 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5YrEL8i%2BA%2BTt6ppqSAJ4mTg8YWdPLri0CdyOf%2F3c6MIXXvhi3xb0T6rHIX9FG7hb6V6hE6CHedjk%2BoKHM8hTuI4GqQKBloqp1pBAc1fdSfKGzSqiuVSn7if9fw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jbM7e4o2rZ66hDyyONF2bvGmgr96hqvHn5wzvkejI3Tw0GKWk4qnbXEpkwRcFGJuCXxtF4nAOELPXWsbJssEhFWYNhh2DsIIx%2BABFbdz72un9UzOdohPfBznFQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -2184,7 +2184,7 @@ interactions:
       content-length:
       - '113555'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -2192,7 +2192,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '88'
+      - '79'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -3051,24 +3051,24 @@ interactions:
         Law. Heir to his Father''s kingdom, Maximus was betrothed to Princess Isolde
         von Blumenthal at the age of 20, whilst she was 16. They married a year after
         and stayed in Rosen until...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/4114\"
-        data-toggle=\"tooltip\">Maximus<\/a>\u00a0von Rosenberg.<\/p>\n","image":"characters\/YJ51wH4wAknGB6sVdEMWT2cHiATMb48YOah8HNJe.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/LSOvJZV_zojppbXVBNW4aKOMipE=\/smart\/src\/characters%2FYJ51wH4wAknGB6sVdEMWT2cHiATMb48YOah8HNJe.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/d_m8BrTICEYdLWMdfbU72mJ4MKY=\/40x40\/smart\/src\/characters%2FYJ51wH4wAknGB6sVdEMWT2cHiATMb48YOah8HNJe.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27992,"tags":[],"created_at":"2018-06-24T19:35:26.000000Z","created_by":null,"updated_at":"2018-10-08T10:33:43.000000Z","updated_by":null,"location_id":7817,"title":null,"age":"28","sex":"Female","pronouns":null,"race_id":162,"type":"NPC","family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=2","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=4"},"meta":{"current_page":3,"from":91,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":135,"total":456},"sync":"2021-10-14T01:20:44.149446Z"}'
+        data-toggle=\"tooltip\">Maximus<\/a>\u00a0von Rosenberg.<\/p>\n","image":"characters\/YJ51wH4wAknGB6sVdEMWT2cHiATMb48YOah8HNJe.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/LSOvJZV_zojppbXVBNW4aKOMipE=\/smart\/src\/characters%2FYJ51wH4wAknGB6sVdEMWT2cHiATMb48YOah8HNJe.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/d_m8BrTICEYdLWMdfbU72mJ4MKY=\/40x40\/smart\/src\/characters%2FYJ51wH4wAknGB6sVdEMWT2cHiATMb48YOah8HNJe.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27992,"tags":[],"created_at":"2018-06-24T19:35:26.000000Z","created_by":null,"updated_at":"2018-10-08T10:33:43.000000Z","updated_by":null,"location_id":7817,"title":null,"age":"28","sex":"Female","pronouns":null,"race_id":162,"type":"NPC","family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=2","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=4"},"meta":{"current_page":3,"from":91,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":135,"total":456},"sync":"2021-10-14T23:42:49.145352Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfca14edb2b87-ORD
+      - 69e4aa930c91637b-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:44 GMT
+      - Thu, 14 Oct 2021 23:42:49 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6s6d6u%2FWViMmhVLYD8AuIKQLKiBinb0SBOuhTQBSgYNSLey5blsSmC66zj6OKLGkPJRpaADaJ0P7SfaXbsNAaP2IOX6QVVMlPc8i3L5RxecBfo2ZRgESvzR7kw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cFkuLzouuWqY2vS36QDrIKGtylFVKlbIgVocTWVPikeOAJaD9%2BiIbTG7rfCmsCOdM19FQSBIWJ2BgMYRjjoZalNtaXnhyH0rpgeBXOK0VZMgJBQqOSmpKxricw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -3087,7 +3087,7 @@ interactions:
       content-length:
       - '106049'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -3095,7 +3095,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '87'
+      - '78'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -3868,24 +3868,24 @@ interactions:
         class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
         data-id=\"93413\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/93413\/tooltip\">Church
         of Cearm\u00e1in<\/a>\u00a0religion.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":93412,"tags":[68665],"created_at":"2018-12-30T15:52:50.000000Z","created_by":1,"updated_at":"2018-12-30T15:54:45.000000Z","updated_by":1,"location_id":null,"title":"The
-        All Mighty","age":null,"sex":null,"pronouns":null,"race_id":3330,"type":null,"family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=3","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=5"},"meta":{"current_page":4,"from":136,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":180,"total":456},"sync":"2021-10-14T01:20:45.322150Z"}'
+        All Mighty","age":null,"sex":null,"pronouns":null,"race_id":3330,"type":null,"family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=3","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=5"},"meta":{"current_page":4,"from":136,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":180,"total":456},"sync":"2021-10-14T23:42:50.530907Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfca7eebb2c80-ORD
+      - 69e4aa9a8f28291c-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:46 GMT
+      - Thu, 14 Oct 2021 23:42:51 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2PXSaYDkdb5r1VegLCDg%2BeDZDcizPRABMGpzGc5q70IaxwAw1pojPN0d34TzSzQ6XyWGuEKyvOVg6CxOf6PwlL2JYJhjZYH%2BgXZ43XmDUtT0yaHfguBnGc664A%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=docNKlM0yr7xQQ%2F%2Fv%2FwUaSC0NNAeVtv1yztxBsFrRWgZi8qbRblRHGWAhMphW231OOdKzw8yLZWuY6Uu16vNUdx6WS2v47d%2B6HkFdHYQJR%2Bkw43s5Q%2BpfR1hSw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -3912,7 +3912,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '86'
+      - '77'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -5003,24 +5003,24 @@ interactions:
         of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/28717\"
         class=\"entity-mention\" data-entity-tags=\"id-287 players id-5224 kemali-uprising
         id-19260 jessica\" data-toggle=\"tooltip-ajax\" data-id=\"96234\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96234\/tooltip\">Kitty
-        Whiskers<\/a>. He died in 2329.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":105763,"tags":[5224],"created_at":"2019-01-24T20:38:48.000000Z","created_by":1,"updated_at":"2019-01-24T20:40:32.000000Z","updated_by":1,"location_id":32757,"title":null,"age":"35","sex":"Male","pronouns":null,"race_id":11060,"type":"NPC","family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=4","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=6"},"meta":{"current_page":5,"from":181,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":225,"total":456},"sync":"2021-10-14T01:20:47.103192Z"}'
+        Whiskers<\/a>. He died in 2329.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":105763,"tags":[5224],"created_at":"2019-01-24T20:38:48.000000Z","created_by":1,"updated_at":"2019-01-24T20:40:32.000000Z","updated_by":1,"location_id":32757,"title":null,"age":"35","sex":"Male","pronouns":null,"race_id":11060,"type":"NPC","family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=4","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=6"},"meta":{"current_page":5,"from":181,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":225,"total":456},"sync":"2021-10-14T23:42:52.269920Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfcb38ef2c558-ORD
+      - 69e4aaa5b98d61e0-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:47 GMT
+      - Thu, 14 Oct 2021 23:42:52 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DhZD5oamYpsEtCzC2qOJcbM8Hh8KkO1O6HJyIHMtEKmhwNnWvj%2FnFd39yu5RBesztfvTWfqdHYNqQUDquz399uWrb%2FWaFIzLhCkJwntEnfb8OqCM4q7qq6tKtg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=momE7ygpRdjttKlX3g83nbmx7ZeI6zktLBP6MHXDF4%2BOB1IBxEvK2arKXlOJrpoRt9Tt81GsmTtDL7SwkTqAHQ0WWNZBN1zG6WxDUro7%2BgyOAVHUFVnK%2Bbfp0g%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -5047,7 +5047,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '85'
+      - '76'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -5669,24 +5669,24 @@ interactions:
         class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
         data-id=\"12000\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12000\/tooltip\">Thaelia<\/a>\u00a0and
         has no biological heir.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":228006,"tags":[],"created_at":"2019-05-21T13:32:22.000000Z","created_by":1,"updated_at":"2019-05-21T13:33:55.000000Z","updated_by":1,"location_id":64537,"title":"Lord
-        of Mistshore","age":"140","sex":"Male","pronouns":null,"race_id":17501,"type":"Lord","family_id":8834,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=5","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=7"},"meta":{"current_page":6,"from":226,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":270,"total":456},"sync":"2021-10-14T01:20:48.113784Z"}'
+        of Mistshore","age":"140","sex":"Male","pronouns":null,"race_id":17501,"type":"Lord","family_id":8834,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=5","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=7"},"meta":{"current_page":6,"from":226,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":270,"total":456},"sync":"2021-10-14T23:42:53.686242Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfcbb59df2c84-ORD
+      - 69e4aaae4f2bc564-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:48 GMT
+      - Thu, 14 Oct 2021 23:42:54 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hsXNp9UjU4h%2FueeugUbydcr2pGWiwQqedtoPRAAXvOJGLIH%2FnkHZ6fHHeEh1WLp1LILC6VN%2B2tLWY8c5fXN5MWxDmrNxsl7WcR9ivASuxcM8EVnaSX7Vwb%2FVkw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2qbRbp4mItmX43itQfIsyJsMFl80beEKRahbpBTLXO58RWungojXcG6AXIH3JRYoH988Qo61zy6CXvoA%2Fxha7jqoQW1yVvbG2NYF1YyphFwGeb0nx1MqbVj9xw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -5705,7 +5705,7 @@ interactions:
       content-length:
       - '86110'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -5713,7 +5713,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '84'
+      - '75'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -6128,24 +6128,24 @@ interactions:
         is a male dwarf from Weymouth. He was captured in 981 AC and freed by the
         party of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/tags\/19193\" class=\"entity-mention\"
         data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"239710\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/239710\/tooltip\">Carric''s
-        Hope<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":304099,"tags":[],"created_at":"2019-08-12T14:07:50.000000Z","created_by":1,"updated_at":"2019-08-12T14:09:02.000000Z","updated_by":1,"location_id":5166,"title":null,"age":"110","sex":"Male","pronouns":null,"race_id":30804,"type":"Adventurer","family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=6","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=8"},"meta":{"current_page":7,"from":271,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":315,"total":456},"sync":"2021-10-14T01:20:49.558356Z"}'
+        Hope<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":304099,"tags":[],"created_at":"2019-08-12T14:07:50.000000Z","created_by":1,"updated_at":"2019-08-12T14:09:02.000000Z","updated_by":1,"location_id":5166,"title":null,"age":"110","sex":"Male","pronouns":null,"race_id":30804,"type":"Adventurer","family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=6","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=8"},"meta":{"current_page":7,"from":271,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":315,"total":456},"sync":"2021-10-14T23:42:55.507057Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfcc24b3e0347-ORD
+      - 69e4aaba9bc6626f-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:50 GMT
+      - Thu, 14 Oct 2021 23:42:56 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0yXNv4nfKJX6N0eFOeuk9Dn8b0gmpFCZzWwzQXymFo%2FNc19s1KbqxTouf6vu2YLlWbs%2Fsw7AInR7TQ6tDUJ9nyRuiHH%2FTkVRqvTm73kADKAR0MP2uSgbCRs6RA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NH9VveVDaZi7WyH%2F0gr1TQsMS6%2FG1p3w4XfZ%2BSnCR7SYsiktYle6MmSQ%2F%2FuPYh0k41ympyS1Gmn9hmp%2FsLhfU4QA9CO62DfXS2%2BQHYVIEa4HXo95zecbVleIJg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -6172,7 +6172,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '83'
+      - '74'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -6598,24 +6598,24 @@ interactions:
         Coliatti<\/a>.<\/p><p>She died of a stroke at the age of 77.<\/p><p>When she
         took over the Arcanium from her predecessor, she invested a lot of energy
         and focus into the study of Alteration magic.\u00a0<\/p>","image":"characters\/mRp8qRQaeYbuQHuYnRZYmP9OzkEjwI0K7k1Zl2fW.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/ccvU73c5P8Qwg4ScRpYyyBKTKr4=\/smart\/src\/characters%2FmRp8qRQaeYbuQHuYnRZYmP9OzkEjwI0K7k1Zl2fW.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/vnHc_tjz_MVt4LxQ_n6mB_UjUGs=\/40x40\/smart\/src\/characters%2FmRp8qRQaeYbuQHuYnRZYmP9OzkEjwI0K7k1Zl2fW.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":985236,"tags":[],"created_at":"2020-09-16T11:13:25.000000Z","created_by":1,"updated_at":"2020-09-16T11:16:36.000000Z","updated_by":1,"location_id":244427,"title":"Grand
-        Mage","age":"77","sex":"Female","pronouns":null,"race_id":1192,"type":"Mage","family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=7","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=9"},"meta":{"current_page":8,"from":316,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":360,"total":456},"sync":"2021-10-14T01:20:51.690148Z"}'
+        Mage","age":"77","sex":"Female","pronouns":null,"race_id":1192,"type":"Mage","family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=7","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=9"},"meta":{"current_page":8,"from":316,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":360,"total":456},"sync":"2021-10-14T23:42:57.586560Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfccf586c2a4e-ORD
+      - 69e4aac69f022ca1-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:52 GMT
+      - Thu, 14 Oct 2021 23:42:58 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OuBEZ8vDZKlzt%2FQ7p1TidyV2ckvh08oEcgxNMgGKp4jZCNTKpli91JUpXJ%2BW6GcuzGJRcBZb%2Bmw2G%2BBIxBkq2dHikjJzZZ8VEa97Pn4pMs3NQUA2Ia4SDU7agA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BfvwUUk15TbFxybMwB5PJMQ0bNgwmCcXpL%2FbuUYZtDrie4dSfEliyZ6AXD5IFhwk%2FjYcBf92V6CTA%2FeZIwPlDDiTyUMPC%2Be0Z0aHDBWx17erhehY%2BtRebmhVgg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -6642,7 +6642,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '82'
+      - '73'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -8022,24 +8022,24 @@ interactions:
         Vitelli is the oldest daughter of Duke <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259067\"
         class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
         data-id=\"993316\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993316\/tooltip\">Cornelio
-        Vitelli<\/a>. She resides in the Vitelli mansion in Asolo.\u00a0<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1007079,"tags":[],"created_at":"2020-09-23T11:07:42.000000Z","created_by":1,"updated_at":"2020-09-23T11:09:13.000000Z","updated_by":1,"location_id":246165,"title":null,"age":"17","sex":"Female","pronouns":null,"race_id":1204,"type":"Noble","family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=8","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=10"},"meta":{"current_page":9,"from":361,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":405,"total":456},"sync":"2021-10-14T01:20:53.646199Z"}'
+        Vitelli<\/a>. She resides in the Vitelli mansion in Asolo.\u00a0<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1007079,"tags":[],"created_at":"2020-09-23T11:07:42.000000Z","created_by":1,"updated_at":"2020-09-23T11:09:13.000000Z","updated_by":1,"location_id":246165,"title":null,"age":"17","sex":"Female","pronouns":null,"race_id":1204,"type":"Noble","family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=8","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=10"},"meta":{"current_page":9,"from":361,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":405,"total":456},"sync":"2021-10-14T23:42:59.424346Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfcdc68202a66-ORD
+      - 69e4aad25ab57fb0-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:54 GMT
+      - Thu, 14 Oct 2021 23:42:59 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=geiU0eqMBEc%2F6tOsW71gL7XAY15yiD9UPCzDnXJ3Z7gmlmsY50%2FQDwFN8QBelrJoaYSfa6EsPZW%2FIQlXSEUFZBsAK6iGxPZEDukywy6hZGMx1bXVhvvZgXp5wQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2qU%2FwP0fZXUsbbaabdMc1pbMyYZdHF8CVPkqpEFLdtksmeDKaAiy0vW9kCAzdqPIGuucLHDnncQ3rjrtWFh%2FTRgowKhX79QxNzN%2B7kvoOW5JMbC%2FQSCujbLXpw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -8066,7 +8066,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '81'
+      - '72'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -8494,24 +8494,24 @@ interactions:
         was always his top priority and to catch him off-guard would be to outwit
         one of the most clever and resourceful beings in reality. He doesn''t take
         risks.","section":"personality","default_order":0}],"is_personality_visible":true},{"id":436459,"name":"Duline","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1695973,"tags":[],"created_at":"2021-04-30T19:00:45.000000Z","created_by":1,"updated_at":"2021-04-30T19:00:45.000000Z","updated_by":1,"location_id":246165,"title":null,"age":null,"sex":null,"pronouns":null,"race_id":1191,"type":"Pirate","family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true},{"id":494707,"name":"API
-        test put","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1921271,"tags":[4340],"created_at":"2021-07-04T11:04:01.000000Z","created_by":1,"updated_at":"2021-07-04T11:04:11.000000Z","updated_by":1,"location_id":null,"title":null,"age":null,"sex":null,"pronouns":null,"race_id":null,"type":null,"family_id":null,"is_dead":false,"traits":[{"id":287133,"name":"Test","entry":"API","section":"personality","default_order":0},{"id":287134,"name":"Hey","entry":"Ho!","section":"appearance","default_order":0}],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=9","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11"},"meta":{"current_page":10,"from":406,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":450,"total":456},"sync":"2021-10-14T01:20:55.359424Z"}'
+        test put","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1921271,"tags":[4340],"created_at":"2021-07-04T11:04:01.000000Z","created_by":1,"updated_at":"2021-07-04T11:04:11.000000Z","updated_by":1,"location_id":null,"title":null,"age":null,"sex":null,"pronouns":null,"race_id":null,"type":null,"family_id":null,"is_dead":false,"traits":[{"id":287133,"name":"Test","entry":"API","section":"personality","default_order":0},{"id":287134,"name":"Hey","entry":"Ho!","section":"appearance","default_order":0}],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=9","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11"},"meta":{"current_page":10,"from":406,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":450,"total":456},"sync":"2021-10-14T23:43:00.887174Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfce60acc62e2-ORD
+      - 69e4aadabcf12c64-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:56 GMT
+      - Thu, 14 Oct 2021 23:43:01 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5YgXa%2BBQoerfOn8aYoPhWNVX0vg1qG%2B9%2F%2FpMjwMfJ7gnW%2BD4iDkGhrnlr%2BvtqwgDYLiD%2FzR8xPTHTnRkB3Ce6I1EVg8hKtNJpQD5Glv0O5y0qcVp23zNFpWRKw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r74725c47ozYYCIDC54MdtRBGnszOmEXOb7gEx3rJQgXiFlofF7EiMcKBd37%2B9dzu6%2BdCQ4AuCWES9J6jCAqgnJ9kjymxqIj0CzT0c8JwhNcYUDE1c%2FASPbDKA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -8538,7 +8538,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '80'
+      - '71'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -8581,24 +8581,24 @@ interactions:
         of the Sea","age":null,"sex":null,"pronouns":null,"race_id":null,"type":"Deity","family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true},{"id":529407,"name":"Marijek
         Weeraan","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2065520,"tags":[],"created_at":"2021-08-17T10:55:43.000000Z","created_by":1,"updated_at":"2021-08-17T10:55:43.000000Z","updated_by":1,"location_id":null,"title":null,"age":null,"sex":null,"pronouns":null,"race_id":null,"type":null,"family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true},{"id":565489,"name":"api
         test october 2021","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2208005,"tags":[],"created_at":"2021-10-04T16:13:35.000000Z","created_by":1,"updated_at":"2021-10-04T16:13:35.000000Z","updated_by":1,"location_id":null,"title":null,"age":null,"sex":null,"pronouns":null,"race_id":null,"type":null,"family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true},{"id":565521,"name":"api
-        test october 2021 2","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2208181,"tags":[],"created_at":"2021-10-04T17:03:17.000000Z","created_by":1,"updated_at":"2021-10-04T17:03:17.000000Z","updated_by":1,"location_id":null,"title":null,"age":null,"sex":null,"pronouns":null,"race_id":null,"type":null,"family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=10","next":null},"meta":{"current_page":11,"from":451,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":456,"total":456},"sync":"2021-10-14T01:20:56.886083Z"}'
+        test october 2021 2","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/RcXu9LqvjpEh8jp5bsA9S5znNAs=\/40x40\/smart\/src\/campaigns%2F1%2F6659dee9-21a5-482f-93b5-8f98021fd1c9.png?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2208181,"tags":[],"created_at":"2021-10-04T17:03:17.000000Z","created_by":1,"updated_at":"2021-10-04T17:03:17.000000Z","updated_by":1,"location_id":null,"title":null,"age":null,"sex":null,"pronouns":null,"race_id":null,"type":null,"family_id":null,"is_dead":false,"traits":[],"is_personality_visible":true}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=11","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters?page=10","next":null},"meta":{"current_page":11,"from":451,"last_page":11,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/characters","per_page":45,"to":456,"total":456},"sync":"2021-10-14T23:43:02.372616Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfcf109cc2c95-ORD
+      - 69e4aae59dbe6336-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:57 GMT
+      - Thu, 14 Oct 2021 23:43:02 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lMevc%2BbLLOQoWB2x%2Bi%2B%2FeAvHzZOu3zq666GoRPeD5sviwo3nimSdb7sEF9vy0aIzb1ssAeEOKfNPSUc%2FMqQ8fkJvfZzZsSzpBlqq4OBTJaELku9ZfHK95xyaAA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SHQyPsMUKD%2Bwl2wS5NpPbZgKv9fJeOyRjyvo8X5DF72wySpBOLLzciimBm7wKnz4hn2lvRjG2ez%2BO7UMzg3W8j0uMqqHGiaPUUfpfQjaCj7OfH5ao6%2BxDF9FSg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -8617,7 +8617,7 @@ interactions:
       content-length:
       - '5955'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -8625,7 +8625,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '79'
+      - '70'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -8669,19 +8669,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfcf53b2b2c68-ORD
+      - 69e4aae9685062fa-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:57 GMT
+      - Thu, 14 Oct 2021 23:43:03 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5cJAepnG8RI2T2k2ICIo0rXWcMBZyJK2CwrdLTQMnqL5%2FrLH%2FWyYGJjCYI9porrQUPwawyDB%2BQYJbv28Gjn5Surm0ZM7ODklC7DIMgfMqKU7SkECHbKmYQnBAw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Sv%2B4cnyNtKkY4vKMSQ6jWL%2B29HOjEmokZA%2F2hDIt52LKFF5pvPSEk3w6udkpbr03LG03rbmvZMPsfStA%2Fdxf6xzBuIliRTTi2TgbjVC%2F%2BZeEO7dq8vNZnVU%2BXA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -8708,7 +8708,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '78'
+      - '69'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -8825,19 +8825,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfcf90a02e1ea-ORD
+      - 69e4aaed2bb22d9d-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:58 GMT
+      - Thu, 14 Oct 2021 23:43:03 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RIdqoqdUvwBPvQXQGrZ8wza58DoCOQxushkkx%2Bs0YJcyKV%2FoLFAquoIN1FttKsBtVNTqK%2Fzyyydan4veW42G88aIF2WRuZESglK6f2ZEef3MKUDyBEhLhtuOzQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NdwOYdsml0i%2BT9v%2Fqvei8WBurZQT%2F69M2dg6IhDhXdSiQv0q0RCU%2F9yvt1NIBjF0TgKXW%2F7fVA01M8zeaVjP9YHE3dtK0%2BDn0y94BgYP7iao%2BlQ9PTXRhSZdLw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -8856,7 +8856,7 @@ interactions:
       content-length:
       - '9957'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -8864,7 +8864,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '77'
+      - '68'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -8905,19 +8905,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfcfd9f752c84-ORD
+      - 69e4aaf1185c28ef-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:59 GMT
+      - Thu, 14 Oct 2021 23:43:04 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=k30Ry%2F0%2BHTqkg0hGnlo%2Bz9LsFMpg3Apa49g8K4bBCA47dGdeI7PmvVIC0JdIhLWzeD6iG36MTOo4q1dO44hmbzc5tcbKup2TJQCNRQ1ZPdnldmmGenCCw4UZwQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jFAGtPKzM%2BU0vF%2F21Zgy5I4oNgY1XwRGQMh6xwuHBNeAHsoES%2B61IkFZ4tYkL1oUOmoAkT8hzJu4ijcUOk%2BsBhzSCX86kENZN8nYPMwjXyBPrZYuT36lV69TzQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -8944,7 +8944,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '76'
+      - '67'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -8982,19 +8982,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfd013b532d9a-ORD
+      - 69e4aaf4cefa2992-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:20:59 GMT
+      - Thu, 14 Oct 2021 23:43:04 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tzEbjsAg8xaYMSQOWNQmQ%2BmtqBNCj6%2FNzAcfvMhSpMnVODyvlSNwr8PZRjiVzJmQKtrDUoWvp6kVSIqeLXvQfGPZvfX5AA6NXEvjnckyc679ObtjCkF%2BFOs%2BGQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2AkeVnOMSeCmzlgbtSfp7wgHYpKiVGyS%2BMyXrQyrhR6CdCV%2BDqmW9ujJgWV5didyuhwbjBb0vKIJqBbmF0fa4gVO6%2FNdX4bQf1pVnVcaQ6tvBAFbiFQwHp3Zww%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -9021,7 +9021,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '75'
+      - '66'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -9062,19 +9062,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfd053cc4634e-ORD
+      - 69e4aaf8df032b1c-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:21:00 GMT
+      - Thu, 14 Oct 2021 23:43:05 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9qmoDv8gvBHAEkpZo%2FApd%2FaGpq75SeFHCWATg18zgsOKKtCil2%2FSttP0uuhGQ591A767ufOfHYQaryaoflcGcVWiFzp9GL3rXn7y9koe62ELPO63kG5wLHXu5w%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=noANtBwXXXYYZHe0068u5fM3p2MYd%2FXLTvuo1qMUz5VF1OVfeU0Nn7%2BQV6xwOyX26fzGBfqW6fQ0xQ6MO%2FYnuZm4zIQRrcZ7zRF2cPluWwQu6lD8SxfSSfMY2Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -9101,7 +9101,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '74'
+      - '65'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -9242,19 +9242,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfd091fda2c3c-ORD
+      - 69e4aafc9e0261c8-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:21:00 GMT
+      - Thu, 14 Oct 2021 23:43:05 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UoDP8MJCJKCBm6erYpy5RyWgnT9wDDbdS6EguNAFl9Er5UC6dZ%2FSDTieBW4l17Rw%2F4vWXHcnGnto3O1bT86XNdRJGRQ1iV9c4ZH1nTVFWfKPSerppVVdFHhygw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tIk6OU5cFbZtCmjulIv8WqokHKmw261M4wQCkj0aqUKs8zM5YCeg8CnFyY2EGbW8bLM0KzT9wW56XoU6U7Zgosl3mQZvrXKEtz8byvlihJg729a96zaBOn4oAg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -9273,7 +9273,7 @@ interactions:
       content-length:
       - '11603'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -9281,7 +9281,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '73'
+      - '64'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -9316,19 +9316,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfd0c4a1c03e8-ORD
+      - 69e4aafe79e92c68-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:21:01 GMT
+      - Thu, 14 Oct 2021 23:43:06 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ez0pfnmWqapeohnFw9fGyxYTJK86jC%2FuQYyG7picrWvmiliwVYgWrzyW25UkWtsJodvQNnuO8n%2B7GvBB8yo9OAJ0KgcWpmfK21FONjoko95HUx6JwUaKuaOefA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VSpiesCRj0LWsW0Ee6EXxm2eRMzx4sVrGXcjr0xEogkydzxXzaeOKA36LOtANLUoK8d%2B%2B2BL32pp8FFeUuNe6pF5Avr5ISTiNyrjcb%2FrrHSzmBHwFm185XKImA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -9347,7 +9347,7 @@ interactions:
       content-length:
       - '1588'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -9355,7 +9355,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '72'
+      - '63'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -9396,19 +9396,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfd103af76275-ORD
+      - 69e4ab010dee7f98-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:21:01 GMT
+      - Thu, 14 Oct 2021 23:43:06 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jnwUCF4iwteiGWZneOp5XkZh1gR6C8VtvmOZh9d4k04w9Bu0cSwoyupFFx7p0pgCxA6vKPobn05S5lzZhEd%2BSgsvPe6LFgNm6F7E4mHCZqErFL3dzn9WXCLfdw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=y%2BOmSLzUeGR3K%2FekfLHrq0EpsFvzavKsv9WmSVPedrd2YA%2F6tjBoc59Wg0W8jx18eM8tjdjf5lWvYdEMyJK2gnwtY8E4NgKMRaPNcvcdBzqZM7RvamUFC2pNGQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -9435,7 +9435,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '71'
+      - '62'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -9484,19 +9484,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfd134d1f2dbe-ORD
+      - 69e4ab04ec6e6174-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:21:02 GMT
+      - Thu, 14 Oct 2021 23:43:07 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fcBy%2B4pzhdOK7AUvyAgk%2FUymD6oYXSb%2BN0e2RzDVHB0oOTljF%2FPDtl0ucspSrI8tT2snyiI7uhqysH%2BYj4zlhrE%2Flwugnq2YsFG9eHKF6RsDaOQhODX4GSGnVg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2nmtjurExcBz%2BIuogIHtrHcV5GeOqCKCTlJ%2FhapPSaydtRptuqP2QKLc5iPzJaLV4GyNzDoMJzPuCfDrah6OwGFHD2bH0qZKbKfQx5LAfhaVHyJDKwusCC%2BYQg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -9515,7 +9515,7 @@ interactions:
       content-length:
       - '2770'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -9523,7 +9523,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '70'
+      - '61'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -9559,19 +9559,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dcfd15ec0ffd8a-ORD
+      - 69e4ab0729282ac6-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:21:02 GMT
+      - Thu, 14 Oct 2021 23:43:07 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8PxT8usGtqXD8uaeRSH8sv%2BNnpp%2FssGU%2BRjYxynLjcC5xgVV4hKp2zY2KvmN59pQq9lUtioXvEBezZ%2FFcxOalXqOcbf%2Bx%2FJLtAPEHyLZ15jKjizg584agmvclw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sdpmwFEfKlKKM9IN1r1o1KL%2FBwDmkTbJVJzREmje95%2FXpDxyNLARKNggKpA5lpZ4v1mMS47mtacUG0kQ3Qe0H7HTEpNhDr5KTfCTaEk6VVzeZFNaqyvZMJb3Yw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -9590,661 +9590,7 @@ interactions:
       content-length:
       - '1670'
       x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '69'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/12055
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"name": "Jonathan Green", "entry": "<p>Lorem Ipsum.</p>", "age": "39",
-      "sex": "Male", "race_id": 3, "tags": [], "is_dead": true, "is_private": true,
-      "is_personality_visible": true}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '181'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: POST
-    uri: https://kanka.io/api/1.0/campaigns/1/characters/
-  response:
-    body:
-      string: '{"data":{"id":572463,"name":"Jonathan Green","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/characters_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236627,"tags":[],"created_at":"2021-10-14T01:21:03.000000Z","created_by":88716,"updated_at":"2021-10-14T01:21:03.000000Z","updated_by":88716,"location_id":null,"title":null,"age":"39","sex":"Male","pronouns":null,"race_id":3,"type":null,"family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dcfd19c8522d34-ORD
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '690'
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:21:03 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ah3RT31MY1w8vpZrlYLkj5otJeGzl48GLHhLRVSiBwqm%2FXCv%2FyHyxWXQjG%2FSYWQ9ZcMKCTKVn2MEKNrq%2B6YZ6aKDQVI50IW3Az5608CJpDkdV%2F9EKjuM7xH2kg%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '68'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/characters/
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 201
-      message: Created
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236627
-  response:
-    body:
-      string: '{"data":{"id":2236627,"name":"Jonathan Green","type":"character","child_id":572463,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:21:03.000000Z","created_by":88716,"updated_at":"2021-10-14T01:21:03.000000Z","updated_by":88716,"child":{"id":572463,"name":"Jonathan
-        Green","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/characters_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236627,"tags":[],"created_at":"2021-10-14T01:21:03.000000Z","created_by":88716,"updated_at":"2021-10-14T01:21:03.000000Z","updated_by":88716,"location_id":null,"title":null,"age":"39","sex":"Male","pronouns":null,"race_id":3,"type":null,"family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dcfd1c2b6c2c95-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:21:03 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1debBuYY1GJxdT3c2t8OxauHFVt%2FEgSCoClYpDCSqxmuE%2BXJ3cW8A4AwbK9D6MSwtQrwYCq3CuPaD1KvaT53I4Ep9jD3xdpvasHJfsKDajCkVBnTh4OU%2BPZkTQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '1049'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '67'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236627
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/characters/572463
-  response:
-    body:
-      string: '{"data":{"id":572463,"name":"Jonathan Green","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/characters_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236627,"tags":[],"created_at":"2021-10-14T01:21:03.000000Z","created_by":88716,"updated_at":"2021-10-14T01:21:03.000000Z","updated_by":88716,"location_id":null,"title":null,"age":"39","sex":"Male","pronouns":null,"race_id":3,"type":null,"family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dcfd1dfa032cdd-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:21:03 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Z59DHOrhnhAykWorC2GWzN8ipKS7RoB8%2Bm8ebY%2FGyq2A8Y9NJmeNH0Egtz7q%2Fsg4xwmyuZdS6MaCER1gq4mjE3t4cwmgm2eG3bIJ%2Fe6HSwczeV0YE%2FbWoHgRZQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '690'
-      x-backend:
       - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '66'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/characters/572463
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/characters/572463
-  response:
-    body:
-      string: '{"data":{"id":572463,"name":"Jonathan Green","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/characters_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236627,"tags":[],"created_at":"2021-10-14T01:21:03.000000Z","created_by":88716,"updated_at":"2021-10-14T01:21:03.000000Z","updated_by":88716,"location_id":null,"title":null,"age":"39","sex":"Male","pronouns":null,"race_id":3,"type":null,"family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dcfd20bdf62d7c-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:21:04 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1qHJD8GT20qaZLIN9UvY98aSD0e7LWE%2FaWrFbf96%2Fnck7rfSovmc3CjYtxh%2B2iZPxOVxLCeqSWS0od4RGvNcNwnu9ubIXD%2Bwt%2BEsMEI0vufkLS%2BMR%2BPFnSuDaA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '690'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '65'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/characters/572463
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"name": "Jonathan Green (revised)", "entry": "<p>Lorem Ipsum.</p><p>Dolor
-      Sit Amet.</p>", "age": "39", "sex": "Male", "race_id": 3, "tags": [], "is_dead":
-      true, "is_private": true, "is_personality_visible": true, "header_full": "",
-      "has_custom_header": false}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '260'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: PATCH
-    uri: https://kanka.io/api/1.0/campaigns/1/characters/572463
-  response:
-    body:
-      string: '{"data":{"id":572463,"name":"Jonathan Green (revised)","entry":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/characters_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236627,"tags":[],"created_at":"2021-10-14T01:21:03.000000Z","created_by":88716,"updated_at":"2021-10-14T01:21:04.000000Z","updated_by":88716,"location_id":null,"title":null,"age":"39","sex":"Male","pronouns":null,"race_id":3,"type":null,"family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dcfd2359ba6378-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:21:04 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PlvAF4IqTcNmnN5tJowoH34If2JBrXWw7BaFGluLN%2FqcoNz92jPzZ53%2FmYjjquFahszdfdeT1AYSiGU0mDASsFNl1rzxNVZDrm8i%2FUNeR1q7Npuc7%2FHI5IZNsA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '746'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '64'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/characters/572463
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236627
-  response:
-    body:
-      string: '{"data":{"id":2236627,"name":"Jonathan Green (revised)","type":"character","child_id":572463,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:21:03.000000Z","created_by":88716,"updated_at":"2021-10-14T01:21:04.000000Z","updated_by":88716,"child":{"id":572463,"name":"Jonathan
-        Green (revised)","entry":"<p>Lorem Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/characters_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236627,"tags":[],"created_at":"2021-10-14T01:21:03.000000Z","created_by":88716,"updated_at":"2021-10-14T01:21:04.000000Z","updated_by":88716,"location_id":null,"title":null,"age":"39","sex":"Male","pronouns":null,"race_id":3,"type":null,"family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dcfd268b882ade-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:21:05 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=S44pyDhZ%2BX4V%2BBvoGQa8MdwDwwUz6w8hNA1mhJoaPY8%2Bl4Z2q35RLw7KBH%2BK5SE2GWUQDUMDeqa9iKddvE0Bb8x%2FcPbavCbo8Pg5IBcV7kkMDVNXxzY7B7BCkQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '1115'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '63'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236627
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/characters/572463
-  response:
-    body:
-      string: '{"data":{"id":572463,"name":"Jonathan Green (revised)","entry":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/characters_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236627,"tags":[],"created_at":"2021-10-14T01:21:03.000000Z","created_by":88716,"updated_at":"2021-10-14T01:21:04.000000Z","updated_by":88716,"location_id":null,"title":null,"age":"39","sex":"Male","pronouns":null,"race_id":3,"type":null,"family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dcfd2a2a808194-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:21:06 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oPWGbHD0XlvOfVRVjqo74TcrJLZRy9TYo9PMWH%2BR415pBDN%2FLW8IR5JPtaFwtXnj98ySvNNsvjZXb5hvlYLxZYHZQgt8p4XoPevuSxjxbFPbDpMsltxuFSpyYw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '746'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '62'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/characters/572463
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/characters/572463
-  response:
-    body:
-      string: '{"data":{"id":572463,"name":"Jonathan Green (revised)","entry":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/characters_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236627,"tags":[],"created_at":"2021-10-14T01:21:03.000000Z","created_by":88716,"updated_at":"2021-10-14T01:21:04.000000Z","updated_by":88716,"location_id":null,"title":null,"age":"39","sex":"Male","pronouns":null,"race_id":3,"type":null,"family_id":null,"is_dead":true,"traits":[],"is_personality_visible":true}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dcfd2e3a1e637e-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:21:06 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DwMR%2BwZxYDc35PIjq7Ys3sx6zG%2BfCK80wZsbA6JrMft5zSZR0Bc0XOcZBZSLcByNaIZLhCrbTnOUyX7LSTB76Vg8mmxoSiwp5R%2BuebYQnYGDVcXTNkr%2Bw9u5Cw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '746'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '61'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/characters/572463
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '0'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: DELETE
-    uri: https://kanka.io/api/1.0/campaigns/1/characters/572463
-  response:
-    body:
-      string: ''
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dcfd30ddda62c9-ORD
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 14 Oct 2021 01:21:07 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WFeukYqqOcM4jVL%2B43uduVsvO3o8Aj94AM%2FISehQzbI%2FhfD6%2Fam1ppywJzJDB9XfyKiV4VsVJkjLvo0j6UxuWKsVgQpA3fWEQtXcK%2Fp7HKnhV6DmBVDDcQJVCA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
-      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -10256,10 +9602,10 @@ interactions:
       x-req-host:
       - kanka.io
       x-req-url:
-      - /api/1.0/campaigns/1/characters/572463
+      - /api/1.0/campaigns/1/entities/12055
       x-varnish-host:
       - hzn-fre1
     status:
-      code: 204
-      message: No Content
+      code: 200
+      message: OK
 version: 1

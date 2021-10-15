@@ -5936,24 +5936,24 @@ interactions:
         to the forest (but they don''t know her personally).<\/li>\n<\/ul><\/li>\n<\/ul><p><strong>Encounters<\/strong><\/p>\n<ul><li>Fights
         and survival in the Forest<\/li>\n<\/ul><p><strong>End of session<\/strong><\/p>\n<p>Gave
         the children to Hannelor. Travelled to the Shadowmushroom woods. Portal activated
-        as they defeated the monsters.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":73808,"tags":[38713],"created_at":"2018-11-13T09:03:49.000000Z","created_by":1,"updated_at":"2021-06-08T11:21:38.000000Z","updated_by":1,"location_id":null,"character_id":null,"journal_id":null,"date":"2018-11-16","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=3","prev":null,"next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=2"},"meta":{"current_page":1,"from":1,"last_page":3,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals","per_page":45,"to":45,"total":93},"sync":"2021-10-14T01:27:38.951927Z"}'
+        as they defeated the monsters.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":73808,"tags":[38713],"created_at":"2018-11-13T09:03:49.000000Z","created_by":1,"updated_at":"2021-06-08T11:21:38.000000Z","updated_by":1,"location_id":null,"character_id":null,"journal_id":null,"date":"2018-11-16","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=3","prev":null,"next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=2"},"meta":{"current_page":1,"from":1,"last_page":3,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals","per_page":45,"to":45,"total":93},"sync":"2021-10-15T12:57:51.163624Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd06c15aa32998-ORD
+      - 69e9372b4bef2a60-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:39 GMT
+      - Fri, 15 Oct 2021 12:57:51 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LytYZidFmvyfOVoFUBhDtyXKex0EPO2slC8pwFwJRkzNK2bDw3Ooka%2FonS1KonJK34Y7foiXFKmgl8nC%2FarvUhFxlTs%2F2wpwSal9xkdwphglpjt8KgowlvJz7w%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hkrw9iP0kIJ9xI4GGygr9gCfSZgGwCJJKhBPPamUf%2Fh8tjROrb48FNq38oy36CKpZEQGru4pHPQZ%2Bt0NuvXd2BH8XEVjrOt%2BtsD%2Bggqb0ujXJaSrNf2oTf3kTw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -5972,7 +5972,7 @@ interactions:
       content-length:
       - '509217'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -5980,7 +5980,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '90'
+      - '2'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -12179,24 +12179,24 @@ interactions:
         take them both back to Asolo to see the priestess. The rest found Rafolo Troncone
         and confronted him about his actions. He admitted that they don''t have money
         to pay them, and wanted to trap the spores and them in the cave to save their
-        reputation.<\/p><p>The party met back in town in the late afternoon.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1646838,"tags":[76724],"created_at":"2021-04-15T19:33:54.000000Z","created_by":1,"updated_at":"2021-06-08T12:12:08.000000Z","updated_by":1,"location_id":null,"character_id":null,"journal_id":null,"date":"2021-05-02","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=3","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=1","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=3"},"meta":{"current_page":2,"from":46,"last_page":3,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals","per_page":45,"to":90,"total":93},"sync":"2021-10-14T01:27:41.394413Z"}'
+        reputation.<\/p><p>The party met back in town in the late afternoon.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1646838,"tags":[76724],"created_at":"2021-04-15T19:33:54.000000Z","created_by":1,"updated_at":"2021-06-08T12:12:08.000000Z","updated_by":1,"location_id":null,"character_id":null,"journal_id":null,"date":"2021-05-02","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=3","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=1","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=3"},"meta":{"current_page":2,"from":46,"last_page":3,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals","per_page":45,"to":90,"total":93},"sync":"2021-10-15T12:57:53.053980Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd06d04c5d29e8-ORD
+      - 69e937388df22919-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:44 GMT
+      - Fri, 15 Oct 2021 12:57:55 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GS5yKwRduKblC1n4RFnJAeM6agjosGxg3%2Bsd6wWbDVRjoayRi6DlsRSQezJg1JvqAZZqBcIO3rN%2FfeurvIQjRh2t7tE7uxe550nJWTmcMZxNQsqsPDsuqfCqZg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MWMa689HhnPqx9N1F7N9Lp03fNMO07j%2FPZTs4zcL8DPy2a%2FyQfvJHaeJ83tcfeC40AaOzOhqpkLJVCfopC9qX4NC5X%2FwfNrgJTOshWF3FxXFbxCYPrv4x2OQvg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -12223,7 +12223,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '89'
+      - '1'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -12308,24 +12308,24 @@ interactions:
         start falling into this soup. You are in some giant soup of what was once
         reality, and one by one you suffocate, only to be thrusted on a wooden squeaky
         floor, coughing up this soup that was in your lungs, but it gets washed away
-        as water pours in the room you are in from a small circular window.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2013851,"tags":[144524],"created_at":"2021-08-01T14:37:21.000000Z","created_by":1,"updated_at":"2021-10-06T17:22:35.000000Z","updated_by":1,"location_id":null,"character_id":null,"journal_id":null,"date":"2021-08-22","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=3","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=2","next":null},"meta":{"current_page":3,"from":91,"last_page":3,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals","per_page":45,"to":93,"total":93},"sync":"2021-10-14T01:27:46.218861Z"}'
+        as water pours in the room you are in from a small circular window.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2013851,"tags":[144524],"created_at":"2021-08-01T14:37:21.000000Z","created_by":1,"updated_at":"2021-10-06T17:22:35.000000Z","updated_by":1,"location_id":null,"character_id":null,"journal_id":null,"date":"2021-08-22","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=3","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals?page=2","next":null},"meta":{"current_page":3,"from":91,"last_page":3,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/journals","per_page":45,"to":93,"total":93},"sync":"2021-10-15T12:57:58.014068Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd06eec8a36326-ORD
+      - 69e93756e948633e-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:46 GMT
+      - Fri, 15 Oct 2021 12:57:58 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cUq%2FVW9HhMUcGQ%2BNq7NE%2FsucwxhM6NGuX9nq0Jb2W%2FpXOmiWrV0SyqQ247bIkrfy8bF%2F3%2FRLxzihR6g74%2F8FxCn1RzDddWnpcyTY%2B%2FBZ2if39m%2BP1DTqJI4mlw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aFBCnZxrNi9Yae2OxzuQByohxTZ7nlFKe8c66BCRtOGcjOOzsi5wsqHRmMgRV3FrKCOqycl2bU8fF3VruP6fkXikG3aFyE2V9tfXeRZirkw3bsOeCDYhC8z%2FNQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -12344,7 +12344,7 @@ interactions:
       content-length:
       - '7193'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -12352,7 +12352,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '88'
+      - '89'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -12488,19 +12488,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd06f37cc12aae-ORD
+      - 69e9375b2b072d58-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:46 GMT
+      - Fri, 15 Oct 2021 12:57:58 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MUeoBWzYBZSH55quuAX50Yk3Qdesv61l2MTk7kACLqyTFTsZL5pfL3iw4T2dfUW7BK4qYingt6gvXMf0T2ZbteNq0vQupWVl7uUJ1lFxSxNO5auPnWbtZxW%2BHQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BudbIalwm9WYCUZLxV1f03saN%2Fc53yRRXaLUv11gdV3e8ZirBfEgrqoOnHU%2BGJTAYWFf04yvLEOrIQwcdzZ8MXffbz6VK4bW0NRhpftskaPDfNp3iZdxIEA%2BCQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -12527,7 +12527,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '87'
+      - '88'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -12668,19 +12668,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd06f5abef6174-ORD
+      - 69e9375dbc592b6f-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:47 GMT
+      - Fri, 15 Oct 2021 12:57:58 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qhh3nl%2F0nnHW%2B0dxAdUlv6PhWZd4qSvtgWMaR75gjbC9lXTGhdizWoiJeKLaiANAUVpsoQkIn6P%2BL8%2FgPjICDuCCaJRwZB%2BOqp%2BEYm3iF%2BWBIoXK5MiyieIc8g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WFcimQHYnUdd1BeZgOV75%2FdJvyLN3SdO9%2BrEkYyVJnXBeQFU3BO27jA0E3QhJo26%2B%2Bz3j0BZO%2BnZ8C9hscyV7QPMfP%2Fdq%2BuR0l6CIImmhI71kOJl38kDAc4x4A%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -12707,7 +12707,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '86'
+      - '87'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -12815,19 +12815,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd06f92dd32aea-ORD
+      - 69e937603b726369-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:47 GMT
+      - Fri, 15 Oct 2021 12:57:59 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JEFpOHRJyB0e7%2F41nQGIDdKWS1W%2FT9DSe0M4zStxwmmqQQCBWkM4tJUcIT%2F85mcJyEpR18J6bzPIcODJmqGfZte2C5sqvhLU%2BIzO32CcTfSJ2%2FRIJDNLRF%2Bm2w%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rdT6FXonalexifkAxTgkx%2BU1IiqyZZf2aYCXbMccXq62LmwYfS9rk3cw226BaWZOOdeTrYz%2BHRwhmzWpqy4tuvgb1i%2BQalNEzhdeBm7qtc%2F3jfi3VT6ZTZH%2BcA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -12846,7 +12846,7 @@ interactions:
       content-length:
       - '6857'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -12854,7 +12854,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '85'
+      - '86'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -12975,19 +12975,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd06fccb232998-ORD
+      - 69e93761cc3f2a48-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:48 GMT
+      - Fri, 15 Oct 2021 12:57:59 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YV11i%2Fj6qpZtw6qgpM4WcJtFphTHKnBpTQ7m9ACc35DISB9S7zwqd79RIIcGg3%2Fo07sQyiaqQ%2BUMp0Bq0ZjZ19BoJY%2FljC2O6Gxy3Ai3rOSvi0JV7x%2FAbT7MvQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ST8iRKho6KFm7nWjYwRlX%2FtFqJoH%2BBPtdek4ocM0Q%2FrEIBlgqW0L1NdwQ76ZZtEw7PzPs9KrOSZtDx%2Bz1FuxZ0cAuHy%2F9D4Q5cQ66k39k3I%2Fm514nmxt9WTcHw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -13006,7 +13006,7 @@ interactions:
       content-length:
       - '8199'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -13014,7 +13014,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '84'
+      - '85'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -13153,19 +13153,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd06febb9a2d01-ORD
+      - 69e937651a97fd92-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:48 GMT
+      - Fri, 15 Oct 2021 12:58:00 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XHU9vrusVWMPp7yNpkNXxQTKHJi%2FL34OJjl8zwlUuT3EJOEAC%2BPiX80myNd1XUExXqKwx53gnl%2FxLw774NCHdMHj3%2Fko0cfd5mSxKcpDTeumV7yjiGFybEfuKA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=J8Wvcv%2FCE5RrBJLRU9TYG1cncVs1Z6DXgRDwydhN1XXjHFSqbiPFWmNUDpFF5eTvH6%2FtXI5Uht1U%2FWWxX64K6s6CdS0q5lTttZh%2B4dI%2BzDI0PEL%2FYr7dc81FTA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -13184,7 +13184,7 @@ interactions:
       content-length:
       - '9467'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -13192,7 +13192,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '83'
+      - '84'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -13374,19 +13374,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0702de892a99-ORD
+      - 69e9376939db2c8c-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:49 GMT
+      - Fri, 15 Oct 2021 12:58:00 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=j%2F%2FQc9yiUQXG5LuWHMKFNOhUUgXNJPaLQ4Sly2gT1n9W8L0aA2V8IYH%2FVbhGPH8EaZ0%2FuuGGQGPIQZ1tQPGqduDt1MnexwE%2F0mpTIgj7WzUKskgWxQKSSWfYYA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GsIIpx%2BpHYA8IyIKvrAy%2FJLEVcl7GbYZYx7lJdIgsMr9kGEt%2BXo4MBJOpOwq8Ud6zVD9XIQyRHQXzfLGc23Cf1GeYKzBjD01mX53JiGFricCC%2F55dMEK%2FuMPHA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -13413,7 +13413,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '82'
+      - '83'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -13748,19 +13748,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd07055bcd2daa-ORD
+      - 69e9376c08212a51-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:49 GMT
+      - Fri, 15 Oct 2021 12:58:01 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HZXUTEJQNxpeEt71hR%2FhFiWkhMBn%2BOWxuxBTqhoXrNVgX%2BM0KTBdS9x3z7%2B7I7Vr9W%2B5qqYUD4VuXK1OHFmEA2aJpjwITL0SyTjMyBdwCJ9n2uOZ4sT9nVgHxQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=psKGqwSPOCCFxzLPVZnhOpVMN9bnQ8V44Sa3gTex4Q0CNhDOSos%2FusZkVYQ08kqUDbMpsYt7eqSYbbMrZ8KJBns8RyivIZJd0GRGC3XPCplBJQ85%2FbZGoYMhNA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -13779,7 +13779,7 @@ interactions:
       content-length:
       - '25066'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -13787,7 +13787,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '81'
+      - '82'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -13936,19 +13936,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd07088e452ab1-ORD
+      - 69e93770de8b6387-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:50 GMT
+      - Fri, 15 Oct 2021 12:58:02 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Y86OFBY7mx%2FPMIEOfDfW48%2FXqIVsj7Alo8s5VfVW5DyifqVdB9gGP08FDhYF5bb%2FlcJ3SIxrCDTL4teDGOqzqICE%2FQ57vOuqQrR3%2B7pPlOqipetnfoUqayhz5g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FjUNTujTxCL1qhKy8kgaLSSs159yZ232xqsy2x06jNI5TK97ib2eNg4LYe3g19zVTL34t7Zz5ZGXuUDQXPnBeq2t0M6%2FuXCFufWrjEmeL4KISdsm7uJ1d2%2Bn0A%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -13967,7 +13967,7 @@ interactions:
       content-length:
       - '10129'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -13975,7 +13975,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '80'
+      - '81'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -14067,19 +14067,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd070b1d37637b-ORD
+      - 69e937743c692a15-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:50 GMT
+      - Fri, 15 Oct 2021 12:58:02 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OLVUbuNhAZ%2Fo8v6EAjqwqHNAkme0qVKo22P%2Br%2FvMC9Hpb4dKMhT7%2BTgpSmnqi0oc3QXK5kqOiWGjVyJrj4jmTPOMFZUlgVa8uopsgvY7LUxiU2LCHuAKsAxAVA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=we64x0QZiDe80XOZMC2Ad8nWJb3jn1%2Bt%2BErj7TqQKPbcOXnySCrzZv%2Ftce47AyhoEW%2BOHVqgf1N2voMQCmPFlj7wS9nZZ0v7iRj1JB2w14ZICpIjcH2zKgMpIg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -14106,7 +14106,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '79'
+      - '80'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -14214,19 +14214,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd070efb4fe206-ORD
+      - 69e9377689a22a2d-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:27:51 GMT
+      - Fri, 15 Oct 2021 12:58:02 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fl2sApZo53ilbcDjOUK%2FsyPsOPNrbFClrduXpEV139%2FiKjXHn59A5ED9rfvle3HJogcwFgSzrZvQfBcESporGUHKC157lFuyZcLS4b4O2BFwvQqQ%2Fx%2Fmqv5MSg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eD9iqCDqggrac7qN%2BRPxzQdih9IE6ENh0bYFoUzB5uMVJC3pi5MtE155GS7Hwabg9PViN84UzSiT5dBKzV8zoUmXP9hfTtYYuwUfUT28CGMODaCpihFKF3IoyQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -14245,7 +14245,7 @@ interactions:
       content-length:
       - '7031'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -14253,7 +14253,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '78'
+      - '79'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -14263,657 +14263,4 @@ interactions:
     status:
       code: 200
       message: OK
-- request:
-    body: '{"name": "Session 2 - Descent into the Abyss", "entry": "<p>Lorem Ipsum</p>",
-      "type": "Session", "date": "2017-11-02", "tags": [], "is_private": true}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '150'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: POST
-    uri: https://kanka.io/api/1.0/campaigns/1/journals/
-  response:
-    body:
-      string: '{"data":{"id":41283,"name":"Session 2 - Descent into the Abyss","entry":"<p>Lorem
-        Ipsum<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236639,"tags":[],"created_at":"2021-10-14T01:27:51.000000Z","created_by":88716,"updated_at":"2021-10-14T01:27:51.000000Z","updated_by":88716,"location_id":null,"character_id":null,"journal_id":null,"date":"2017-11-02","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0712c8ca2f2c-ORD
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '711'
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:27:51 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=b5Z%2Frn4P9TQN1iVkKkmwAryhxXq4IatEBDTBIhRpCWOaC89hQ8Moxc4w5cJ9E6eq9qu9O4VrIvckax8l68qBf5bUWjeeu6yWv%2FelFusDSN5qCmX1IhzblaxRig%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '77'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/journals/
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 201
-      message: Created
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236639
-  response:
-    body:
-      string: '{"data":{"id":2236639,"name":"Session 2 - Descent into the Abyss","type":"journal","child_id":41283,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:27:51.000000Z","created_by":88716,"updated_at":"2021-10-14T01:27:51.000000Z","updated_by":88716,"child":{"id":41283,"name":"Session
-        2 - Descent into the Abyss","entry":"<p>Lorem Ipsum<\/p>","entry_parsed":"<p>Lorem
-        Ipsum<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236639,"tags":[],"created_at":"2021-10-14T01:27:51.000000Z","created_by":88716,"updated_at":"2021-10-14T01:27:51.000000Z","updated_by":88716,"location_id":null,"character_id":null,"journal_id":null,"date":"2017-11-02","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0715fc777fa8-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:27:52 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=i9r9h905iyYJQ93Wd%2FQMaNNa878B7a1cg11NlfCps3o04ttAorZuNV6dVSxXMT6ChhuTUTr5u%2BMAU24cp0Cz0L3d76x%2B6NLQScAdE0YzWDxSx2WoiaoLnFSYRg%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '1087'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '76'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236639
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/journals/41283
-  response:
-    body:
-      string: '{"data":{"id":41283,"name":"Session 2 - Descent into the Abyss","entry":"<p>Lorem
-        Ipsum<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236639,"tags":[],"created_at":"2021-10-14T01:27:51.000000Z","created_by":88716,"updated_at":"2021-10-14T01:27:51.000000Z","updated_by":88716,"location_id":null,"character_id":null,"journal_id":null,"date":"2017-11-02","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0719cc85fd8a-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:27:53 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gc%2F0tMh2MqDUREfIkmkf%2Bhgic1sykZBubxfp6H2Rg0SZtyXbcn2r6tD2185%2BFlOdpofBNf%2BFw3e7dOaD6n%2FqSyUFCTN5bFLh0Lbk6zKw77HSDZ3qy9cfM7WAOQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '711'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '75'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/journals/41283
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/journals/41283
-  response:
-    body:
-      string: '{"data":{"id":41283,"name":"Session 2 - Descent into the Abyss","entry":"<p>Lorem
-        Ipsum<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236639,"tags":[],"created_at":"2021-10-14T01:27:51.000000Z","created_by":88716,"updated_at":"2021-10-14T01:27:51.000000Z","updated_by":88716,"location_id":null,"character_id":null,"journal_id":null,"date":"2017-11-02","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd071dad17632d-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:27:53 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Bs8CO8ZUosKny0CzgWUqG3ymHnFPzbzrSW0gP8JPQai5Xr9IqGVV9wj8gPyxQmNXHyqmeX%2FgmTDoxxLEUBAZLq8Ba9U0dFxKTuVuZmpGA6AEvaQnikGIw58f1g%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '711'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '74'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/journals/41283
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"name": "Session 2 - Descent into the Abyss (revised)", "entry": "<p>Lorem
-      Ipsum</p><p>Dolor Sit Amet.</p>", "type": "Session", "date": "2017-11-02", "tags":
-      [], "is_private": true, "header_full": ""}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '201'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: PATCH
-    uri: https://kanka.io/api/1.0/campaigns/1/journals/41283
-  response:
-    body:
-      string: '{"data":{"id":41283,"name":"Session 2 - Descent into the Abyss (revised)","entry":"<p>Lorem
-        Ipsum<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236639,"tags":[],"created_at":"2021-10-14T01:27:51.000000Z","created_by":88716,"updated_at":"2021-10-14T01:27:54.000000Z","updated_by":88716,"location_id":null,"character_id":null,"journal_id":null,"date":"2017-11-02","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd072039de636c-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:27:54 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XziS%2Fwj%2Bd6haTxtK2dHHNhdCtvF1Y3nrhuHQVcuYHIQpmpe7ISna0g2XaTxOzTnKpTv4JKbNN8cyrJUxjZ%2Bc44GYXC4v5q5dnNGAiyEuVRgnZ9I0eLG1CiTsiw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '767'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '73'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/journals/41283
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236639
-  response:
-    body:
-      string: '{"data":{"id":2236639,"name":"Session 2 - Descent into the Abyss (revised)","type":"journal","child_id":41283,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:27:51.000000Z","created_by":88716,"updated_at":"2021-10-14T01:27:54.000000Z","updated_by":88716,"child":{"id":41283,"name":"Session
-        2 - Descent into the Abyss (revised)","entry":"<p>Lorem Ipsum<\/p><p>Dolor
-        Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p><p>Dolor Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236639,"tags":[],"created_at":"2021-10-14T01:27:51.000000Z","created_by":88716,"updated_at":"2021-10-14T01:27:54.000000Z","updated_by":88716,"location_id":null,"character_id":null,"journal_id":null,"date":"2017-11-02","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd07240ff4817c-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:27:54 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yvxTMtvJWk%2BM7dZwdY9JpunB%2FkZVWVQzCEkh87GpGs35M%2B55DuW3jAhu4hlf1jGwGC7Y60JZiUtLuxKItpi9bRuz5fEEE4GFwKBtexDN8qLwV9m85hLit5Rc3Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '1153'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '72'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236639
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/journals/41283
-  response:
-    body:
-      string: '{"data":{"id":41283,"name":"Session 2 - Descent into the Abyss (revised)","entry":"<p>Lorem
-        Ipsum<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236639,"tags":[],"created_at":"2021-10-14T01:27:51.000000Z","created_by":88716,"updated_at":"2021-10-14T01:27:54.000000Z","updated_by":88716,"location_id":null,"character_id":null,"journal_id":null,"date":"2017-11-02","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0727e8052d9a-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:27:55 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SWm4DURewfdvbbyN8R9wwsg4uNHDZJ5gvK1ZxMRRga8hvUJq%2F7YgXt%2BXFBn2r8fwx%2F1WMDoGnlGDitOTv0zidEvwVatWFRRMzcG0Y9KiyvKHFhICAJKNuNGeDQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '767'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '71'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/journals/41283
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/journals/41283
-  response:
-    body:
-      string: '{"data":{"id":41283,"name":"Session 2 - Descent into the Abyss (revised)","entry":"<p>Lorem
-        Ipsum<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/journals_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236639,"tags":[],"created_at":"2021-10-14T01:27:51.000000Z","created_by":88716,"updated_at":"2021-10-14T01:27:54.000000Z","updated_by":88716,"location_id":null,"character_id":null,"journal_id":null,"date":"2017-11-02","type":"Session","calendar_id":null,"calendar_year":null,"calendar_month":null,"calendar_day":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd072bb8522c44-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:27:55 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V5NRdoXvXyJyCzUTDsqdJp6AiN10MgE2kszSFaniBxap3oVssFZ5e2vcMkEcytk6GsHdpT9NlgBxTIymQQmRW28ykvx%2B8C9N0LJiXlCfHFEyLxEt7Y%2BLRp95qg%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '767'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '70'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/journals/41283
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '0'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: DELETE
-    uri: https://kanka.io/api/1.0/campaigns/1/journals/41283
-  response:
-    body:
-      string: ''
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd072e4ffc2c8c-ORD
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 14 Oct 2021 01:27:56 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PWOWj1i03PsvRT3XNCAutiGWiYBSAiAK%2BxInY0BOWwaX3e25sE08ydrdhZcMa%2BgkXFYXr7sulE5CIl6%2BTwc3xz%2FGegyqzkj5k8z9i%2BVN9vmfgkvWbPydDW93lQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '69'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/journals/41283
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 204
-      message: No Content
 version: 1

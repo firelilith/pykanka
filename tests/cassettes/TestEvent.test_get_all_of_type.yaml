@@ -376,24 +376,24 @@ interactions:
         of the double full moon, participants will go into the sea naked for Scillia
         to wash away a year of good deeds. The more people offer good deeds, the calmer
         the ocean will be.<\/p><p><br \/><\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/events_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1027241,"tags":[],"created_at":"2020-09-30T11:12:20.000000Z","created_by":1,"updated_at":"2021-02-11T15:53:12.000000Z","updated_by":1,"location_id":244397,"type":"Religious
-        Festival","event_id":null,"date":"1025-6-30"}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/events?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/events?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/events","per_page":45,"to":16,"total":16},"sync":"2021-10-14T01:28:36.221804Z"}'
+        Festival","event_id":null,"date":"1025-6-30"}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/events?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/events?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/events","per_page":45,"to":16,"total":16},"sync":"2021-10-15T13:03:03.172652Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0827c81c2d5e-ORD
+      - 69e93ecb48562c07-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:36 GMT
+      - Fri, 15 Oct 2021 13:03:03 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5oTqcfvaqe%2BiPsrVGVWYXC6W2eHb2lgZmTqRvwp8a%2BXQbI0yIT3usATkyWPQf6B4I3oX05UKGt0wt8SWXJGTaCB%2BHepr8wpf1nDwIGJMsDHAcuJvF6H5nF1v%2Fw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Sld%2FLXlK25QSohct%2F5ZbMyaMGDUlRI1UDfAVdkP%2FsyfTdRjJ0kIqJPgARIB0iOUNRZMf0pP4TeKDG2sFxDoaVFdGtrbP%2BcpznZJRVkSTj5x1bmAmb4nzlj681g%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -420,7 +420,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '48'
+      - '80'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -463,19 +463,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd082cff33f222-ORD
+      - 69e93ed028a762fa-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:37 GMT
+      - Fri, 15 Oct 2021 13:03:04 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cQX4kXxl721zoMwM1RShub5dvX79WmesKKluRbDg2SaLSiqJuWPf4HJwo4vb5o3yStXXY54KoH775TNYS0LkN%2BBatMIT5lu8N8zA%2FSj1AcVn8%2B4i9aQscRVajA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r1PRHK1TTeNZ5Sf78bI2nzBgZFn%2Fvk4Xf9dNK2aHPRaBaSeEZoa2mJF2l%2BzLyXcCFxww8BXkDag3XT6ASgK7usiyF2H%2Bp%2BcOp6QuiN4f8LXTxJrQOHPTRzeEeA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -494,7 +494,7 @@ interactions:
       content-length:
       - '1660'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -502,7 +502,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '47'
+      - '79'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -567,19 +567,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0830ef8ce216-ORD
+      - 69e93ed42f2d639e-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:37 GMT
+      - Fri, 15 Oct 2021 13:03:04 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kyKKrewx%2BTxTluDqWYggnVydbVoLsrc7Q3nQa%2FSn9ZZss0VdXwjodgxC3z3578LYZsYWcGFTnEEtav33L1b8%2FUXSGiD2nv%2FCKFvL3jt1yxuT0hxj7YTgyq6oCQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9l71mI8JKGpRAFg3EE4Lfqi2bXZQPZtMHxSrags8EmlDFpMxtA%2FyTr86g%2B1mYnBwy27SjbsAVXoqPPoE28iGuz61gPrIY%2BC1p0bnzBr62jP21c2nI9lrwVXHCg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -598,7 +598,7 @@ interactions:
       content-length:
       - '3827'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -606,7 +606,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '46'
+      - '78'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -715,19 +715,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0834a88b2c07-ORD
+      - 69e93ed74fcf296e-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:38 GMT
+      - Fri, 15 Oct 2021 13:03:05 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2F%2BmqTE%2BLULT073Yt9a881Yett2%2Bz18B%2FnoHlX2NB0lUOZ59PSwEWux%2By6ffrq2aGQYLxyFKczXixuDT5xtWGkNS7EaUuIWHv5dcDaBnjnkShAa%2FqW7GeuuQ42Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yL6W5MQpef5gcNmYdVa1iSbzsxz5O5apIclTld5jkDw1YCfHkym%2Bh0lwThlBy%2Ba0uKFnBtmxq17xXvocKwNYFHx98%2FF4tavRFC18jYDAM6eXGcv4o4HpuHXxbQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -746,7 +746,7 @@ interactions:
       content-length:
       - '6982'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -754,7 +754,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '45'
+      - '77'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -798,19 +798,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd08388c9d2925-ORD
+      - 69e93edac9296339-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:38 GMT
+      - Fri, 15 Oct 2021 13:03:05 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FkhAPEO%2BvDBuYn%2BPuB%2BO9%2BYyBHTKhkj1ZIEgVsqnmG4NGKigi6oWLXuFxj4iHd%2BGjqulwchk%2FuyXXCjgT9%2BHO0o1YHQorcKyiPiUvMBD%2BKYnX7RKsBNh469LNA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ED%2Fz2RjAHnt%2F5wk479YkPqbt9GM0dI2fehBH6UbQ2a23v%2BD6N3PQK1GUW5uV5RLyHqHoi0Hx6MDTWDiT2sMhEV4lEpDVg0XavhQm60qffkHFmf13d5EgrpjwKA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -829,7 +829,7 @@ interactions:
       content-length:
       - '1768'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -837,7 +837,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '44'
+      - '76'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -884,19 +884,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd083bba0c2d2e-ORD
+      - 69e93edd0a092a00-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:39 GMT
+      - Fri, 15 Oct 2021 13:03:06 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SHuGQcj7%2BJ2akTZJT3RImcx%2BW2PMMOmuc%2FbV8nYdeSxuhTKnuIP8TDlm1Na2ArdsZuvsg48Muycnx84lPWcHJgeaMuE%2B2ha2hzB%2BJ4DypIYlCW%2FIor11Cilylw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MRXNqWPiSqACaUijOEir0cMtrbiK1NoMa4Ot%2BEcSlV2Lhc99U%2BJrOb9H%2FX42m6R9GAKwA37hzWNllXYi1Xa3sS1B1HxZoB7GGqX69sG9IYpp75IHZrXTp5euhw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -915,7 +915,7 @@ interactions:
       content-length:
       - '2331'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -923,7 +923,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '43'
+      - '75'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -967,19 +967,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd083dbc49fd86-ORD
+      - 69e93edfae972a36-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:39 GMT
+      - Fri, 15 Oct 2021 13:03:06 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=p%2FhU5iSSfqasLAIZCCSK89iXda3rignNlX8HYZF1Ixvqp9IQelpISM61L26KP%2BalcHcw4YWaNr9%2B2LEdn9AMN4G62BIahiyAUkB5BHW%2BqFouqfZKK2wp9Z0TqQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YX6ozwLaoAO2WuplmpMn%2B8Ui1MzZDpXJTILX43nHvx5hIgJA4wcNs4wZRKW%2F4WVS7oj8hYBpEss60tUgjNjyay7kVj%2BN20qVMbCMdk3GCXjgiWQNQFXubPwJdg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1006,7 +1006,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '42'
+      - '74'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1071,19 +1071,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd084189942a2a-ORD
+      - 69e93ee208c4811d-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:40 GMT
+      - Fri, 15 Oct 2021 13:03:07 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=n%2FvqYzfvkUp4035P0k1NvE7kjpmXZZ%2BrZql7sUEbZtqwHsI3T6Y27wMInV5k5ffPCdl1NBGZxeTAkRCPztP4bsNqFXPhG97tJRDbd8wdN%2FJEAUdJWqd17%2BysrA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1fsoFoCdjw0Ap5xlZGbWbOCiR6y%2Fw2kdUcT4JXMGDVtfqFhA6unJ8hc724CriqN1iWPExEi1sPzzxrGMKKL2XbSCGCYO%2FgXBJd0zt2MjKCb7qmPpJSyTTrwKjQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1110,7 +1110,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '41'
+      - '73'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1182,19 +1182,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd08454f512b87-ORD
+      - 69e93ee628d12d3d-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:40 GMT
+      - Fri, 15 Oct 2021 13:03:07 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0jyDHz6zG3jrP2C6C%2F6eRd%2FyBYbh44t8H%2FreXnnH2jw73SAY8h0erAEVMrio4phTTqSZpvJPMRclOSD32AbsQ9TDhyXFR6hVJGG4lRJlfcEg41HpZd3Azahfdw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lT%2F%2BGALXK2g8p%2B5DwJx0RVmTPvU535cu7oy0%2FiC604znwDWYg9RijatVK4GlD8UUpt9yENOxj7YxrX9R91WuTgI%2Fr83gAhiAhCR2uipMGx6SzKRm2sEaERKU3Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1221,7 +1221,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '40'
+      - '72'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1267,19 +1267,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0847e9502d6a-ORD
+      - 69e93ee8af946287-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:41 GMT
+      - Fri, 15 Oct 2021 13:03:07 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PN2LREwKwahlCa1258gKi%2BIdr2yuwy85jHC8bgbGD9HuJP71L1SfBWld7WVDAUfyzoQRoG8eo4JcXSElEjwjOuYf9GzGY8Glc7rno7r37oBnSlkYQU5qGzOGhw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FUp2C81H2F20w3SYVYRpWtDm9TsMDNVkQz5smP0AbSOsHDWUGzTnIdNgPAw2r9LDLH32s%2FUTJ1tsR13p0RiZdlBFK6tMR8XvP%2FvZq8CDymtGiIIe26nGOsRtnQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1306,7 +1306,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '89'
+      - '71'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1342,19 +1342,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd084bb8172964-ORD
+      - 69e93eeb3eb90347-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:28:42 GMT
+      - Fri, 15 Oct 2021 13:03:08 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hCvWVdFJj8G62JEdbck7nGxm%2BHPuVDIa3fbDRDfI545U%2FRjgZTBTppBNMwj%2FfJV3V4OCwlyn10nhCDPIX5jzPgmkaVIZ%2F%2F5cbe7tVed%2BQ7V6ib4SgyYpAVvGwQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gR4m%2BpuedBaaYenXJk7msTRP%2BNVxX9ERVpIlH76PUu%2BACa9zsFfhS4fT7dZTXHpG9iBoI5zFthLO4cg1iUVMFNWS%2BYF7Z140jWgmBRXIcgcnds%2FBkwYNRW4fkA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1381,7 +1381,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '88'
+      - '70'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -1391,656 +1391,4 @@ interactions:
     status:
       code: 200
       message: OK
-- request:
-    body: '{"name": "Battle of Hadish", "entry": "<p>Lorem Ipsum.</p>", "type": "Battle",
-      "date": "44-3-16", "tags": [], "is_private": true}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '129'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: POST
-    uri: https://kanka.io/api/1.0/campaigns/1/events/
-  response:
-    body:
-      string: '{"data":{"id":64950,"name":"Battle of Hadish","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/events_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236642,"tags":[],"created_at":"2021-10-14T01:28:42.000000Z","created_by":88716,"updated_at":"2021-10-14T01:28:42.000000Z","updated_by":88716,"location_id":null,"type":"Battle","event_id":null,"date":"44-3-16"}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd084f8c6b2bef-ORD
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '585'
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:28:42 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=k1l6czGqbdZm4Z%2BFE5A45pY6NCIdVWyb%2Fpwp9STGfw0QVTsaI02KkJWe0PQ8ZWJDr5K5KLIEkpfDVdQd2EO61IIwwvqpQwweul3ZYJ%2BnzG3FCdu%2BYS%2FfkMMiLg%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '87'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/events/
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 201
-      message: Created
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236642
-  response:
-    body:
-      string: '{"data":{"id":2236642,"name":"Battle of Hadish","type":"event","child_id":64950,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:28:42.000000Z","created_by":88716,"updated_at":"2021-10-14T01:28:42.000000Z","updated_by":88716,"child":{"id":64950,"name":"Battle
-        of Hadish","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/events_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236642,"tags":[],"created_at":"2021-10-14T01:28:42.000000Z","created_by":88716,"updated_at":"2021-10-14T01:28:42.000000Z","updated_by":88716,"location_id":null,"type":"Battle","event_id":null,"date":"44-3-16"}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd08540c5a2c11-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:28:43 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dwRVOX4OkM3dESwMyuIrufFXDnRvRLyaZ9FPbXiFEeP6Reg2WfLu%2FRFWiJodsuhu7E4ddO6oQ3Mg0iEyFRYBtCTtS6eI68bw%2BUm0BW0qAuqIyXVVW5gKIzHqHg%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '941'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '86'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236642
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/events/64950
-  response:
-    body:
-      string: '{"data":{"id":64950,"name":"Battle of Hadish","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/events_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236642,"tags":[],"created_at":"2021-10-14T01:28:42.000000Z","created_by":88716,"updated_at":"2021-10-14T01:28:42.000000Z","updated_by":88716,"location_id":null,"type":"Battle","event_id":null,"date":"44-3-16"}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0855fa44631b-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:28:43 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rhDpPVWU%2B075lgGY9az3XrFf6gGZwuwkKLXnyvEWrreuztMXecvz2bZXgOEqd204mDQvFJovpvkSBQGRh%2BVHYMGTMN3%2Fr5wpNLq4fOmTIyg3A%2FiKpsn7DdUBGA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '585'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '85'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/events/64950
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/events/64950
-  response:
-    body:
-      string: '{"data":{"id":64950,"name":"Battle of Hadish","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/events_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236642,"tags":[],"created_at":"2021-10-14T01:28:42.000000Z","created_by":88716,"updated_at":"2021-10-14T01:28:42.000000Z","updated_by":88716,"location_id":null,"type":"Battle","event_id":null,"date":"44-3-16"}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd08595d8e639f-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:28:44 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KqlymlboKMOVVHp4OR9rdLJgY2jZsMMsqClxYNyHIXP5ZcvAvpohbYuwU4lXEcPV8RD7KYH70hxJhO53tsXJEw0Dwl59nS3Y%2Fg5iVlJZLmY9J6tQbG6C116x7A%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '585'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '84'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/events/64950
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"name": "Battle of Hadish (revised)", "entry": "<p>Lorem Ipsum.</p><p>Dolor
-      Sit Amet.</p>", "type": "Battle", "date": "44-3-16", "tags": [], "is_private":
-      true, "header_full": "", "has_custom_header": false}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '208'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: PATCH
-    uri: https://kanka.io/api/1.0/campaigns/1/events/64950
-  response:
-    body:
-      string: '{"data":{"id":64950,"name":"Battle of Hadish (revised)","entry":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/events_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236642,"tags":[],"created_at":"2021-10-14T01:28:42.000000Z","created_by":88716,"updated_at":"2021-10-14T01:28:44.000000Z","updated_by":88716,"location_id":null,"type":"Battle","event_id":null,"date":"44-3-16"}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd085cf87b2aca-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:28:44 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2F75fZj0DDilT%2B%2BK0z7li18OmUzBTDXAN2wQkpAxIeuxJaD4aJQBrnc6W7smsLfE8lXQBEjdL2X3yTQ7OCKcXXaiMvAMufhCvtMomZfJVJe%2F3DRHjnaz7taNLMw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '641'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '83'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/events/64950
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236642
-  response:
-    body:
-      string: '{"data":{"id":2236642,"name":"Battle of Hadish (revised)","type":"event","child_id":64950,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:28:42.000000Z","created_by":88716,"updated_at":"2021-10-14T01:28:44.000000Z","updated_by":88716,"child":{"id":64950,"name":"Battle
-        of Hadish (revised)","entry":"<p>Lorem Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/events_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236642,"tags":[],"created_at":"2021-10-14T01:28:42.000000Z","created_by":88716,"updated_at":"2021-10-14T01:28:44.000000Z","updated_by":88716,"location_id":null,"type":"Battle","event_id":null,"date":"44-3-16"}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd086039202afa-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:28:45 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LS4%2BRdUn9h6kdxoyJLub8n6KJ3Au8jL0nFG7dJI4G7txSAM4dr6fmTiucfse9aD30BfMGxhfE4bamt1DkMouTVrnCqn%2FAQNUoTUI9AlTG2bexrgyEdfT%2F3zWbw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '1007'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '82'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236642
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/events/64950
-  response:
-    body:
-      string: '{"data":{"id":64950,"name":"Battle of Hadish (revised)","entry":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/events_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236642,"tags":[],"created_at":"2021-10-14T01:28:42.000000Z","created_by":88716,"updated_at":"2021-10-14T01:28:44.000000Z","updated_by":88716,"location_id":null,"type":"Battle","event_id":null,"date":"44-3-16"}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0862cfe87f68-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:28:45 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=64fmcvCxrfieu3Hx%2Biikh5gXVc5Cn7nMXmq8suxprF4cc4paqa3NHFaEmOQ%2FnAmoZRn6IPp%2FDEj16ZalxsIqK%2FPc4ux8arVfHbqNWbWz6dbsnNtGAaOrDSIqjQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '641'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '81'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/events/64950
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/events/64950
-  response:
-    body:
-      string: '{"data":{"id":64950,"name":"Battle of Hadish (revised)","entry":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/events_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236642,"tags":[],"created_at":"2021-10-14T01:28:42.000000Z","created_by":88716,"updated_at":"2021-10-14T01:28:44.000000Z","updated_by":88716,"location_id":null,"type":"Battle","event_id":null,"date":"44-3-16"}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0865dc402bcc-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:28:46 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YngAGqfr8Xpo6EdPlyzjlos5FgXv2x8OgKQb%2Bb6Be631ijGyfLPzrHmbjXoYbLSSFpHwTJKVbCHqhGb5PV0CSAkahXDH%2FVFJjWfM%2B22RmyjNKa2lxTr%2B%2BN9Mpw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '641'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '80'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/events/64950
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '0'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: DELETE
-    uri: https://kanka.io/api/1.0/campaigns/1/events/64950
-  response:
-    body:
-      string: ''
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd08688e0d2be7-ORD
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 14 Oct 2021 01:28:46 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=u%2BZHvOlhyqH9nuYbcyXRtg8T0tThHyW0QkjLUM8q%2Bcapqnym0DYUeKIiaLiXNazAtEOBY7tk02PW1Tu2iAFMORHtgnkm%2BhsB3w%2FlVnhgvor1p1jEfpBj4nAivw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '79'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/events/64950
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 204
-      message: No Content
 version: 1

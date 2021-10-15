@@ -1292,24 +1292,24 @@ interactions:
         fee of 10 Gold to the city. This money is hardly enough to pay for the city
         guard and normal functioning of the city, as many older buildings are left
         in disrepair.<\/p>\n<h3>Religion<\/h3>\n<p>People can freely follow any religion
-        they want.<\/p>\n","image":"locations\/EnWUmrICGSVUPVkYAZdXTpjy3U7GGwdkdwhNQ3kJ.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/hkQ9SIBAaluMALjgQzkQIwhE3_o=\/smart\/src\/locations%2FEnWUmrICGSVUPVkYAZdXTpjy3U7GGwdkdwhNQ3kJ.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/ZEYPf7g5IIFoPte5E0KBg4qhGuA=\/40x40\/smart\/src\/locations%2FEnWUmrICGSVUPVkYAZdXTpjy3U7GGwdkdwhNQ3kJ.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12084,"tags":[],"created_at":"2018-04-03T20:18:35.000000Z","created_by":null,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":1,"type":"City","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":5129}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":null,"next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=2"},"meta":{"current_page":1,"from":1,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":45,"total":344},"sync":"2021-10-14T01:24:18.726551Z"}'
+        they want.<\/p>\n","image":"locations\/EnWUmrICGSVUPVkYAZdXTpjy3U7GGwdkdwhNQ3kJ.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/hkQ9SIBAaluMALjgQzkQIwhE3_o=\/smart\/src\/locations%2FEnWUmrICGSVUPVkYAZdXTpjy3U7GGwdkdwhNQ3kJ.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/ZEYPf7g5IIFoPte5E0KBg4qhGuA=\/40x40\/smart\/src\/locations%2FEnWUmrICGSVUPVkYAZdXTpjy3U7GGwdkdwhNQ3kJ.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12084,"tags":[],"created_at":"2018-04-03T20:18:35.000000Z","created_by":null,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":1,"type":"City","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":5129}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":null,"next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=2"},"meta":{"current_page":1,"from":1,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":45,"total":344},"sync":"2021-10-14T23:44:12.172751Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd01dd6c882928-ORD
+      - 69e4ac985b982b57-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:19 GMT
+      - Thu, 14 Oct 2021 23:44:12 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iLdA8cV0LsQDcj3PItH0K%2Bokb6DyB5WSSG8CxJ%2FvdjgKZ2DbgacLP4fkScRc0DG8hN5dzuE0FyjBsa2uMJSYCpswGufg6CoCrUkmcm6Y6Ydv0UmubDO%2Fb4vVrA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mfnQLGjmsJVoRK7qLjGbhqxfYeA6TwJK73zjnpd06gB%2FrWVL1UsIEOyym0JVOGnenHJQJn6q6ndPBWYzwx2eFro0YUQUSlBYKdrHJlIWP%2BAH7vmi6gTthAu%2F%2FA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -1336,7 +1336,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '89'
+      - '80'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -2421,24 +2421,24 @@ interactions:
         making them the longest mountain range in Thaelia.<\/p>\n<p>\u00a0<\/p>\n<h3>History<\/h3>\n\n","entry_parsed":"\n<p>The\u00a0<strong>Black
         Range Mountains<\/strong> or\u00a0<strong>Black Range<\/strong> are a mountain
         range system forming a scyth like form roughly 1''900 km long across central
-        and southern Thaelia, making them the longest mountain range in Thaelia.<\/p>\n<p>\u00a0<\/p>\n<h3>History<\/h3>\n\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":22667,"tags":[],"created_at":"2018-05-24T18:51:58.000000Z","created_by":null,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":null,"type":"Mountains","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":5122}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=3"},"meta":{"current_page":2,"from":46,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":90,"total":344},"sync":"2021-10-14T01:24:20.274817Z"}'
+        and southern Thaelia, making them the longest mountain range in Thaelia.<\/p>\n<p>\u00a0<\/p>\n<h3>History<\/h3>\n\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":22667,"tags":[],"created_at":"2018-05-24T18:51:58.000000Z","created_by":null,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":null,"type":"Mountains","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":5122}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=3"},"meta":{"current_page":2,"from":46,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":90,"total":344},"sync":"2021-10-14T23:44:13.549766Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd01e7b8dce1d6-ORD
+      - 69e4aca1e847e1d6-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:20 GMT
+      - Thu, 14 Oct 2021 23:44:14 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cmMlrgYSspOqd2DRjofcJji4OpFE03lKDAEK1skOg93v81BhjldeoH8g81mPhVVA%2Bb76IynL2ILaJuBJHfwip6i0VEFUQPEFBndj8e8%2B6%2FuA7NfjraNXSTBjWA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=INhGi2UNEaRk3BEyrYYg67Y63RRJyDhrX5TUNKPd1l%2FT4%2FjnsFHRG4AEimfu6U%2B7yJZ2nVN0TB3exJDxT95buBmpdjbdmD8etNn%2F1H%2BihWxiOU92SKIJyBqW8w%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -2465,7 +2465,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '88'
+      - '79'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -3374,24 +3374,24 @@ interactions:
         in paintings and art crafted from all over the world, along with some musical
         instruments crafted with Nornwood. The shop has a strong smell of oils and
         paintings, and the windows are wide open so the noise of the street is clearly
-        audible.<\/span><\/p>\n<h3>History<\/h3>\n\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27484,"tags":[],"created_at":"2018-06-22T15:06:21.000000Z","created_by":null,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":null,"type":"Shop","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":5180}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=2","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=4"},"meta":{"current_page":3,"from":91,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":135,"total":344},"sync":"2021-10-14T01:24:21.654999Z"}'
+        audible.<\/span><\/p>\n<h3>History<\/h3>\n\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27484,"tags":[],"created_at":"2018-06-22T15:06:21.000000Z","created_by":null,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":null,"type":"Shop","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":5180}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=2","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=4"},"meta":{"current_page":3,"from":91,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":135,"total":344},"sync":"2021-10-14T23:44:14.851868Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd01f0be677f68-ORD
+      - 69e4acabaf342c1d-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:22 GMT
+      - Thu, 14 Oct 2021 23:44:15 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=euMhmJiM39%2B8a32Kqj95w2X4zFN%2B%2FDqII%2FY%2FvH8vQjluEZj%2BnP7fk608nSj8jYCoTbHqFhIY4nYJ5c7ALNBNJi1vl8lKMbYUNF8NYt0XgKqobEThuuvMF0j8Sg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xukJF1%2Fbn3voJbxQqEfuh%2Ftt5my1AIW%2F%2FmIxF6LcjZZ1VU38BpK5yEa43VsTGvIYu9fojlIU7%2FsvTMBK97ZgSX3T2bbu21Ewo6FhgWzAd%2F9bDY0wWCeDg7Up9g%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -3418,7 +3418,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '87'
+      - '78'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -4117,24 +4117,24 @@ interactions:
         of the continent of\u00a0Thaelia. The inner city has a population of around
         40''000 inhabitants, with an extra 120''000 living up to a day''s distance
         from the city. The city i...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7817\"
-        data-toggle=\"tooltip\">Owlchester<\/a>, owned by artist Fabio Cepillo.<\/p>\n<h3>History<\/h3>\n\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28170,"tags":[],"created_at":"2018-06-25T18:47:44.000000Z","created_by":null,"updated_at":"2021-08-19T10:06:19.000000Z","updated_by":null,"type":"Art","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":10890}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=3","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=5"},"meta":{"current_page":4,"from":136,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":180,"total":344},"sync":"2021-10-14T01:24:22.805219Z"}'
+        data-toggle=\"tooltip\">Owlchester<\/a>, owned by artist Fabio Cepillo.<\/p>\n<h3>History<\/h3>\n\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28170,"tags":[],"created_at":"2018-06-25T18:47:44.000000Z","created_by":null,"updated_at":"2021-08-19T10:06:19.000000Z","updated_by":null,"type":"Art","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":10890}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=3","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=5"},"meta":{"current_page":4,"from":136,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":180,"total":344},"sync":"2021-10-14T23:44:15.768975Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd01f7afaf2901-ORD
+      - 69e4acb16ed22a1e-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:23 GMT
+      - Thu, 14 Oct 2021 23:44:16 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QH0BHdXHwPiPsHkZv63GC2FXqnq50OX0LIC1FXGE%2FLBc%2BKp3eBdhx0HHgo5y3VzPRCY8ivsEXY6loTv%2BLSK2OWEJHLP040UtHCEqN5RASMpovvZDtCpSbotGzA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zhINdPGUR6nXEaNCdXAcGPvMuzUb3SJk8sMFqKVxlVY%2FzAr35Bck9XnLBzP2tazXmfOYrNH0EeJEUGFVY9idj0ZNda7%2FJMbeYMcX%2B7MAhJ%2FE%2Bl7cH17rQXWS9g%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -4153,7 +4153,7 @@ interactions:
       content-length:
       - '92459'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -4161,7 +4161,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '86'
+      - '77'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -4804,24 +4804,24 @@ interactions:
         Talesh<\/strong> is a pirate town controlled by the\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/organisations\/4894\"
         class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
         data-id=\"101005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/101005\/tooltip\">Pirates
-        of Kal Talesh<\/a>.<\/p>\n","image":"locations\/9bOduU98ma0tudOszUaufzBrcmOgglET9YhxBwlJ.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/3YlqIzrW_7tdJ58N0rQ1cRCl6zE=\/smart\/src\/locations%2F9bOduU98ma0tudOszUaufzBrcmOgglET9YhxBwlJ.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/inRzQWQ-ahdDbBC8QXMzoBNGxxU=\/40x40\/smart\/src\/locations%2F9bOduU98ma0tudOszUaufzBrcmOgglET9YhxBwlJ.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":101004,"tags":[],"created_at":"2019-01-15T09:33:40.000000Z","created_by":1,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":1,"type":"Town","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":30651}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=4","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=6"},"meta":{"current_page":5,"from":181,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":225,"total":344},"sync":"2021-10-14T01:24:24.126696Z"}'
+        of Kal Talesh<\/a>.<\/p>\n","image":"locations\/9bOduU98ma0tudOszUaufzBrcmOgglET9YhxBwlJ.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/3YlqIzrW_7tdJ58N0rQ1cRCl6zE=\/smart\/src\/locations%2F9bOduU98ma0tudOszUaufzBrcmOgglET9YhxBwlJ.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/inRzQWQ-ahdDbBC8QXMzoBNGxxU=\/40x40\/smart\/src\/locations%2F9bOduU98ma0tudOszUaufzBrcmOgglET9YhxBwlJ.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":101004,"tags":[],"created_at":"2019-01-15T09:33:40.000000Z","created_by":1,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":1,"type":"Town","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":30651}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=4","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=6"},"meta":{"current_page":5,"from":181,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":225,"total":344},"sync":"2021-10-14T23:44:16.940073Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0200297f2c44-ORD
+      - 69e4acb6aeb4fd82-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:24 GMT
+      - Thu, 14 Oct 2021 23:44:18 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Y6bOn3WPfBqgDM4klMnY5%2Fj6dMJ%2BNeGXir72OgGtL1%2B%2Bpx0YMQ7GvtKBrTWzbVvt6NYrep5e8b8wgY%2F48Ef3EMdwROCJOyrap6rVChS8UQIj7Nghx9s243w75Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vt%2BO4Mv3u92bzMyDkzLEDxbaA132BjXcxqT82%2FLwlVdTUiI%2BLV06oU%2F6Jj0garj4bPsVHYLRvsvvzW%2BeslnHxcQzklsuIhEB7bwN%2FMSnKJ%2Byc2jXqrm%2FQATraQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -4840,7 +4840,7 @@ interactions:
       content-length:
       - '92217'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -4848,7 +4848,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '85'
+      - '76'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -5272,24 +5272,24 @@ interactions:
         data-id=\"12039\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12039\/tooltip\">Damfelder<\/a>
         and empties into the\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/7817\"
         class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
-        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301384,"tags":[],"created_at":"2019-08-09T14:54:12.000000Z","created_by":1,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":1,"type":"River","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":5122}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=5","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=7"},"meta":{"current_page":6,"from":226,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":270,"total":344},"sync":"2021-10-14T01:24:25.552741Z"}'
+        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301384,"tags":[],"created_at":"2019-08-09T14:54:12.000000Z","created_by":1,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":1,"type":"River","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":5122}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=5","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=7"},"meta":{"current_page":6,"from":226,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":270,"total":344},"sync":"2021-10-14T23:44:19.019010Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0208ff4871ad-ORD
+      - 69e4acc34dc82b57-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:26 GMT
+      - Thu, 14 Oct 2021 23:44:20 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ftP7BFMsNLk4clL48uQMcbEWoOi%2FBhkYDjX6Y05cJywkt4gwlT4MUIOobDiXBErzUvk9qnMgA0l0s13ifbW8tGb2Mo18QRvvCFbJ2RTSn7KnSKZdpbvViuaTXw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CchvwDWYGBLwXZ4OIcXfvH58sbfjjacsEzPNnrr%2FiLlNsGaGrbbCfvV%2F66Mamd8w0HGB0t3n6BmQgFR%2BJDsMA9XoIj8rN%2BPmxS%2BsiB1IJ%2BNqVc0%2B1MnMZ3qORQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -5308,7 +5308,7 @@ interactions:
       content-length:
       - '70441'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -5316,7 +5316,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '84'
+      - '75'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -5767,24 +5767,24 @@ interactions:
         of Adinno.<\/p><h4>Recent developments<\/h4><p>The province and neighbouring
         provinces have risen up against the empire''s control following the new Augusta.
         Fighting was mostly in the empire''s side, but with current efforts concentrated
-        close to Castello Ventura which is heavily fortified.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":984967,"tags":[],"created_at":"2020-09-16T09:05:35.000000Z","created_by":1,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":1,"type":"Town","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":254120}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=6","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8"},"meta":{"current_page":7,"from":271,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":315,"total":344},"sync":"2021-10-14T01:24:26.588757Z"}'
+        close to Castello Ventura which is heavily fortified.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":984967,"tags":[],"created_at":"2020-09-16T09:05:35.000000Z","created_by":1,"updated_at":"2021-08-19T10:06:20.000000Z","updated_by":1,"type":"Town","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":254120}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=6","next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8"},"meta":{"current_page":7,"from":271,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":315,"total":344},"sync":"2021-10-14T23:44:21.109903Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd02106afb2a78-ORD
+      - 69e4acd04a6829fa-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:27 GMT
+      - Thu, 14 Oct 2021 23:44:22 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2dGs9%2FtS2Vzuln%2FSvDTnt2cl4zQD9ILyAb1F8pYZcBKrGDcxyVpGkoY%2F7b8qd9j5UxPybIDGX1s%2Fi0kki6xdr9lyDTy0Tqs2QKerHNKWAplxYKLj0kzUleMYdA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4%2FpdkYkrzoDlbFNfx7MQ4nf1pqeZQUp2AYAUhxa5QsmF7QkXRS4t1YJ7nCIts4EPkQErBJzLy7gVTxHOaD67k7177GufN9hRjHLlHp6l0mnFUhJeXPzIurkyVw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -5811,7 +5811,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '83'
+      - '74'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -6095,24 +6095,24 @@ interactions:
         is the capital of the duchy of Buschow.<\/p>","entry_parsed":"<p><b>Zweihofen<\/b>
         is the capital of the duchy of Buschow.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1416127,"tags":[],"created_at":"2021-02-13T16:20:18.000000Z","created_by":1,"updated_at":"2021-08-19T10:06:19.000000Z","updated_by":1,"type":"Capital","map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":5123},{"id":347862,"name":"Iron
         Tower","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1441301,"tags":[],"created_at":"2021-02-19T21:06:55.000000Z","created_by":1,"updated_at":"2021-08-19T10:06:21.000000Z","updated_by":1,"type":null,"map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":null},{"id":486297,"name":"Palais
-        du silence","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2065499,"tags":[],"created_at":"2021-08-17T10:47:33.000000Z","created_by":1,"updated_at":"2021-08-19T10:06:21.000000Z","updated_by":1,"type":null,"map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":null}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=7","next":null},"meta":{"current_page":8,"from":316,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":344,"total":344},"sync":"2021-10-14T01:24:28.746721Z"}'
+        du silence","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2065499,"tags":[],"created_at":"2021-08-17T10:47:33.000000Z","created_by":1,"updated_at":"2021-08-19T10:06:21.000000Z","updated_by":1,"type":null,"map":"https:\/\/images.kanka.io\/user\/JomYweBw5-xiRShshUEd15xY8es=\/40x40\/smart\/src\/campaigns%2F1%2F811c11fb-e24c-49e5-b4d2-f94b6cb120a2.jpeg?webpfallback","is_map_private":0,"parent_location_id":null}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=8","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations?page=7","next":null},"meta":{"current_page":8,"from":316,"last_page":8,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/locations","per_page":45,"to":344,"total":344},"sync":"2021-10-14T23:44:23.353386Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd021c49242910-ORD
+      - 69e4acde3bd829f1-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:29 GMT
+      - Thu, 14 Oct 2021 23:44:23 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=x%2FQCFVIJwWZRgM6yiZkZe2324OVa5GvdGz7U%2BWImYm1CO3FUgsV%2FENsiq0%2F7tO8BwjZd082kAshGNJ7fJNeul0beGfPsCQztRXCQin4CGlOknfhpfvYjX2KN1A%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EW956A0wfYbgDXiKZVUHGrOeE%2BIliSz4R73ncwlvW8gIyT7o7NcOBa4%2F9yDorcgKJtSxmppPI3o4f0xTB5FmFLppLz9CIm04u2qQGId6TZlPXpZ%2F1DGX%2Bld6UA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -6139,7 +6139,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '82'
+      - '73'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -6409,19 +6409,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0223094c6393-ORD
+      - 69e4ace5affe2c28-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:29 GMT
+      - Thu, 14 Oct 2021 23:44:24 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=w0zbo66e7FgL3U5u%2FqeO7M1eV40A%2FccjvjjPvsSH1gbBZDS2mjyFHxik%2BYaGCQq6hV8EU6XaXD56b93vWV9I14wp%2BF%2BbgOjVxfahPAwF7IDywRYcljotPidoEw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FLu1s98iBOgsZgFTR%2FTFk0%2BsP40HOsNlqwlZh6VLhI2GcY%2FA%2F5Ydq7Io0G%2BQKehXFCwU%2BZzME2Vi%2BYljSrDEBSxTcy%2B0GTMW%2BxqiKae2GYhQ8FX09cWh%2FG3wbQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -6440,7 +6440,7 @@ interactions:
       content-length:
       - '22477'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -6448,7 +6448,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '81'
+      - '72'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -6483,19 +6483,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0227cad603c0-ORD
+      - 69e4ace95d872ade-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:30 GMT
+      - Thu, 14 Oct 2021 23:44:24 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=49FfIZ9w8ibB6fvjCp77Xog4vqtbV0Ne8W1FFmKmsfDlckAlGhN8c1cmBeOBPqhczQUCCYQDLrHVA49V9B1Frgr5xegep9rPFaGkCsu00IaXrlA912L69nW7cQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=APmUw93AzPSOsohcgJ2r%2Fd916HB%2BnnxzY2Jxki7TPe5a6z35xZkirek8WW3S6UM4YAzUOeKYElLjhEA%2B68%2FBZrm4mwJFzK3FNPoa%2FPSrUiO2Gzu6p1RwescwdA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -6514,7 +6514,7 @@ interactions:
       content-length:
       - '1334'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -6522,7 +6522,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '80'
+      - '71'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -6628,19 +6628,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd022b9b0f62b7-ORD
+      - 69e4acecafe06342-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:30 GMT
+      - Thu, 14 Oct 2021 23:44:25 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xy3lEhSrt2gG4jj7LzgPu6yT79I3p2NNLID3%2FbH473GQeQYqVuywDfo4II5%2F2vMbGZw1uZerSMgCYCYT6Vk5cjObILDQ6c5Gc8iMq6u%2FULQYNMyMzdBmGAu%2BWg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gAMb8x3eK6PLqH6y5CRO8t7YDxqnAIogXxe44srGVTEMQfKNndPPjSNYaDEaaQCKl38WtvRc%2BbYZVBwt1zNs8CCvDBTf6vKhS%2BclFAR7zveLNtOGRcqWbDXlMw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -6667,7 +6667,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '79'
+      - '70'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -6702,19 +6702,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd022e5900632d-ORD
+      - 69e4acf07d9d636e-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:31 GMT
+      - Thu, 14 Oct 2021 23:44:26 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8FsPoH0UtG7T0d3XuPrwZxN85bV0nt5vWQ37f0BMDXeXF3IwlI1DRuIsb%2F6pBhd4P547GLqa2Rs9ifRWQqg58G4TwmFCJpO8XgP3Zl8PF%2FjqE%2B%2FJ4ozSINbFiQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dg7634UzRcMvqAIodJFm%2Bi4hgN8RxD%2BkyAFNUudwJEQYpe%2Fp%2BAVHFqQHNvVnx4s2kAsRZpTd%2BdQVCz8eJO%2FkPkrnZ4oAkOg1DoQkSdKGRDeeSJRylT%2FPS5vHDA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -6733,7 +6733,7 @@ interactions:
       content-length:
       - '1330'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -6741,7 +6741,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '78'
+      - '69'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -6829,19 +6829,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd02320b3429c3-ORD
+      - 69e4acf4dd25e206-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:31 GMT
+      - Thu, 14 Oct 2021 23:44:26 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vHbjKsC0GikxpzZajAMv3UU8OrJp23gG%2Bi70acNzMjvMgxSJZpkZtJMhSnSqUEkEjE%2FIhSNwPnXR%2B7qfgNB17KXYlxEBWwcNeARqjjZfrhKPrTvLyuEvjeLhjA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BYQWR8ceZDHfOgVyNK0BaAQh%2FqjbxCvod%2BRxCJdmLgmhWeigrmmI9VanFLlceaMwqv6ww4dWSajBAceZwuMSzbAjEUuaDvHuDeDpB4CpGd2euiWpFyUsbrzNSw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -6860,7 +6860,7 @@ interactions:
       content-length:
       - '6155'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -6868,7 +6868,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '77'
+      - '68'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -6962,19 +6962,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd02349e1461c2-ORD
+      - 69e4acf81e892db2-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:32 GMT
+      - Thu, 14 Oct 2021 23:44:27 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AG2YHZIK7GeHats%2FqoH%2F%2F3Dae3WRhddeyI3H2rWvZowOooOxUzJEbiCHNN8tPJfRkbdM3zt2f%2BwrMUou7RS%2BU7T%2FoYJos06pIg%2FVXTjxuI94e86Dw1HiPdTsPA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JvldlGgZs7YuW2SnSHaAs%2FV%2BYGX6fyrBR%2FqywNYTuh0tsyVl%2F9B0VB8o0mNgJMzf7d6bGjumZl%2Fgd%2Bj2Dq7OrTmuRm1KiacSomD4M3qUhr33CaUGlvDJ8AJbpQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -7001,7 +7001,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '76'
+      - '67'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -7059,19 +7059,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0236ace82bef-ORD
+      - 69e4acfaaf9b2a8a-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:32 GMT
+      - Thu, 14 Oct 2021 23:44:27 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=s3RcMma0PL7%2Fc0uioi18zNcpJvFU8K2SELKnUdj5InhwYemx3tlTu%2Fbw%2FresFz0ShSaaJh4mR%2BC0LCV721CRiAwjpM3m0Ypxq759nM2IZj55hGNPmRWRkRTmUg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QZgHn0zJNSyp1JISDQFRLiMq8g6AWkV6Nj7LN72zts0AOs8cBjWHeiUDUbVXxzpB%2F5tiT9sssI%2FmBG60XGeKchmhK74AvpGGV9sqb6RzMunTd8kfSZjCbnrTdQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -7090,7 +7090,7 @@ interactions:
       content-length:
       - '3635'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -7098,7 +7098,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '75'
+      - '66'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -7232,19 +7232,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd023b1d8ec550-ORD
+      - 69e4acfc6aaa2cb9-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:33 GMT
+      - Thu, 14 Oct 2021 23:44:28 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SqZHXd4cry8POgY9Ms%2BlIbpi4af3IrIwOCUp6AvCWOa%2BK%2BjS1%2FbLcRTA9Ye6v4dn4SdDHxUSkQiRJf1%2BU2aMutwWoGgbggNkjQ1GFQrZ0Ms7LNzeZ2b7JlFQxQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=S%2BezH40HzHzVnlwTbPdnAzhNniKYHFrKAOsIFc78ruXBUkI0kj3viN6vE0hukGIFunjI9Bui4nstOPeKsYrNhlL1VV456e9wl%2BpgVCLzuEeHn%2BnRxAFQeqQHMg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -7263,7 +7263,7 @@ interactions:
       content-length:
       - '9421'
       x-backend:
-      - 116.203.239.188
+      - 116.203.16.49
       x-cache:
       - MISS
       x-cache-hits:
@@ -7271,7 +7271,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '74'
+      - '65'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -7324,19 +7324,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd023ed9072d25-ORD
+      - 69e4ad006e5b2c58-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:33 GMT
+      - Thu, 14 Oct 2021 23:44:28 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5S5Rv%2BMdq%2FVKOFygdtHYcltFeEZ6EkOc7IJkLBUZ2VIzCjvAr0rfmi87PZNC09FdgbDMBGX6qnYAQpXjwfBkMsRJSTsXvsNpCLlleaB9%2FnI3cvFTDZKXehsfqg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5loXTroY3UEbsWiA2s7CVeYjCEx9%2BcaEgDhWeFVc5DTYYYY%2FMsA%2F%2BiNQiVGyuFiRwdavKWLdYiICTFvfsz2TMGtJ%2F52YmqvqzQeJHG28KRjn21nByLlR8JpujA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -7363,7 +7363,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '73'
+      - '64'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -7445,19 +7445,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd0240af6962ee-ORD
+      - 69e4ad0308fdfd92-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:24:34 GMT
+      - Thu, 14 Oct 2021 23:44:29 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wQP56ejdEqYU0xAmVQlCOWUh007DD%2BCydR6g5vxjCL1%2Fn1t%2B1k08NRn0l8h7tRNMe0%2FbSyREC8HXoUS8b4CEYg8uPg2DHdHDBbSyqwaFqLyaeJtE2CJHinMo9w%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Gw53dffTG2Xp6gHcO1kztzeUjv4fbTJChurBi4U%2FB3zfIXEkqwT2CuOLF%2BkeW%2FDQ5z5UV%2FljnFHcHQU8Dv01NOwaRVgG7mbMRVfc11EO072gRbYZ93OPbhxUVw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -7476,655 +7476,6 @@ interactions:
       content-length:
       - '5468'
       x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '72'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/12002
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"name": "Mordor", "entry": "<p>Lorem Ipsum.</p>", "type": "Kingdom", "tags":
-      [], "is_private": true, "is_map_private": 0}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '122'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: POST
-    uri: https://kanka.io/api/1.0/campaigns/1/locations/
-  response:
-    body:
-      string: '{"data":{"id":524602,"name":"Mordor","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236630,"tags":[],"created_at":"2021-10-14T01:24:34.000000Z","created_by":88716,"updated_at":"2021-10-14T01:24:34.000000Z","updated_by":88716,"type":"Kingdom","map":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","is_map_private":0,"parent_location_id":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd02426f282be1-ORD
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '648'
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:24:34 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dosy6%2BeLohsQzdYYW71Bvhwmy8JNYBfbZQ%2FmTl%2FVzYhbyawxGokwr%2F%2Fy1OFgq8HvlKx5ircF9e%2FuMhbPR8ax97v4Z0D3Uxni4KLkOdtg7i%2BF98kUlM9iTYL3AA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '71'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/locations/
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 201
-      message: Created
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236630
-  response:
-    body:
-      string: '{"data":{"id":2236630,"name":"Mordor","type":"location","child_id":524602,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:24:34.000000Z","created_by":88716,"updated_at":"2021-10-14T01:24:34.000000Z","updated_by":88716,"child":{"id":524602,"name":"Mordor","entry":"<p>Lorem
-        Ipsum.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236630,"tags":[],"created_at":"2021-10-14T01:24:34.000000Z","created_by":88716,"updated_at":"2021-10-14T01:24:34.000000Z","updated_by":88716,"type":"Kingdom","map":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","is_map_private":0,"parent_location_id":null}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd02454ec22db2-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:24:35 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7edOCnI0hRkc44TjwEN6AZqg66jOvxULlO6RUsODswi3yW1aruEdjFCLGrQM6wMwVcniAxOznBdy%2FRg42qyEcS1dyNErJ%2FO1%2B1yJjIOzvwbmJYHugsQ4Gd1CqQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '998'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '70'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236630
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/locations/524602
-  response:
-    body:
-      string: '{"data":{"id":524602,"name":"Mordor","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236630,"tags":[],"created_at":"2021-10-14T01:24:34.000000Z","created_by":88716,"updated_at":"2021-10-14T01:24:34.000000Z","updated_by":88716,"type":"Kingdom","map":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","is_map_private":0,"parent_location_id":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd02491f0d6312-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:24:35 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cSuJ3Z4LanjH%2BZUsWhyWehxUCIYe5W08VwRWdaubgjDxtmzlwAlTIuTd1AzT4rYK4jMyZmdtZbsiBvEXLu9tLA1Pw3Bxj6wrV%2Fae0GgYJpvd876E7B4oHp9WlQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '648'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '69'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/locations/524602
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/locations/524602
-  response:
-    body:
-      string: '{"data":{"id":524602,"name":"Mordor","entry":"<p>Lorem Ipsum.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236630,"tags":[],"created_at":"2021-10-14T01:24:34.000000Z","created_by":88716,"updated_at":"2021-10-14T01:24:34.000000Z","updated_by":88716,"type":"Kingdom","map":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","is_map_private":0,"parent_location_id":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd024cfeb0719b-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:24:36 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TObw9K8pQA%2BRsPo6K9Z5G4SxLlLyJZ5JUCN986z3o70EP6%2BoNI7j8dL0yP%2BkKtqUFg0cQ4k7VfQgCNmgajZZcfcqbsm3AYuBCH4bd6PlR%2BUE0pcjSCBoOZpg7A%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '648'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '68'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/locations/524602
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"name": "Mordor (revised)", "entry": "<p>Lorem Ipsum.</p><p>Dolor Sit
-      Amet.</p>", "type": "Kingdom", "tags": [], "is_private": true, "is_map_private":
-      0, "header_full": "", "has_custom_header": false, "map_url": "https://kanka.io/images/defaults/patreon/locations_thumb.png"}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '276'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: PATCH
-    uri: https://kanka.io/api/1.0/campaigns/1/locations/524602
-  response:
-    body:
-      string: '{"data":{"id":524602,"name":"Mordor (revised)","entry":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236630,"tags":[],"created_at":"2021-10-14T01:24:34.000000Z","created_by":88716,"updated_at":"2021-10-14T01:24:37.000000Z","updated_by":88716,"type":"Kingdom","map":"https:\/\/images.kanka.io\/user\/NBly2y08Jkcs0j0RZNHr32FT4nQ=\/smart\/src\/locations%2F616786d51053d_locations-thumbpng.locations-thumbpng?webpfallback","is_map_private":0,"parent_location_id":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0250c8f62b45-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:24:37 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rhoUPW3HHDZhSh5X884jxtbwToaoU6gu%2FpUJhtInMmGHGOZZu5dgkOXSEbN1FsgU9xLtC6vRdwK9JKw0lt0C0xECJQqGjxnW4MvZk5UtjkfF5em2f4awjwfStQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '789'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '67'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/locations/524602
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236630
-  response:
-    body:
-      string: '{"data":{"id":2236630,"name":"Mordor (revised)","type":"location","child_id":524602,"tags":[],"is_private":true,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:24:34.000000Z","created_by":88716,"updated_at":"2021-10-14T01:24:37.000000Z","updated_by":88716,"child":{"id":524602,"name":"Mordor
-        (revised)","entry":"<p>Lorem Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236630,"tags":[],"created_at":"2021-10-14T01:24:34.000000Z","created_by":88716,"updated_at":"2021-10-14T01:24:37.000000Z","updated_by":88716,"type":"Kingdom","map":"https:\/\/images.kanka.io\/user\/NBly2y08Jkcs0j0RZNHr32FT4nQ=\/smart\/src\/locations%2F616786d51053d_locations-thumbpng.locations-thumbpng?webpfallback","is_map_private":0,"parent_location_id":null}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0255eb416342-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:24:37 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Mz6FnS5vElQ6kj8Ftpk5e%2BP1rtDj7DdWHWqiw4Tz8ThwVNsVFCstzuWF37zLn73CKU%2BrBVuxzUlY2jz4bccS%2FD8hq2NMPTKSsBRwxpwbA%2FrJy%2FAOLlMXgFfmLQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '1149'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '66'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236630
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/locations/524602
-  response:
-    body:
-      string: '{"data":{"id":524602,"name":"Mordor (revised)","entry":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236630,"tags":[],"created_at":"2021-10-14T01:24:34.000000Z","created_by":88716,"updated_at":"2021-10-14T01:24:37.000000Z","updated_by":88716,"type":"Kingdom","map":"https:\/\/images.kanka.io\/user\/NBly2y08Jkcs0j0RZNHr32FT4nQ=\/smart\/src\/locations%2F616786d51053d_locations-thumbpng.locations-thumbpng?webpfallback","is_map_private":0,"parent_location_id":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd02588a9a2992-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:24:38 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FIAhh5gSpZl0rQYJDflUd3UUX97kGBB%2FjLI7OujIZne2ST0fV480NV1sYnH%2FH9waGXRT1ZByXeNgVdVGkyqMdj80gwDZa72KSP4JJw1mJEJcn5KW4Rl32NjOtQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '789'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '65'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/locations/524602
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/locations/524602
-  response:
-    body:
-      string: '{"data":{"id":524602,"name":"Mordor (revised)","entry":"<p>Lorem Ipsum.<\/p><p>Dolor
-        Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum.<\/p><p>Dolor Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/locations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":true,"is_template":false,"entity_id":2236630,"tags":[],"created_at":"2021-10-14T01:24:34.000000Z","created_by":88716,"updated_at":"2021-10-14T01:24:37.000000Z","updated_by":88716,"type":"Kingdom","map":"https:\/\/images.kanka.io\/user\/NBly2y08Jkcs0j0RZNHr32FT4nQ=\/smart\/src\/locations%2F616786d51053d_locations-thumbpng.locations-thumbpng?webpfallback","is_map_private":0,"parent_location_id":null}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd025a28f662c9-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:24:38 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tPQhlojTe2tPs7VATSl2s4KmY4IU0hssIv9HRjAzHImKLQwPjpO1B8gaVKzBf%2BgDI9TJDqAuOBlsvz7IBDPrnfye8m%2FOardPl498A0ghJuwymt%2F0uIoWAPU%2Bvg%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '789'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '64'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/locations/524602
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '0'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: DELETE
-    uri: https://kanka.io/api/1.0/campaigns/1/locations/524602
-  response:
-    body:
-      string: ''
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd025be9892a1e-ORD
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 14 Oct 2021 01:24:38 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=F%2FPeVPlZ6QnpGVUCplkcA%2FaJNtzUovaPczo0DDGMhkLY%2FTQsPCkg24j34qgr%2BcA4tlBT6MJWH3qY5WrRXV1EXNGHWSrP3YqGx2hAJz08tCGFdlNarVDHHU8ccQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
       - 116.203.16.49
       x-cache:
       - MISS
@@ -8137,10 +7488,10 @@ interactions:
       x-req-host:
       - kanka.io
       x-req-url:
-      - /api/1.0/campaigns/1/locations/524602
+      - /api/1.0/campaigns/1/entities/12002
       x-varnish-host:
       - hzn-fre1
     status:
-      code: 204
-      message: No Content
+      code: 200
+      message: OK
 version: 1

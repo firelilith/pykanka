@@ -94,24 +94,24 @@ interactions:
         era","abbreviation":"AC","start_year":null,"entry":"<p>Test era<\/p>","entry_parsed":"<p>Test
         era<\/p>","end_year":null,"elements":[],"is_collapsed":false},{"id":8005,"name":"Main
         era","abbreviation":"AC","start_year":null,"entry":"<p>Test era<\/p>","entry_parsed":"<p>Test
-        era<\/p>","end_year":null,"elements":[],"is_collapsed":false}],"revert_order":0}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/timelines?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/timelines?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/timelines","per_page":45,"to":3,"total":3},"sync":"2021-10-14T01:25:24.321341Z"}'
+        era<\/p>","end_year":null,"elements":[],"is_collapsed":false}],"revert_order":0}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/timelines?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/timelines?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/timelines","per_page":45,"to":3,"total":3},"sync":"2021-10-15T13:24:26.896251Z"}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd03780b162a00-ORD
+      - 69e95e201df52ac6-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:25:24 GMT
+      - Fri, 15 Oct 2021 13:24:27 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HgWsqxR%2B3exeWR6WnI8LSLzkOVAxeg2tke5Qk7FWolUiHSGz1kMJ9dgCDuoReBXX7Wx%2B6VGNxuCXzaV5emKIRpND2%2F5OQC62le0WqF107C%2F1KWIhGe1QkyvXtg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FeNm6cX%2FGAnxbbhtZb3JqJ7o08dElF8rBKThYNzHndRipDiokNmcOhvRSyp%2FvC56bS07z0EVUKQFpCFuHJani9L46x0%2B9R3NVvK4GFs6h0k1CQvCVm8qQJtfTg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -138,7 +138,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '89'
+      - '80'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -220,19 +220,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd037cedd2fd8a-ORD
+      - 69e95e259d6229a5-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:25:25 GMT
+      - Fri, 15 Oct 2021 13:24:27 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=znXb9OikIopjInvPnzVoqqaE9IioMNaumjEaqYgsXssGXfD7CS3hjKXmzQhSpFIN3bGXyjCZVj4nukS9V0AmtlIcJADimN7LqHm7b%2FcukvDml6boiYALyq%2FHPQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pRDIJLSFzflSRrONpHSLY1Dtu8LirYPfM7ZvtePKCCbh%2Fi7qOlUPui%2BUdR97gXv3uc9yJ%2FElxFdHNB5hsf24oLcKwVPdLJZ3YY9D%2B7a%2Bq%2FZnqkXeZMIoWnR%2Fkg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -251,7 +251,7 @@ interactions:
       content-length:
       - '5790'
       x-backend:
-      - 116.203.16.49
+      - 116.203.239.188
       x-cache:
       - MISS
       x-cache-hits:
@@ -259,7 +259,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '88'
+      - '79'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -313,19 +313,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd03816d17637b-ORD
+      - 69e95e296a576336-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:25:25 GMT
+      - Fri, 15 Oct 2021 13:24:27 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cYa41j1c6Qx9HACj%2BETGOkVc8yVv%2FkFrpS9J0bjDyqA%2FQtzdj6VNQVXedScppQHec76K5oB5UYqXxB8tel9F0wptt823ygUjryi7lEiT7whvGFWEKxnfRGHYuA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YOPYggjn2pKM%2FhMavDA3fIrnuwNmyExFNRPisMdX4ZhEw0U2UPRAfZGA%2F6jcRbIL%2FSBSBn3r18u87HJRoORHwTG51UbuyEU%2BbY1u3e3gry11BvnNFlqKqcA7%2FQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -352,7 +352,7 @@ interactions:
       x-ratelimit-limit:
       - '90'
       x-ratelimit-remaining:
-      - '87'
+      - '78'
       x-req-host:
       - kanka.io
       x-req-url:
@@ -390,19 +390,19 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 69dd03854f22297a-ORD
+      - 69e95e2b7b8a6363-ORD
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 14 Oct 2021 01:25:26 GMT
+      - Fri, 15 Oct 2021 13:24:28 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8rmgRvQzMIDSUiZudU9%2BxQbhTEITflBfGCWSfPLr%2B0cLmgqGNQ5alKPfLY0OUcJbT0AqNEdsLkqBJiPCxjvUFmQr0IsYvQJfHhFrv%2BgtjdZq5rU%2FQhXMItxGaQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=q8h2Yo%2BJ8WyfSLvnBZPE%2FwAGhW8m7U0%2FECElHe7PZstOmglWl6wIPERvPnQFfzYZGdvRkn3o1sg4y%2Bpw8S0WKXkMZ2ep4QBiC5dutSbNKqnP7MwJGr1lcq1i2g%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -421,658 +421,6 @@ interactions:
       content-length:
       - '1284'
       x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '86'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/1664964
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"name": "Thaelian Timeline", "entry": "<p>Lorem Ipsum</p>", "type": "Primary",
-      "revert_order": false, "tags": [], "is_private": false}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '135'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: POST
-    uri: https://kanka.io/api/1.0/campaigns/1/timelines/
-  response:
-    body:
-      string: '{"data":{"id":7953,"name":"Thaelian Timeline","entry":"<p>Lorem Ipsum<\/p>","entry_parsed":"<p>Lorem
-        Ipsum<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/timelines_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2236632,"tags":[],"created_at":"2021-10-14T01:25:27.000000Z","created_by":88716,"updated_at":"2021-10-14T01:25:27.000000Z","updated_by":88716,"type":"Primary","timeline_id":null,"eras":[],"revert_order":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0389b845634e-ORD
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '582'
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:25:27 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Rr510WZIBdNTPeUNjEnde4lcfMXIfOEBrDiDTJF%2FGQ6sUs00Hb%2FWgam%2BmpNaFoI0WlSGv2TVvEYYflvN856Zf8fy%2FUlLkuXnXonMf%2BpZDeE1lOSsWuv1ll%2Btow%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '85'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/timelines/
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 201
-      message: Created
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236632
-  response:
-    body:
-      string: '{"data":{"id":2236632,"name":"Thaelian Timeline","type":"timeline","child_id":7953,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:25:27.000000Z","created_by":88716,"updated_at":"2021-10-14T01:25:27.000000Z","updated_by":88716,"child":{"id":7953,"name":"Thaelian
-        Timeline","entry":"<p>Lorem Ipsum<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/timelines_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2236632,"tags":[],"created_at":"2021-10-14T01:25:27.000000Z","created_by":88716,"updated_at":"2021-10-14T01:25:27.000000Z","updated_by":88716,"type":"Primary","timeline_id":null,"eras":[],"revert_order":0}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd038e49462949-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:25:27 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VaGjG1IR89QdJvEOuGlX6qFMzMtU8SmivYHbeYt07kHsHOlR2x8NQf80oCp49lCSiwHnhrR%2F7sBv%2BeoHWxozzUj66Ka43CbNl70Lj4mblxs5q%2B8rvBY9%2Fe0bGQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '942'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '84'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236632
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/timelines/7953
-  response:
-    body:
-      string: '{"data":{"id":7953,"name":"Thaelian Timeline","entry":"<p>Lorem Ipsum<\/p>","entry_parsed":"<p>Lorem
-        Ipsum<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/timelines_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2236632,"tags":[],"created_at":"2021-10-14T01:25:27.000000Z","created_by":88716,"updated_at":"2021-10-14T01:25:27.000000Z","updated_by":88716,"type":"Primary","timeline_id":null,"eras":[],"revert_order":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd039219552b77-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:25:28 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XB%2BTEIkqOHJZEUE1EjxogXk0wDt3Q5dCVNjw%2FyZlXX8xfBTXtflXOJMbakwttc8oDSIQZednZa9tk0RpYtSZMWFmDbV330a2vVs8%2FqbHVecqFg8tUittwiDwpw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '582'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '83'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/timelines/7953
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/timelines/7953
-  response:
-    body:
-      string: '{"data":{"id":7953,"name":"Thaelian Timeline","entry":"<p>Lorem Ipsum<\/p>","entry_parsed":"<p>Lorem
-        Ipsum<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/timelines_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2236632,"tags":[],"created_at":"2021-10-14T01:25:27.000000Z","created_by":88716,"updated_at":"2021-10-14T01:25:27.000000Z","updated_by":88716,"type":"Primary","timeline_id":null,"eras":[],"revert_order":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0395f8362a15-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:25:28 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4vTOdXTIIFh0UnNv1nDwexCXd97wfP590MMYdlmqc4hOcmX%2BTTsYRZKLl6pMWQSjGtk0l3xGc55J1FF0%2B7EwEbC8de66QLy2pIe9prkxnisGVBY6sA8EYApXSw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '582'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '82'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/timelines/7953
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"name": "Thaelian Timeline (revised)", "entry": "<p>Lorem Ipsum</p><p>Dolor
-      Sit Amet.</p>", "type": "Primary", "revert_order": 0, "tags": [], "is_private":
-      false, "header_full": "", "has_custom_header": false}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '210'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: PATCH
-    uri: https://kanka.io/api/1.0/campaigns/1/timelines/7953
-  response:
-    body:
-      string: '{"data":{"id":7953,"name":"Thaelian Timeline (revised)","entry":"<p>Lorem
-        Ipsum<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/timelines_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2236632,"tags":[],"created_at":"2021-10-14T01:25:27.000000Z","created_by":88716,"updated_at":"2021-10-14T01:25:29.000000Z","updated_by":88716,"type":"Primary","timeline_id":null,"eras":[],"revert_order":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd0397cc92e20e-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:25:29 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MVniRgnsEEHFMfzLQzk5ATzjsVnKPrXkQP38v1LZRfXn7n9bEATYFDzmZUsvBjLPPOtMj2fv9vIiWH04jswxbtlwc2BXpaKBcv9%2B4Csnm8MZRHDq4npPWQfSXQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '638'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '81'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/timelines/7953
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/entities/2236632
-  response:
-    body:
-      string: '{"data":{"id":2236632,"name":"Thaelian Timeline (revised)","type":"timeline","child_id":7953,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2021-10-14T01:25:27.000000Z","created_by":88716,"updated_at":"2021-10-14T01:25:29.000000Z","updated_by":88716,"child":{"id":7953,"name":"Thaelian
-        Timeline (revised)","entry":"<p>Lorem Ipsum<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem
-        Ipsum<\/p><p>Dolor Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/timelines_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2236632,"tags":[],"created_at":"2021-10-14T01:25:27.000000Z","created_by":88716,"updated_at":"2021-10-14T01:25:29.000000Z","updated_by":88716,"type":"Primary","timeline_id":null,"eras":[],"revert_order":0}}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd039cae49e20a-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:25:30 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bXdT5kLq8N%2Bxi%2F2%2Bb46o2Mo08JyPnmKJF1whzi7RwfYIrkq0zI52gLto9WGqa3FynKrTk79yoQnlawEIaXwT166gm9ULztikY2PcQQ4M1dWxU5T3SWWttcWMwg%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '1008'
-      x-backend:
-      - 116.203.16.49
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '80'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/entities/2236632
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/timelines/7953
-  response:
-    body:
-      string: '{"data":{"id":7953,"name":"Thaelian Timeline (revised)","entry":"<p>Lorem
-        Ipsum<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/timelines_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2236632,"tags":[],"created_at":"2021-10-14T01:25:27.000000Z","created_by":88716,"updated_at":"2021-10-14T01:25:29.000000Z","updated_by":88716,"type":"Primary","timeline_id":null,"eras":[],"revert_order":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd03a0d8430364-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:25:30 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Vywg5Yz4LOXkPRaINtOr8lejk2jC%2FumhvSZvr8EV0WGyRF1NtqiBkvY%2FzcyZn17TcgYtPRfSOxkmaKefucWypRJO%2BOdPu%2F6mPV6TFZyyYdYmYdvtQ7YSDX3SWQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '638'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '79'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/timelines/7953
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: GET
-    uri: https://kanka.io/api/1.0/campaigns/1/timelines/7953
-  response:
-    body:
-      string: '{"data":{"id":7953,"name":"Thaelian Timeline (revised)","entry":"<p>Lorem
-        Ipsum<\/p><p>Dolor Sit Amet.<\/p>","entry_parsed":"<p>Lorem Ipsum<\/p><p>Dolor
-        Sit Amet.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/timelines_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":2236632,"tags":[],"created_at":"2021-10-14T01:25:27.000000Z","created_by":88716,"updated_at":"2021-10-14T01:25:29.000000Z","updated_by":88716,"type":"Primary","timeline_id":null,"eras":[],"revert_order":0}}'
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd03a4ab1e62e2-ORD
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Thu, 14 Oct 2021 01:25:31 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8nLwm1J8oOkwLHIqoJeVdyZds2P5R4JPBLZifZVZQZfLVHFypBVEM0Qkdr6DbAddwm%2BIhSnMOCubzJJJi4WkOL700mmDmQ7yM489pwINUQrDA%2B%2B7nJpBCdzXIQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Transfer-Encoding:
-      - chunked
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      content-length:
-      - '638'
-      x-backend:
-      - 116.203.239.188
-      x-cache:
-      - MISS
-      x-cache-hits:
-      - '0'
-      x-ratelimit-limit:
-      - '90'
-      x-ratelimit-remaining:
-      - '78'
-      x-req-host:
-      - kanka.io
-      x-req-url:
-      - /api/1.0/campaigns/1/timelines/7953
-      x-varnish-host:
-      - hzn-fre1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '0'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - python-requests/2.25.1
-    method: DELETE
-    uri: https://kanka.io/api/1.0/campaigns/1/timelines/7953
-  response:
-    body:
-      string: ''
-    headers:
-      CF-Cache-Status:
-      - DYNAMIC
-      CF-RAY:
-      - 69dd03a87f242994-ORD
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 14 Oct 2021 01:25:32 GMT
-      Expect-CT:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      NEL:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oW7uB38315lnZsyo1kbMRqp4yGGmgywnpzVFjihWM5%2BcRJkw7%2Be%2FHy2pUFwm%2FkDBfHbEkBzJZKmVTje7q2%2Ffq2tScMSJx43siAt2ZY%2FQFrVO%2BniwSkKcTIkjMQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      access-control-allow-origin:
-      - '*'
-      access-control-expose-headers:
-      - X-RateLimit-Remaining, X-RateLimit-Limit
-      age:
-      - '0'
-      alt-svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
-        ma=86400
-      cache-control:
-      - no-cache, private
-      x-backend:
       - 116.203.239.188
       x-cache:
       - MISS
@@ -1085,10 +433,10 @@ interactions:
       x-req-host:
       - kanka.io
       x-req-url:
-      - /api/1.0/campaigns/1/timelines/7953
+      - /api/1.0/campaigns/1/entities/1664964
       x-varnish-host:
       - hzn-fre1
     status:
-      code: 204
-      message: No Content
+      code: 200
+      message: OK
 version: 1
