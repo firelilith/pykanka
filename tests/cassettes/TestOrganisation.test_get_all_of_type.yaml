@@ -1,0 +1,1736 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/organisations
+  response:
+    body:
+      string: '{"data":[{"id":833,"name":"Nameless Immortals","entry":"\n<p>The Nameless
+        Immortals are an organisation of mages and magicians. They operate mostly
+        in the city of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/932\">Rosen<\/a>\u00a0of
+        the Kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/928\">Arden<\/a><\/p>\n<p>The
+        Faction''s goals is to further the study of revival magic to unlock Immortality.
+        They reject the ban necromancy, considering it counter to their goals.<\/p>\n<p>They
+        hold great power in Rosen, where every person working in health (hospitals
+        and morgues) must be a member of the organisation.<\/p>\n<h2>Leader<\/h2>\n<p>The
+        organisation is lead by a dwarf named\u00a0<a href=\"http:\/\/dnd.loc\/index.php\/Bjorn_Yronfoot\">Bjorn
+        Yronfoot<\/a>, nicknames \"Brother Fyt\". He starts every conversation with
+        \"Any deceased friends recently?\" and will gladly pay for \"taking care\"
+        of them.<\/p>\n<h2>History<\/h2>\n<p>They will revive their dead members with
+        necromancy, trying to revive them as normal people. The Nameless Immortals
+        will also kidnap recently dead people (corpses recently buried) to try experiments
+        on them.<\/p>\n<p>They have a branch set up in <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\">Arcastle<\/a>\u00a0for
+        several years to study the Temple of Life, hoping to unlock it''s secrets
+        and history of reviving dead people.<\/p>\n<p>The faction will be suspected
+        of kidnapping the\u00a0<a href=\"http:\/\/dnd.loc\/index.php\/Temple_of_Life\">Temple
+        of Life<\/a>\u00a0because it will be known that they strive for Immortality
+        through Necromancy, and the temple is known as a sanctuary for revival rituals.
+        By stealing it, they could study it completely and do whatever they want with
+        it.<\/p>\n<h2>Three aspects<\/h2>\n<ul><li>Founded 10 years ago.<\/li>\n<li>Members
+        use nicknames.<\/li>\n<li>Headquarters in the city of<\/li>\n<\/ul><h2>Ex-members<\/h2>\n<ul><li><a
+        href=\"http:\/\/dnd.loc\/index.php\/Yvonne_Copperears\">Yvonne Copperears<\/a><\/li>\n<\/ul>","entry_parsed":"\n<p>The
+        Nameless Immortals are an organisation of mages and magicians. They operate
+        mostly in the city of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/932\">Rosen<\/a>\u00a0of
+        the Kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/928\">Arden<\/a><\/p>\n<p>The
+        Faction''s goals is to further the study of revival magic to unlock Immortality.
+        They reject the ban necromancy, considering it counter to their goals.<\/p>\n<p>They
+        hold great power in Rosen, where every person working in health (hospitals
+        and morgues) must be a member of the organisation.<\/p>\n<h2>Leader<\/h2>\n<p>The
+        organisation is lead by a dwarf named\u00a0<a href=\"http:\/\/dnd.loc\/index.php\/Bjorn_Yronfoot\">Bjorn
+        Yronfoot<\/a>, nicknames \"Brother Fyt\". He starts every conversation with
+        \"Any deceased friends recently?\" and will gladly pay for \"taking care\"
+        of them.<\/p>\n<h2>History<\/h2>\n<p>They will revive their dead members with
+        necromancy, trying to revive them as normal people. The Nameless Immortals
+        will also kidnap recently dead people (corpses recently buried) to try experiments
+        on them.<\/p>\n<p>They have a branch set up in <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\">Arcastle<\/a>\u00a0for
+        several years to study the Temple of Life, hoping to unlock it''s secrets
+        and history of reviving dead people.<\/p>\n<p>The faction will be suspected
+        of kidnapping the\u00a0<a href=\"http:\/\/dnd.loc\/index.php\/Temple_of_Life\">Temple
+        of Life<\/a>\u00a0because it will be known that they strive for Immortality
+        through Necromancy, and the temple is known as a sanctuary for revival rituals.
+        By stealing it, they could study it completely and do whatever they want with
+        it.<\/p>\n<h2>Three aspects<\/h2>\n<ul><li>Founded 10 years ago.<\/li>\n<li>Members
+        use nicknames.<\/li>\n<li>Headquarters in the city of<\/li>\n<\/ul><h2>Ex-members<\/h2>\n<ul><li><a
+        href=\"http:\/\/dnd.loc\/index.php\/Yvonne_Copperears\">Yvonne Copperears<\/a><\/li>\n<\/ul>","image":"organisations\/OSPh587HTjkqtDqkfR7vlcMPth349Y0SVG0yoTYl.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/nfOgrO7mzVjorjdNIp0-KpGeBqA=\/smart\/src\/organisations%2FOSPh587HTjkqtDqkfR7vlcMPth349Y0SVG0yoTYl.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/Z_UMaIsvTElmjwL70kDsTEVgK2c=\/40x40\/smart\/src\/organisations%2FOSPh587HTjkqtDqkfR7vlcMPth349Y0SVG0yoTYl.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12079,"tags":[],"created_at":"2018-04-03T20:08:47.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:42.000000Z","updated_by":null,"location_id":932,"type":"Cult","organisation_id":null,"members":[{"character_id":8943,"created_at":"2018-06-19T18:51:33.000000Z","created_by":null,"id":1563,"is_private":false,"organisation_id":833,"role":"Member","updated_at":"2018-06-19T18:51:33.000000Z","updated_by":null},{"character_id":8944,"created_at":"2018-06-19T18:53:14.000000Z","created_by":null,"id":1564,"is_private":false,"organisation_id":833,"role":"Member","updated_at":"2018-06-19T18:53:14.000000Z","updated_by":null},{"character_id":4134,"created_at":"2019-08-31T10:07:24.000000Z","created_by":null,"id":18314,"is_private":false,"organisation_id":833,"role":"Leader","updated_at":"2019-08-31T10:07:24.000000Z","updated_by":null}]},{"id":834,"name":"High
+        Circle","entry":"\n<p>The High Council is a magocracy, meaning only very powerful
+        mages can be invited in. Once a member is invited by the other members, he
+        stays there until death. There has only been one incident 130 years ago where
+        a member was banished from the Circle for Necromancy.<\/p>\n","entry_parsed":"\n<p>The
+        High Council is a magocracy, meaning only very powerful mages can be invited
+        in. Once a member is invited by the other members, he stays there until death.
+        There has only been one incident 130 years ago where a member was banished
+        from the Circle for Necromancy.<\/p>\n","image":"organisations\/G0NYHPkqzsgQUmahgI86y0VrMrNneLtzjlAIqSG6.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/l7SXKW2zJOxNi_xH-q8mIv_7t_o=\/smart\/src\/organisations%2FG0NYHPkqzsgQUmahgI86y0VrMrNneLtzjlAIqSG6.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/lS640nWDz9hXlUkaWhif0jdOLBc=\/40x40\/smart\/src\/organisations%2FG0NYHPkqzsgQUmahgI86y0VrMrNneLtzjlAIqSG6.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12085,"tags":[],"created_at":"2018-04-03T20:20:29.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:42.000000Z","updated_by":null,"location_id":5166,"type":"Magocracy","organisation_id":null,"members":[{"character_id":83773,"created_at":"2019-08-12T14:04:31.000000Z","created_by":null,"id":16179,"is_private":false,"organisation_id":834,"role":"Member","updated_at":"2019-08-12T14:04:31.000000Z","updated_by":null}]},{"id":835,"name":"Black
+        Sun","entry":"\n<p>The Black Sun were a mercenary organisation based out of\u00a0<a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5177\">Enida<\/a>,\u00a0<a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5129\">Three Rivers
+        Federation<\/a>. They are known for being responsible for causing the fire
+        that destroyed the Tiefling Gheto in Whitehaven.<\/p>\n<p>Their leader was
+        Sylken.<\/p>\n","entry_parsed":"\n<p>The Black Sun were a mercenary organisation
+        based out of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5177\">Enida<\/a>,\u00a0<a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5129\">Three Rivers
+        Federation<\/a>. They are known for being responsible for causing the fire
+        that destroyed the Tiefling Gheto in Whitehaven.<\/p>\n<p>Their leader was
+        Sylken.<\/p>\n","image":"organisations\/jEgWwMZdC8Tgb0K7CwendGQCAf44nEDUnlVqqh3g.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/cE0_cDRiz0j-Gez9hp_2_CcHWSA=\/smart\/src\/organisations%2FjEgWwMZdC8Tgb0K7CwendGQCAf44nEDUnlVqqh3g.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/X90S0YB3x2ir7PeRN0SvnKWrCvw=\/40x40\/smart\/src\/organisations%2FjEgWwMZdC8Tgb0K7CwendGQCAf44nEDUnlVqqh3g.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12126,"tags":[],"created_at":"2018-04-04T08:58:45.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:42.000000Z","updated_by":null,"location_id":5129,"type":"Mercenary","organisation_id":null,"members":[{"character_id":83767,"created_at":"2019-08-12T13:48:28.000000Z","created_by":null,"id":16176,"is_private":false,"organisation_id":835,"role":"Ex-leader","updated_at":"2019-08-12T13:48:28.000000Z","updated_by":null}]},{"id":836,"name":"Flaming
+        Cult","entry":"\n<p>The Flaming Cult was a cult that was active 30 years ago
+        in the cities of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5162\">Newport<\/a>\u00a0and
+        Feniton, in the\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5129\">Three
+        Rivers Federation<\/a>. They were disbanded after their organisation was defeated
+        by heroes.<\/p>\n<h2>Origin<\/h2>\n<p>The Flaming Cult is a cult of Cultists
+        and Necromancers. They are the reincarnation of a previous Cult named \u201cZorgath
+        Devotion\u201d, a cult that was disbanded 30 years ago after it tried to revive
+        their god \u201cZorgath\u201d.<\/p>\n<h2>Presence<\/h2>\n<p>The cult\u2019s
+        members try and stay out of direct trouble, and don\u2019t have the means
+        to bribe officials. They usually use intimidation on\u201cnormal folk\u201d
+        to get them to do the dirty job.<\/p>\n<h2>Goal<\/h2>\n<p>The current members
+        still wish to revive Zorgath in the shape of an Ancient Red Dragon, but they
+        need the sacrifice of 10\u2019000 souls to do so. They want to put one of
+        their members as the new mayor of the city, and plan to trick 10\u2019000
+        inhabitants in participating in the sacrifice.<\/p>\n<p>To do so, they steal
+        magical items in the city which could be used against them, and which they
+        in turn use to get stronger.<\/p>\n<h2>Leader<\/h2>\n<p>The leader of the
+        Flaming Cult was Grogoth, a Human Necromancer. His brother Fin Hemband, whose
+        actual name is Agalai, is pretty weak but charismatic.<\/p>\n","entry_parsed":"\n<p>The
+        Flaming Cult was a cult that was active 30 years ago in the cities of\u00a0<a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5162\">Newport<\/a>\u00a0and
+        Feniton, in the\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5129\">Three
+        Rivers Federation<\/a>. They were disbanded after their organisation was defeated
+        by heroes.<\/p>\n<h2>Origin<\/h2>\n<p>The Flaming Cult is a cult of Cultists
+        and Necromancers. They are the reincarnation of a previous Cult named \u201cZorgath
+        Devotion\u201d, a cult that was disbanded 30 years ago after it tried to revive
+        their god \u201cZorgath\u201d.<\/p>\n<h2>Presence<\/h2>\n<p>The cult\u2019s
+        members try and stay out of direct trouble, and don\u2019t have the means
+        to bribe officials. They usually use intimidation on\u201cnormal folk\u201d
+        to get them to do the dirty job.<\/p>\n<h2>Goal<\/h2>\n<p>The current members
+        still wish to revive Zorgath in the shape of an Ancient Red Dragon, but they
+        need the sacrifice of 10\u2019000 souls to do so. They want to put one of
+        their members as the new mayor of the city, and plan to trick 10\u2019000
+        inhabitants in participating in the sacrifice.<\/p>\n<p>To do so, they steal
+        magical items in the city which could be used against them, and which they
+        in turn use to get stronger.<\/p>\n<h2>Leader<\/h2>\n<p>The leader of the
+        Flaming Cult was Grogoth, a Human Necromancer. His brother Fin Hemband, whose
+        actual name is Agalai, is pretty weak but charismatic.<\/p>\n","image":"organisations\/WEtixDrBYThP1vIkz0dPKKpoZsmebMKBo9uKeTHL.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/MpJoYSC3jFVStsFTXqdE57XgHfs=\/smart\/src\/organisations%2FWEtixDrBYThP1vIkz0dPKKpoZsmebMKBo9uKeTHL.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/mbDKqVDjH4GRvRM4cFBFpgtU-Vg=\/40x40\/smart\/src\/organisations%2FWEtixDrBYThP1vIkz0dPKKpoZsmebMKBo9uKeTHL.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12128,"tags":[],"created_at":"2018-04-04T09:09:33.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:42.000000Z","updated_by":null,"location_id":5129,"type":"Cult","organisation_id":null,"members":[]},{"id":837,"name":"Black-Gold
+        Brotherhood","entry":"\n<h2>Origin<\/h2>\n<p>The Black Gold Brotherhood is
+        a collective of bandits formed 5 years ago when the current mayor of Newport
+        was elected for a second term. They were set up by the officials in <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5166\">Weymouth<\/a>.<\/p>\n<p>Only
+        the higher ranked members of the Brotherhood know the connection to Weymouth,
+        most are just petty thieves just looking for an extra buck.<\/p>\n<h2>Presence<\/h2>\n<p>The
+        Brotherhood has people in most institutions of Newport. They can control parts
+        of the Guard either by bribery, threat, or directly with people working for
+        them.<\/p>\n<p>They have about 150 members just in the city of Newport.<\/p>\n<h2>Goal<\/h2>\n<p>The
+        goal of the Brotherhood is to weaken Newport. The city of Weymouth has always
+        always been jealous of the riches of Newport, especially since the maritime
+        route now allows merchandise to bypass the taxes of Weymouth.<\/p>\n<h2>Leader<\/h2>\n<p>The
+        leader of the operation in Weymouth is Lorenas, the Church Head Priest. He
+        replaced the head priest 2 years ago when the previous one passed away.<\/p>\n","entry_parsed":"\n<h2>Origin<\/h2>\n<p>The
+        Black Gold Brotherhood is a collective of bandits formed 5 years ago when
+        the current mayor of Newport was elected for a second term. They were set
+        up by the officials in <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5166\">Weymouth<\/a>.<\/p>\n<p>Only
+        the higher ranked members of the Brotherhood know the connection to Weymouth,
+        most are just petty thieves just looking for an extra buck.<\/p>\n<h2>Presence<\/h2>\n<p>The
+        Brotherhood has people in most institutions of Newport. They can control parts
+        of the Guard either by bribery, threat, or directly with people working for
+        them.<\/p>\n<p>They have about 150 members just in the city of Newport.<\/p>\n<h2>Goal<\/h2>\n<p>The
+        goal of the Brotherhood is to weaken Newport. The city of Weymouth has always
+        always been jealous of the riches of Newport, especially since the maritime
+        route now allows merchandise to bypass the taxes of Weymouth.<\/p>\n<h2>Leader<\/h2>\n<p>The
+        leader of the operation in Weymouth is Lorenas, the Church Head Priest. He
+        replaced the head priest 2 years ago when the previous one passed away.<\/p>\n","image":"organisations\/W5HUsogfD4e941fBCYJElf8hEovdNJSWPuhXWX3p.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/XrcwrUb4VJzhCzl_WZ2fBUUkXA4=\/smart\/src\/organisations%2FW5HUsogfD4e941fBCYJElf8hEovdNJSWPuhXWX3p.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/_6EEJsgsh-3dRSmdAxFoFwHeCbE=\/40x40\/smart\/src\/organisations%2FW5HUsogfD4e941fBCYJElf8hEovdNJSWPuhXWX3p.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12129,"tags":[],"created_at":"2018-04-04T09:11:27.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:42.000000Z","updated_by":null,"location_id":5178,"type":"Gang","organisation_id":null,"members":[]},{"id":1284,"name":"Slayers
+        of Kadila","entry":"\n<p>The <strong>Slayers of Kadila<\/strong>\u00a0are
+        an organisation of slayers and hunters who track down and kill monsters in
+        exchange of payment. Most contracts are assigned to five members.<\/p>\n<p>For
+        each contract, the organisation takes 10% and the rest is split between members.<\/p>\n<p>Members
+        of the organisation are referred to as\u00a0<strong>Slayers<\/strong>.\u00a0<\/p>\n<h4>Death
+        on mission<\/h4>\n<p>If a member dies during a mission, it is customary for
+        the other members assigned to the mission to renounce on their take of the
+        payment and the complete sum is sent to the family of the deceased. This is
+        to avoid members killing other members to keep their share.<\/p>\n<p>In the
+        event where all members of a mission die, the organisation will take care
+        of providing the money for each member''s family.<\/p>\n<h4>Recruiting<\/h4>\n<p>Slayers
+        can take on apprentices by recommending them to the organisation. Candidates
+        will be given a task to test their strengh and resolve. If a candidate is
+        accepted, they become an apprentice of the Slayer for two years, after which
+        they will pass a new test to become a Slayer.<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Slayers of Kadila<\/strong>\u00a0are an organisation of slayers and
+        hunters who track down and kill monsters in exchange of payment. Most contracts
+        are assigned to five members.<\/p>\n<p>For each contract, the organisation
+        takes 10% and the rest is split between members.<\/p>\n<p>Members of the organisation
+        are referred to as\u00a0<strong>Slayers<\/strong>.\u00a0<\/p>\n<h4>Death on
+        mission<\/h4>\n<p>If a member dies during a mission, it is customary for the
+        other members assigned to the mission to renounce on their take of the payment
+        and the complete sum is sent to the family of the deceased. This is to avoid
+        members killing other members to keep their share.<\/p>\n<p>In the event where
+        all members of a mission die, the organisation will take care of providing
+        the money for each member''s family.<\/p>\n<h4>Recruiting<\/h4>\n<p>Slayers
+        can take on apprentices by recommending them to the organisation. Candidates
+        will be given a task to test their strengh and resolve. If a candidate is
+        accepted, they become an apprentice of the Slayer for two years, after which
+        they will pass a new test to become a Slayer.<\/p>\n","image":"organisations\/SscwNgfv2p9g4weO4sHdMV1if0wNPua6MeHBIJRk.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/mS9VblzJeJn1lbH0RJ_RX5Iypu0=\/smart\/src\/organisations%2FSscwNgfv2p9g4weO4sHdMV1if0wNPua6MeHBIJRk.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/8NuVd-BJotyV-AWKKb2SUyeB3i0=\/40x40\/smart\/src\/organisations%2FSscwNgfv2p9g4weO4sHdMV1if0wNPua6MeHBIJRk.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":21911,"tags":[],"created_at":"2018-05-22T11:17:01.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:43.000000Z","updated_by":null,"location_id":5122,"type":"Hunters","organisation_id":null,"members":[{"character_id":7291,"created_at":"2018-05-22T11:19:47.000000Z","created_by":null,"id":1199,"is_private":false,"organisation_id":1284,"role":"Member","updated_at":"2018-05-22T11:19:47.000000Z","updated_by":null}]},{"id":1568,"name":"Snake
+        Fire","entry":"\n<p><strong>Snake Fire<\/strong> is a thieve''s guild with
+        members and operations in\u00a0[location:2046]\u00a0and\u00a0<a title=\"The\u00a0Kingdom
+        of Othiria\u00a0is an independent kingdom on Thaelia. It''s capital is\u00a0Drunah\u00a0while
+        its biggest city is\u00a0Redford. The kingdom is situated on the middle southern
+        part of Thaelia and borders the\u00a0Kingdom of Dulken,\u00a0Kingdom of Thasslia,\u00a0Repu...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\" data-toggle=\"tooltip\">Othiria<\/a>.<\/p>\n<h3>Known
+        For<\/h3>\n<ul><li>Primary business involves:\u00a0<strong>Smuggling drugs:
+        hallucinogenic mushrooms<\/strong><\/li>\n<li>Colour:\u00a0<strong>Maroon<\/strong><\/li>\n<li>Symbol:\u00a0<strong>Snake
+        &amp; Star<\/strong><\/li>\n<li>Leader:\u00a0<strong>A member of a prominent
+        family<\/strong><\/li>\n<li>Members are primarily:\u00a0<strong>Combat veterans<\/strong><\/li>\n<li>Goals
+        include:\u00a0<strong>Revenge against a rival band of outlaws<\/strong><\/li>\n<li>Members
+        typically arm themselves with:\u00a0<strong>Shortswords<\/strong><\/li>\n<li>Headquarters:\u00a0<strong>A
+        tavern<\/strong><\/li>\n<li>The outlaw band is feared or respected by:\u00a0<strong>Woman
+        and children<\/strong><\/li>\n<li>The outlaw has:\u00a0<strong>An open shirt
+        and a very hairy chest<\/strong><\/li>\n<li>Primary modus operandi involves:\u00a0<strong>Bribery
+        of officials<\/strong><\/li>\n<li>The ring is supported by:\u00a0<strong>A
+        group of subversives<\/strong><\/li>\n<\/ul>","entry_parsed":"\n<p><strong>Snake
+        Fire<\/strong> is a thieve''s guild with members and operations in\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>\u00a0and\u00a0<a
+        title=\"The\u00a0Kingdom of Othiria\u00a0is an independent kingdom on Thaelia.
+        It''s capital is\u00a0Drunah\u00a0while its biggest city is\u00a0Redford.
+        The kingdom is situated on the middle southern part of Thaelia and borders
+        the\u00a0Kingdom of Dulken,\u00a0Kingdom of Thasslia,\u00a0Repu...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\"
+        data-toggle=\"tooltip\">Othiria<\/a>.<\/p>\n<h3>Known For<\/h3>\n<ul><li>Primary
+        business involves:\u00a0<strong>Smuggling drugs: hallucinogenic mushrooms<\/strong><\/li>\n<li>Colour:\u00a0<strong>Maroon<\/strong><\/li>\n<li>Symbol:\u00a0<strong>Snake
+        &amp; Star<\/strong><\/li>\n<li>Leader:\u00a0<strong>A member of a prominent
+        family<\/strong><\/li>\n<li>Members are primarily:\u00a0<strong>Combat veterans<\/strong><\/li>\n<li>Goals
+        include:\u00a0<strong>Revenge against a rival band of outlaws<\/strong><\/li>\n<li>Members
+        typically arm themselves with:\u00a0<strong>Shortswords<\/strong><\/li>\n<li>Headquarters:\u00a0<strong>A
+        tavern<\/strong><\/li>\n<li>The outlaw band is feared or respected by:\u00a0<strong>Woman
+        and children<\/strong><\/li>\n<li>The outlaw has:\u00a0<strong>An open shirt
+        and a very hairy chest<\/strong><\/li>\n<li>Primary modus operandi involves:\u00a0<strong>Bribery
+        of officials<\/strong><\/li>\n<li>The ring is supported by:\u00a0<strong>A
+        group of subversives<\/strong><\/li>\n<\/ul>","image":"organisations\/BiPNLryrIHy0hhCDcpvaLOKgXpGSVlZL26NtgwKF.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/RvtuUVCDZG0_C34RhNBZnyQ6Kx4=\/smart\/src\/organisations%2FBiPNLryrIHy0hhCDcpvaLOKgXpGSVlZL26NtgwKF.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/R0Bcgun1l87x37YRw7EdkMjjjms=\/40x40\/smart\/src\/organisations%2FBiPNLryrIHy0hhCDcpvaLOKgXpGSVlZL26NtgwKF.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27084,"tags":[],"created_at":"2018-06-19T18:40:34.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Thieve''s
+        Guild","organisation_id":null,"members":[{"character_id":8942,"created_at":"2018-06-19T18:43:26.000000Z","created_by":null,"id":1562,"is_private":false,"organisation_id":1568,"role":"Leader","updated_at":"2018-06-19T18:43:26.000000Z","updated_by":null}]},{"id":1585,"name":"Rose''s
+        Watch","entry":"\n<p>The\u00a0<strong>Rose''s Watch\u00a0<\/strong>is a group
+        of retired combatants from the\u00a0[location:2046]\u00a0army that protect
+        small villages from evil threats. They put up the disguise of old men\/women,
+        but they haven\u2019t forgotten their training and will spring into action
+        if it''s required.<\/p>\n<p>Most of the time, village leaders know of the
+        members in their village.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Rose''s
+        Watch\u00a0<\/strong>is a group of retired combatants from the\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>\u00a0army
+        that protect small villages from evil threats. They put up the disguise of
+        old men\/women, but they haven\u2019t forgotten their training and will spring
+        into action if it''s required.<\/p>\n<p>Most of the time, village leaders
+        know of the members in their village.<\/p>\n","image":"organisations\/BuYAXUJkmOogWOgcZ2Ji8hrqkqUReZGSffvtEXP5.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/s52aGzj_kzY3csmCRLw_8evDIlo=\/smart\/src\/organisations%2FBuYAXUJkmOogWOgcZ2Ji8hrqkqUReZGSffvtEXP5.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/mWXFfzco9EJf7U_z1I2XwzW2JnQ=\/40x40\/smart\/src\/organisations%2FBuYAXUJkmOogWOgcZ2Ji8hrqkqUReZGSffvtEXP5.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27455,"tags":[],"created_at":"2018-06-22T12:33:42.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":928,"type":"Guard","organisation_id":null,"members":[{"character_id":4122,"created_at":"2018-06-22T14:32:08.000000Z","created_by":null,"id":1582,"is_private":false,"organisation_id":1585,"role":"Member","updated_at":"2018-06-22T14:32:08.000000Z","updated_by":null}]},{"id":1586,"name":"Freedom
+        Birds","entry":"\n<p>The <strong>Freedom Birds\u00a0<\/strong>as followers
+        of the Godess\u00a0<a title=\"Avalyra the Changer of Hearts\u00a0is a Goddess
+        of freedom, redemption and pardon. She is always shown wearing simple clothing
+        and being close to nature.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8909\"
+        data-toggle=\"tooltip\">Avalyra<\/a>. They promote freedom, redemption and
+        pardon. Many followers are freed slaves or creatures that want to start a
+        new life of good doings and helping others.<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Freedom Birds\u00a0<\/strong>as followers of the Godess\u00a0<a title=\"Avalyra
+        the Changer of Hearts\u00a0is a Goddess of freedom, redemption and pardon.
+        She is always shown wearing simple clothing and being close to nature.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8909\"
+        data-toggle=\"tooltip\">Avalyra<\/a>. They promote freedom, redemption and
+        pardon. Many followers are freed slaves or creatures that want to start a
+        new life of good doings and helping others.<\/p>\n","image":"organisations\/j5kVv6Eyu3LC9u0qn9eqYfQuEvJoNzdjWNQxoPbL.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/NmuQPEOUzgeqm24Lj0mnHDzawg0=\/smart\/src\/organisations%2Fj5kVv6Eyu3LC9u0qn9eqYfQuEvJoNzdjWNQxoPbL.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/O7jI5XQ3RBTDHbJ1fVrx8GBqcQ0=\/40x40\/smart\/src\/organisations%2Fj5kVv6Eyu3LC9u0qn9eqYfQuEvJoNzdjWNQxoPbL.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27458,"tags":[],"created_at":"2018-06-22T12:41:10.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[]},{"id":1587,"name":"Golden
+        Compass","entry":"\n<p>The\u00a0<strong>Golden Compass<\/strong> is the name
+        of the Goddess\u00a0<a title=\"Dessin the Mediator is a goddess of Peace,
+        Trade, Wealth and Prosperity. Her holy symbol is a golden compass that guides
+        her followers to prosperity and a place to where they will find peace.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8911\"
+        data-toggle=\"tooltip\">Dessin<\/a>''s followers. It symbolises the path to
+        new riches and prosperity, but also to look in all directions for peace when
+        in conflict.<\/p>\n<p>It''s members are usually artisans, travellers, performers
+        and sailors. They prey on Dessin for good fortune.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Golden
+        Compass<\/strong> is the name of the Goddess\u00a0<a title=\"Dessin the Mediator
+        is a goddess of Peace, Trade, Wealth and Prosperity. Her holy symbol is a
+        golden compass that guides her followers to prosperity and a place to where
+        they will find peace.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8911\"
+        data-toggle=\"tooltip\">Dessin<\/a>''s followers. It symbolises the path to
+        new riches and prosperity, but also to look in all directions for peace when
+        in conflict.<\/p>\n<p>It''s members are usually artisans, travellers, performers
+        and sailors. They prey on Dessin for good fortune.<\/p>\n","image":"organisations\/EJCuT55JWJMcF0PMVf1C8c49QbAJwTf3yon3itq7.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/mL3uc0QTZGQPIEEZm8cHnELsdSo=\/smart\/src\/organisations%2FEJCuT55JWJMcF0PMVf1C8c49QbAJwTf3yon3itq7.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/xHxRa5XuVTA1FqdXWfCrg8Q_j1Y=\/40x40\/smart\/src\/organisations%2FEJCuT55JWJMcF0PMVf1C8c49QbAJwTf3yon3itq7.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27461,"tags":[],"created_at":"2018-06-22T12:47:32.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[{"character_id":4128,"created_at":"2018-06-22T14:33:49.000000Z","created_by":null,"id":1585,"is_private":false,"organisation_id":1587,"role":"Member","updated_at":"2018-06-22T14:33:49.000000Z","updated_by":null}]},{"id":1588,"name":"The
+        Founders","entry":"\n<p><strong>The Founders<\/strong> is the name of the
+        followers of the God\u00a0<a title=\"Elordan, the Weighted Hammer, also known
+        as The Law Keeper\u00a0is a God of Law, Justice and Civilization.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8907\"
+        data-toggle=\"tooltip\">Elordan<\/a>. The symbol is Eldoran''s Hammer, used
+        to build civilization, and to enforce laws and justice.<\/p>\n<p>Members are
+        usually creatures involved in law, guards, and are generally lawful. They
+        fight against corruption, injustice and chaos.<\/p>\n<p>\u00a0<\/p>\n","entry_parsed":"\n<p><strong>The
+        Founders<\/strong> is the name of the followers of the God\u00a0<a title=\"Elordan,
+        the Weighted Hammer, also known as The Law Keeper\u00a0is a God of Law, Justice
+        and Civilization.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8907\"
+        data-toggle=\"tooltip\">Elordan<\/a>. The symbol is Eldoran''s Hammer, used
+        to build civilization, and to enforce laws and justice.<\/p>\n<p>Members are
+        usually creatures involved in law, guards, and are generally lawful. They
+        fight against corruption, injustice and chaos.<\/p>\n<p>\u00a0<\/p>\n","image":"organisations\/G6iZoiOAPErJov4F2NfLdM6oDlImGGFtPLDeRxY8.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Uw-AjPuCW66TmWHlFxuCJXRPva8=\/smart\/src\/organisations%2FG6iZoiOAPErJov4F2NfLdM6oDlImGGFtPLDeRxY8.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/5C5DedC2ihkQeIPH1zhglRNLQAQ=\/40x40\/smart\/src\/organisations%2FG6iZoiOAPErJov4F2NfLdM6oDlImGGFtPLDeRxY8.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27462,"tags":[],"created_at":"2018-06-22T12:53:55.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":5122,"type":"Religious","organisation_id":null,"members":[{"character_id":4116,"created_at":"2018-06-22T14:32:51.000000Z","created_by":null,"id":1583,"is_private":false,"organisation_id":1588,"role":"Member","updated_at":"2018-06-22T14:32:51.000000Z","updated_by":null},{"character_id":4154,"created_at":"2018-06-22T14:34:50.000000Z","created_by":null,"id":1586,"is_private":false,"organisation_id":1588,"role":"Member","updated_at":"2018-06-22T14:34:50.000000Z","updated_by":null},{"character_id":7296,"created_at":"2018-06-22T14:35:03.000000Z","created_by":null,"id":1587,"is_private":false,"organisation_id":1588,"role":"Member","updated_at":"2018-06-22T14:35:03.000000Z","updated_by":null},{"character_id":38241,"created_at":"2020-11-09T08:37:11.000000Z","created_by":null,"id":177101,"is_private":false,"organisation_id":1588,"role":null,"updated_at":"2020-11-09T08:37:11.000000Z","updated_by":null}]},{"id":1589,"name":"Wild
+        Harvest","entry":"\n<p>The\u00a0<strong>Wild Harvest<\/strong> is a religious
+        organisation of followers of the God\u00a0<a title=\"Iylvin, the Wild Prince
+        is a new God of Harvest, Rain and Rivers. His origins are unknown but was
+        brought to the continent of\u00a0Thaelia\u00a0after the conquest of the continent
+        by humans. \u00a0        \u00a0\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8903\"
+        data-toggle=\"tooltip\">Ilyvin<\/a>. The symbol is a boar surrounded by lush
+        harvest.<\/p>\n<p>Members of the Wild Harvest tend to be hunters, rangers
+        and farmers.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Wild Harvest<\/strong>
+        is a religious organisation of followers of the God\u00a0<a title=\"Iylvin,
+        the Wild Prince is a new God of Harvest, Rain and Rivers. His origins are
+        unknown but was brought to the continent of\u00a0Thaelia\u00a0after the conquest
+        of the continent by humans. \u00a0        \u00a0\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8903\"
+        data-toggle=\"tooltip\">Ilyvin<\/a>. The symbol is a boar surrounded by lush
+        harvest.<\/p>\n<p>Members of the Wild Harvest tend to be hunters, rangers
+        and farmers.<\/p>\n","image":"organisations\/jFcXUSQGyEqTEyyGIyQmur7vsPsrjnVF5bDuwOE2.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/W10mWq9poqZ6VYkS5mA9MP7_ViQ=\/smart\/src\/organisations%2FjFcXUSQGyEqTEyyGIyQmur7vsPsrjnVF5bDuwOE2.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/QRJFj2OoUHKHo2WqBmFUcHtGgGk=\/40x40\/smart\/src\/organisations%2FjFcXUSQGyEqTEyyGIyQmur7vsPsrjnVF5bDuwOE2.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27465,"tags":[],"created_at":"2018-06-22T13:16:14.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[]},{"id":1590,"name":"Coral
+        Chamber","entry":"<p>The\u00a0<strong>Coral Chamber<\/strong> is a religious
+        and scholastic order that follows the Goddess\u00a0<a title=\"Ioun the Knowing
+        Mistress\u00a0is a Goddess of knowledge, skill, magic and prophecy. Sages,
+        seers, and tacticians revere her, as do all who live by their knowledge and
+        mental power. Ioun is the patron of its study. Libraries and wizard academies
+        are buil...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8914\"
+        data-toggle=\"tooltip\">Ioun<\/a>. Their symbol is a book with an Ioun star
+        on top. Members of the organisation are usually wizards, scribes, priests,
+        and all determined to follow knowledge with the goal of betterment for all.
+        This also involves routing out corruption and injustices.<\/p><h3>History<\/h3><p>The
+        organisation was founded by the first followers of Ioun on the continent of
+        [location:28174]. Today, they have a presence on all continents with regional
+        variances.<\/p><h3>Leadership<\/h3><p>The organisation is lead by the High
+        Keeper [character:993299]\u00a0in Panere. It is expected that Conserver [character:993820]\u00a0takes
+        over the day Massena steps down.<\/p><p>Below the High Keeper are two conservers
+        per continent or region the organisation is located at that lead the local
+        efforts.<\/p><p>Below Conservers are Seekers who carry out missions.<\/p><p>Everything
+        else below Seekers are just members that train under a Seeker, or sometimes
+        under a Conserver.<\/p>","entry_parsed":"<p>The\u00a0<strong>Coral Chamber<\/strong>
+        is a religious and scholastic order that follows the Goddess\u00a0<a title=\"Ioun
+        the Knowing Mistress\u00a0is a Goddess of knowledge, skill, magic and prophecy.
+        Sages, seers, and tacticians revere her, as do all who live by their knowledge
+        and mental power. Ioun is the patron of its study. Libraries and wizard academies
+        are buil...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8914\"
+        data-toggle=\"tooltip\">Ioun<\/a>. Their symbol is a book with an Ioun star
+        on top. Members of the organisation are usually wizards, scribes, priests,
+        and all determined to follow knowledge with the goal of betterment for all.
+        This also involves routing out corruption and injustices.<\/p><h3>History<\/h3><p>The
+        organisation was founded by the first followers of Ioun on the continent of
+        <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10906\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"28174\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28174\/tooltip\">Medina<\/a>.
+        Today, they have a presence on all continents with regional variances.<\/p><h3>Leadership<\/h3><p>The
+        organisation is lead by the High Keeper <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259063\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"993299\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993299\/tooltip\">Massena
+        Gioni<\/a>\u00a0in Panere. It is expected that Conserver <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259229\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"993820\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/993820\/tooltip\">Madia
+        Belussi<\/a>\u00a0takes over the day Massena steps down.<\/p><p>Below the
+        High Keeper are two conservers per continent or region the organisation is
+        located at that lead the local efforts.<\/p><p>Below Conservers are Seekers
+        who carry out missions.<\/p><p>Everything else below Seekers are just members
+        that train under a Seeker, or sometimes under a Conserver.<\/p>","image":"organisations\/83VOe6HyBlgUViW0hDQpOf7gJGjsyRLw4rfQqYdA.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/wvk4TjJc7zEHTLCdyQsvBQHtbf0=\/smart\/src\/organisations%2F83VOe6HyBlgUViW0hDQpOf7gJGjsyRLw4rfQqYdA.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/oqDGXZbN97mntBKV1hLYngg8seg=\/40x40\/smart\/src\/organisations%2F83VOe6HyBlgUViW0hDQpOf7gJGjsyRLw4rfQqYdA.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27466,"tags":[],"created_at":"2018-06-22T13:33:32.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":5122,"type":"Religious","organisation_id":null,"members":[{"character_id":4155,"created_at":"2018-06-22T14:33:36.000000Z","created_by":null,"id":1584,"is_private":false,"organisation_id":1590,"role":"Ex-Member","updated_at":"2020-09-26T09:55:28.000000Z","updated_by":null},{"character_id":259063,"created_at":"2020-09-19T15:51:43.000000Z","created_by":null,"id":150670,"is_private":false,"organisation_id":1590,"role":"High
+        Keeper","updated_at":"2020-09-19T15:51:43.000000Z","updated_by":null},{"character_id":259229,"created_at":"2020-09-19T15:54:50.000000Z","created_by":null,"id":150671,"is_private":false,"organisation_id":1590,"role":"Conserver
+        (Medina)","updated_at":"2020-09-26T09:55:13.000000Z","updated_by":null},{"character_id":259289,"created_at":"2020-09-19T17:06:29.000000Z","created_by":null,"id":150710,"is_private":false,"organisation_id":1590,"role":"Seeker","updated_at":"2020-09-19T17:06:29.000000Z","updated_by":null},{"character_id":263759,"created_at":"2020-09-26T09:50:32.000000Z","created_by":null,"id":154232,"is_private":false,"organisation_id":1590,"role":"Seeker","updated_at":"2020-09-26T09:50:32.000000Z","updated_by":null},{"character_id":263768,"created_at":"2020-09-26T10:08:43.000000Z","created_by":null,"id":154240,"is_private":false,"organisation_id":1590,"role":"Seeker","updated_at":"2020-09-26T10:08:43.000000Z","updated_by":null},{"character_id":259011,"created_at":"2020-09-26T11:01:50.000000Z","created_by":null,"id":154274,"is_private":false,"organisation_id":1590,"role":"Member","updated_at":"2020-09-26T11:01:50.000000Z","updated_by":null},{"character_id":259013,"created_at":"2020-09-26T11:04:47.000000Z","created_by":null,"id":154276,"is_private":false,"organisation_id":1590,"role":"Ex
+        member, presumed dead","updated_at":"2020-09-26T11:04:47.000000Z","updated_by":null},{"character_id":265859,"created_at":"2020-09-29T09:40:46.000000Z","created_by":null,"id":155889,"is_private":false,"organisation_id":1590,"role":"Member","updated_at":"2020-09-29T09:40:46.000000Z","updated_by":null},{"character_id":269410,"created_at":"2020-10-04T15:05:13.000000Z","created_by":null,"id":158936,"is_private":false,"organisation_id":1590,"role":"Member","updated_at":"2020-10-04T15:05:13.000000Z","updated_by":null}]},{"id":1591,"name":"Templars
+        of Deceit","entry":"\n<p>The <strong>Templars of Deceit<\/strong>\u00a0are
+        a religious organisation of followers of the God <a title=\"Korshan the Deceiver\u00a0is
+        a God of lies, deceit, manipulation and destruction.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8913\"
+        data-toggle=\"tooltip\">Korshan<\/a>.\u00a0<\/p>\n<p>Members of the organisation
+        are usually fieves, criminals, charlatans and keepers of secrets.<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Templars of Deceit<\/strong>\u00a0are a religious organisation of
+        followers of the God <a title=\"Korshan the Deceiver\u00a0is a God of lies,
+        deceit, manipulation and destruction.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8913\"
+        data-toggle=\"tooltip\">Korshan<\/a>.\u00a0<\/p>\n<p>Members of the organisation
+        are usually fieves, criminals, charlatans and keepers of secrets.<\/p>\n","image":"organisations\/ZrHJ8ozvCVGzxelK6JlMTehOChOz4oXwrpRX2AEY.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/prVXLBCov73bS9_KCB2BZ9Vk2oE=\/smart\/src\/organisations%2FZrHJ8ozvCVGzxelK6JlMTehOChOz4oXwrpRX2AEY.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/ta0mjWAMZi7B-ISoNXEDdEzX_H4=\/40x40\/smart\/src\/organisations%2FZrHJ8ozvCVGzxelK6JlMTehOChOz4oXwrpRX2AEY.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27467,"tags":[],"created_at":"2018-06-22T13:44:56.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[]},{"id":1592,"name":"Slippery
+        Fox","entry":"\n<p>The <strong>Slippery Fox\u00a0<\/strong>is a religious
+        organisations of\u00a0followers of the God <a title=\"Omerion the\u00a0Trickster
+        is a chaotic God of trickery and illusion. His symbol is a card with 4 aces
+        on it.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8910\" data-toggle=\"tooltip\">Omerion<\/a>.<\/p>\n<p>Members
+        promote trickery and illusions, and tend to be charlatans and tricksters and
+        con artists.<\/p>\n","entry_parsed":"\n<p>The <strong>Slippery Fox\u00a0<\/strong>is
+        a religious organisations of\u00a0followers of the God <a title=\"Omerion
+        the\u00a0Trickster is a chaotic God of trickery and illusion. His symbol is
+        a card with 4 aces on it.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8910\"
+        data-toggle=\"tooltip\">Omerion<\/a>.<\/p>\n<p>Members promote trickery and
+        illusions, and tend to be charlatans and tricksters and con artists.<\/p>\n","image":"organisations\/fw8qKMEspyP0SUEfIzQa2nS9rboHi8C4Ruzc67FK.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Md3tWzJxLt-_ClnerSKFdKxbF5c=\/smart\/src\/organisations%2Ffw8qKMEspyP0SUEfIzQa2nS9rboHi8C4Ruzc67FK.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/y7ZiEjwpXGfHn5phMXSE1etTxvs=\/40x40\/smart\/src\/organisations%2Ffw8qKMEspyP0SUEfIzQa2nS9rboHi8C4Ruzc67FK.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27468,"tags":[],"created_at":"2018-06-22T13:51:35.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[{"character_id":4134,"created_at":"2019-08-31T10:07:24.000000Z","created_by":null,"id":18315,"is_private":false,"organisation_id":1592,"role":"Member","updated_at":"2019-08-31T10:07:24.000000Z","updated_by":null},{"character_id":4133,"created_at":"2020-09-21T22:41:16.000000Z","created_by":null,"id":151971,"is_private":false,"organisation_id":1592,"role":"Member","updated_at":"2020-09-21T22:41:16.000000Z","updated_by":null},{"character_id":4132,"created_at":"2020-09-21T22:41:40.000000Z","created_by":null,"id":151973,"is_private":false,"organisation_id":1592,"role":"Member","updated_at":"2020-09-21T22:41:40.000000Z","updated_by":null}]},{"id":1593,"name":"Children
+        of the Ages","entry":"\n<p>The\u00a0<strong>Children of the Ages<\/strong>
+        is a religious organisation of followers of the Goddess\u00a0<a title=\"Selissa,
+        Child of Reality is a Goddess of time, dreams and eternity. She is the youngest
+        of the Gods, and often in conflict with\u00a0Tal\u00fbr.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8908\"
+        data-toggle=\"tooltip\">Selissa<\/a>.<\/p>\n<p>\u00a0<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Children
+        of the Ages<\/strong> is a religious organisation of followers of the Goddess\u00a0<a
+        title=\"Selissa, Child of Reality is a Goddess of time, dreams and eternity.
+        She is the youngest of the Gods, and often in conflict with\u00a0Tal\u00fbr.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8908\" data-toggle=\"tooltip\">Selissa<\/a>.<\/p>\n<p>\u00a0<\/p>\n","image":"organisations\/0z63ZPRGQmeXL6lSOEZhRMsjvv3GYJUQcDe2fKRl.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/BEnQvWp85GlGJtExQsncKBhncss=\/smart\/src\/organisations%2F0z63ZPRGQmeXL6lSOEZhRMsjvv3GYJUQcDe2fKRl.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/9-O1yYWa4E2AhQYCTOkDdSC1qI0=\/40x40\/smart\/src\/organisations%2F0z63ZPRGQmeXL6lSOEZhRMsjvv3GYJUQcDe2fKRl.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27469,"tags":[],"created_at":"2018-06-22T13:55:55.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[]},{"id":1594,"name":"Preservers
+        of the Eternal Flame","entry":"\n<p>The\u00a0<strong>Preservers of the Eternal
+        Flame<\/strong> is a religious organisation of followers of the Goddess <a
+        title=\"Tal\u00fbr, Mistress of the Afterlife\u00a0is an Elven God of the
+        afterlife. She is the older of all the Gods after\u00a0Pelor.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8905\"
+        data-toggle=\"tooltip\">Tal\u00fbr<\/a>. Their symbol is a skull representing
+        death and the eternal flame representing the afterlife.<\/p>\n<p>Followers
+        of Tal\u00fbr are usually sorcerers and paladins who want to ensure that there
+        is no immortality on the mortal plane.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Preservers
+        of the Eternal Flame<\/strong> is a religious organisation of followers of
+        the Goddess <a title=\"Tal\u00fbr, Mistress of the Afterlife\u00a0is an Elven
+        God of the afterlife. She is the older of all the Gods after\u00a0Pelor.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8905\" data-toggle=\"tooltip\">Tal\u00fbr<\/a>.
+        Their symbol is a skull representing death and the eternal flame representing
+        the afterlife.<\/p>\n<p>Followers of Tal\u00fbr are usually sorcerers and
+        paladins who want to ensure that there is no immortality on the mortal plane.<\/p>\n","image":"organisations\/7oc3dvyNVJAi4Yv68tBDHu8Z830dz3NbqblqEGT7.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Ifn8CM3s8NTmT2sGWASt5DqHJvo=\/smart\/src\/organisations%2F7oc3dvyNVJAi4Yv68tBDHu8Z830dz3NbqblqEGT7.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/Tz3Tf9LwOvWl7ELOhFzrpuh9R6s=\/40x40\/smart\/src\/organisations%2F7oc3dvyNVJAi4Yv68tBDHu8Z830dz3NbqblqEGT7.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27470,"tags":[],"created_at":"2018-06-22T14:01:38.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[]},{"id":1595,"name":"Viridian
+        Ascent","entry":"\n<p><strong>Viridian Ascent<\/strong> is a religious organisation
+        of followers of the God <a title=\"Thuss-Run, the Blessed Dawn, also known
+        as\u00a0The Breaker of Mountains\u00a0and\u00a0The Father Of Stone\u00a0is
+        an ancient God of Nature, Earth and the Winds, and predates the conquest of
+        Thaelia. He is married to\u00a0Ilyvin, the Wild Prince.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8906\"
+        data-toggle=\"tooltip\">Thuss-Run<\/a>. Their symbol is a mountain representing
+        the might of the earth.<\/p>\n<p>Members of the organisation are usually miners,
+        mountainfolk, sailors and druids.<\/p>\n","entry_parsed":"\n<p><strong>Viridian
+        Ascent<\/strong> is a religious organisation of followers of the God <a title=\"Thuss-Run,
+        the Blessed Dawn, also known as\u00a0The Breaker of Mountains\u00a0and\u00a0The
+        Father Of Stone\u00a0is an ancient God of Nature, Earth and the Winds, and
+        predates the conquest of Thaelia. He is married to\u00a0Ilyvin, the Wild Prince.\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8906\" data-toggle=\"tooltip\">Thuss-Run<\/a>.
+        Their symbol is a mountain representing the might of the earth.<\/p>\n<p>Members
+        of the organisation are usually miners, mountainfolk, sailors and druids.<\/p>\n","image":"organisations\/Xan8TSjihgIk9JTNThf7H2kBPAKx1BLpBKbBdhXS.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/DOCciV0ZU8ghEDmGE0HiBOo4bDw=\/smart\/src\/organisations%2FXan8TSjihgIk9JTNThf7H2kBPAKx1BLpBKbBdhXS.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/3FJ7uBYAtvQcTPdkhy4yyxT2MCE=\/40x40\/smart\/src\/organisations%2FXan8TSjihgIk9JTNThf7H2kBPAKx1BLpBKbBdhXS.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27471,"tags":[],"created_at":"2018-06-22T14:07:32.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[{"character_id":4131,"created_at":"2018-06-22T16:38:27.000000Z","created_by":null,"id":1594,"is_private":false,"organisation_id":1595,"role":"Member","updated_at":"2018-06-22T16:38:27.000000Z","updated_by":null}]},{"id":1596,"name":"Ashen
+        Shield","entry":"\n<p><strong>Ashen Shield<\/strong>\u00a0is a religious organisation
+        of followers of the lesser God <a title=\"Tormaa the Unready\u00a0is a lesser
+        Goddess or war, strength, forging and courage. She was recently imprisoned
+        in her own plain, but\u00a0Auron\u00a0saved her and became her Champion. She
+        has tasked him with spreading her strength on the mortal world. Her symbol...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8912\" data-toggle=\"tooltip\">Tormaa<\/a>.
+        Their symbol is an ashen shield with a flame in the middle representing the
+        fire of courage.<\/p>\n<p>Members of the organisation are usually blacksmiths
+        and soldiers.<\/p>\n","entry_parsed":"\n<p><strong>Ashen Shield<\/strong>\u00a0is
+        a religious organisation of followers of the lesser God <a title=\"Tormaa
+        the Unready\u00a0is a lesser Goddess or war, strength, forging and courage.
+        She was recently imprisoned in her own plain, but\u00a0Auron\u00a0saved her
+        and became her Champion. She has tasked him with spreading her strength on
+        the mortal world. Her symbol...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8912\"
+        data-toggle=\"tooltip\">Tormaa<\/a>. Their symbol is an ashen shield with
+        a flame in the middle representing the fire of courage.<\/p>\n<p>Members of
+        the organisation are usually blacksmiths and soldiers.<\/p>\n","image":"organisations\/r0sI4B3Bx1kJcg1YiVbeimbmMBSxuFBj2c5nFHHz.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/_L7Ed9nplCVs785f80PDw0UarL8=\/smart\/src\/organisations%2Fr0sI4B3Bx1kJcg1YiVbeimbmMBSxuFBj2c5nFHHz.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/BU72hMDRQhxonxKfonjUD8LtUPc=\/40x40\/smart\/src\/organisations%2Fr0sI4B3Bx1kJcg1YiVbeimbmMBSxuFBj2c5nFHHz.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27477,"tags":[],"created_at":"2018-06-22T14:22:19.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":5122,"type":"Religious","organisation_id":null,"members":[{"character_id":9244,"created_at":"2018-06-24T23:00:22.000000Z","created_by":null,"id":1619,"is_private":false,"organisation_id":1596,"role":"Member","updated_at":"2018-06-24T23:00:22.000000Z","updated_by":null},{"character_id":9243,"created_at":"2018-06-24T23:00:38.000000Z","created_by":null,"id":1620,"is_private":false,"organisation_id":1596,"role":"Owlchester
+        Leader","updated_at":"2018-06-24T23:00:38.000000Z","updated_by":null},{"character_id":9245,"created_at":"2018-06-24T23:01:57.000000Z","created_by":null,"id":1621,"is_private":false,"organisation_id":1596,"role":"Member","updated_at":"2018-06-24T23:01:57.000000Z","updated_by":null},{"character_id":4127,"created_at":"2020-09-07T09:08:26.000000Z","created_by":null,"id":143959,"is_private":false,"organisation_id":1596,"role":"Champion","updated_at":"2020-09-07T09:08:26.000000Z","updated_by":null}]},{"id":1597,"name":"Dawnblessed","entry":"\n<p><strong>Dawnblessed<\/strong>
+        is a religious organisation of followers of the God [character:27020].<\/p>\n<p>Members
+        of the organisation are usually clerics, doctors, and good hearted creatures.<\/p>\n","entry_parsed":"\n<p><strong>Dawnblessed<\/strong>
+        is a religious organisation of followers of the God <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/8904\"
+        class=\"entity-mention\" data-entity-tags=\"id-68665 deities\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27020\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27020\/tooltip\">Pelor<\/a>.<\/p>\n<p>Members
+        of the organisation are usually clerics, doctors, and good hearted creatures.<\/p>\n","image":"organisations\/tEBJiIOG6yAXQ8j3prkJX9jBHFDJpzJRtd4TCKc0.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/TyX5eeAuM5FxroxnjXN-Ic9CEeY=\/smart\/src\/organisations%2FtEBJiIOG6yAXQ8j3prkJX9jBHFDJpzJRtd4TCKc0.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/iDmBX0WgYz1iIhkmvNNJyKiYV0I=\/40x40\/smart\/src\/organisations%2FtEBJiIOG6yAXQ8j3prkJX9jBHFDJpzJRtd4TCKc0.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27479,"tags":[],"created_at":"2018-06-22T14:28:26.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[{"character_id":4107,"created_at":"2018-06-22T14:31:07.000000Z","created_by":null,"id":1579,"is_private":false,"organisation_id":1597,"role":"Member","updated_at":"2018-06-22T14:31:07.000000Z","updated_by":null},{"character_id":4113,"created_at":"2018-06-22T14:31:14.000000Z","created_by":null,"id":1580,"is_private":false,"organisation_id":1597,"role":"Member","updated_at":"2018-06-22T14:31:14.000000Z","updated_by":null},{"character_id":28063,"created_at":"2019-01-06T18:23:07.000000Z","created_by":null,"id":4591,"is_private":false,"organisation_id":1597,"role":"Knight","updated_at":"2019-01-06T18:23:07.000000Z","updated_by":null},{"character_id":4111,"created_at":"2020-05-27T10:46:50.000000Z","created_by":null,"id":95034,"is_private":false,"organisation_id":1597,"role":"Member","updated_at":"2020-05-27T10:46:50.000000Z","updated_by":null}]},{"id":1614,"name":"Republican
+        Guard","entry":"\n<p>The\u00a0<strong>Republican Guard<\/strong> is responsible
+        for the security of nobles, diplomates and people of power in the republic
+        of\u00a0[location:12005].<\/p>\n<p>The organisation is known for having a
+        squadron that ride Wyverns. The wyverns are bred in the city.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Republican
+        Guard<\/strong> is responsible for the security of nobles, diplomates and
+        people of power in the republic of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5127\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12005\/tooltip\">Orlene<\/a>.<\/p>\n<p>The
+        organisation is known for having a squadron that ride Wyverns. The wyverns
+        are bred in the city.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27975,"tags":[],"created_at":"2018-06-24T18:39:45.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":7817,"type":"Guard","organisation_id":null,"members":[{"character_id":9222,"created_at":"2018-06-24T18:39:59.000000Z","created_by":null,"id":1617,"is_private":false,"organisation_id":1614,"role":"Leader","updated_at":"2018-06-24T18:39:59.000000Z","updated_by":null}]},{"id":1615,"name":"Copper
+        Owls","entry":"\n<p>The\u00a0<strong>Copper Owls<\/strong> are responsible
+        for the security of the various gates of\u00a0<a title=\"Owlchester is the
+        capital of the Republic of\u00a0Orlene\u00a0and the most populous city of
+        the continent of\u00a0Thaelia. The inner city has a population of around 40''000
+        inhabitants, with an extra 120''000 living up to a day''s distance from the
+        city. The city i...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7817\"
+        data-toggle=\"tooltip\">Owlchester<\/a>.<\/p>\n<h3>Clothing<\/h3>\n<p>White
+        and Red cloths, covered in silver armor with golden details and a copper owl
+        on the chest and shield.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Copper
+        Owls<\/strong> are responsible for the security of the various gates of\u00a0<a
+        title=\"Owlchester is the capital of the Republic of\u00a0Orlene\u00a0and
+        the most populous city of the continent of\u00a0Thaelia. The inner city has
+        a population of around 40''000 inhabitants, with an extra 120''000 living
+        up to a day''s distance from the city. The city i...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/7817\"
+        data-toggle=\"tooltip\">Owlchester<\/a>.<\/p>\n<h3>Clothing<\/h3>\n<p>White
+        and Red cloths, covered in silver armor with golden details and a copper owl
+        on the chest and shield.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27977,"tags":[],"created_at":"2018-06-24T18:42:36.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":7817,"type":"Guard","organisation_id":null,"members":[{"character_id":9224,"created_at":"2018-06-24T18:44:01.000000Z","created_by":null,"id":1618,"is_private":false,"organisation_id":1615,"role":"Leader","updated_at":"2018-06-24T18:44:01.000000Z","updated_by":null}]},{"id":1616,"name":"Court
+        Of Autumn","entry":"\n<p>The <strong>Court of Autumn<\/strong> prowls through
+        regions with color-changing orchards, blankets of multi-colored crunchy grounds,
+        ready to eat fields of crops and shyly stripping flora. Chilled winds blow
+        through these lands howling the arrival of the prowlers of the land.<\/p>\n<p>The
+        Court of Autumn is ruled by the sassy Maiden of the Moon. Known to always
+        carry with her a naked silver sword which she uses to carry out her private
+        war against Lycanthropes and other savage killers. She has Platinum Blonde
+        hair and sharp Eladrin like features. Her dresses are built for campaigning
+        rather than sitting around. The true name of the Maiden of the Moon is lost
+        to time, but she is known by a lot of different names like Luna, Selene, etc.<\/p>\n<p>The
+        Gloaming Fey of the Autumn Court are mostly sassy or aggressive quick-witted
+        warriors ready to strike. Some among the Court take great joy in tricking
+        and creating illusions. The Court of Autumn has a somewhat close relationship
+        with the Court of Winter. Members of this court tend to take on the appearance
+        of Eladrins, Korreds, Gnomes, Pseudo Dragons, Faerie Dragons, and Leprechauns.<\/p>\n<p>The
+        Main Court, Harvest Vale contains stumps of trees carved to make cushioned
+        seats for the courtiers. Cornucopias of food are always available freshly
+        harvested from the fields of the Archfey. Warm colors decorate the tent like
+        structure under which the court is held. Poles of twisted design carry dimly
+        lit orange flames of a lamp. The Howling winds often drown the courtier\u2019s
+        voices so they often shout their opinions at each other causing words to travel
+        further than they wanted.<\/p>\n<p>One of the most famous courtiers of the
+        Autumn Court is the Witch of Fates, a powerful oracle who has a knack for
+        making an appearance. Her favorite pass time includes informing people of
+        their impending doom in a chilly tone. Also, among this court is the Prince
+        of Hearts who takes great joy in meddling in love affairs giving them twists
+        that he hopes will make them a better story.<\/p>\n<p>Cerrunos, The Horned
+        Lord is once among the famous Green Fey was informed of his fate by the Witch
+        of Fates that he would change when he takes a glance into the Lake of Dreams,
+        which transformed him from a peace loving Green Fey to a furious hunter of
+        the Autumn Court. He was born to hunt, he takes on the appearance of a Firbolg
+        with the antlers of a stag and intricate war paint like design all over his
+        body. The Antlers are a reminder by the Summer Queen of him declaring the
+        Maiden of the Moon to be Fairer than her. The curse of the Prince of Frost
+        protects the animals he attempts to hunt causing his prey to be always a step
+        ahead of him. Every year when the population of the creatures increases within
+        the Feywild Cerrunos carries out the Great Wild Hunt and the creature that
+        hunts down the most interesting creature is blessed by the Horned Lord.<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Court of Autumn<\/strong> prowls through regions with color-changing
+        orchards, blankets of multi-colored crunchy grounds, ready to eat fields of
+        crops and shyly stripping flora. Chilled winds blow through these lands howling
+        the arrival of the prowlers of the land.<\/p>\n<p>The Court of Autumn is ruled
+        by the sassy Maiden of the Moon. Known to always carry with her a naked silver
+        sword which she uses to carry out her private war against Lycanthropes and
+        other savage killers. She has Platinum Blonde hair and sharp Eladrin like
+        features. Her dresses are built for campaigning rather than sitting around.
+        The true name of the Maiden of the Moon is lost to time, but she is known
+        by a lot of different names like Luna, Selene, etc.<\/p>\n<p>The Gloaming
+        Fey of the Autumn Court are mostly sassy or aggressive quick-witted warriors
+        ready to strike. Some among the Court take great joy in tricking and creating
+        illusions. The Court of Autumn has a somewhat close relationship with the
+        Court of Winter. Members of this court tend to take on the appearance of Eladrins,
+        Korreds, Gnomes, Pseudo Dragons, Faerie Dragons, and Leprechauns.<\/p>\n<p>The
+        Main Court, Harvest Vale contains stumps of trees carved to make cushioned
+        seats for the courtiers. Cornucopias of food are always available freshly
+        harvested from the fields of the Archfey. Warm colors decorate the tent like
+        structure under which the court is held. Poles of twisted design carry dimly
+        lit orange flames of a lamp. The Howling winds often drown the courtier\u2019s
+        voices so they often shout their opinions at each other causing words to travel
+        further than they wanted.<\/p>\n<p>One of the most famous courtiers of the
+        Autumn Court is the Witch of Fates, a powerful oracle who has a knack for
+        making an appearance. Her favorite pass time includes informing people of
+        their impending doom in a chilly tone. Also, among this court is the Prince
+        of Hearts who takes great joy in meddling in love affairs giving them twists
+        that he hopes will make them a better story.<\/p>\n<p>Cerrunos, The Horned
+        Lord is once among the famous Green Fey was informed of his fate by the Witch
+        of Fates that he would change when he takes a glance into the Lake of Dreams,
+        which transformed him from a peace loving Green Fey to a furious hunter of
+        the Autumn Court. He was born to hunt, he takes on the appearance of a Firbolg
+        with the antlers of a stag and intricate war paint like design all over his
+        body. The Antlers are a reminder by the Summer Queen of him declaring the
+        Maiden of the Moon to be Fairer than her. The curse of the Prince of Frost
+        protects the animals he attempts to hunt causing his prey to be always a step
+        ahead of him. Every year when the population of the creatures increases within
+        the Feywild Cerrunos carries out the Great Wild Hunt and the creature that
+        hunts down the most interesting creature is blessed by the Horned Lord.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28099,"tags":[],"created_at":"2018-06-25T10:57:39.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":10878,"type":"Court","organisation_id":null,"members":[]},{"id":1617,"name":"Court
+        of Summer","entry":"\n<p>The <strong>Court of Summer<\/strong>shine over regions
+        with close knit thick trees, brightly lit flowery paths and warm savannahs.
+        Warm winds blow through these lands.<\/p>\n<p>The Summer Court is ruled by
+        the ever radiant and smiling Queen Tiandra. She is considered one of the mightiest
+        of the Archfey besides the Twin rulers of the Court of Coral. She is seen
+        as an Eladrin with sun-kissed skin and golden eyes wearing a white gown with
+        gold trimmings and red floral designs.<\/p>\n<p>Barons and Baronesses of the
+        Summer Court may be gentle as the lazy sun on a good summer day or fierce
+        enough to start wildfires with just a look. The Court of Summer is the most
+        populous of the courts rivaled only by the Court of Winter. Majority of the
+        members of this court take on the appearance of Eladrin, Brownies, Elves,
+        and Satyrs.<\/p>\n<p>The Main Court, Sennaliesse is decorated with flowers,
+        fountains and very fine silks of radiant colors all open to the warm sun.
+        The Court of Summer is very welcoming towards mortals that stumble through
+        the veil. They are well known to have brief affairs with mortals they have
+        taken a liking towards. Ballads and poems are sung by Archfey and mortals
+        alike of these beautiful and sensual affairs or of stories they have heard
+        from each other.<\/p>\n<p>Hysram, the Prince of Satyrs is a well-known member
+        of the Summer Court. He sings songs of a wilder and untamed feywild of when
+        the Archfey had just awoken. Taking on the appearance of a satyr with curly
+        locks, spiral horns, and dark passionate eyes. He skips and plays his songs
+        for anyone who wishes to hear but most of all he loves to cause a bit of mayhem.<\/p>\n<p>Eachthighern,
+        Lord of Unicorns is another such famous member of the Summer Court. Taking
+        on the appearance of a pure white Unicorn he is one who makes frequent contact
+        and bargains with mortals. Thus, the word and depiction of Unicorn are much
+        more common among the mortals even though many have not seen it.<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Court of Summer<\/strong>shine over regions with close knit thick
+        trees, brightly lit flowery paths and warm savannahs. Warm winds blow through
+        these lands.<\/p>\n<p>The Summer Court is ruled by the ever radiant and smiling
+        Queen Tiandra. She is considered one of the mightiest of the Archfey besides
+        the Twin rulers of the Court of Coral. She is seen as an Eladrin with sun-kissed
+        skin and golden eyes wearing a white gown with gold trimmings and red floral
+        designs.<\/p>\n<p>Barons and Baronesses of the Summer Court may be gentle
+        as the lazy sun on a good summer day or fierce enough to start wildfires with
+        just a look. The Court of Summer is the most populous of the courts rivaled
+        only by the Court of Winter. Majority of the members of this court take on
+        the appearance of Eladrin, Brownies, Elves, and Satyrs.<\/p>\n<p>The Main
+        Court, Sennaliesse is decorated with flowers, fountains and very fine silks
+        of radiant colors all open to the warm sun. The Court of Summer is very welcoming
+        towards mortals that stumble through the veil. They are well known to have
+        brief affairs with mortals they have taken a liking towards. Ballads and poems
+        are sung by Archfey and mortals alike of these beautiful and sensual affairs
+        or of stories they have heard from each other.<\/p>\n<p>Hysram, the Prince
+        of Satyrs is a well-known member of the Summer Court. He sings songs of a
+        wilder and untamed feywild of when the Archfey had just awoken. Taking on
+        the appearance of a satyr with curly locks, spiral horns, and dark passionate
+        eyes. He skips and plays his songs for anyone who wishes to hear but most
+        of all he loves to cause a bit of mayhem.<\/p>\n<p>Eachthighern, Lord of Unicorns
+        is another such famous member of the Summer Court. Taking on the appearance
+        of a pure white Unicorn he is one who makes frequent contact and bargains
+        with mortals. Thus, the word and depiction of Unicorn are much more common
+        among the mortals even though many have not seen it.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28101,"tags":[],"created_at":"2018-06-25T11:06:50.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":10878,"type":"Court","organisation_id":null,"members":[]},{"id":1634,"name":"New
+        Republicans","entry":"\n<p>The\u00a0<strong>New Republicans<\/strong> is a
+        political party in the Republic of\u00a0[location:12005]. It was founded in
+        1011 AC and is the second biggest party in Orlene.<\/p>\n<p>They stand for
+        rule of law, freedom of enterprise and peace.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>New
+        Republicans<\/strong> is a political party in the Republic of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5127\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12005\/tooltip\">Orlene<\/a>.
+        It was founded in 1011 AC and is the second biggest party in Orlene.<\/p>\n<p>They
+        stand for rule of law, freedom of enterprise and peace.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":28676,"tags":[],"created_at":"2018-06-29T10:49:17.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5127,"type":"Political
+        Party","organisation_id":null,"members":[{"character_id":9259,"created_at":"2018-06-29T10:49:31.000000Z","created_by":null,"id":1642,"is_private":false,"organisation_id":1634,"role":"Member","updated_at":"2018-06-29T10:49:31.000000Z","updated_by":null},{"character_id":9412,"created_at":"2018-06-29T10:51:53.000000Z","created_by":null,"id":1643,"is_private":false,"organisation_id":1634,"role":"Leader","updated_at":"2018-06-29T10:51:53.000000Z","updated_by":null}]},{"id":4502,"name":"Sisterhood
+        of Grim Forest","entry":"\n<p>The\u00a0<strong>Sisterhood of Grim Forest<\/strong>
+        is a coven of 20-30 witches that follow the teachings and guidance of\u00a0[character:27021].<\/p>\n<p>They
+        are secretive but experts at creating potions of various magical properties.
+        They also train in various rituals to their Goddess.<\/p>\n<p>No men are allowed
+        in the coven. Men are needed for birth and accept their existence but see
+        them as of lesser strength.<\/p>\n<p>The leader is chosen by a ritual.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Sisterhood
+        of Grim Forest<\/strong> is a coven of 20-30 witches that follow the teachings
+        and guidance of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/8905\"
+        class=\"entity-mention\" data-entity-tags=\"id-68665 deities\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27021\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27021\/tooltip\">Tal\u00fbr<\/a>.<\/p>\n<p>They
+        are secretive but experts at creating potions of various magical properties.
+        They also train in various rituals to their Goddess.<\/p>\n<p>No men are allowed
+        in the coven. Men are needed for birth and accept their existence but see
+        them as of lesser strength.<\/p>\n<p>The leader is chosen by a ritual.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":93295,"tags":[],"created_at":"2018-12-30T11:38:53.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":29692,"type":"Coven","organisation_id":1594,"members":[{"character_id":28003,"created_at":"2018-12-30T11:38:53.000000Z","created_by":null,"id":4496,"is_private":false,"organisation_id":4502,"role":null,"updated_at":"2018-12-30T11:38:53.000000Z","updated_by":null},{"character_id":28006,"created_at":"2018-12-30T12:33:03.000000Z","created_by":null,"id":4497,"is_private":false,"organisation_id":4502,"role":null,"updated_at":"2018-12-30T12:33:03.000000Z","updated_by":null},{"character_id":28004,"created_at":"2018-12-30T12:33:03.000000Z","created_by":null,"id":4498,"is_private":false,"organisation_id":4502,"role":null,"updated_at":"2018-12-30T12:33:03.000000Z","updated_by":null}]},{"id":4508,"name":"Rieswagen","entry":"\n<p>The
+        <strong>Rieswagen<\/strong>\u00a0company specialised in building carriages
+        and chariots. They are owned by the [family:93380]\u00a0family.<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Rieswagen<\/strong>\u00a0company specialised in building carriages
+        and chariots. They are owned by the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/families\/3607\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"93380\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/93380\/tooltip\">Riesmann<\/a>\u00a0family.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":93379,"tags":[],"created_at":"2018-12-30T14:40:49.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":5149,"type":"Company","organisation_id":null,"members":[]},{"id":4510,"name":"Church
+        of Cearm\u00e1in","entry":"\n<p>The\u00a0<strong>Church of Cearm\u00e1in\u00a0<\/strong>is
+        a monotheistic religion that believes in\u00a0[character:93412].<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Church
+        of Cearm\u00e1in\u00a0<\/strong>is a monotheistic religion that believes in\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/28043\" class=\"entity-mention\"
+        data-entity-tags=\"id-68665 deities\" data-toggle=\"tooltip-ajax\" data-id=\"93412\"
+        data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/93412\/tooltip\">Cearnach<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":93413,"tags":[],"created_at":"2018-12-30T15:53:14.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":null,"type":null,"organisation_id":null,"members":[]},{"id":4663,"name":"Order
+        of Masaran","entry":"\n<p>The\u00a0<strong>Order of Masaran<\/strong> is an
+        organisation who recently took over most of the island of\u00a0[location:96254].
+        Their goals and motivations aren''t properly understood.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Order
+        of Masaran<\/strong> is an organisation who recently took over most of the
+        island of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/30652\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"96254\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96254\/tooltip\">Kemali<\/a>.
+        Their goals and motivations aren''t properly understood.<\/p>\n","image":"organisations\/o3lIE87v79S8HTWw659GwiQAWB9Av1ie4siS98fg.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/QpqsYyAVxzbq-bthkAZXuloPTOg=\/smart\/src\/organisations%2Fo3lIE87v79S8HTWw659GwiQAWB9Av1ie4siS98fg.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/cnxE8-YdjwDlL4YolCDOGaBR2II=\/40x40\/smart\/src\/organisations%2Fo3lIE87v79S8HTWw659GwiQAWB9Av1ie4siS98fg.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":96285,"tags":[],"created_at":"2019-01-06T19:48:34.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":30652,"type":"Private
+        Army","organisation_id":null,"members":[{"character_id":31263,"created_at":"2019-01-25T10:01:58.000000Z","created_by":null,"id":5000,"is_private":false,"organisation_id":4663,"role":"Scribe","updated_at":"2019-01-25T10:01:58.000000Z","updated_by":null},{"character_id":43573,"created_at":"2019-03-07T10:23:21.000000Z","created_by":null,"id":7293,"is_private":false,"organisation_id":4663,"role":null,"updated_at":"2019-03-07T10:23:21.000000Z","updated_by":null},{"character_id":73071,"created_at":"2019-07-08T06:39:40.000000Z","created_by":null,"id":14120,"is_private":false,"organisation_id":4663,"role":"Leader
+        of Mivor","updated_at":"2019-07-08T06:47:03.000000Z","updated_by":null},{"character_id":85482,"created_at":"2019-08-19T11:12:52.000000Z","created_by":null,"id":16501,"is_private":false,"organisation_id":4663,"role":"Squad
+        leader","updated_at":"2019-08-19T11:12:52.000000Z","updated_by":null}]},{"id":4894,"name":"Pirates
+        of Kal Talesh","entry":"\n<p>The\u00a0<strong>Pirates of Kal Talesh<\/strong>
+        are an all female pirate organisation located in\u00a0[location:101004]. They
+        are rivals with the Thieve''s Gold pirates.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Pirates
+        of Kal Talesh<\/strong> are an all female pirate organisation located in\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/31796\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"101004\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/101004\/tooltip\">Kal
+        Talesh<\/a>. They are rivals with the Thieve''s Gold pirates.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":101005,"tags":[],"created_at":"2019-01-15T09:34:51.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":31796,"type":"Pirates","organisation_id":null,"members":[{"character_id":82940,"created_at":"2019-08-09T12:43:43.000000Z","created_by":null,"id":16023,"is_private":false,"organisation_id":4894,"role":"Second
+        in command","updated_at":"2019-08-09T12:43:43.000000Z","updated_by":null},{"character_id":29924,"created_at":"2019-09-16T07:19:21.000000Z","created_by":null,"id":21341,"is_private":false,"organisation_id":4894,"role":"Leader","updated_at":"2019-09-16T07:19:21.000000Z","updated_by":null}]},{"id":4895,"name":"Thieve''s
+        Gold","entry":"\n<p>Located in [location:101008], the pirate crew of <strong>Thieve''s
+        Gold<\/strong> is a rival organisation of\u00a0[organisation:101005]<\/p>\n","entry_parsed":"\n<p>Located
+        in <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/31797\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"101008\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/101008\/tooltip\">Lasarad<\/a>,
+        the pirate crew of <strong>Thieve''s Gold<\/strong> is a rival organisation
+        of\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/organisations\/4894\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"101005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/101005\/tooltip\">Pirates
+        of Kal Talesh<\/a><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":101009,"tags":[],"created_at":"2019-01-15T09:38:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":31797,"type":"Pirates","organisation_id":null,"members":[{"character_id":29923,"created_at":"2019-09-16T07:18:20.000000Z","created_by":null,"id":21340,"is_private":false,"organisation_id":4895,"role":"Leader","updated_at":"2019-09-16T07:18:20.000000Z","updated_by":null}]},{"id":6628,"name":"Forth
+        Shaian","entry":"\n<p>The <strong>Forth Shaian<\/strong> are the knights and
+        protectors of the island of Kemali. They succeeded the Third Shaian when they
+        were disbanded in 2290.<\/p>\n","entry_parsed":"\n<p>The <strong>Forth Shaian<\/strong>
+        are the knights and protectors of the island of Kemali. They succeeded the
+        Third Shaian when they were disbanded in 2290.<\/p>\n","image":"organisations\/M0XJWbDoDjYbTXzb0K1LcLiqgAjguMOXjGjizv0N.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/xDJN3-Iz1z3TjU_rqhV0essbfkA=\/smart\/src\/organisations%2FM0XJWbDoDjYbTXzb0K1LcLiqgAjguMOXjGjizv0N.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/JHBSInbcNvGJrpMOtT1S9e3PMwo=\/40x40\/smart\/src\/organisations%2FM0XJWbDoDjYbTXzb0K1LcLiqgAjguMOXjGjizv0N.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":133061,"tags":[],"created_at":"2019-02-13T12:56:02.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":30652,"type":"Knights","organisation_id":null,"members":[{"character_id":30831,"created_at":"2019-02-13T12:56:22.000000Z","created_by":null,"id":6136,"is_private":false,"organisation_id":6628,"role":"Port
+        Giza Leader","updated_at":"2019-02-13T12:56:22.000000Z","updated_by":null},{"character_id":38014,"created_at":"2019-02-13T13:00:25.000000Z","created_by":null,"id":6139,"is_private":false,"organisation_id":6628,"role":"Second
+        in command Port Giza","updated_at":"2019-02-13T13:00:25.000000Z","updated_by":null},{"character_id":38016,"created_at":"2019-02-13T13:07:01.000000Z","created_by":null,"id":6140,"is_private":false,"organisation_id":6628,"role":"Knight","updated_at":"2019-02-13T13:07:01.000000Z","updated_by":null},{"character_id":30730,"created_at":"2019-02-13T13:07:39.000000Z","created_by":null,"id":6141,"is_private":false,"organisation_id":6628,"role":"Guard","updated_at":"2019-02-13T13:07:39.000000Z","updated_by":null}]},{"id":6707,"name":"Broken
+        Bones Coven","entry":"<p>The <strong>Broken Bones Coven<\/strong> are a...
+        hag coven located in Winterwad which aims at destroying the Kingdom of Arden.<\/p>\n<p>Twelve
+        years ago, the coven performed a powerful ritual to make its members a lot
+        stronger, allowing them replace as many human children with their own. This
+        allowed them to replace roughly 500 to 1''000 children over the course of
+        two years, after which the ritual''s price was to be paid with many of the
+        hags dying.<\/p>\n<p>Many of the children died before coming of age, but those
+        who will hit 13 years of age will be awakened to their hag nature. The children
+        carry a charm that allows them to go undetected as fiendish creatures.<\/p>","entry_parsed":"<p>The
+        <strong>Broken Bones Coven<\/strong> are a... hag coven located in Winterwad
+        which aims at destroying the Kingdom of Arden.<\/p>\n<p>Twelve years ago,
+        the coven performed a powerful ritual to make its members a lot stronger,
+        allowing them replace as many human children with their own. This allowed
+        them to replace roughly 500 to 1''000 children over the course of two years,
+        after which the ritual''s price was to be paid with many of the hags dying.<\/p>\n<p>Many
+        of the children died before coming of age, but those who will hit 13 years
+        of age will be awakened to their hag nature. The children carry a charm that
+        allows them to go undetected as fiendish creatures.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"https:\/\/images.kanka.io\/user\/uMwGBiJ4VPMXg8D6pPYNlTdE4Rg=\/smart\/src\/campaign%2F1%2FHklVjy8iQCfU5PZoMEif49jEuRTCDBUrHsVUYHGA.jpeg?webpfallback","has_custom_header":true,"is_private":false,"is_template":false,"entity_id":134022,"tags":[],"created_at":"2019-02-14T11:49:32.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":65481,"type":"Hag
+        Coven","organisation_id":null,"members":[{"character_id":38254,"created_at":"2019-02-14T14:03:26.000000Z","created_by":null,"id":6165,"is_private":false,"organisation_id":6707,"role":null,"updated_at":"2019-02-14T14:03:26.000000Z","updated_by":null},{"character_id":38255,"created_at":"2019-02-14T14:03:26.000000Z","created_by":null,"id":6166,"is_private":false,"organisation_id":6707,"role":null,"updated_at":"2019-02-14T14:03:26.000000Z","updated_by":null},{"character_id":38256,"created_at":"2019-02-14T14:03:26.000000Z","created_by":null,"id":6167,"is_private":false,"organisation_id":6707,"role":null,"updated_at":"2019-02-14T14:03:26.000000Z","updated_by":null}]},{"id":8467,"name":"Scarlet
+        Brigade","entry":"\n<p>The\u00a0<strong>Scarlet Brigade<\/strong> is the military
+        of Empire of [location:101013].<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Scarlet
+        Brigade<\/strong> is the military of Empire of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/31798\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"101013\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/101013\/tooltip\">Zarnagesh<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":167279,"tags":[],"created_at":"2019-03-22T11:35:05.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":31798,"type":"Military","organisation_id":null,"members":[{"character_id":31264,"created_at":"2020-01-31T19:07:18.000000Z","created_by":null,"id":48519,"is_private":false,"organisation_id":8467,"role":"Ruler","updated_at":"2020-01-31T19:07:18.000000Z","updated_by":null}]},{"id":15257,"name":"Grande
+        Consiglio","entry":"\n<p>The\u00a0<strong>grande consiglio<\/strong> is the
+        ruling entity of the empire of [location:28178].<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>grande
+        consiglio<\/strong> is the ruling entity of the empire of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10909\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"28178\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/28178\/tooltip\">Torchio<\/a>.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301438,"tags":[],"created_at":"2019-08-09T15:43:03.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":10909,"type":"Council","organisation_id":null,"members":[]},{"id":15417,"name":"Silver
+        Arrow","entry":"\n<p>The <strong>Silver Arrow<\/strong> was an organisation
+        of Feniton vying for power. It specialised in gathering information.<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Silver Arrow<\/strong> was an organisation of Feniton vying for power.
+        It specialised in gathering information.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":304124,"tags":[],"created_at":"2019-08-12T14:28:05.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":5180,"type":"Organisation","organisation_id":null,"members":[{"character_id":9073,"created_at":"2019-08-12T14:29:48.000000Z","created_by":null,"id":16181,"is_private":false,"organisation_id":15417,"role":"Leader","updated_at":"2019-08-12T14:29:48.000000Z","updated_by":null},{"character_id":83778,"created_at":"2021-05-13T15:27:07.000000Z","created_by":null,"id":300380,"is_private":false,"organisation_id":15417,"role":null,"updated_at":"2021-05-13T15:27:07.000000Z","updated_by":null}]},{"id":17335,"name":"Hayati
+        Crew","entry":"\n<p>The<strong> Hayati Crew<\/strong> are a group of pirates
+        lead by husband and wife [character:301296] and [character:301326]. They own
+        the Winged Mermaid ship.<\/p>\n","entry_parsed":"\n<p>The<strong> Hayati Crew<\/strong>
+        are a group of pirates lead by husband and wife <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/82926\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"301296\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/301296\/tooltip\">Marelan
+        Hayati<\/a> and <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/82942\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"301326\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/301326\/tooltip\">Felara
+        Hayati<\/a>. They own the Winged Mermaid ship.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":335264,"tags":[],"created_at":"2019-09-16T15:05:58.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":30647,"type":"Pirates","organisation_id":null,"members":[{"character_id":82942,"created_at":"2019-09-16T15:05:58.000000Z","created_by":null,"id":21417,"is_private":false,"organisation_id":17335,"role":"Second
+        Captain","updated_at":"2019-09-16T15:14:15.000000Z","updated_by":null},{"character_id":91887,"created_at":"2019-09-16T15:05:58.000000Z","created_by":null,"id":21418,"is_private":false,"organisation_id":17335,"role":"Member","updated_at":"2019-09-16T15:14:21.000000Z","updated_by":null},{"character_id":91976,"created_at":"2019-09-16T15:07:32.000000Z","created_by":null,"id":21419,"is_private":false,"organisation_id":17335,"role":"Member","updated_at":"2019-09-16T15:07:32.000000Z","updated_by":null},{"character_id":82926,"created_at":"2019-09-16T15:11:56.000000Z","created_by":null,"id":21420,"is_private":false,"organisation_id":17335,"role":"Captain","updated_at":"2019-09-16T15:14:07.000000Z","updated_by":null},{"character_id":82928,"created_at":"2019-09-16T15:12:25.000000Z","created_by":null,"id":21421,"is_private":false,"organisation_id":17335,"role":"Member","updated_at":"2019-09-16T15:12:25.000000Z","updated_by":null}]},{"id":19662,"name":"Amber
+        Swords","entry":"\n<p>The <strong>Amber Swords<\/strong> are a group of local
+        miliatia on the island of Kemali fighting against the [organisation:96285].<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Amber Swords<\/strong> are a group of local miliatia on the island
+        of Kemali fighting against the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/organisations\/4663\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"96285\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/96285\/tooltip\">Order
+        of Masaran<\/a>.<\/p>\n","image":"organisations\/0HDJt78SHvJM1ta051AdQDrySQ3FUk6nEbHMoo9b.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/lgRAacmam8Fk8H7Apoa8SVgJRg4=\/smart\/src\/organisations%2F0HDJt78SHvJM1ta051AdQDrySQ3FUk6nEbHMoo9b.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/qUX6sB4rjyG15ydCxRgfGpskAWU=\/40x40\/smart\/src\/organisations%2F0HDJt78SHvJM1ta051AdQDrySQ3FUk6nEbHMoo9b.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":373815,"tags":[],"created_at":"2019-10-28T19:38:03.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":30652,"type":"Resistance","organisation_id":null,"members":[{"character_id":102123,"created_at":"2019-10-28T20:06:42.000000Z","created_by":null,"id":29402,"is_private":false,"organisation_id":19662,"role":"Leader","updated_at":"2019-10-28T20:06:42.000000Z","updated_by":null}]},{"id":52479,"name":"Ember
+        Dragon","entry":"<p>The <b>Ember Dragon<\/b> is the name of the military organisation
+        of the empire of Torchio.<\/p><h3>Ranks<\/h3><h4>Inferno<\/h4><p>The Inferno,
+        or general, is the highest ranking member. They work directly under the orders
+        of the Augusta.<\/p><p>The current general is [character:994415].\u00a0<\/p><h4>Knights
+        of the Flame<\/h4><p>The Knights of Flame are the highest ranking members
+        under direct order of the general. They are active in planning military operations
+        and keeping the peace in the realm. There are ten knights at all times.<\/p><ul><li>[character:994116]<\/li><\/ul><h4>Torch
+        Bearers<\/h4><p>Division responsible for protecting the leaders of the Empire,
+        and the Augusta''s personal guard.<\/p><ul><li>[character:994541]<\/li><li>[character:994460]<\/li><\/ul><h4>Sparks<\/h4><p>The
+        Sparks are the footmen of the empire, those who guarantee that the rule of
+        the law is followed, protect the citizens on a day to day basis, and fight
+        enemies on the battlefield.<\/p>","entry_parsed":"<p>The <b>Ember Dragon<\/b>
+        is the name of the military organisation of the empire of Torchio.<\/p><h3>Ranks<\/h3><h4>Inferno<\/h4><p>The
+        Inferno, or general, is the highest ranking member. They work directly under
+        the orders of the Augusta.<\/p><p>The current general is <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259370\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"994415\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/994415\/tooltip\">Aureliano
+        Fontana<\/a>.\u00a0<\/p><h4>Knights of the Flame<\/h4><p>The Knights of Flame
+        are the highest ranking members under direct order of the general. They are
+        active in planning military operations and keeping the peace in the realm.
+        There are ten knights at all times.<\/p><ul><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259301\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"994116\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/994116\/tooltip\">Kanmi
+        Utica<\/a><\/li><\/ul><h4>Torch Bearers<\/h4><p>Division responsible for protecting
+        the leaders of the Empire, and the Augusta''s personal guard.<\/p><ul><li><a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259385\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"994541\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/994541\/tooltip\">Genesio
+        Ardolino<\/a><\/li><li><a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/259377\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"994460\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/994460\/tooltip\">Terenzio
+        Rotondi<\/a><\/li><\/ul><h4>Sparks<\/h4><p>The Sparks are the footmen of the
+        empire, those who guarantee that the rule of the law is followed, protect
+        the citizens on a day to day basis, and fight enemies on the battlefield.<\/p>","image":"organisations\/kjlGbRvF34ZSkhYQZSt3t3H0Hwh3O06b1Qi4QsZc.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/ijMOQd-YKO-2L7wLqOTQMgGTPco=\/smart\/src\/organisations%2FkjlGbRvF34ZSkhYQZSt3t3H0Hwh3O06b1Qi4QsZc.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/9i6KglMsxswida9EBngstAuIRlU=\/40x40\/smart\/src\/organisations%2FkjlGbRvF34ZSkhYQZSt3t3H0Hwh3O06b1Qi4QsZc.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":994442,"tags":[],"created_at":"2020-09-19T18:36:44.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":10909,"type":"Military","organisation_id":null,"members":[{"character_id":259370,"created_at":"2020-09-19T18:41:29.000000Z","created_by":null,"id":150761,"is_private":false,"organisation_id":52479,"role":"Inferno","updated_at":"2020-09-19T18:41:29.000000Z","updated_by":null},{"character_id":259301,"created_at":"2020-09-19T18:42:40.000000Z","created_by":null,"id":150762,"is_private":false,"organisation_id":52479,"role":"Knight
+        of the Flame","updated_at":"2020-09-19T19:10:13.000000Z","updated_by":null},{"character_id":259385,"created_at":"2020-09-19T19:08:20.000000Z","created_by":null,"id":150765,"is_private":false,"organisation_id":52479,"role":"Torch
+        Bearer","updated_at":"2020-09-19T19:08:20.000000Z","updated_by":null},{"character_id":259377,"created_at":"2020-09-19T19:09:27.000000Z","created_by":null,"id":150766,"is_private":false,"organisation_id":52479,"role":"Knight
+        of the Flame","updated_at":"2020-09-19T19:09:36.000000Z","updated_by":null},{"character_id":259387,"created_at":"2020-09-19T19:12:51.000000Z","created_by":null,"id":150767,"is_private":false,"organisation_id":52479,"role":"Torch
+        Bearer","updated_at":"2020-09-19T19:12:51.000000Z","updated_by":null},{"character_id":265869,"created_at":"2020-09-29T12:26:49.000000Z","created_by":null,"id":156015,"is_private":false,"organisation_id":52479,"role":"Spark","updated_at":"2020-09-29T12:26:49.000000Z","updated_by":null},{"character_id":269412,"created_at":"2020-10-04T15:11:34.000000Z","created_by":null,"id":158943,"is_private":false,"organisation_id":52479,"role":"Spark","updated_at":"2020-10-04T15:11:34.000000Z","updated_by":null}]},{"id":53592,"name":"Eldaro
+        Ben","entry":"<p>The <b>Eldaro Ben<\/b> is a nomadic tribe of mostly humans
+        located south of the burning sands in the Zerdiin desert.<\/p>","entry_parsed":"<p>The
+        <b>Eldaro Ben<\/b> is a nomadic tribe of mostly humans located south of the
+        burning sands in the Zerdiin desert.<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/organisations_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1015543,"tags":[],"created_at":"2020-09-26T09:08:18.000000Z","created_by":1,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":1,"location_id":252660,"type":"Tribe","organisation_id":null,"members":[{"character_id":263753,"created_at":"2020-09-26T09:08:18.000000Z","created_by":null,"id":154210,"is_private":false,"organisation_id":53592,"role":null,"updated_at":"2020-09-26T09:08:18.000000Z","updated_by":null},{"character_id":263754,"created_at":"2020-09-26T09:13:47.000000Z","created_by":null,"id":154216,"is_private":false,"organisation_id":53592,"role":null,"updated_at":"2020-09-26T09:13:47.000000Z","updated_by":null},{"character_id":259009,"created_at":"2020-09-26T09:18:42.000000Z","created_by":null,"id":154218,"is_private":false,"organisation_id":53592,"role":"Ex
+        member","updated_at":"2020-09-26T09:18:42.000000Z","updated_by":null},{"character_id":263756,"created_at":"2020-09-26T09:23:31.000000Z","created_by":null,"id":154221,"is_private":false,"organisation_id":53592,"role":"Warrior
+        leader","updated_at":"2020-09-26T09:23:31.000000Z","updated_by":null}]}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/organisations?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/organisations?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/organisations","per_page":45,"to":40,"total":40},"sync":"2021-10-14T23:44:54.853359Z"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4ada47de32b27-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:44:55 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=loZPD8029mTYVbpBGE09iuN3yQWgC0QQuxa8acD6ablB6bUQdvXeLLueWcSfttyiwcnzCwFUK8aLrdtyE2g6plhXan4nqzo8at11X9n8FYe%2FyB59haUzLCjrLw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '101853'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '53'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/organisations
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12079
+  response:
+    body:
+      string: '{"data":{"id":12079,"name":"Nameless Immortals","type":"organisation","child_id":833,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-03T20:08:47.000000Z","created_by":null,"updated_at":"2018-04-03T20:08:47.000000Z","updated_by":null,"child":{"id":833,"name":"Nameless
+        Immortals","entry":"\n<p>The Nameless Immortals are an organisation of mages
+        and magicians. They operate mostly in the city of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/932\">Rosen<\/a>\u00a0of
+        the Kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/928\">Arden<\/a><\/p>\n<p>The
+        Faction''s goals is to further the study of revival magic to unlock Immortality.
+        They reject the ban necromancy, considering it counter to their goals.<\/p>\n<p>They
+        hold great power in Rosen, where every person working in health (hospitals
+        and morgues) must be a member of the organisation.<\/p>\n<h2>Leader<\/h2>\n<p>The
+        organisation is lead by a dwarf named\u00a0<a href=\"http:\/\/dnd.loc\/index.php\/Bjorn_Yronfoot\">Bjorn
+        Yronfoot<\/a>, nicknames \"Brother Fyt\". He starts every conversation with
+        \"Any deceased friends recently?\" and will gladly pay for \"taking care\"
+        of them.<\/p>\n<h2>History<\/h2>\n<p>They will revive their dead members with
+        necromancy, trying to revive them as normal people. The Nameless Immortals
+        will also kidnap recently dead people (corpses recently buried) to try experiments
+        on them.<\/p>\n<p>They have a branch set up in <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\">Arcastle<\/a>\u00a0for
+        several years to study the Temple of Life, hoping to unlock it''s secrets
+        and history of reviving dead people.<\/p>\n<p>The faction will be suspected
+        of kidnapping the\u00a0<a href=\"http:\/\/dnd.loc\/index.php\/Temple_of_Life\">Temple
+        of Life<\/a>\u00a0because it will be known that they strive for Immortality
+        through Necromancy, and the temple is known as a sanctuary for revival rituals.
+        By stealing it, they could study it completely and do whatever they want with
+        it.<\/p>\n<h2>Three aspects<\/h2>\n<ul><li>Founded 10 years ago.<\/li>\n<li>Members
+        use nicknames.<\/li>\n<li>Headquarters in the city of<\/li>\n<\/ul><h2>Ex-members<\/h2>\n<ul><li><a
+        href=\"http:\/\/dnd.loc\/index.php\/Yvonne_Copperears\">Yvonne Copperears<\/a><\/li>\n<\/ul>","entry_parsed":"\n<p>The
+        Nameless Immortals are an organisation of mages and magicians. They operate
+        mostly in the city of <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/932\">Rosen<\/a>\u00a0of
+        the Kingdom of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/928\">Arden<\/a><\/p>\n<p>The
+        Faction''s goals is to further the study of revival magic to unlock Immortality.
+        They reject the ban necromancy, considering it counter to their goals.<\/p>\n<p>They
+        hold great power in Rosen, where every person working in health (hospitals
+        and morgues) must be a member of the organisation.<\/p>\n<h2>Leader<\/h2>\n<p>The
+        organisation is lead by a dwarf named\u00a0<a href=\"http:\/\/dnd.loc\/index.php\/Bjorn_Yronfoot\">Bjorn
+        Yronfoot<\/a>, nicknames \"Brother Fyt\". He starts every conversation with
+        \"Any deceased friends recently?\" and will gladly pay for \"taking care\"
+        of them.<\/p>\n<h2>History<\/h2>\n<p>They will revive their dead members with
+        necromancy, trying to revive them as normal people. The Nameless Immortals
+        will also kidnap recently dead people (corpses recently buried) to try experiments
+        on them.<\/p>\n<p>They have a branch set up in <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/930\">Arcastle<\/a>\u00a0for
+        several years to study the Temple of Life, hoping to unlock it''s secrets
+        and history of reviving dead people.<\/p>\n<p>The faction will be suspected
+        of kidnapping the\u00a0<a href=\"http:\/\/dnd.loc\/index.php\/Temple_of_Life\">Temple
+        of Life<\/a>\u00a0because it will be known that they strive for Immortality
+        through Necromancy, and the temple is known as a sanctuary for revival rituals.
+        By stealing it, they could study it completely and do whatever they want with
+        it.<\/p>\n<h2>Three aspects<\/h2>\n<ul><li>Founded 10 years ago.<\/li>\n<li>Members
+        use nicknames.<\/li>\n<li>Headquarters in the city of<\/li>\n<\/ul><h2>Ex-members<\/h2>\n<ul><li><a
+        href=\"http:\/\/dnd.loc\/index.php\/Yvonne_Copperears\">Yvonne Copperears<\/a><\/li>\n<\/ul>","image":"organisations\/OSPh587HTjkqtDqkfR7vlcMPth349Y0SVG0yoTYl.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/nfOgrO7mzVjorjdNIp0-KpGeBqA=\/smart\/src\/organisations%2FOSPh587HTjkqtDqkfR7vlcMPth349Y0SVG0yoTYl.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/Z_UMaIsvTElmjwL70kDsTEVgK2c=\/40x40\/smart\/src\/organisations%2FOSPh587HTjkqtDqkfR7vlcMPth349Y0SVG0yoTYl.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12079,"tags":[],"created_at":"2018-04-03T20:08:47.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:42.000000Z","updated_by":null,"location_id":932,"type":"Cult","organisation_id":null,"members":[{"character_id":8943,"created_at":"2018-06-19T18:51:33.000000Z","created_by":null,"id":1563,"is_private":false,"organisation_id":833,"role":"Member","updated_at":"2018-06-19T18:51:33.000000Z","updated_by":null},{"character_id":8944,"created_at":"2018-06-19T18:53:14.000000Z","created_by":null,"id":1564,"is_private":false,"organisation_id":833,"role":"Member","updated_at":"2018-06-19T18:53:14.000000Z","updated_by":null},{"character_id":4134,"created_at":"2019-08-31T10:07:24.000000Z","created_by":null,"id":18314,"is_private":false,"organisation_id":833,"role":"Leader","updated_at":"2019-08-31T10:07:24.000000Z","updated_by":null}]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4adac88b82bbd-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:44:56 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XtKBHSSrtXJim%2B6MkR7yuZK%2BByOlvf1NWghsJ6vlxSYNf2CKVajZVpJx8LW%2BANQGvmBe5ZQ%2FNAivmk2PFRM0TY9GkZ0tPRfXBjcFN56mbp6YKgo8XVEDWXxA8g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '5807'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '52'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12079
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12085
+  response:
+    body:
+      string: '{"data":{"id":12085,"name":"High Circle","type":"organisation","child_id":834,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-03T20:20:29.000000Z","created_by":null,"updated_at":"2018-04-03T20:20:29.000000Z","updated_by":null,"child":{"id":834,"name":"High
+        Circle","entry":"\n<p>The High Council is a magocracy, meaning only very powerful
+        mages can be invited in. Once a member is invited by the other members, he
+        stays there until death. There has only been one incident 130 years ago where
+        a member was banished from the Circle for Necromancy.<\/p>\n","entry_parsed":"\n<p>The
+        High Council is a magocracy, meaning only very powerful mages can be invited
+        in. Once a member is invited by the other members, he stays there until death.
+        There has only been one incident 130 years ago where a member was banished
+        from the Circle for Necromancy.<\/p>\n","image":"organisations\/G0NYHPkqzsgQUmahgI86y0VrMrNneLtzjlAIqSG6.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/l7SXKW2zJOxNi_xH-q8mIv_7t_o=\/smart\/src\/organisations%2FG0NYHPkqzsgQUmahgI86y0VrMrNneLtzjlAIqSG6.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/lS640nWDz9hXlUkaWhif0jdOLBc=\/40x40\/smart\/src\/organisations%2FG0NYHPkqzsgQUmahgI86y0VrMrNneLtzjlAIqSG6.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12085,"tags":[],"created_at":"2018-04-03T20:20:29.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:42.000000Z","updated_by":null,"location_id":5166,"type":"Magocracy","organisation_id":null,"members":[{"character_id":83773,"created_at":"2019-08-12T14:04:31.000000Z","created_by":null,"id":16179,"is_private":false,"organisation_id":834,"role":"Member","updated_at":"2019-08-12T14:04:31.000000Z","updated_by":null}]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4adaedf6e2b83-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:44:56 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mjFURWo88mE%2F%2BW8EYcl7hDnamzxZjPo6PJBJawlBLJHa9ZeTH7a58Tik1alGxXzSgknK1bY3vqa%2FCs5znrXS8dHH9T4rlBKLqFvSwhGN01Wcokzdcu%2Fr1tuxEQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1952'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '51'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12085
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12126
+  response:
+    body:
+      string: '{"data":{"id":12126,"name":"Black Sun","type":"organisation","child_id":835,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-04T08:58:45.000000Z","created_by":null,"updated_at":"2018-04-04T08:58:45.000000Z","updated_by":null,"child":{"id":835,"name":"Black
+        Sun","entry":"\n<p>The Black Sun were a mercenary organisation based out of\u00a0<a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5177\">Enida<\/a>,\u00a0<a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5129\">Three Rivers
+        Federation<\/a>. They are known for being responsible for causing the fire
+        that destroyed the Tiefling Gheto in Whitehaven.<\/p>\n<p>Their leader was
+        Sylken.<\/p>\n","entry_parsed":"\n<p>The Black Sun were a mercenary organisation
+        based out of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5177\">Enida<\/a>,\u00a0<a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5129\">Three Rivers
+        Federation<\/a>. They are known for being responsible for causing the fire
+        that destroyed the Tiefling Gheto in Whitehaven.<\/p>\n<p>Their leader was
+        Sylken.<\/p>\n","image":"organisations\/jEgWwMZdC8Tgb0K7CwendGQCAf44nEDUnlVqqh3g.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/cE0_cDRiz0j-Gez9hp_2_CcHWSA=\/smart\/src\/organisations%2FjEgWwMZdC8Tgb0K7CwendGQCAf44nEDUnlVqqh3g.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/X90S0YB3x2ir7PeRN0SvnKWrCvw=\/40x40\/smart\/src\/organisations%2FjEgWwMZdC8Tgb0K7CwendGQCAf44nEDUnlVqqh3g.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12126,"tags":[],"created_at":"2018-04-04T08:58:45.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:42.000000Z","updated_by":null,"location_id":5129,"type":"Mercenary","organisation_id":null,"members":[{"character_id":83767,"created_at":"2019-08-12T13:48:28.000000Z","created_by":null,"id":16176,"is_private":false,"organisation_id":835,"role":"Ex-leader","updated_at":"2019-08-12T13:48:28.000000Z","updated_by":null}]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4adb1ca2c2ae2-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:44:57 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Pov66fxSTO%2Fa6xfbJinEoB90F8y5yO0ip8RVok1cZVzKpFeK7RLIHOOK0MJ0J6NXuUVuP%2BH7KbVbOXq8kxz%2FkB%2BgbFhRSx2JLbDeC4ap96IMErUG04wk3eyDzA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2180'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '50'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12126
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12128
+  response:
+    body:
+      string: '{"data":{"id":12128,"name":"Flaming Cult","type":"organisation","child_id":836,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-04T09:09:33.000000Z","created_by":null,"updated_at":"2018-04-04T09:09:33.000000Z","updated_by":null,"child":{"id":836,"name":"Flaming
+        Cult","entry":"\n<p>The Flaming Cult was a cult that was active 30 years ago
+        in the cities of\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5162\">Newport<\/a>\u00a0and
+        Feniton, in the\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5129\">Three
+        Rivers Federation<\/a>. They were disbanded after their organisation was defeated
+        by heroes.<\/p>\n<h2>Origin<\/h2>\n<p>The Flaming Cult is a cult of Cultists
+        and Necromancers. They are the reincarnation of a previous Cult named \u201cZorgath
+        Devotion\u201d, a cult that was disbanded 30 years ago after it tried to revive
+        their god \u201cZorgath\u201d.<\/p>\n<h2>Presence<\/h2>\n<p>The cult\u2019s
+        members try and stay out of direct trouble, and don\u2019t have the means
+        to bribe officials. They usually use intimidation on\u201cnormal folk\u201d
+        to get them to do the dirty job.<\/p>\n<h2>Goal<\/h2>\n<p>The current members
+        still wish to revive Zorgath in the shape of an Ancient Red Dragon, but they
+        need the sacrifice of 10\u2019000 souls to do so. They want to put one of
+        their members as the new mayor of the city, and plan to trick 10\u2019000
+        inhabitants in participating in the sacrifice.<\/p>\n<p>To do so, they steal
+        magical items in the city which could be used against them, and which they
+        in turn use to get stronger.<\/p>\n<h2>Leader<\/h2>\n<p>The leader of the
+        Flaming Cult was Grogoth, a Human Necromancer. His brother Fin Hemband, whose
+        actual name is Agalai, is pretty weak but charismatic.<\/p>\n","entry_parsed":"\n<p>The
+        Flaming Cult was a cult that was active 30 years ago in the cities of\u00a0<a
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5162\">Newport<\/a>\u00a0and
+        Feniton, in the\u00a0<a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5129\">Three
+        Rivers Federation<\/a>. They were disbanded after their organisation was defeated
+        by heroes.<\/p>\n<h2>Origin<\/h2>\n<p>The Flaming Cult is a cult of Cultists
+        and Necromancers. They are the reincarnation of a previous Cult named \u201cZorgath
+        Devotion\u201d, a cult that was disbanded 30 years ago after it tried to revive
+        their god \u201cZorgath\u201d.<\/p>\n<h2>Presence<\/h2>\n<p>The cult\u2019s
+        members try and stay out of direct trouble, and don\u2019t have the means
+        to bribe officials. They usually use intimidation on\u201cnormal folk\u201d
+        to get them to do the dirty job.<\/p>\n<h2>Goal<\/h2>\n<p>The current members
+        still wish to revive Zorgath in the shape of an Ancient Red Dragon, but they
+        need the sacrifice of 10\u2019000 souls to do so. They want to put one of
+        their members as the new mayor of the city, and plan to trick 10\u2019000
+        inhabitants in participating in the sacrifice.<\/p>\n<p>To do so, they steal
+        magical items in the city which could be used against them, and which they
+        in turn use to get stronger.<\/p>\n<h2>Leader<\/h2>\n<p>The leader of the
+        Flaming Cult was Grogoth, a Human Necromancer. His brother Fin Hemband, whose
+        actual name is Agalai, is pretty weak but charismatic.<\/p>\n","image":"organisations\/WEtixDrBYThP1vIkz0dPKKpoZsmebMKBo9uKeTHL.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/MpJoYSC3jFVStsFTXqdE57XgHfs=\/smart\/src\/organisations%2FWEtixDrBYThP1vIkz0dPKKpoZsmebMKBo9uKeTHL.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/mbDKqVDjH4GRvRM4cFBFpgtU-Vg=\/40x40\/smart\/src\/organisations%2FWEtixDrBYThP1vIkz0dPKKpoZsmebMKBo9uKeTHL.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12128,"tags":[],"created_at":"2018-04-04T09:09:33.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:42.000000Z","updated_by":null,"location_id":5129,"type":"Cult","organisation_id":null,"members":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4adb58cd12901-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:44:57 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ba7DscF1lZdPnEMfjob2oii636u%2FBLkZdfN2%2Fk0yrokWS%2Bo9ArFHJhZjUR%2BT%2FaFRw%2FOTMUBNHRCRwuwmjTKxjcK7Ii9h2j7TSmi9bxB7KsrbM%2B7hcnWWBuwjsw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '4141'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '49'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12128
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/12129
+  response:
+    body:
+      string: '{"data":{"id":12129,"name":"Black-Gold Brotherhood","type":"organisation","child_id":837,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-04-04T09:11:27.000000Z","created_by":null,"updated_at":"2018-04-04T09:11:27.000000Z","updated_by":null,"child":{"id":837,"name":"Black-Gold
+        Brotherhood","entry":"\n<h2>Origin<\/h2>\n<p>The Black Gold Brotherhood is
+        a collective of bandits formed 5 years ago when the current mayor of Newport
+        was elected for a second term. They were set up by the officials in <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5166\">Weymouth<\/a>.<\/p>\n<p>Only
+        the higher ranked members of the Brotherhood know the connection to Weymouth,
+        most are just petty thieves just looking for an extra buck.<\/p>\n<h2>Presence<\/h2>\n<p>The
+        Brotherhood has people in most institutions of Newport. They can control parts
+        of the Guard either by bribery, threat, or directly with people working for
+        them.<\/p>\n<p>They have about 150 members just in the city of Newport.<\/p>\n<h2>Goal<\/h2>\n<p>The
+        goal of the Brotherhood is to weaken Newport. The city of Weymouth has always
+        always been jealous of the riches of Newport, especially since the maritime
+        route now allows merchandise to bypass the taxes of Weymouth.<\/p>\n<h2>Leader<\/h2>\n<p>The
+        leader of the operation in Weymouth is Lorenas, the Church Head Priest. He
+        replaced the head priest 2 years ago when the previous one passed away.<\/p>\n","entry_parsed":"\n<h2>Origin<\/h2>\n<p>The
+        Black Gold Brotherhood is a collective of bandits formed 5 years ago when
+        the current mayor of Newport was elected for a second term. They were set
+        up by the officials in <a href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/5166\">Weymouth<\/a>.<\/p>\n<p>Only
+        the higher ranked members of the Brotherhood know the connection to Weymouth,
+        most are just petty thieves just looking for an extra buck.<\/p>\n<h2>Presence<\/h2>\n<p>The
+        Brotherhood has people in most institutions of Newport. They can control parts
+        of the Guard either by bribery, threat, or directly with people working for
+        them.<\/p>\n<p>They have about 150 members just in the city of Newport.<\/p>\n<h2>Goal<\/h2>\n<p>The
+        goal of the Brotherhood is to weaken Newport. The city of Weymouth has always
+        always been jealous of the riches of Newport, especially since the maritime
+        route now allows merchandise to bypass the taxes of Weymouth.<\/p>\n<h2>Leader<\/h2>\n<p>The
+        leader of the operation in Weymouth is Lorenas, the Church Head Priest. He
+        replaced the head priest 2 years ago when the previous one passed away.<\/p>\n","image":"organisations\/W5HUsogfD4e941fBCYJElf8hEovdNJSWPuhXWX3p.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/XrcwrUb4VJzhCzl_WZ2fBUUkXA4=\/smart\/src\/organisations%2FW5HUsogfD4e941fBCYJElf8hEovdNJSWPuhXWX3p.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/_6EEJsgsh-3dRSmdAxFoFwHeCbE=\/40x40\/smart\/src\/organisations%2FW5HUsogfD4e941fBCYJElf8hEovdNJSWPuhXWX3p.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":12129,"tags":[],"created_at":"2018-04-04T09:11:27.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:42.000000Z","updated_by":null,"location_id":5178,"type":"Gang","organisation_id":null,"members":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4adb77def2bb3-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:44:58 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=S90yLvaLBkeSvb51bCufcy0yHmXbM9T4GiVjVaHp8sy9C2X8iEEgsrkJa%2FSdoxSLRafCAlVh6u%2F8xZRuaihAGRNgCJQJUAqT5mdcc9Y%2FFaXATH40YeocOnECfg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '3442'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '48'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/12129
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/21911
+  response:
+    body:
+      string: '{"data":{"id":21911,"name":"Slayers of Kadila","type":"organisation","child_id":1284,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-05-22T11:17:01.000000Z","created_by":null,"updated_at":"2018-05-22T11:17:01.000000Z","updated_by":null,"child":{"id":1284,"name":"Slayers
+        of Kadila","entry":"\n<p>The <strong>Slayers of Kadila<\/strong>\u00a0are
+        an organisation of slayers and hunters who track down and kill monsters in
+        exchange of payment. Most contracts are assigned to five members.<\/p>\n<p>For
+        each contract, the organisation takes 10% and the rest is split between members.<\/p>\n<p>Members
+        of the organisation are referred to as\u00a0<strong>Slayers<\/strong>.\u00a0<\/p>\n<h4>Death
+        on mission<\/h4>\n<p>If a member dies during a mission, it is customary for
+        the other members assigned to the mission to renounce on their take of the
+        payment and the complete sum is sent to the family of the deceased. This is
+        to avoid members killing other members to keep their share.<\/p>\n<p>In the
+        event where all members of a mission die, the organisation will take care
+        of providing the money for each member''s family.<\/p>\n<h4>Recruiting<\/h4>\n<p>Slayers
+        can take on apprentices by recommending them to the organisation. Candidates
+        will be given a task to test their strengh and resolve. If a candidate is
+        accepted, they become an apprentice of the Slayer for two years, after which
+        they will pass a new test to become a Slayer.<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Slayers of Kadila<\/strong>\u00a0are an organisation of slayers and
+        hunters who track down and kill monsters in exchange of payment. Most contracts
+        are assigned to five members.<\/p>\n<p>For each contract, the organisation
+        takes 10% and the rest is split between members.<\/p>\n<p>Members of the organisation
+        are referred to as\u00a0<strong>Slayers<\/strong>.\u00a0<\/p>\n<h4>Death on
+        mission<\/h4>\n<p>If a member dies during a mission, it is customary for the
+        other members assigned to the mission to renounce on their take of the payment
+        and the complete sum is sent to the family of the deceased. This is to avoid
+        members killing other members to keep their share.<\/p>\n<p>In the event where
+        all members of a mission die, the organisation will take care of providing
+        the money for each member''s family.<\/p>\n<h4>Recruiting<\/h4>\n<p>Slayers
+        can take on apprentices by recommending them to the organisation. Candidates
+        will be given a task to test their strengh and resolve. If a candidate is
+        accepted, they become an apprentice of the Slayer for two years, after which
+        they will pass a new test to become a Slayer.<\/p>\n","image":"organisations\/SscwNgfv2p9g4weO4sHdMV1if0wNPua6MeHBIJRk.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/mS9VblzJeJn1lbH0RJ_RX5Iypu0=\/smart\/src\/organisations%2FSscwNgfv2p9g4weO4sHdMV1if0wNPua6MeHBIJRk.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/8NuVd-BJotyV-AWKKb2SUyeB3i0=\/40x40\/smart\/src\/organisations%2FSscwNgfv2p9g4weO4sHdMV1if0wNPua6MeHBIJRk.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":21911,"tags":[],"created_at":"2018-05-22T11:17:01.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:43.000000Z","updated_by":null,"location_id":5122,"type":"Hunters","organisation_id":null,"members":[{"character_id":7291,"created_at":"2018-05-22T11:19:47.000000Z","created_by":null,"id":1199,"is_private":false,"organisation_id":1284,"role":"Member","updated_at":"2018-05-22T11:19:47.000000Z","updated_by":null}]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4adbb0aaf2bcc-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:44:58 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Lb5mrlpXi%2BECd2RzZRy8b%2ByVMbf6regGedPHYDc1wvGKC7gBgGNGnfhTE2sURAJU%2BBL7vO1JqhxfsCylL7rKMFFCCe4YL5fHnY0p6Vn4tj1Cky1VDvTvmEYsMw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '3698'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '47'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/21911
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/27084
+  response:
+    body:
+      string: '{"data":{"id":27084,"name":"Snake Fire","type":"organisation","child_id":1568,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-06-19T18:40:34.000000Z","created_by":null,"updated_at":"2018-06-19T18:40:34.000000Z","updated_by":null,"child":{"id":1568,"name":"Snake
+        Fire","entry":"\n<p><strong>Snake Fire<\/strong> is a thieve''s guild with
+        members and operations in\u00a0[location:2046]\u00a0and\u00a0<a title=\"The\u00a0Kingdom
+        of Othiria\u00a0is an independent kingdom on Thaelia. It''s capital is\u00a0Drunah\u00a0while
+        its biggest city is\u00a0Redford. The kingdom is situated on the middle southern
+        part of Thaelia and borders the\u00a0Kingdom of Dulken,\u00a0Kingdom of Thasslia,\u00a0Repu...\"
+        href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\" data-toggle=\"tooltip\">Othiria<\/a>.<\/p>\n<h3>Known
+        For<\/h3>\n<ul><li>Primary business involves:\u00a0<strong>Smuggling drugs:
+        hallucinogenic mushrooms<\/strong><\/li>\n<li>Colour:\u00a0<strong>Maroon<\/strong><\/li>\n<li>Symbol:\u00a0<strong>Snake
+        &amp; Star<\/strong><\/li>\n<li>Leader:\u00a0<strong>A member of a prominent
+        family<\/strong><\/li>\n<li>Members are primarily:\u00a0<strong>Combat veterans<\/strong><\/li>\n<li>Goals
+        include:\u00a0<strong>Revenge against a rival band of outlaws<\/strong><\/li>\n<li>Members
+        typically arm themselves with:\u00a0<strong>Shortswords<\/strong><\/li>\n<li>Headquarters:\u00a0<strong>A
+        tavern<\/strong><\/li>\n<li>The outlaw band is feared or respected by:\u00a0<strong>Woman
+        and children<\/strong><\/li>\n<li>The outlaw has:\u00a0<strong>An open shirt
+        and a very hairy chest<\/strong><\/li>\n<li>Primary modus operandi involves:\u00a0<strong>Bribery
+        of officials<\/strong><\/li>\n<li>The ring is supported by:\u00a0<strong>A
+        group of subversives<\/strong><\/li>\n<\/ul>","entry_parsed":"\n<p><strong>Snake
+        Fire<\/strong> is a thieve''s guild with members and operations in\u00a0<a
+        href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>\u00a0and\u00a0<a
+        title=\"The\u00a0Kingdom of Othiria\u00a0is an independent kingdom on Thaelia.
+        It''s capital is\u00a0Drunah\u00a0while its biggest city is\u00a0Redford.
+        The kingdom is situated on the middle southern part of Thaelia and borders
+        the\u00a0Kingdom of Dulken,\u00a0Kingdom of Thasslia,\u00a0Repu...\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/locations\/933\"
+        data-toggle=\"tooltip\">Othiria<\/a>.<\/p>\n<h3>Known For<\/h3>\n<ul><li>Primary
+        business involves:\u00a0<strong>Smuggling drugs: hallucinogenic mushrooms<\/strong><\/li>\n<li>Colour:\u00a0<strong>Maroon<\/strong><\/li>\n<li>Symbol:\u00a0<strong>Snake
+        &amp; Star<\/strong><\/li>\n<li>Leader:\u00a0<strong>A member of a prominent
+        family<\/strong><\/li>\n<li>Members are primarily:\u00a0<strong>Combat veterans<\/strong><\/li>\n<li>Goals
+        include:\u00a0<strong>Revenge against a rival band of outlaws<\/strong><\/li>\n<li>Members
+        typically arm themselves with:\u00a0<strong>Shortswords<\/strong><\/li>\n<li>Headquarters:\u00a0<strong>A
+        tavern<\/strong><\/li>\n<li>The outlaw band is feared or respected by:\u00a0<strong>Woman
+        and children<\/strong><\/li>\n<li>The outlaw has:\u00a0<strong>An open shirt
+        and a very hairy chest<\/strong><\/li>\n<li>Primary modus operandi involves:\u00a0<strong>Bribery
+        of officials<\/strong><\/li>\n<li>The ring is supported by:\u00a0<strong>A
+        group of subversives<\/strong><\/li>\n<\/ul>","image":"organisations\/BiPNLryrIHy0hhCDcpvaLOKgXpGSVlZL26NtgwKF.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/RvtuUVCDZG0_C34RhNBZnyQ6Kx4=\/smart\/src\/organisations%2FBiPNLryrIHy0hhCDcpvaLOKgXpGSVlZL26NtgwKF.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/R0Bcgun1l87x37YRw7EdkMjjjms=\/40x40\/smart\/src\/organisations%2FBiPNLryrIHy0hhCDcpvaLOKgXpGSVlZL26NtgwKF.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27084,"tags":[],"created_at":"2018-06-19T18:40:34.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Thieve''s
+        Guild","organisation_id":null,"members":[{"character_id":8942,"created_at":"2018-06-19T18:43:26.000000Z","created_by":null,"id":1562,"is_private":false,"organisation_id":1568,"role":"Leader","updated_at":"2018-06-19T18:43:26.000000Z","updated_by":null}]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4adbd0e4e2aa2-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:44:58 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NjyL%2FqYGApb0eam0%2FZhddAYDT6P0bOnJ6lhWE5M95%2FDlX74pxIUU%2Bm%2FUZ366s7tcdshWR1GRB%2B%2F1pztrueDcUSz48c2bg2S%2B60ZruL7d85yGXkQnbvA490j9Vg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '4626'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '46'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/27084
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/27455
+  response:
+    body:
+      string: '{"data":{"id":27455,"name":"Rose''s Watch","type":"organisation","child_id":1585,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-06-22T12:33:42.000000Z","created_by":null,"updated_at":"2018-06-22T12:33:42.000000Z","updated_by":null,"child":{"id":1585,"name":"Rose''s
+        Watch","entry":"\n<p>The\u00a0<strong>Rose''s Watch\u00a0<\/strong>is a group
+        of retired combatants from the\u00a0[location:2046]\u00a0army that protect
+        small villages from evil threats. They put up the disguise of old men\/women,
+        but they haven\u2019t forgotten their training and will spring into action
+        if it''s required.<\/p>\n<p>Most of the time, village leaders know of the
+        members in their village.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Rose''s
+        Watch\u00a0<\/strong>is a group of retired combatants from the\u00a0<a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/928\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"2046\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/2046\/tooltip\">Arden<\/a>\u00a0army
+        that protect small villages from evil threats. They put up the disguise of
+        old men\/women, but they haven\u2019t forgotten their training and will spring
+        into action if it''s required.<\/p>\n<p>Most of the time, village leaders
+        know of the members in their village.<\/p>\n","image":"organisations\/BuYAXUJkmOogWOgcZ2Ji8hrqkqUReZGSffvtEXP5.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/s52aGzj_kzY3csmCRLw_8evDIlo=\/smart\/src\/organisations%2FBuYAXUJkmOogWOgcZ2Ji8hrqkqUReZGSffvtEXP5.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/mWXFfzco9EJf7U_z1I2XwzW2JnQ=\/40x40\/smart\/src\/organisations%2FBuYAXUJkmOogWOgcZ2Ji8hrqkqUReZGSffvtEXP5.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27455,"tags":[],"created_at":"2018-06-22T12:33:42.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":928,"type":"Guard","organisation_id":null,"members":[{"character_id":4122,"created_at":"2018-06-22T14:32:08.000000Z","created_by":null,"id":1582,"is_private":false,"organisation_id":1585,"role":"Member","updated_at":"2018-06-22T14:32:08.000000Z","updated_by":null}]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4adbf2d32c568-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:44:59 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kEL%2Bf6Ouqa87EbaitLCCoKyx75xzAucqWIBD0sBA3W%2FQ1EVdT39S%2Bomvdpcyci8GsbDenIrdr%2FWaufT7fkNsFZ0DMTO9K5l745Ba5i8FcgpqiYxgZcTbAtj4rw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2414'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '45'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/27455
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/27458
+  response:
+    body:
+      string: '{"data":{"id":27458,"name":"Freedom Birds","type":"organisation","child_id":1586,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-06-22T12:41:10.000000Z","created_by":null,"updated_at":"2018-06-22T12:41:10.000000Z","updated_by":null,"child":{"id":1586,"name":"Freedom
+        Birds","entry":"\n<p>The <strong>Freedom Birds\u00a0<\/strong>as followers
+        of the Godess\u00a0<a title=\"Avalyra the Changer of Hearts\u00a0is a Goddess
+        of freedom, redemption and pardon. She is always shown wearing simple clothing
+        and being close to nature.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8909\"
+        data-toggle=\"tooltip\">Avalyra<\/a>. They promote freedom, redemption and
+        pardon. Many followers are freed slaves or creatures that want to start a
+        new life of good doings and helping others.<\/p>\n","entry_parsed":"\n<p>The
+        <strong>Freedom Birds\u00a0<\/strong>as followers of the Godess\u00a0<a title=\"Avalyra
+        the Changer of Hearts\u00a0is a Goddess of freedom, redemption and pardon.
+        She is always shown wearing simple clothing and being close to nature.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8909\"
+        data-toggle=\"tooltip\">Avalyra<\/a>. They promote freedom, redemption and
+        pardon. Many followers are freed slaves or creatures that want to start a
+        new life of good doings and helping others.<\/p>\n","image":"organisations\/j5kVv6Eyu3LC9u0qn9eqYfQuEvJoNzdjWNQxoPbL.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/NmuQPEOUzgeqm24Lj0mnHDzawg0=\/smart\/src\/organisations%2Fj5kVv6Eyu3LC9u0qn9eqYfQuEvJoNzdjWNQxoPbL.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/O7jI5XQ3RBTDHbJ1fVrx8GBqcQ0=\/40x40\/smart\/src\/organisations%2Fj5kVv6Eyu3LC9u0qn9eqYfQuEvJoNzdjWNQxoPbL.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27458,"tags":[],"created_at":"2018-06-22T12:41:10.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4adc31cd3c51c-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:44:59 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4zubOqrgxf3xRA8vJfWQ7XJuKP3BWOieuiZ0UoPeUaX7N%2B%2BvlUkxtiv25yxFKGnFH99K6HuiN6HcGpE54k9e%2FOc824Eo%2FtMIcVPtxHYkm4nkXUX41UTGkFIsDg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2204'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '44'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/27458
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/27461
+  response:
+    body:
+      string: '{"data":{"id":27461,"name":"Golden Compass","type":"organisation","child_id":1587,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-06-22T12:47:32.000000Z","created_by":null,"updated_at":"2018-06-22T12:47:32.000000Z","updated_by":null,"child":{"id":1587,"name":"Golden
+        Compass","entry":"\n<p>The\u00a0<strong>Golden Compass<\/strong> is the name
+        of the Goddess\u00a0<a title=\"Dessin the Mediator is a goddess of Peace,
+        Trade, Wealth and Prosperity. Her holy symbol is a golden compass that guides
+        her followers to prosperity and a place to where they will find peace.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8911\"
+        data-toggle=\"tooltip\">Dessin<\/a>''s followers. It symbolises the path to
+        new riches and prosperity, but also to look in all directions for peace when
+        in conflict.<\/p>\n<p>It''s members are usually artisans, travellers, performers
+        and sailors. They prey on Dessin for good fortune.<\/p>\n","entry_parsed":"\n<p>The\u00a0<strong>Golden
+        Compass<\/strong> is the name of the Goddess\u00a0<a title=\"Dessin the Mediator
+        is a goddess of Peace, Trade, Wealth and Prosperity. Her holy symbol is a
+        golden compass that guides her followers to prosperity and a place to where
+        they will find peace.\" href=\"https:\/\/kanka.io\/en\/campaign\/1\/characters\/8911\"
+        data-toggle=\"tooltip\">Dessin<\/a>''s followers. It symbolises the path to
+        new riches and prosperity, but also to look in all directions for peace when
+        in conflict.<\/p>\n<p>It''s members are usually artisans, travellers, performers
+        and sailors. They prey on Dessin for good fortune.<\/p>\n","image":"organisations\/EJCuT55JWJMcF0PMVf1C8c49QbAJwTf3yon3itq7.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/mL3uc0QTZGQPIEEZm8cHnELsdSo=\/smart\/src\/organisations%2FEJCuT55JWJMcF0PMVf1C8c49QbAJwTf3yon3itq7.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/xHxRa5XuVTA1FqdXWfCrg8Q_j1Y=\/40x40\/smart\/src\/organisations%2FEJCuT55JWJMcF0PMVf1C8c49QbAJwTf3yon3itq7.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":27461,"tags":[],"created_at":"2018-06-22T12:47:32.000000Z","created_by":null,"updated_at":"2021-06-08T12:25:45.000000Z","updated_by":null,"location_id":5122,"type":"Religious","organisation_id":null,"members":[{"character_id":4128,"created_at":"2018-06-22T14:33:49.000000Z","created_by":null,"id":1585,"is_private":false,"organisation_id":1587,"role":"Member","updated_at":"2018-06-22T14:33:49.000000Z","updated_by":null}]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e4adc6dfd9296e-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 14 Oct 2021 23:45:00 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fmJIwNBIUdzIkzs8U%2B0xXOYYwXGSavKns6PTWwctrPyEQPNjbJ0GQVqDQ%2FT0k4SutDZPvJ7xppZJ%2FujprPfzuZ%2BBupXZWqTJOypN9s6falY%2F2bAkpLwtkDZaqA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2675'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '43'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/27461
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+version: 1

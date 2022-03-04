@@ -1,0 +1,919 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/races
+  response:
+    body:
+      string: '{"data":[{"id":162,"name":"Human","entry":null,"entry_parsed":null,"image":"races\/qBrGtQn8Y1XFzsF8DI1nB47peQcaaGFe23GHgmql.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/KSEc2gPL9Nu9NiccDRhNAM-U5RQ=\/smart\/src\/races%2FqBrGtQn8Y1XFzsF8DI1nB47peQcaaGFe23GHgmql.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/HoHM2mGW7VYsi11RXRC0WHYhN_8=\/40x40\/smart\/src\/races%2FqBrGtQn8Y1XFzsF8DI1nB47peQcaaGFe23GHgmql.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45494,"tags":[],"created_at":"2018-10-08T10:33:19.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:04.000000Z","updated_by":1,"type":null,"race_id":null},{"id":1190,"name":"Elf","entry":"\n<p>Naming
+        convention: French<\/p>\n","entry_parsed":"\n<p>Naming convention: French<\/p>\n","image":"races\/0Z79ImDHsUKS3eWN5PvqUSC2TH1A0VXh9QZYHsJG.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/fEVV5H5WMW2MZg2iCJFTh0TJZIs=\/smart\/src\/races%2F0Z79ImDHsUKS3eWN5PvqUSC2TH1A0VXh9QZYHsJG.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/jp016l-5a9nvM9vr6YbhsKLaku4=\/40x40\/smart\/src\/races%2F0Z79ImDHsUKS3eWN5PvqUSC2TH1A0VXh9QZYHsJG.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45462,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Fey","race_id":null},{"id":1191,"name":"Half-Elf","entry":"\n<p>Half-human,
+        half-elf.<\/p>\n","entry_parsed":"\n<p>Half-human, half-elf.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45465,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Fey","race_id":null},{"id":1192,"name":"Tiefling","entry":"\n<p>Naming
+        convention: Albanian<\/p>\n","entry_parsed":"\n<p>Naming convention: Albanian<\/p>\n","image":"races\/RfIyyUIA0judhXNZtkNhCPHZR8gJ2jf7covEPKQq.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Mcn7pg6NKE4XH6JXwOwGqdmhRwE=\/smart\/src\/races%2FRfIyyUIA0judhXNZtkNhCPHZR8gJ2jf7covEPKQq.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/BE_EdB1WgMaGe6OtAcHrcOZqFSQ=\/40x40\/smart\/src\/races%2FRfIyyUIA0judhXNZtkNhCPHZR8gJ2jf7covEPKQq.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45496,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":null,"race_id":null},{"id":1193,"name":"Forest
+        Gnome","entry":"\n<p>Lives in the forest, close to nature.<\/p>\n","entry_parsed":"\n<p>Lives
+        in the forest, close to nature.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45463,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":null,"race_id":1204},{"id":1194,"name":"Drow","entry":"\n<p>Names:\u00a0http:\/\/www.fantasynamegenerators.com\/got-valyrian-names.php<\/p>\n","entry_parsed":"\n<p>Names:\u00a0http:\/\/www.fantasynamegenerators.com\/got-valyrian-names.php<\/p>\n","image":"races\/UHRKGP5CxiJUOBvnh3IPaMTsJ598uApTbOtHKuKi.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/cQZLNfnBhekVVZFyMNVs9DxL9tY=\/smart\/src\/races%2FUHRKGP5CxiJUOBvnh3IPaMTsJ598uApTbOtHKuKi.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/vRpwPmWEd6x0w8I2gv0nFyc0kp0=\/40x40\/smart\/src\/races%2FUHRKGP5CxiJUOBvnh3IPaMTsJ598uApTbOtHKuKi.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45459,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Fey","race_id":1190},{"id":1195,"name":"Dwarf","entry":"\n<p>Naming
+        convention: Nordic<\/p>\n","entry_parsed":"\n<p>Naming convention: Nordic<\/p>\n","image":"races\/q1NLsUwgSSRTTQ5YohIcfiZsmrAzxkpZvj8cVFOt.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/fI32se2ijHTI0Ifbh7vmSx55eC8=\/smart\/src\/races%2Fq1NLsUwgSSRTTQ5YohIcfiZsmrAzxkpZvj8cVFOt.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/HPddTBjwqAs1KcJu_7q-Jmq_f30=\/40x40\/smart\/src\/races%2Fq1NLsUwgSSRTTQ5YohIcfiZsmrAzxkpZvj8cVFOt.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45460,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":null,"race_id":null},{"id":1204,"name":"Gnome","entry":null,"entry_parsed":null,"image":"races\/48BLwrhg7FesHZf6S1IkbG8euiRnfP34SWkR3aap.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/mbRbX1ux5HZFtokDxpdNmfSWQ_k=\/smart\/src\/races%2F48BLwrhg7FesHZf6S1IkbG8euiRnfP34SWkR3aap.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/DlVudaXwH3StZV8aLDWxIdpI4bA=\/40x40\/smart\/src\/races%2F48BLwrhg7FesHZf6S1IkbG8euiRnfP34SWkR3aap.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45464,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":null,"race_id":null},{"id":3157,"name":"Halfling","entry":null,"entry_parsed":null,"image":"races\/NrExEzyhjSnrHgH3sdz1wsU4J0CGF5J8A4ncG39U.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/GPUYBf-t8USJg7nYAzDpz4rHd-c=\/smart\/src\/races%2FNrExEzyhjSnrHgH3sdz1wsU4J0CGF5J8A4ncG39U.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/djyjYrICoErzb2sx6CPxHPr2Rlk=\/40x40\/smart\/src\/races%2FNrExEzyhjSnrHgH3sdz1wsU4J0CGF5J8A4ncG39U.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45468,"tags":[],"created_at":"2018-10-08T10:33:40.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:11.000000Z","updated_by":1,"type":null,"race_id":null},{"id":3330,"name":"Deity","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45455,"tags":[],"created_at":"2018-10-08T10:33:42.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:11.000000Z","updated_by":1,"type":null,"race_id":null},{"id":3331,"name":"Lesser
+        Deity","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45495,"tags":[],"created_at":"2018-10-08T10:33:42.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:11.000000Z","updated_by":1,"type":null,"race_id":3330},{"id":3340,"name":"Wood
+        Elf","entry":"\n<p>Elves that live closer to nature.<\/p>\n","entry_parsed":"\n<p>Elves
+        that live closer to nature.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45497,"tags":[],"created_at":"2018-10-08T10:33:42.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Fey","race_id":1190},{"id":3341,"name":"Yuan-ti","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45498,"tags":[],"created_at":"2018-10-08T10:33:42.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:11.000000Z","updated_by":1,"type":null,"race_id":null},{"id":3342,"name":"Arakocra","entry":null,"entry_parsed":null,"image":"races\/TbofOsunZYZWw812MdlhLYRp69yiPJfnUdHOhuWY.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/nrYOi0yQdfv8QV8dCwl42dX1D24=\/smart\/src\/races%2FTbofOsunZYZWw812MdlhLYRp69yiPJfnUdHOhuWY.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/ciNlZ7filwOCFdoKDJ34X2jsd9I=\/40x40\/smart\/src\/races%2FTbofOsunZYZWw812MdlhLYRp69yiPJfnUdHOhuWY.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45454,"tags":[],"created_at":"2018-10-08T10:33:42.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:11.000000Z","updated_by":1,"type":null,"race_id":null},{"id":3382,"name":"Half-Orc","entry":"\n<p>Offspring
+        of an orc and human.<\/p>\n","entry_parsed":"\n<p>Offspring of an orc and
+        human.<\/p>\n","image":"races\/raIicKv4aPQGAhWSrZ3Nq8dA7l0kjXM25lRy672b.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Xh24S0es7aXCckp2zLU1XZNFqk4=\/smart\/src\/races%2FraIicKv4aPQGAhWSrZ3Nq8dA7l0kjXM25lRy672b.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/gTtwawbLgbzqzpwlmUilfR90ZNU=\/40x40\/smart\/src\/races%2FraIicKv4aPQGAhWSrZ3Nq8dA7l0kjXM25lRy672b.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45466,"tags":[],"created_at":"2018-10-08T10:33:42.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":"Humanoid","race_id":30808},{"id":3383,"name":"Dragonborn","entry":null,"entry_parsed":null,"image":"races\/6NYtyL2XbrFdPKwIA8C3pvyh9l12ilrNG3BOgTk0.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/f1Y2hWuck24aS8ztQzbUDlXT-kE=\/smart\/src\/races%2F6NYtyL2XbrFdPKwIA8C3pvyh9l12ilrNG3BOgTk0.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/aosoUgaGIaejQP29fBCs_yrnSP4=\/40x40\/smart\/src\/races%2F6NYtyL2XbrFdPKwIA8C3pvyh9l12ilrNG3BOgTk0.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45458,"tags":[],"created_at":"2018-10-08T10:33:42.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:12.000000Z","updated_by":1,"type":null,"race_id":null},{"id":3465,"name":"Eladrin","entry":"\n<p>Names:
+        <a href=\"http:\/\/www.fantasynamegenerators.com\/the-witcher-elf-names.php\"
+        target=\"_blank\" rel=\"noreferrer noopener\">Elves from The Witcher<\/a><\/p>\n","entry_parsed":"\n<p>Names:
+        <a href=\"http:\/\/www.fantasynamegenerators.com\/the-witcher-elf-names.php\"
+        target=\"_blank\" rel=\"noreferrer noopener\">Elves from The Witcher<\/a><\/p>\n","image":"races\/esLSxgoBx65Tn33nvG7UpmXeI1BN1lWJn2jBkx1z.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/qMEjXpeTYxys2DMRNx4yHlwINPI=\/smart\/src\/races%2FesLSxgoBx65Tn33nvG7UpmXeI1BN1lWJn2jBkx1z.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/TYSH0AFd_40epkfQ91g2tSC9WFM=\/40x40\/smart\/src\/races%2FesLSxgoBx65Tn33nvG7UpmXeI1BN1lWJn2jBkx1z.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45461,"tags":[],"created_at":"2018-10-08T10:33:43.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:12.000000Z","updated_by":1,"type":"Fey","race_id":null},{"id":3466,"name":"Half-Orc
+        Half-Eladrin","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45467,"tags":[],"created_at":"2018-10-08T10:33:43.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:12.000000Z","updated_by":1,"type":null,"race_id":null},{"id":3570,"name":"Dragon","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45457,"tags":[],"created_at":"2018-10-08T10:33:44.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:12.000000Z","updated_by":1,"type":null,"race_id":null},{"id":8852,"name":"Dryad","entry":null,"entry_parsed":null,"image":"races\/BlfAcbHyKkYEqggViLnRZE7QKC2JM15cMzzeUD6u.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/xg1t0dZ15yeYwX6WXJqJyTnpTYI=\/smart\/src\/races%2FBlfAcbHyKkYEqggViLnRZE7QKC2JM15cMzzeUD6u.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/lWQR2JYO2k3d_c-7xPPuXc3LUMM=\/40x40\/smart\/src\/races%2FBlfAcbHyKkYEqggViLnRZE7QKC2JM15cMzzeUD6u.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":73804,"tags":[],"created_at":"2018-11-13T08:58:54.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:22.000000Z","updated_by":1,"type":"Fey","race_id":null},{"id":11051,"name":"Aasimar","entry":"\n<p>Subraces:<\/p>\n<ul><li>Protector<\/li>\n<li>Scourge<\/li>\n<li>Fallen<\/li>\n<\/ul>","entry_parsed":"\n<p>Subraces:<\/p>\n<ul><li>Protector<\/li>\n<li>Scourge<\/li>\n<li>Fallen<\/li>\n<\/ul>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":96134,"tags":[],"created_at":"2019-01-06T13:52:18.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:26.000000Z","updated_by":1,"type":"Celestial","race_id":null},{"id":11060,"name":"Tabaxi","entry":"\n<p>Feline-human
+        hybrids. Some have hair covering their whole bodies while some have only feline
+        ears, tails and claws.<\/p>\n","entry_parsed":"\n<p>Feline-human hybrids.
+        Some have hair covering their whole bodies while some have only feline ears,
+        tails and claws.<\/p>\n","image":"races\/D86ChGbdJsPRfZp1AH0G94W4FQV6VffEtvJ5kU39.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/DDfSnqEFEZ8lEoAwGP_XiUwUalk=\/smart\/src\/races%2FD86ChGbdJsPRfZp1AH0G94W4FQV6VffEtvJ5kU39.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/HmnW2oIApZsHNwR0iY7U-gE0Xj4=\/40x40\/smart\/src\/races%2FD86ChGbdJsPRfZp1AH0G94W4FQV6VffEtvJ5kU39.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":96233,"tags":[],"created_at":"2019-01-06T18:12:59.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:26.000000Z","updated_by":1,"type":null,"race_id":null},{"id":11064,"name":"Firbolg","entry":null,"entry_parsed":null,"image":"races\/RPDd3dK2yT4DcOv2f5i3N0J1H6bsizpsTBqMys46.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/8txe_i-5h0KRSeXoT0IrnCPMy1E=\/smart\/src\/races%2FRPDd3dK2yT4DcOv2f5i3N0J1H6bsizpsTBqMys46.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/yVc6ygOuC8KrpvtIqYxW9w5KeNg=\/40x40\/smart\/src\/races%2FRPDd3dK2yT4DcOv2f5i3N0J1H6bsizpsTBqMys46.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":96287,"tags":[],"created_at":"2019-01-06T19:52:44.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:26.000000Z","updated_by":1,"type":null,"race_id":null},{"id":12037,"name":"Warforged","entry":"\n<p>Warforged
+        are rare sentient machines.<\/p>\n","entry_parsed":"\n<p>Warforged are rare
+        sentient machines.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":105718,"tags":[],"created_at":"2019-01-24T19:16:54.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:28.000000Z","updated_by":1,"type":"Construct","race_id":null},{"id":17501,"name":"Sea-Elf","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":155291,"tags":[],"created_at":"2019-03-07T09:58:59.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Fey","race_id":1190},{"id":17506,"name":"Kenku","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":155319,"tags":[],"created_at":"2019-03-07T10:22:05.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:38.000000Z","updated_by":1,"type":null,"race_id":null},{"id":24434,"name":"Hag","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":227917,"tags":[],"created_at":"2019-05-21T12:24:37.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:51.000000Z","updated_by":1,"type":null,"race_id":null},{"id":24532,"name":"Tortle","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":228531,"tags":[],"created_at":"2019-05-21T20:50:24.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:51.000000Z","updated_by":1,"type":null,"race_id":null},{"id":28202,"name":"Bullywug","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":269372,"tags":[],"created_at":"2019-07-07T10:15:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:59.000000Z","updated_by":1,"type":null,"race_id":null},{"id":30802,"name":"Triton","entry":"\n<p>Aquatic
+        creatures that can survive for a limited time above the water.<\/p>\n","entry_parsed":"\n<p>Aquatic
+        creatures that can survive for a limited time above the water.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301390,"tags":[],"created_at":"2019-08-09T15:08:52.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":null,"race_id":null},{"id":30803,"name":"Hill
+        Dwarf","entry":"\n<p>Dwarves that live by hills and above the ground.<\/p>\n","entry_parsed":"\n<p>Dwarves
+        that live by hills and above the ground.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301391,"tags":[],"created_at":"2019-08-09T15:11:53.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Humanoid","race_id":1195},{"id":30804,"name":"Mountain
+        Dwarf","entry":"\n<p>Dwarfs that live deep in the mountains.<\/p>\n","entry_parsed":"\n<p>Dwarfs
+        that live deep in the mountains.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301392,"tags":[],"created_at":"2019-08-09T15:12:23.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Humanoid","race_id":1195},{"id":30805,"name":"High-Elf","entry":"\n<p>Elves
+        that concentrate on society and civilisation.<\/p>\n","entry_parsed":"\n<p>Elves
+        that concentrate on society and civilisation.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301395,"tags":[],"created_at":"2019-08-09T15:14:01.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Fey","race_id":1190},{"id":30806,"name":"Rock
+        Gnome","entry":"\n<p>Lives in caves and caverns. The most common of gnomes.<\/p>\n","entry_parsed":"\n<p>Lives
+        in caves and caverns. The most common of gnomes.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301396,"tags":[],"created_at":"2019-08-09T15:15:19.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Humanoid","race_id":1204},{"id":30807,"name":"Genasi","entry":"\n<p>Heirs
+        to elemental power.<\/p>\n","entry_parsed":"\n<p>Heirs to elemental power.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301402,"tags":[],"created_at":"2019-08-09T15:16:05.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":"Planar","race_id":null},{"id":30808,"name":"Orc","entry":"\n<p>Tough
+        creatures that live in small tribal societies.<\/p>\n","entry_parsed":"\n<p>Tough
+        creatures that live in small tribal societies.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301403,"tags":[],"created_at":"2019-08-09T15:16:47.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":"Fey","race_id":null},{"id":30811,"name":"Gith","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301408,"tags":[],"created_at":"2019-08-09T15:17:39.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":"Fey","race_id":null},{"id":30812,"name":"Changeling","entry":"\n<p>Creatures
+        that can change their appearance.<\/p>\n","entry_parsed":"\n<p>Creatures that
+        can change their appearance.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":301409,"tags":[],"created_at":"2019-08-09T15:17:59.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":"Fey","race_id":null},{"id":31032,"name":"Centaurs","entry":"\n<p>Centaurs
+        are horse-human hybrids. They live at the source of the [location:304150]
+        river in the [location:27493] forest.<\/p>\n","entry_parsed":"\n<p>Centaurs
+        are horse-human hybrids. They live at the source of the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/82032\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"304150\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/304150\/tooltip\">Dernam<\/a>
+        river in the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/10684\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"27493\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/27493\/tooltip\">Nornwood<\/a>
+        forest.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":304152,"tags":[],"created_at":"2019-08-12T14:45:51.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":null,"race_id":null},{"id":37898,"name":"Goblin","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":379591,"tags":[],"created_at":"2019-11-04T12:23:19.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":"Fey","race_id":null},{"id":40395,"name":"Kobold","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":405972,"tags":[],"created_at":"2019-11-30T20:14:33.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":null,"race_id":null},{"id":93058,"name":"Leonin","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1002047,"tags":[],"created_at":"2020-09-21T22:47:32.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":null,"race_id":null},{"id":93490,"name":"Kalashtar","entry":"<p><a
+        href=\"https:\/\/www.dndbeyond.com\/races\/kalashtar\" target=\"_blank\" rel=\"noreferrer
+        noopener\">DndBeyond<\/a><\/p><p>The kalashtar are a compound race created
+        from the union of humanity and renegade spirits from the plane of dreams \u2014
+        spirits called quori. Kalashtar are often seen as wise, spiritual people with
+        great compassion for others. But there is an unmistakable alien quality to
+        the kalashtar, as they are haunted by the conflicts of their otherworldly
+        spirits.<br \/><\/p>","entry_parsed":"<p><a href=\"https:\/\/www.dndbeyond.com\/races\/kalashtar\"
+        target=\"_blank\" rel=\"noreferrer noopener\">DndBeyond<\/a><\/p><p>The kalashtar
+        are a compound race created from the union of humanity and renegade spirits
+        from the plane of dreams \u2014 spirits called quori. Kalashtar are often
+        seen as wise, spiritual people with great compassion for others. But there
+        is an unmistakable alien quality to the kalashtar, as they are haunted by
+        the conflicts of their otherworldly spirits.<br \/><\/p>","image":"races\/5f6b5c2e66862_637093380124337945.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Ngx3F7SkcN_8hlBbiTjGrARBw4E=\/smart\/src\/races%2F5f6b5c2e66862_637093380124337945.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/YW42ouYifmCNRsNhBuvRnGiMphw=\/40x40\/smart\/src\/races%2F5f6b5c2e66862_637093380124337945.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1007620,"tags":[],"created_at":"2020-09-23T14:30:23.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":null,"race_id":null},{"id":93952,"name":"Shifter","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1013918,"tags":[],"created_at":"2020-09-25T17:23:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":null,"race_id":null},{"id":94059,"name":"Satyr","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1015737,"tags":[],"created_at":"2020-09-26T11:06:53.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":null,"race_id":null}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/races?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/races?page=2","prev":null,"next":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/races?page=2"},"meta":{"current_page":1,"from":1,"last_page":2,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/races","per_page":45,"to":45,"total":47},"sync":"2021-10-15T12:58:27.326737Z"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e9380e0b55fd7e-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:27 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6bSGC7rH1Thn%2BBlT3vX18izH4ua3PAb2dFrwdJymrfR%2FFzX1wgHPEK6z%2B9LmMxb5nL6cMwlZDQy6plhtuIGLxpFFIZ9zJIBByAj8%2Bpw0UZPFlezGHl8P18WzZQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '30416'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '33'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/races
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/races?page=2
+  response:
+    body:
+      string: '{"data":[{"id":130657,"name":"Bugbear","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1440140,"tags":[],"created_at":"2021-02-19T15:02:33.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":"Goblinoid","race_id":null},{"id":135830,"name":"Archdevil","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1503869,"tags":[],"created_at":"2021-03-08T17:35:44.000000Z","created_by":1,"updated_at":"2021-06-08T12:34:00.000000Z","updated_by":1,"type":null,"race_id":null}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/races?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/races?page=2","prev":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/races?page=1","next":null},"meta":{"current_page":2,"from":46,"last_page":2,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/races","per_page":45,"to":47,"total":47},"sync":"2021-10-15T12:58:27.947536Z"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e938131ea262b7-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:28 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=szloPTVZikxVK1TlRz6rIQQOXpvosTwbydCzhQPdrDIdKxAoIYGgG6yai8eAAmHXwk26Inv9%2FpgVLHUw7JiwUFRLCurDyEwGVd6Wn34r3d7dOGUS8mxJnP9A3g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1387'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '32'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/races?page=2
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/45494
+  response:
+    body:
+      string: '{"data":{"id":45494,"name":"Human","type":"race","child_id":162,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-10-08T11:44:31.000000Z","created_by":1,"updated_at":"2018-10-08T11:44:31.000000Z","updated_by":1,"child":{"id":162,"name":"Human","entry":null,"entry_parsed":null,"image":"races\/qBrGtQn8Y1XFzsF8DI1nB47peQcaaGFe23GHgmql.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/KSEc2gPL9Nu9NiccDRhNAM-U5RQ=\/smart\/src\/races%2FqBrGtQn8Y1XFzsF8DI1nB47peQcaaGFe23GHgmql.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/HoHM2mGW7VYsi11RXRC0WHYhN_8=\/40x40\/smart\/src\/races%2FqBrGtQn8Y1XFzsF8DI1nB47peQcaaGFe23GHgmql.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45494,"tags":[],"created_at":"2018-10-08T10:33:19.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:04.000000Z","updated_by":1,"type":null,"race_id":null}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e938157c3b62d0-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:28 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q0lETIJijZtVcWzq5spHOZEF5Nm7dElCsC85E0ZnyVBMsMy%2F2X9KWDKT6N4BtjckLF%2BGYCU7K4c%2BCsWnb5nexojuYsZ7kJ%2Bb6Q%2Fr97kTkk%2FZAKQvZMzHYcntbw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1088'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '31'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/45494
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/45462
+  response:
+    body:
+      string: '{"data":{"id":45462,"name":"Elf","type":"race","child_id":1190,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-10-08T10:35:01.000000Z","created_by":1,"updated_at":"2018-10-08T10:35:01.000000Z","updated_by":1,"child":{"id":1190,"name":"Elf","entry":"\n<p>Naming
+        convention: French<\/p>\n","entry_parsed":"\n<p>Naming convention: French<\/p>\n","image":"races\/0Z79ImDHsUKS3eWN5PvqUSC2TH1A0VXh9QZYHsJG.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/fEVV5H5WMW2MZg2iCJFTh0TJZIs=\/smart\/src\/races%2F0Z79ImDHsUKS3eWN5PvqUSC2TH1A0VXh9QZYHsJG.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/jp016l-5a9nvM9vr6YbhsKLaku4=\/40x40\/smart\/src\/races%2F0Z79ImDHsUKS3eWN5PvqUSC2TH1A0VXh9QZYHsJG.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45462,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Fey","race_id":null}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e938179a9b2986-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:28 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2Fft2bIg%2BiBniU0SugZtjfeqPQ3Hsm2CwBb9M48ACeVvEEX8fec0fYkjQQTXu5hlyWpbR1Pmbc1aAh8ucWEimQMA21BMREGWYH5eZ5w%2FsQIHv5tQL4W5Vg1wzRA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1157'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '30'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/45462
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/45465
+  response:
+    body:
+      string: '{"data":{"id":45465,"name":"Half-Elf","type":"race","child_id":1191,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-10-08T10:35:01.000000Z","created_by":1,"updated_at":"2019-08-09T15:13:03.000000Z","updated_by":1,"child":{"id":1191,"name":"Half-Elf","entry":"\n<p>Half-human,
+        half-elf.<\/p>\n","entry_parsed":"\n<p>Half-human, half-elf.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45465,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Fey","race_id":null}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e93819cb5c2ad6-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:29 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=W7FGQxnG7vElmZhbcQmRsCAHfp0PxojKxEdLHmjOwZJimCyryi5i6VQjAAB71cE%2FRCq9V1pt7CU9x%2Bx%2BZ3EdsgEZ%2BXkTmWvwsOf2k1Hbp4pRSzS2ce8%2Bt3MXrA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '885'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '29'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/45465
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/45496
+  response:
+    body:
+      string: '{"data":{"id":45496,"name":"Tiefling","type":"race","child_id":1192,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-10-08T11:44:31.000000Z","created_by":1,"updated_at":"2018-10-08T11:44:31.000000Z","updated_by":1,"child":{"id":1192,"name":"Tiefling","entry":"\n<p>Naming
+        convention: Albanian<\/p>\n","entry_parsed":"\n<p>Naming convention: Albanian<\/p>\n","image":"races\/RfIyyUIA0judhXNZtkNhCPHZR8gJ2jf7covEPKQq.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/Mcn7pg6NKE4XH6JXwOwGqdmhRwE=\/smart\/src\/races%2FRfIyyUIA0judhXNZtkNhCPHZR8gJ2jf7covEPKQq.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/BE_EdB1WgMaGe6OtAcHrcOZqFSQ=\/40x40\/smart\/src\/races%2FRfIyyUIA0judhXNZtkNhCPHZR8gJ2jf7covEPKQq.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45496,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":null,"race_id":null}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e9381d492c62fc-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:29 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lTd%2BLq8xMbrpXSQDI0%2Bw4lE1unBhOecpBNdKWP4PAlL7eo0qVuUqV2zzqF%2FOZN1VjNBoyq64DdjvtOEI5NlvTW0RxbCeUWYcBaybXBWgCh9L4c%2F2kgoqqwgEWg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1167'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '28'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/45496
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/45463
+  response:
+    body:
+      string: '{"data":{"id":45463,"name":"Forest Gnome","type":"race","child_id":1193,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-10-08T10:35:01.000000Z","created_by":1,"updated_at":"2019-08-09T15:14:31.000000Z","updated_by":1,"child":{"id":1193,"name":"Forest
+        Gnome","entry":"\n<p>Lives in the forest, close to nature.<\/p>\n","entry_parsed":"\n<p>Lives
+        in the forest, close to nature.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45463,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":null,"race_id":1204}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e9381f8a2e632c-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:29 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ImfxL%2B%2F1vGHPQUW5W2ESMX8sXI38oeyl4m%2BoRBo%2B7np6Bt32WyI4XAOmrsp555Bm%2FVVl%2B%2Fxm6R%2FosBRZory6SrpdZb8cL1UjR%2BmxpUB0MU%2FLzMx5xXKaMbdQ4g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '924'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '27'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/45463
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/45459
+  response:
+    body:
+      string: '{"data":{"id":45459,"name":"Drow","type":"race","child_id":1194,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-10-08T10:35:01.000000Z","created_by":1,"updated_at":"2019-08-09T15:13:33.000000Z","updated_by":1,"child":{"id":1194,"name":"Drow","entry":"\n<p>Names:\u00a0http:\/\/www.fantasynamegenerators.com\/got-valyrian-names.php<\/p>\n","entry_parsed":"\n<p>Names:\u00a0http:\/\/www.fantasynamegenerators.com\/got-valyrian-names.php<\/p>\n","image":"races\/UHRKGP5CxiJUOBvnh3IPaMTsJ598uApTbOtHKuKi.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/cQZLNfnBhekVVZFyMNVs9DxL9tY=\/smart\/src\/races%2FUHRKGP5CxiJUOBvnh3IPaMTsJ598uApTbOtHKuKi.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/vRpwPmWEd6x0w8I2gv0nFyc0kp0=\/40x40\/smart\/src\/races%2FUHRKGP5CxiJUOBvnh3IPaMTsJ598uApTbOtHKuKi.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45459,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":"Fey","race_id":1190}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e938222b3d61e0-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:30 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YxJEGz5uWylP%2FnUFikE67B1iSbCPytge8KoQJMZLGFj9dCRbtEN49h0kwUb3oU0AD7Y0D3entYRXma62AZI7HMpkXMfuScYAeZOb6B6p9kS%2F%2FNQVWroql98qgQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1257'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '26'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/45459
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/45460
+  response:
+    body:
+      string: '{"data":{"id":45460,"name":"Dwarf","type":"race","child_id":1195,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-10-08T10:35:01.000000Z","created_by":1,"updated_at":"2018-10-08T10:35:01.000000Z","updated_by":1,"child":{"id":1195,"name":"Dwarf","entry":"\n<p>Naming
+        convention: Nordic<\/p>\n","entry_parsed":"\n<p>Naming convention: Nordic<\/p>\n","image":"races\/q1NLsUwgSSRTTQ5YohIcfiZsmrAzxkpZvj8cVFOt.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/fI32se2ijHTI0Ifbh7vmSx55eC8=\/smart\/src\/races%2Fq1NLsUwgSSRTTQ5YohIcfiZsmrAzxkpZvj8cVFOt.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/HPddTBjwqAs1KcJu_7q-Jmq_f30=\/40x40\/smart\/src\/races%2Fq1NLsUwgSSRTTQ5YohIcfiZsmrAzxkpZvj8cVFOt.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45460,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":null,"race_id":null}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e93824c9c26269-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:30 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QYNE9SUfPFMODYNrCmQY0%2Blns%2FQ8v0arF6oj1Aj%2F1FfVxLoqOwh6IM7nC41pG0abCQW%2BvzoXBriuG1xktDZNf0Oj70%2FSG0WIk5uDZImYlAfpzXakcAQngHtqfw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1160'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '25'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/45460
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/45464
+  response:
+    body:
+      string: '{"data":{"id":45464,"name":"Gnome","type":"race","child_id":1204,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-10-08T10:35:01.000000Z","created_by":1,"updated_at":"2018-10-08T10:35:01.000000Z","updated_by":1,"child":{"id":1204,"name":"Gnome","entry":null,"entry_parsed":null,"image":"races\/48BLwrhg7FesHZf6S1IkbG8euiRnfP34SWkR3aap.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/mbRbX1ux5HZFtokDxpdNmfSWQ_k=\/smart\/src\/races%2F48BLwrhg7FesHZf6S1IkbG8euiRnfP34SWkR3aap.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/DlVudaXwH3StZV8aLDWxIdpI4bA=\/40x40\/smart\/src\/races%2F48BLwrhg7FesHZf6S1IkbG8euiRnfP34SWkR3aap.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45464,"tags":[],"created_at":"2018-10-08T10:33:27.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:07.000000Z","updated_by":1,"type":null,"race_id":null}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e938273ba52a15-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:31 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5Usbg6Yb6ot3HKmofdyGg4hD9crC9SrBQmpc5RlfvSqqDmk9jqvroETLCAxjlQN8YnWDMQ6ZeqJGzfQyKhpFKH7JDaGqePDMx5%2BIv%2FdHm33CRvqY%2Fp%2B7R7Jj8g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1090'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '24'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/45464
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/45468
+  response:
+    body:
+      string: '{"data":{"id":45468,"name":"Halfling","type":"race","child_id":3157,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-10-08T10:35:01.000000Z","created_by":1,"updated_at":"2018-10-08T10:35:01.000000Z","updated_by":1,"child":{"id":3157,"name":"Halfling","entry":null,"entry_parsed":null,"image":"races\/NrExEzyhjSnrHgH3sdz1wsU4J0CGF5J8A4ncG39U.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/GPUYBf-t8USJg7nYAzDpz4rHd-c=\/smart\/src\/races%2FNrExEzyhjSnrHgH3sdz1wsU4J0CGF5J8A4ncG39U.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/djyjYrICoErzb2sx6CPxHPr2Rlk=\/40x40\/smart\/src\/races%2FNrExEzyhjSnrHgH3sdz1wsU4J0CGF5J8A4ncG39U.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45468,"tags":[],"created_at":"2018-10-08T10:33:40.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:11.000000Z","updated_by":1,"type":null,"race_id":null}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e938294cc92d49-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:31 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oqK3Uyti0dna6AkxUcmZJHbDPeWCwXyWxG8kypSjBU6jNyD%2FmW11%2FXvqB9My5Eso5VL%2BD059%2BKR%2BB2t48aUZbZM2Yf3O%2BHGEyiZcid5y0wGs0YoB1ZS0uDdsNA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1096'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '23'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/45468
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/45455
+  response:
+    body:
+      string: '{"data":{"id":45455,"name":"Deity","type":"race","child_id":3330,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":null,"header_image":null,"image_uuid":null,"created_at":"2018-10-08T10:35:01.000000Z","created_by":1,"updated_at":"2018-10-08T10:35:01.000000Z","updated_by":1,"child":{"id":3330,"name":"Deity","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/races_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":45455,"tags":[],"created_at":"2018-10-08T10:33:42.000000Z","created_by":1,"updated_at":"2021-06-08T12:33:11.000000Z","updated_by":1,"type":null,"race_id":null}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e9382bcb0f635c-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:58:32 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EtRd9yb4Q9Rs6kkLHDcZt5MX8cJ3u%2BJBTuWc4GP9JZAYJAkRCcFIyH7vKloNUWAuyrf0XgRBpBznBlWDoxESMnqz%2FQfvxHiEDstLNQ6i8PfTeZUd2Yu1kPubiA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '816'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '22'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/45455
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,965 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/abilities
+  response:
+    body:
+      string: '{"data":[{"id":1550,"name":"Classes","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634073,"tags":[],"created_at":"2020-04-25T07:28:54.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:18.000000Z","updated_by":1,"type":"Class
+        Features","ability_id":null,"charges":null,"abilities":[1551,1552,1553,1554]},{"id":1551,"name":"Rogue","entry":"\n<p><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Armor<\/span><span class=\"Serif-Character-Style_Bold-Serif\">:<\/span><\/strong>\u00a0Light
+        armor<br \/><strong><span class=\"Serif-Character-Style_Bold-Serif\">Weapons:<\/span><\/strong>\u00a0Simple
+        weapons, hand crossbows, longswords, rapiers, shortswords<br \/><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Tools:\u00a0<\/span><\/strong>Thieves\u2019
+        tools<br \/><strong><span class=\"Serif-Character-Style_Bold-Serif\">Saving
+        Throws:\u00a0<\/span><\/strong>Dexterity, Intelligence<br \/><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Skills:\u00a0<\/span><\/strong>Choose
+        four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation,
+        Perception, Performance, Persuasion, Sleight of Hand, and Stealth<\/p>\n","entry_parsed":"\n<p><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Armor<\/span><span class=\"Serif-Character-Style_Bold-Serif\">:<\/span><\/strong>\u00a0Light
+        armor<br \/><strong><span class=\"Serif-Character-Style_Bold-Serif\">Weapons:<\/span><\/strong>\u00a0Simple
+        weapons, hand crossbows, longswords, rapiers, shortswords<br \/><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Tools:\u00a0<\/span><\/strong>Thieves\u2019
+        tools<br \/><strong><span class=\"Serif-Character-Style_Bold-Serif\">Saving
+        Throws:\u00a0<\/span><\/strong>Dexterity, Intelligence<br \/><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Skills:\u00a0<\/span><\/strong>Choose
+        four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation,
+        Perception, Performance, Persuasion, Sleight of Hand, and Stealth<\/p>\n","image":"abilities\/ywwipffZGDsrZweLN6XxQcANG38YYqFZLRntHQB1.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/8Rs1FBFZAavrvPy3hrknU7y-J0U=\/smart\/src\/abilities%2FywwipffZGDsrZweLN6XxQcANG38YYqFZLRntHQB1.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/jYeWws9K0F__PXvNcYw6kO3LJXU=\/40x40\/smart\/src\/abilities%2FywwipffZGDsrZweLN6XxQcANG38YYqFZLRntHQB1.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634075,"tags":[],"created_at":"2020-04-25T09:31:32.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:18.000000Z","updated_by":1,"type":"Rogue
+        Abilities","ability_id":1550,"charges":null,"abilities":[1552,1553,1554]},{"id":1552,"name":"Sneak
+        Attack","entry":"\n<p class=\"Core-Styles_Core-Body\">Beginning at 1st level,
+        you know how to strike subtly and exploit a foe\u2019s distraction. Once per
+        turn, you can deal an extra 1d6 damage to one creature you hit with an attack
+        if you have advantage on the attack roll. The attack must use a finesse or
+        a r<span class=\"No-Break\">anged weapon.<\/span><\/p>\n<p class=\"Core-Styles_Core-Body\">You
+        don\u2019t need advantage on the attack roll if another enemy of the target
+        is within 5 feet of it, that enemy isn\u2019t incapacitated, and you don\u2019t
+        have disadvantage on the<span class=\"No-Break\">\u00a0attack roll.<\/span><\/p>\n","entry_parsed":"\n<p
+        class=\"Core-Styles_Core-Body\">Beginning at 1st level, you know how to strike
+        subtly and exploit a foe\u2019s distraction. Once per turn, you can deal an
+        extra 1d6 damage to one creature you hit with an attack if you have advantage
+        on the attack roll. The attack must use a finesse or a r<span class=\"No-Break\">anged
+        weapon.<\/span><\/p>\n<p class=\"Core-Styles_Core-Body\">You don\u2019t need
+        advantage on the attack roll if another enemy of the target is within 5 feet
+        of it, that enemy isn\u2019t incapacitated, and you don\u2019t have disadvantage
+        on the<span class=\"No-Break\">\u00a0attack roll.<\/span><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634077,"tags":[],"created_at":"2020-04-25T09:33:54.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:18.000000Z","updated_by":1,"type":"Ranged
+        Attack","ability_id":1551,"charges":null,"abilities":[]},{"id":1553,"name":"Thieves''
+        Cant","entry":"\n<p class=\"Core-Styles_Core-Body\">During your rogue training
+        you learned thieves\u2019 cant, a secret mix of dialect, jargon, and code
+        that allows you to hide messages in seemingly normal conversation. Only another
+        creature that knows thieves\u2019 cant understands such messages. It takes
+        four times longer to convey such a message than it does to speak the same
+        idea plainly.<\/p>\n<p class=\"Core-Styles_Core-Body\">In addition, you understand
+        a set of secret signs and symbols used to convey short, simple messages, such
+        as whether an area is dangerous or the territory of a thieves\u2019 guild,
+        whether loot is nearby, or whether the people in an area are easy marks or
+        will provide a safe house for thieves on the run.<\/p>\n","entry_parsed":"\n<p
+        class=\"Core-Styles_Core-Body\">During your rogue training you learned thieves\u2019
+        cant, a secret mix of dialect, jargon, and code that allows you to hide messages
+        in seemingly normal conversation. Only another creature that knows thieves\u2019
+        cant understands such messages. It takes four times longer to convey such
+        a message than it does to speak the same idea plainly.<\/p>\n<p class=\"Core-Styles_Core-Body\">In
+        addition, you understand a set of secret signs and symbols used to convey
+        short, simple messages, such as whether an area is dangerous or the territory
+        of a thieves\u2019 guild, whether loot is nearby, or whether the people in
+        an area are easy marks or will provide a safe house for thieves on the run.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634078,"tags":[],"created_at":"2020-04-25T09:34:40.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:18.000000Z","updated_by":1,"type":"Social","ability_id":1551,"charges":null,"abilities":[]},{"id":1554,"name":"Cunning
+        Action","entry":"\n<p>Starting at 2nd level, your quick thinking and agility
+        allow you to move and act quickly. You can take a bonus action on each of
+        your turns in combat. This action can be used only to take the Dash, Disengage,
+        or\u00a0Hide action.<\/p>\n","entry_parsed":"\n<p>Starting at 2nd level, your
+        quick thinking and agility allow you to move and act quickly. You can take
+        a bonus action on each of your turns in combat. This action can be used only
+        to take the Dash, Disengage, or\u00a0Hide action.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634079,"tags":[],"created_at":"2020-04-25T09:34:58.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:18.000000Z","updated_by":1,"type":"Bonus
+        Action","ability_id":1551,"charges":null,"abilities":[]},{"id":1555,"name":"Races","entry":"\n<p>Race
+        abilities<\/p>\n","entry_parsed":"\n<p>Race abilities<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634080,"tags":[],"created_at":"2020-04-25T07:35:06.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:34.000000Z","updated_by":1,"type":null,"ability_id":null,"charges":null,"abilities":[1556,1557,1558,1559]},{"id":1556,"name":"Tabaxi","entry":null,"entry_parsed":null,"image":"abilities\/oV31tVWEVrQQPNmtuVTcip3Wu0HjoL8mgSPxsXxE.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/1-Woru_i-tgzWP6nOgXPXcfdM3Y=\/smart\/src\/abilities%2FoV31tVWEVrQQPNmtuVTcip3Wu0HjoL8mgSPxsXxE.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/3ySrZke3TKorudaLrFAV8TL3S2A=\/40x40\/smart\/src\/abilities%2FoV31tVWEVrQQPNmtuVTcip3Wu0HjoL8mgSPxsXxE.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634081,"tags":[],"created_at":"2020-04-25T07:35:44.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:34.000000Z","updated_by":1,"type":null,"ability_id":1555,"charges":null,"abilities":[1557,1558,1559]},{"id":1557,"name":"Darkvision","entry":"\n<p>You
+        have a cat\u2019s keen senses, especially in the dark. You can see in dim
+        light within 60 feet of you as if it were bright light, and in darkness as
+        if it were dim light. You can\u2019t discern color in darkness, only shade<span
+        class=\"No-Break\">s of gray.<\/span><\/p>\n","entry_parsed":"\n<p>You have
+        a cat\u2019s keen senses, especially in the dark. You can see in dim light
+        within 60 feet of you as if it were bright light, and in darkness as if it
+        were dim light. You can\u2019t discern color in darkness, only shade<span
+        class=\"No-Break\">s of gray.<\/span><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634082,"tags":[],"created_at":"2020-04-25T07:35:56.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:34.000000Z","updated_by":1,"type":"Special","ability_id":1556,"charges":null,"abilities":[]},{"id":1558,"name":"Feline
+        Agility","entry":"\n<p>Your reflexes and agility allow you to move with a
+        burst of speed. When you move on your turn in combat, you can double your
+        speed until the end of the turn. Once you use this trait, you can\u2019t use
+        it again until you move 0 feet on one of y<span class=\"No-Break\">our turns.<\/span><\/p>\n","entry_parsed":"\n<p>Your
+        reflexes and agility allow you to move with a burst of speed. When you move
+        on your turn in combat, you can double your speed until the end of the turn.
+        Once you use this trait, you can\u2019t use it again until you move 0 feet
+        on one of y<span class=\"No-Break\">our turns.<\/span><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634086,"tags":[],"created_at":"2020-04-25T07:36:39.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:34.000000Z","updated_by":1,"type":"Combat","ability_id":1556,"charges":"1","abilities":[]},{"id":1559,"name":"Cat\u2019s
+        Claws","entry":"\n<p>Because of your claws, you have a climbing speed of 20
+        feet. In addition, your claws are natural weapons, which you can use to make
+        unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4
+        + your Strength modifier, instead of the bludgeoning damage normal for an
+        unarm<span class=\"No-Break\">ed strike.<\/span><\/p>\n","entry_parsed":"\n<p>Because
+        of your claws, you have a climbing speed of 20 feet. In addition, your claws
+        are natural weapons, which you can use to make unarmed strikes. If you hit
+        with them, you deal slashing damage equal to 1d4 + your Strength modifier,
+        instead of the bludgeoning damage normal for an unarm<span class=\"No-Break\">ed
+        strike.<\/span><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634087,"tags":[],"created_at":"2020-04-25T07:37:06.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:34.000000Z","updated_by":1,"type":"Action","ability_id":1556,"charges":null,"abilities":[]}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/abilities?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/abilities?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/abilities","per_page":45,"to":10,"total":10},"sync":"2021-10-15T12:57:01.585481Z"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e935f70e786336-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:01 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vdlckC7dZSl01yZ55Zg4LrW5lh9hj2wnOYypxvLY27vU3vxoJopCRkZQWgF65%2B9eaY7VkzMXt38IhcgtVJSHB24hXAJoEZnBxv2nPZlqsZIgL2uYXGDLHLvTZw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '12962'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '80'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/abilities
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/634073
+  response:
+    body:
+      string: '{"data":{"id":634073,"name":"Classes","type":"ability","child_id":1550,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2020-04-25T07:28:54.000000Z","created_by":1,"updated_at":"2020-04-25T07:38:12.000000Z","updated_by":1,"child":{"id":1550,"name":"Classes","entry":null,"entry_parsed":null,"image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634073,"tags":[],"created_at":"2020-04-25T07:28:54.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:18.000000Z","updated_by":1,"type":"Class
+        Features","ability_id":null,"charges":null,"abilities":[1551,1552,1553,1554]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e935fa1f672a54-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:02 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wEICeqbbgEgKV2HcL9%2Br3WGww7BTWIZ7GcbYWmcUrXklyJlYrCOvl75HB3haRx98w82X2aKrXAOEy%2Fu9tGB8LTde1wRYMSgsyd%2FX2SLv%2BLqI4%2BDtTmI%2FnEl2Xg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '895'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '79'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/634073
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/634075
+  response:
+    body:
+      string: '{"data":{"id":634075,"name":"Rogue","type":"ability","child_id":1551,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2020-04-25T07:31:32.000000Z","created_by":1,"updated_at":"2020-04-25T07:38:12.000000Z","updated_by":1,"child":{"id":1551,"name":"Rogue","entry":"\n<p><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Armor<\/span><span class=\"Serif-Character-Style_Bold-Serif\">:<\/span><\/strong>\u00a0Light
+        armor<br \/><strong><span class=\"Serif-Character-Style_Bold-Serif\">Weapons:<\/span><\/strong>\u00a0Simple
+        weapons, hand crossbows, longswords, rapiers, shortswords<br \/><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Tools:\u00a0<\/span><\/strong>Thieves\u2019
+        tools<br \/><strong><span class=\"Serif-Character-Style_Bold-Serif\">Saving
+        Throws:\u00a0<\/span><\/strong>Dexterity, Intelligence<br \/><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Skills:\u00a0<\/span><\/strong>Choose
+        four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation,
+        Perception, Performance, Persuasion, Sleight of Hand, and Stealth<\/p>\n","entry_parsed":"\n<p><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Armor<\/span><span class=\"Serif-Character-Style_Bold-Serif\">:<\/span><\/strong>\u00a0Light
+        armor<br \/><strong><span class=\"Serif-Character-Style_Bold-Serif\">Weapons:<\/span><\/strong>\u00a0Simple
+        weapons, hand crossbows, longswords, rapiers, shortswords<br \/><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Tools:\u00a0<\/span><\/strong>Thieves\u2019
+        tools<br \/><strong><span class=\"Serif-Character-Style_Bold-Serif\">Saving
+        Throws:\u00a0<\/span><\/strong>Dexterity, Intelligence<br \/><strong><span
+        class=\"Serif-Character-Style_Bold-Serif\">Skills:\u00a0<\/span><\/strong>Choose
+        four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation,
+        Perception, Performance, Persuasion, Sleight of Hand, and Stealth<\/p>\n","image":"abilities\/ywwipffZGDsrZweLN6XxQcANG38YYqFZLRntHQB1.jpeg","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/8Rs1FBFZAavrvPy3hrknU7y-J0U=\/smart\/src\/abilities%2FywwipffZGDsrZweLN6XxQcANG38YYqFZLRntHQB1.jpeg?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/jYeWws9K0F__PXvNcYw6kO3LJXU=\/40x40\/smart\/src\/abilities%2FywwipffZGDsrZweLN6XxQcANG38YYqFZLRntHQB1.jpeg?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634075,"tags":[],"created_at":"2020-04-25T09:31:32.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:18.000000Z","updated_by":1,"type":"Rogue
+        Abilities","ability_id":1550,"charges":null,"abilities":[1552,1553,1554]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e935fe0a762c1d-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:03 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QCvjq0%2BjdAJs6xJ9CKcplyZxV1yo%2Bp%2Bz%2F64wD3YtlqCjZPLD%2BZ%2BEacV7YGXsHvXjFbz0eF2vj1vJjw2buAtrhTxb5pTexdP3h9o7KoYDqTKwgoKCNBlwsfY7%2BA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2793'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '78'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/634075
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/634077
+  response:
+    body:
+      string: '{"data":{"id":634077,"name":"Sneak Attack","type":"ability","child_id":1552,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2020-04-25T07:33:54.000000Z","created_by":1,"updated_at":"2020-04-25T07:38:12.000000Z","updated_by":1,"child":{"id":1552,"name":"Sneak
+        Attack","entry":"\n<p class=\"Core-Styles_Core-Body\">Beginning at 1st level,
+        you know how to strike subtly and exploit a foe\u2019s distraction. Once per
+        turn, you can deal an extra 1d6 damage to one creature you hit with an attack
+        if you have advantage on the attack roll. The attack must use a finesse or
+        a r<span class=\"No-Break\">anged weapon.<\/span><\/p>\n<p class=\"Core-Styles_Core-Body\">You
+        don\u2019t need advantage on the attack roll if another enemy of the target
+        is within 5 feet of it, that enemy isn\u2019t incapacitated, and you don\u2019t
+        have disadvantage on the<span class=\"No-Break\">\u00a0attack roll.<\/span><\/p>\n","entry_parsed":"\n<p
+        class=\"Core-Styles_Core-Body\">Beginning at 1st level, you know how to strike
+        subtly and exploit a foe\u2019s distraction. Once per turn, you can deal an
+        extra 1d6 damage to one creature you hit with an attack if you have advantage
+        on the attack roll. The attack must use a finesse or a r<span class=\"No-Break\">anged
+        weapon.<\/span><\/p>\n<p class=\"Core-Styles_Core-Body\">You don\u2019t need
+        advantage on the attack roll if another enemy of the target is within 5 feet
+        of it, that enemy isn\u2019t incapacitated, and you don\u2019t have disadvantage
+        on the<span class=\"No-Break\">\u00a0attack roll.<\/span><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634077,"tags":[],"created_at":"2020-04-25T09:33:54.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:18.000000Z","updated_by":1,"type":"Ranged
+        Attack","ability_id":1551,"charges":null,"abilities":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e93605d861f232-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:04 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9jQ%2BSD90sQWminSgY4%2BVdNh%2FMkvUatTcp5KH6cg7pJ9m90ydBbHp4V3Qo1%2Buv9BvMFjKxz3b62m77ExzRW3GrVeV1FCqEEhhDlkZF%2FLJgXLbh%2Ff6ZGhsx1hwEQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2129'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '77'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/634077
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/634078
+  response:
+    body:
+      string: '{"data":{"id":634078,"name":"Thieves'' Cant","type":"ability","child_id":1553,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2020-04-25T07:34:40.000000Z","created_by":1,"updated_at":"2020-04-25T07:38:12.000000Z","updated_by":1,"child":{"id":1553,"name":"Thieves''
+        Cant","entry":"\n<p class=\"Core-Styles_Core-Body\">During your rogue training
+        you learned thieves\u2019 cant, a secret mix of dialect, jargon, and code
+        that allows you to hide messages in seemingly normal conversation. Only another
+        creature that knows thieves\u2019 cant understands such messages. It takes
+        four times longer to convey such a message than it does to speak the same
+        idea plainly.<\/p>\n<p class=\"Core-Styles_Core-Body\">In addition, you understand
+        a set of secret signs and symbols used to convey short, simple messages, such
+        as whether an area is dangerous or the territory of a thieves\u2019 guild,
+        whether loot is nearby, or whether the people in an area are easy marks or
+        will provide a safe house for thieves on the run.<\/p>\n","entry_parsed":"\n<p
+        class=\"Core-Styles_Core-Body\">During your rogue training you learned thieves\u2019
+        cant, a secret mix of dialect, jargon, and code that allows you to hide messages
+        in seemingly normal conversation. Only another creature that knows thieves\u2019
+        cant understands such messages. It takes four times longer to convey such
+        a message than it does to speak the same idea plainly.<\/p>\n<p class=\"Core-Styles_Core-Body\">In
+        addition, you understand a set of secret signs and symbols used to convey
+        short, simple messages, such as whether an area is dangerous or the territory
+        of a thieves\u2019 guild, whether loot is nearby, or whether the people in
+        an area are easy marks or will provide a safe house for thieves on the run.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634078,"tags":[],"created_at":"2020-04-25T09:34:40.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:18.000000Z","updated_by":1,"type":"Social","ability_id":1551,"charges":null,"abilities":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e9360939782a24-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:04 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4uFpba2QwBBvJX7HUVe4AI5PbefU%2FBfwEgaVYSR%2B4dMQi7CBFBxI5MoHXYxdtiZf320MV5ksm2kPEZd%2BFDl%2BPmb%2BgOq0ZpvUfSIaLw9lZA2xjqI9O8g6xp7pIA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '2344'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '76'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/634078
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/634079
+  response:
+    body:
+      string: '{"data":{"id":634079,"name":"Cunning Action","type":"ability","child_id":1554,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2020-04-25T07:34:58.000000Z","created_by":1,"updated_at":"2020-04-25T07:38:12.000000Z","updated_by":1,"child":{"id":1554,"name":"Cunning
+        Action","entry":"\n<p>Starting at 2nd level, your quick thinking and agility
+        allow you to move and act quickly. You can take a bonus action on each of
+        your turns in combat. This action can be used only to take the Dash, Disengage,
+        or\u00a0Hide action.<\/p>\n","entry_parsed":"\n<p>Starting at 2nd level, your
+        quick thinking and agility allow you to move and act quickly. You can take
+        a bonus action on each of your turns in combat. This action can be used only
+        to take the Dash, Disengage, or\u00a0Hide action.<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634079,"tags":[],"created_at":"2020-04-25T09:34:58.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:18.000000Z","updated_by":1,"type":"Bonus
+        Action","ability_id":1551,"charges":null,"abilities":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e9360bcb656387-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:05 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QjcqLzRzSUFuLjV71fCPJxTsiEOFaLyjiZcapQ6%2BPsRoTGpP3htvHVG0r%2FUG%2BPomIfYTbNroXc%2Bd5Bi3ca0kQbavAArqs%2FzU9dUEh9%2F%2Fq413o1nZ7t0mhMCPAQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1366'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '75'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/634079
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/634080
+  response:
+    body:
+      string: '{"data":{"id":634080,"name":"Races","type":"ability","child_id":1555,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2020-04-25T07:35:06.000000Z","created_by":1,"updated_at":"2020-04-25T07:38:12.000000Z","updated_by":1,"child":{"id":1555,"name":"Races","entry":"\n<p>Race
+        abilities<\/p>\n","entry_parsed":"\n<p>Race abilities<\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634080,"tags":[],"created_at":"2020-04-25T07:35:06.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:34.000000Z","updated_by":1,"type":null,"ability_id":null,"charges":null,"abilities":[1556,1557,1558,1559]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e9360f3eae2a45-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:05 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5meujJeShrV2cLRMNBF0fzlRKJhiyzldk%2Fq3BBhtImXqqUa9XWXkqXRuByh7P%2BlUAd3RYswp%2Bn602JmSkw0oI4H9PyVc0fJDrZJoGEuYA5H%2Bw4W5drW%2BXzLwbw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '927'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '74'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/634080
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/634081
+  response:
+    body:
+      string: '{"data":{"id":634081,"name":"Tabaxi","type":"ability","child_id":1556,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2020-04-25T07:35:44.000000Z","created_by":1,"updated_at":"2020-04-25T07:38:12.000000Z","updated_by":1,"child":{"id":1556,"name":"Tabaxi","entry":null,"entry_parsed":null,"image":"abilities\/oV31tVWEVrQQPNmtuVTcip3Wu0HjoL8mgSPxsXxE.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/1-Woru_i-tgzWP6nOgXPXcfdM3Y=\/smart\/src\/abilities%2FoV31tVWEVrQQPNmtuVTcip3Wu0HjoL8mgSPxsXxE.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/3ySrZke3TKorudaLrFAV8TL3S2A=\/40x40\/smart\/src\/abilities%2FoV31tVWEVrQQPNmtuVTcip3Wu0HjoL8mgSPxsXxE.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634081,"tags":[],"created_at":"2020-04-25T07:35:44.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:34.000000Z","updated_by":1,"type":null,"ability_id":1555,"charges":null,"abilities":[1557,1558,1559]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e936124f2d2d76-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:06 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WJmIz%2FRo0jJXzxRTObeVymQ1kSrLeBNjWa2K%2B3bIRew5QhWZ4n7VJGlXqkEnHRZBbTWNLsSjjLDcJOMFWFI9OgHMJyTuMm9ofpab4eki2WF07KFUHSJsL5nHSg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1155'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '73'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/634081
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/634082
+  response:
+    body:
+      string: '{"data":{"id":634082,"name":"Darkvision","type":"ability","child_id":1557,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2020-04-25T07:35:56.000000Z","created_by":1,"updated_at":"2020-04-25T07:38:12.000000Z","updated_by":1,"child":{"id":1557,"name":"Darkvision","entry":"\n<p>You
+        have a cat\u2019s keen senses, especially in the dark. You can see in dim
+        light within 60 feet of you as if it were bright light, and in darkness as
+        if it were dim light. You can\u2019t discern color in darkness, only shade<span
+        class=\"No-Break\">s of gray.<\/span><\/p>\n","entry_parsed":"\n<p>You have
+        a cat\u2019s keen senses, especially in the dark. You can see in dim light
+        within 60 feet of you as if it were bright light, and in darkness as if it
+        were dim light. You can\u2019t discern color in darkness, only shade<span
+        class=\"No-Break\">s of gray.<\/span><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634082,"tags":[],"created_at":"2020-04-25T07:35:56.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:34.000000Z","updated_by":1,"type":"Special","ability_id":1556,"charges":null,"abilities":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e936173d022da2-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:06 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VcVoXKxj6ifGCYhnym9HlPIGrIwnbxicIRpEGaBDatMRh3lcxm0eFFWF4%2Frh9RiErrdqO%2FlhzmL%2FCwHdy8k33DscD4A6y94PcGljgUWwbpn%2BwJAIsXvKiy%2FktA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1435'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '72'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/634082
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/634086
+  response:
+    body:
+      string: '{"data":{"id":634086,"name":"Feline Agility","type":"ability","child_id":1558,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2020-04-25T07:36:39.000000Z","created_by":1,"updated_at":"2020-04-25T07:38:12.000000Z","updated_by":1,"child":{"id":1558,"name":"Feline
+        Agility","entry":"\n<p>Your reflexes and agility allow you to move with a
+        burst of speed. When you move on your turn in combat, you can double your
+        speed until the end of the turn. Once you use this trait, you can\u2019t use
+        it again until you move 0 feet on one of y<span class=\"No-Break\">our turns.<\/span><\/p>\n","entry_parsed":"\n<p>Your
+        reflexes and agility allow you to move with a burst of speed. When you move
+        on your turn in combat, you can double your speed until the end of the turn.
+        Once you use this trait, you can\u2019t use it again until you move 0 feet
+        on one of y<span class=\"No-Break\">our turns.<\/span><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634086,"tags":[],"created_at":"2020-04-25T07:36:39.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:34.000000Z","updated_by":1,"type":"Combat","ability_id":1556,"charges":"1","abilities":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e93618fe532a45-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:07 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XutbQNagT1J%2FG4nuFx5v2wFaHTPoK6fGPYpIzV0%2FA1b%2BJUc1fK%2FrHC4kUp9ST0IaYmmTQSdLKcNPUidVjq1p51rJ%2FPEekYOzBJb1caDYV17F6FjQCNlW02KFUQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1475'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '71'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/634086
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/634087
+  response:
+    body:
+      string: '{"data":{"id":634087,"name":"Cat\u2019s Claws","type":"ability","child_id":1559,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"\n\n","header_image":null,"image_uuid":null,"created_at":"2020-04-25T07:37:06.000000Z","created_by":1,"updated_at":"2020-04-25T07:38:12.000000Z","updated_by":1,"child":{"id":1559,"name":"Cat\u2019s
+        Claws","entry":"\n<p>Because of your claws, you have a climbing speed of 20
+        feet. In addition, your claws are natural weapons, which you can use to make
+        unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4
+        + your Strength modifier, instead of the bludgeoning damage normal for an
+        unarm<span class=\"No-Break\">ed strike.<\/span><\/p>\n","entry_parsed":"\n<p>Because
+        of your claws, you have a climbing speed of 20 feet. In addition, your claws
+        are natural weapons, which you can use to make unarmed strikes. If you hit
+        with them, you deal slashing damage equal to 1d4 + your Strength modifier,
+        instead of the bludgeoning damage normal for an unarm<span class=\"No-Break\">ed
+        strike.<\/span><\/p>\n","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/abilities_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":634087,"tags":[],"created_at":"2020-04-25T07:37:06.000000Z","created_by":1,"updated_at":"2021-06-08T12:56:34.000000Z","updated_by":1,"type":"Action","ability_id":1556,"charges":null,"abilities":[]}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e9361c887e8353-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 12:57:07 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZAS9sTdK9ngiPgUtulID%2FjDFbDJNnZjIf7%2BJhGl7TOalJqWodIVhcNt%2B1SiUBnpNYkX4XCVhnMOsdptygFXDFuO53kNUrn6uctyniqR2IWxWELJm65TFZn63NQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1568'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '70'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/634087
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+version: 1

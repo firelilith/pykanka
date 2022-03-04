@@ -1,0 +1,442 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/timelines
+  response:
+    body:
+      string: '{"data":[{"id":1,"name":"Thaelian Chronicles","entry":"<p>This timeline
+        represents the main timeline of the continent of <a href=\"#\" class=\"mention\">Thaelia<\/a>.<\/p><p><br
+        \/><\/p>","entry_parsed":"<p>This timeline represents the main timeline of
+        the continent of <a href=\"#\" class=\"mention\">Thaelia<\/a>.<\/p><p><br
+        \/><\/p>","image":"timelines\/YXCdOibNFVCiC7zE8D0RHtFxvSh4Iy4xCEmrKX2g.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/B8DHUfOiKcx0YgKMpq9XzjqGMlI=\/smart\/src\/timelines%2FYXCdOibNFVCiC7zE8D0RHtFxvSh4Iy4xCEmrKX2g.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/C1rej1WQ-OwDD1t9fqSehgbDNQo=\/40x40\/smart\/src\/timelines%2FYXCdOibNFVCiC7zE8D0RHtFxvSh4Iy4xCEmrKX2g.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":903827,"tags":[],"created_at":"2020-08-17T08:39:23.000000Z","created_by":1,"updated_at":"2021-02-11T15:51:50.000000Z","updated_by":1,"type":"Continent","timeline_id":null,"eras":[{"id":1,"name":"Before
+        Conquest","abbreviation":"BC","start_year":null,"entry":"<p>The age of conquest
+        tells the events that happened on the continent before the [event:22214],
+        when humans were still a minority folk mostly living on the the coast of [location:19591].<\/p>","entry_parsed":"<p>The
+        age of conquest tells the events that happened on the continent before the
+        <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/events\/367\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"22214\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/22214\/tooltip\">Conquest
+        of Thaelia<\/a>, when humans were still a minority folk mostly living on the
+        the coast of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/7817\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a>.<\/p>","end_year":-60,"elements":[{"id":1,"era_id":1,"timeline_id":1,"entity_id":19591,"name":"Founding
+        of Owlchester","entry":"<p>The small port town of Owlchester was founded by
+        humans arriving from <a href=\"#\" class=\"mention\">Torchio<\/a>.<\/p>","entry_parsed":"<p>The
+        small port town of Owlchester was founded by humans arriving from <a href=\"#\"
+        class=\"mention\">Torchio<\/a>.<\/p>","date":"-230","colour":"teal","position":2,"visibility":"all","icon":"<i
+        class=\"ra  ra-castle-emblem\"><\/i>"},{"id":2,"era_id":1,"timeline_id":1,"entity_id":12347,"name":"Founding
+        of Craic","entry":"<p>The town of Craic was founded by tribes people migrating
+        from the other side of the Lower Ethylian Sea.<\/p>","entry_parsed":"<p>The
+        town of Craic was founded by tribes people migrating from the other side of
+        the Lower Ethylian Sea.<\/p>","date":"-205","colour":"teal","position":1,"visibility":"all","icon":"<i
+        class=\"ra  ra-castle-emblem\"><\/i>"}],"is_collapsed":false},{"id":2,"name":"Age
+        of Conquest","abbreviation":"AoC","start_year":-60,"entry":"<p>The Age of
+        Conquest tracks the main changes to the continent during which humans took
+        over most of the continent and replaced the previously existing folk. This
+        lasted only 60 years before humans were the main military and political force.<\/p>","entry_parsed":"<p>The
+        Age of Conquest tracks the main changes to the continent during which humans
+        took over most of the continent and replaced the previously existing folk.
+        This lasted only 60 years before humans were the main military and political
+        force.<\/p>","end_year":0,"elements":[{"id":3,"era_id":2,"timeline_id":1,"entity_id":86770,"name":"Fall
+        of Kinross","entry":"<p>The town of Kinross, and with it the Kingdom of the
+        Eirel fall to the control of humans after a 2 month siege, cementing human''s
+        control over the Andal plains.<\/p>","entry_parsed":"<p>The town of Kinross,
+        and with it the Kingdom of the Eirel fall to the control of humans after a
+        2 month siege, cementing human''s control over the Andal plains.<\/p>","date":"-10","colour":"red","position":1,"visibility":"all","icon":"<i
+        class=\"ra ra-sword\"><\/i>"}],"is_collapsed":false},{"id":3,"name":"After
+        Conquest","abbreviation":"AC","start_year":0,"entry":"<p>The age after which
+        humans has conquered the majority of the continent.<\/p>","entry_parsed":"<p>The
+        age after which humans has conquered the majority of the continent.<\/p>","end_year":null,"elements":[{"id":4,"era_id":3,"timeline_id":1,"entity_id":2046,"name":"","entry":"<p>The
+        kingdom of Arden is created following a rebelion against the kingdom of [location:12005]\u00a0during
+        the [event:301380].<\/p>","entry_parsed":"<p>The kingdom of Arden is created
+        following a rebelion against the kingdom of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5127\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12005\/tooltip\">Orlene<\/a>\u00a0during
+        the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/events\/9498\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"301380\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/301380\/tooltip\">War
+        of Six Families<\/a>.<\/p>","date":"410","colour":"red","position":1,"visibility":"all","icon":"<i
+        class=\"fa fa-fist-raised\"><\/i>"}],"is_collapsed":false}],"revert_order":0},{"id":195,"name":"Torchio
+        Timeline","entry":null,"entry_parsed":null,"image":"timelines\/s3A4f24Ydcs3Fewd8B2MAvj4YRxfL6vDEkApSJox.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/lo1JvKhxvMd3wpNa1WgfaAy2NmY=\/smart\/src\/timelines%2Fs3A4f24Ydcs3Fewd8B2MAvj4YRxfL6vDEkApSJox.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/lVzvPKHITQo7yGf4-Q3BpRaWPgM=\/40x40\/smart\/src\/timelines%2Fs3A4f24Ydcs3Fewd8B2MAvj4YRxfL6vDEkApSJox.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":978664,"tags":[],"created_at":"2020-09-14T09:29:55.000000Z","created_by":1,"updated_at":"2021-06-08T12:13:26.000000Z","updated_by":1,"type":"Empire","timeline_id":null,"eras":[{"id":425,"name":"Primary","abbreviation":null,"start_year":null,"entry":"","entry_parsed":"","end_year":null,"elements":[{"id":1449,"era_id":425,"timeline_id":195,"entity_id":978557,"name":"Assassination
+        of the Augusta","entry":"<p>Augusta Pontidia Aloyssia was poisonned.<\/p>","entry_parsed":"<p>Augusta
+        Pontidia Aloyssia was poisonned.<\/p>","date":"1009","colour":"red","position":3,"visibility":"all","icon":"<i
+        class=\"ra ra-skull\"><\/i>"},{"id":1450,"era_id":425,"timeline_id":195,"entity_id":978658,"name":"Execution
+        of the Assassin","entry":"<p>Tiberius Lendentine was executed for the poisoning
+        of the late [character:978557].<\/p>","entry_parsed":"<p>Tiberius Lendentine
+        was executed for the poisoning of the late <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/255635\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"978557\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/978557\/tooltip\">Augusta
+        Pontidia Aloyissia<\/a>.<\/p>","date":"1010","colour":"red","position":4,"visibility":"all","icon":"<i
+        class=\"ra ra-skull\"><\/i>"},{"id":1452,"era_id":425,"timeline_id":195,"entity_id":978580,"name":"Annexation
+        of Udrino","entry":"<p>The Kingdom of Udrino was peacefully annexed by the
+        empire.<\/p>","entry_parsed":"<p>The Kingdom of Udrino was peacefully annexed
+        by the empire.<\/p>","date":"850","colour":"green","position":2,"visibility":"all","icon":"<i
+        class=\"ra ra-sword\"><\/i>"},{"id":1453,"era_id":425,"timeline_id":195,"entity_id":978586,"name":"Conquest
+        of Geminia","entry":"<p>The kingdom of Geminia was annexed by the empire following
+        a three year war.<\/p>","entry_parsed":"<p>The kingdom of Geminia was annexed
+        by the empire following a three year war.<\/p>","date":"839-842","colour":"green","position":1,"visibility":"all","icon":"<i
+        class=\"ra ra-sword\"><\/i>"},{"id":1455,"era_id":425,"timeline_id":195,"entity_id":978554,"name":"Corronation
+        of the Augusta","entry":"<p>Amatia Peregrina was elected Augusta of the empire.<\/p>","entry_parsed":"<p>Amatia
+        Peregrina was elected Augusta of the empire.<\/p>","date":"1010","colour":"purple","position":5,"visibility":"all","icon":"<i
+        class=\"fa fas fa-crown\"><\/i>"}],"is_collapsed":false}],"revert_order":0},{"id":4432,"name":"XX
+        - test timeline","entry":"<p>A test timline<\/p>","entry_parsed":"<p>A test
+        timline<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/timelines_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1664964,"tags":[],"created_at":"2021-04-21T14:42:45.000000Z","created_by":1,"updated_at":"2021-06-08T12:13:26.000000Z","updated_by":1,"type":"Test","timeline_id":null,"eras":[{"id":8004,"name":"Main
+        era","abbreviation":"AC","start_year":null,"entry":"<p>Test era<\/p>","entry_parsed":"<p>Test
+        era<\/p>","end_year":null,"elements":[],"is_collapsed":false},{"id":8005,"name":"Main
+        era","abbreviation":"AC","start_year":null,"entry":"<p>Test era<\/p>","entry_parsed":"<p>Test
+        era<\/p>","end_year":null,"elements":[],"is_collapsed":false}],"revert_order":0}],"links":{"first":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/timelines?page=1","last":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/timelines?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"path":"https:\/\/kanka.io\/api\/1.0\/campaigns\/1\/timelines","per_page":45,"to":3,"total":3},"sync":"2021-10-15T13:24:26.896251Z"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e95e201df52ac6-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 13:24:27 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FeNm6cX%2FGAnxbbhtZb3JqJ7o08dElF8rBKThYNzHndRipDiokNmcOhvRSyp%2FvC56bS07z0EVUKQFpCFuHJani9L46x0%2B9R3NVvK4GFs6h0k1CQvCVm8qQJtfTg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '9778'
+      x-backend:
+      - 116.203.16.49
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '80'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/timelines
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/903827
+  response:
+    body:
+      string: '{"data":{"id":903827,"name":"Thaelian Chronicles","type":"timeline","child_id":1,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"","header_image":null,"image_uuid":null,"created_at":"2020-08-17T08:39:23.000000Z","created_by":1,"updated_at":"2020-08-17T08:39:23.000000Z","updated_by":1,"child":{"id":1,"name":"Thaelian
+        Chronicles","entry":"<p>This timeline represents the main timeline of the
+        continent of <a href=\"#\" class=\"mention\">Thaelia<\/a>.<\/p><p><br \/><\/p>","entry_parsed":"<p>This
+        timeline represents the main timeline of the continent of <a href=\"#\" class=\"mention\">Thaelia<\/a>.<\/p><p><br
+        \/><\/p>","image":"timelines\/YXCdOibNFVCiC7zE8D0RHtFxvSh4Iy4xCEmrKX2g.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/B8DHUfOiKcx0YgKMpq9XzjqGMlI=\/smart\/src\/timelines%2FYXCdOibNFVCiC7zE8D0RHtFxvSh4Iy4xCEmrKX2g.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/C1rej1WQ-OwDD1t9fqSehgbDNQo=\/40x40\/smart\/src\/timelines%2FYXCdOibNFVCiC7zE8D0RHtFxvSh4Iy4xCEmrKX2g.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":903827,"tags":[],"created_at":"2020-08-17T08:39:23.000000Z","created_by":1,"updated_at":"2021-02-11T15:51:50.000000Z","updated_by":1,"type":"Continent","timeline_id":null,"eras":[{"id":1,"name":"Before
+        Conquest","abbreviation":"BC","start_year":null,"entry":"<p>The age of conquest
+        tells the events that happened on the continent before the [event:22214],
+        when humans were still a minority folk mostly living on the the coast of [location:19591].<\/p>","entry_parsed":"<p>The
+        age of conquest tells the events that happened on the continent before the
+        <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/events\/367\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"22214\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/22214\/tooltip\">Conquest
+        of Thaelia<\/a>, when humans were still a minority folk mostly living on the
+        the coast of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/7817\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"19591\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/19591\/tooltip\">Owlchester<\/a>.<\/p>","end_year":-60,"elements":[{"id":1,"era_id":1,"timeline_id":1,"entity_id":19591,"name":"Founding
+        of Owlchester","entry":"<p>The small port town of Owlchester was founded by
+        humans arriving from <a href=\"#\" class=\"mention\">Torchio<\/a>.<\/p>","entry_parsed":"<p>The
+        small port town of Owlchester was founded by humans arriving from <a href=\"#\"
+        class=\"mention\">Torchio<\/a>.<\/p>","date":"-230","colour":"teal","position":2,"visibility":"all","icon":"<i
+        class=\"ra  ra-castle-emblem\"><\/i>"},{"id":2,"era_id":1,"timeline_id":1,"entity_id":12347,"name":"Founding
+        of Craic","entry":"<p>The town of Craic was founded by tribes people migrating
+        from the other side of the Lower Ethylian Sea.<\/p>","entry_parsed":"<p>The
+        town of Craic was founded by tribes people migrating from the other side of
+        the Lower Ethylian Sea.<\/p>","date":"-205","colour":"teal","position":1,"visibility":"all","icon":"<i
+        class=\"ra  ra-castle-emblem\"><\/i>"}],"is_collapsed":false},{"id":2,"name":"Age
+        of Conquest","abbreviation":"AoC","start_year":-60,"entry":"<p>The Age of
+        Conquest tracks the main changes to the continent during which humans took
+        over most of the continent and replaced the previously existing folk. This
+        lasted only 60 years before humans were the main military and political force.<\/p>","entry_parsed":"<p>The
+        Age of Conquest tracks the main changes to the continent during which humans
+        took over most of the continent and replaced the previously existing folk.
+        This lasted only 60 years before humans were the main military and political
+        force.<\/p>","end_year":0,"elements":[{"id":3,"era_id":2,"timeline_id":1,"entity_id":86770,"name":"Fall
+        of Kinross","entry":"<p>The town of Kinross, and with it the Kingdom of the
+        Eirel fall to the control of humans after a 2 month siege, cementing human''s
+        control over the Andal plains.<\/p>","entry_parsed":"<p>The town of Kinross,
+        and with it the Kingdom of the Eirel fall to the control of humans after a
+        2 month siege, cementing human''s control over the Andal plains.<\/p>","date":"-10","colour":"red","position":1,"visibility":"all","icon":"<i
+        class=\"ra ra-sword\"><\/i>"}],"is_collapsed":false},{"id":3,"name":"After
+        Conquest","abbreviation":"AC","start_year":0,"entry":"<p>The age after which
+        humans has conquered the majority of the continent.<\/p>","entry_parsed":"<p>The
+        age after which humans has conquered the majority of the continent.<\/p>","end_year":null,"elements":[{"id":4,"era_id":3,"timeline_id":1,"entity_id":2046,"name":"","entry":"<p>The
+        kingdom of Arden is created following a rebelion against the kingdom of [location:12005]\u00a0during
+        the [event:301380].<\/p>","entry_parsed":"<p>The kingdom of Arden is created
+        following a rebelion against the kingdom of <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/locations\/5127\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"12005\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/12005\/tooltip\">Orlene<\/a>\u00a0during
+        the <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/events\/9498\" class=\"entity-mention\"
+        data-entity-tags=\"\" data-toggle=\"tooltip-ajax\" data-id=\"301380\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/301380\/tooltip\">War
+        of Six Families<\/a>.<\/p>","date":"410","colour":"red","position":1,"visibility":"all","icon":"<i
+        class=\"fa fa-fist-raised\"><\/i>"}],"is_collapsed":false}],"revert_order":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e95e259d6229a5-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 13:24:27 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pRDIJLSFzflSRrONpHSLY1Dtu8LirYPfM7ZvtePKCCbh%2Fi7qOlUPui%2BUdR97gXv3uc9yJ%2FElxFdHNB5hsf24oLcKwVPdLJZ3YY9D%2B7a%2Bq%2FZnqkXeZMIoWnR%2Fkg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '5790'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '79'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/903827
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/978664
+  response:
+    body:
+      string: '{"data":{"id":978664,"name":"Torchio Timeline","type":"timeline","child_id":195,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"","header_image":null,"image_uuid":null,"created_at":"2020-09-14T09:29:55.000000Z","created_by":1,"updated_at":"2020-09-14T09:30:20.000000Z","updated_by":1,"child":{"id":195,"name":"Torchio
+        Timeline","entry":null,"entry_parsed":null,"image":"timelines\/s3A4f24Ydcs3Fewd8B2MAvj4YRxfL6vDEkApSJox.png","focus_x":null,"focus_y":null,"image_full":"https:\/\/images.kanka.io\/user\/lo1JvKhxvMd3wpNa1WgfaAy2NmY=\/smart\/src\/timelines%2Fs3A4f24Ydcs3Fewd8B2MAvj4YRxfL6vDEkApSJox.png?webpfallback","image_thumb":"https:\/\/images.kanka.io\/user\/lVzvPKHITQo7yGf4-Q3BpRaWPgM=\/40x40\/smart\/src\/timelines%2Fs3A4f24Ydcs3Fewd8B2MAvj4YRxfL6vDEkApSJox.png?webpfallback","has_custom_image":true,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":978664,"tags":[],"created_at":"2020-09-14T09:29:55.000000Z","created_by":1,"updated_at":"2021-06-08T12:13:26.000000Z","updated_by":1,"type":"Empire","timeline_id":null,"eras":[{"id":425,"name":"Primary","abbreviation":null,"start_year":null,"entry":"","entry_parsed":"","end_year":null,"elements":[{"id":1449,"era_id":425,"timeline_id":195,"entity_id":978557,"name":"Assassination
+        of the Augusta","entry":"<p>Augusta Pontidia Aloyssia was poisonned.<\/p>","entry_parsed":"<p>Augusta
+        Pontidia Aloyssia was poisonned.<\/p>","date":"1009","colour":"red","position":3,"visibility":"all","icon":"<i
+        class=\"ra ra-skull\"><\/i>"},{"id":1450,"era_id":425,"timeline_id":195,"entity_id":978658,"name":"Execution
+        of the Assassin","entry":"<p>Tiberius Lendentine was executed for the poisoning
+        of the late [character:978557].<\/p>","entry_parsed":"<p>Tiberius Lendentine
+        was executed for the poisoning of the late <a href=\"https:\/\/kanka.io\/en-US\/campaign\/1\/characters\/255635\"
+        class=\"entity-mention\" data-entity-tags=\"\" data-toggle=\"tooltip-ajax\"
+        data-id=\"978557\" data-url=\"https:\/\/kanka.io\/en-US\/campaign\/1\/entities\/978557\/tooltip\">Augusta
+        Pontidia Aloyissia<\/a>.<\/p>","date":"1010","colour":"red","position":4,"visibility":"all","icon":"<i
+        class=\"ra ra-skull\"><\/i>"},{"id":1452,"era_id":425,"timeline_id":195,"entity_id":978580,"name":"Annexation
+        of Udrino","entry":"<p>The Kingdom of Udrino was peacefully annexed by the
+        empire.<\/p>","entry_parsed":"<p>The Kingdom of Udrino was peacefully annexed
+        by the empire.<\/p>","date":"850","colour":"green","position":2,"visibility":"all","icon":"<i
+        class=\"ra ra-sword\"><\/i>"},{"id":1453,"era_id":425,"timeline_id":195,"entity_id":978586,"name":"Conquest
+        of Geminia","entry":"<p>The kingdom of Geminia was annexed by the empire following
+        a three year war.<\/p>","entry_parsed":"<p>The kingdom of Geminia was annexed
+        by the empire following a three year war.<\/p>","date":"839-842","colour":"green","position":1,"visibility":"all","icon":"<i
+        class=\"ra ra-sword\"><\/i>"},{"id":1455,"era_id":425,"timeline_id":195,"entity_id":978554,"name":"Corronation
+        of the Augusta","entry":"<p>Amatia Peregrina was elected Augusta of the empire.<\/p>","entry_parsed":"<p>Amatia
+        Peregrina was elected Augusta of the empire.<\/p>","date":"1010","colour":"purple","position":5,"visibility":"all","icon":"<i
+        class=\"fa fas fa-crown\"><\/i>"}],"is_collapsed":false}],"revert_order":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e95e296a576336-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 13:24:27 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YOPYggjn2pKM%2FhMavDA3fIrnuwNmyExFNRPisMdX4ZhEw0U2UPRAfZGA%2F6jcRbIL%2FSBSBn3r18u87HJRoORHwTG51UbuyEU%2BbY1u3e3gry11BvnNFlqKqcA7%2FQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '3397'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '78'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/978664
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://kanka.io/api/1.0/campaigns/1/entities/1664964
+  response:
+    body:
+      string: '{"data":{"id":1664964,"name":"XX - test timeline","type":"timeline","child_id":4432,"tags":[],"is_private":false,"is_template":false,"campaign_id":1,"is_attributes_private":false,"tooltip":"","header_image":null,"image_uuid":null,"created_at":"2021-04-21T14:42:45.000000Z","created_by":1,"updated_at":"2021-04-22T14:27:23.000000Z","updated_by":1,"child":{"id":4432,"name":"XX
+        - test timeline","entry":"<p>A test timline<\/p>","entry_parsed":"<p>A test
+        timline<\/p>","image":null,"focus_x":null,"focus_y":null,"image_full":null,"image_thumb":"https:\/\/kanka.io\/images\/defaults\/patreon\/timelines_thumb.png","has_custom_image":false,"header_full":"","has_custom_header":false,"is_private":false,"is_template":false,"entity_id":1664964,"tags":[],"created_at":"2021-04-21T14:42:45.000000Z","created_by":1,"updated_at":"2021-06-08T12:13:26.000000Z","updated_by":1,"type":"Test","timeline_id":null,"eras":[{"id":8004,"name":"Main
+        era","abbreviation":"AC","start_year":null,"entry":"<p>Test era<\/p>","entry_parsed":"<p>Test
+        era<\/p>","end_year":null,"elements":[],"is_collapsed":false},{"id":8005,"name":"Main
+        era","abbreviation":"AC","start_year":null,"entry":"<p>Test era<\/p>","entry_parsed":"<p>Test
+        era<\/p>","end_year":null,"elements":[],"is_collapsed":false}],"revert_order":0}}}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e95e2b7b8a6363-ORD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 15 Oct 2021 13:24:28 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=q8h2Yo%2BJ8WyfSLvnBZPE%2FwAGhW8m7U0%2FECElHe7PZstOmglWl6wIPERvPnQFfzYZGdvRkn3o1sg4y%2Bpw8S0WKXkMZ2ep4QBiC5dutSbNKqnP7MwJGr1lcq1i2g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - X-RateLimit-Remaining, X-RateLimit-Limit
+      age:
+      - '0'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+      cache-control:
+      - no-cache, private
+      content-length:
+      - '1284'
+      x-backend:
+      - 116.203.239.188
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-ratelimit-limit:
+      - '90'
+      x-ratelimit-remaining:
+      - '77'
+      x-req-host:
+      - kanka.io
+      x-req-url:
+      - /api/1.0/campaigns/1/entities/1664964
+      x-varnish-host:
+      - hzn-fre1
+    status:
+      code: 200
+      message: OK
+version: 1
