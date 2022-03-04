@@ -1,4 +1,5 @@
 import time
+import os
 from typing import Generator, Union, Callable, Dict, Any
 
 import requests
@@ -8,6 +9,26 @@ import logging
 import pykanka.child_types
 import pykanka.entities
 from pykanka.exceptions import *
+
+import logging
+import logging.config
+
+import yaml
+
+DEFAULT_LOGGING = "logging_config.yml"
+
+os.mkdir("pykanka_logging")
+
+with open(os.path.join(os.path.dirname(__file__), DEFAULT_LOGGING), "r") as f:
+    logging.config.dictConfig(yaml.safe_load(f))
+
+
+def overwrite_logging(config):
+    with open(config, "r") as fi:
+        logging.config.dictConfig(yaml.safe_load(fi))
+
+
+logging.critical("this is critical")
 
 
 class KankaClient:
