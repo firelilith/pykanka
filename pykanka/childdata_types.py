@@ -1,13 +1,9 @@
-import typing
-import json
-from typing import List, Optional
-
-import requests
+from dataclasses import dataclass
+from datetime import datetime
+from typing import List, Optional, Union
 
 import pykanka
-import pykanka.child_subentries as st
 from pykanka.exceptions import *
-from dataclasses import dataclass, InitVar
 
 
 @dataclass
@@ -34,13 +30,19 @@ class GenericChildData:
     is_private: Optional[bool] = None
 
     # Should be datetimes, but will require some type conversions, likely
-    created_by: Optional[str] = None
-    created_at: Optional[str] = None
-    updated_by: Optional[str] = None
-    updated_at: Optional[str] = None
+    created_by: Optional[int] = None
+    created_at: Optional[Union[datetime, str]] = None
+    updated_by: Optional[int] = None
+    updated_at: Optional[Union[datetime, str]] = None
 
     header_full: Optional[str] = None
     has_custom_header: Optional[bool] = None
+
+    def __post_init__(self):
+        if type(self.created_at) == str:
+            self.created_at = datetime.fromisoformat(self.created_at.replace("Z", "+00:00"))
+        if type(self.updated_at) == str:
+            self.updated_at = datetime.fromisoformat(self.updated_at.replace("Z", "+00:00"))
 
 
 @dataclass
