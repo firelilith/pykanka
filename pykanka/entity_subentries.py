@@ -4,6 +4,10 @@ from typing import Optional, ClassVar, Set, Union, IO
 
 from pykanka.exceptions import *
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 @dataclass
 class GenericSubentry:

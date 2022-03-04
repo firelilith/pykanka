@@ -7,6 +7,10 @@ import pykanka.entity_subentries
 import pykanka.child_types
 from pykanka.exceptions import *
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 # from pykanka.child_types import child_type_dictionary
 

@@ -4,6 +4,10 @@ from typing import Dict
 
 from pykanka.exceptions import *
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 class MapMarker:
     class _PolygonStyle:

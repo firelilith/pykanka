@@ -9,6 +9,10 @@ import pykanka.entities
 import pykanka.child_subentries
 from pykanka.exceptions import *
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 @dataclass
 class GenericChildType:
     client: Optional["pykanka.KankaClient"]
