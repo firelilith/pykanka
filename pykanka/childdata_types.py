@@ -19,8 +19,10 @@ class GenericChildData:
     image: Optional[str] = None
     image_full: Optional[str] = None
     image_thumb: Optional[str] = None
+    image_uuid: Optional[int] = None
 
     tags: Optional[List[int]] = None
+    tooltip: Optional[str] = None
 
     focus_x: Optional[float] = None
     focus_y: Optional[float] = None
@@ -35,6 +37,7 @@ class GenericChildData:
     updated_by: Optional[int] = None
     updated_at: Optional[Union[datetime, str]] = None
 
+    header_uuid: Optional[int] = None
     header_full: Optional[str] = None
     has_custom_header: Optional[bool] = None
 

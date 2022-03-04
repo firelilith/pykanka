@@ -15,6 +15,7 @@ class EntityData:
     id:                     Optional[int] = None
     name:                   Optional[str] = None
     type:                   Optional[str] = None
+    type_id:                Optional[int] = None
     child_id:               Optional[int] = None
     campaign_id:            Optional[int] = None
 

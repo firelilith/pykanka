@@ -3,6 +3,7 @@ from typing import Generator, Union, Callable, Dict, Any
 
 import requests
 import tenacity
+import logging
 
 import pykanka.child_types
 import pykanka.entities
