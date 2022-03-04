@@ -160,9 +160,8 @@ class Location(GenericChildType):
     """A class representing a location child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "type", "parent_location_id", "tags", "is_private", "image_full", "map", "is_map_private",
-                      "header_full",
-                      "has_custom_header"]
+    _possible_keys = ["name", "entry", "type", "parent_location_id", "tags", "is_private", "image_full", "map",
+                      "is_map_private", "header_full", "has_custom_header"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url"), ("map", "map_url")]
     # fields that accept stream object, not yet supported in API 1.0
@@ -353,9 +352,8 @@ class Quest(GenericChildType):
     """A class representing a Quest child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "quest_id", "character_id", "tags", "is_private", "image_full",
-                      "header_full",
-                      "has_custom_header"]
+    _possible_keys = ["name", "entry", "type", "quest_id", "character_id", "tags", "is_private", "image_full" , "header_full",
+                      "has_custom_header", "date"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0

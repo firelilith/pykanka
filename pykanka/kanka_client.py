@@ -33,6 +33,12 @@ class KankaClient:
     )
 
     def __init__(self, token: str, campaign: Union[str, int] = None, cache_duration: int = 600, on_request: Callable = None, kanka_locale: str = None):
+        """Create a client associated with a specific campaign.
+
+        :param token: User API token from kanka.io
+        :param campaign: Campaign name or ID
+        """
+   
         self._api_token = token
         self._headers = {
             "Authorization": f"Bearer {token}",
@@ -44,7 +50,7 @@ class KankaClient:
         self._api_base_url = "https://kanka.io/api/1.0/campaigns/"
 
         self._cache = dict()
-        self._cache_duration = cache_duration
+        self._cache_duration = max(cache_duration, 0)
 
         self._campaign_id = None
         self._campaign_base_url = None
@@ -113,13 +119,14 @@ class KankaClient:
 
     def request_get(self, url: str, refresh=False, **kwargs):
         """get request with proper headers. usually shouldn't be accessed directly."""
-        if not refresh:
+        if not refresh and self._cache_duration:
             if url in self.cache:
                 return self._cache[url][0]  # return the reponse portion of the cache
 
         response = self._request("get", url, **kwargs)
 
-        self._cache[url] = (response, time)
+        if self._cache_duration:
+            self._cache[url] = (response, time)
 
         return response
 
