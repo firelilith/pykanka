@@ -1,10 +1,11 @@
 import unittest
 from pykanka.child_types import *
+from pykanka.childdata_types import *
 from library.child_base_test import ChildBaseTest
 
 class TestLocation(ChildBaseTest):
     ChildType = Location
-    ChildDataType = Location.LocationData
+    ChildDataType = LocationData
     data = {
                 "name": "Mordor",
                 "entry": "<p>Lorem Ipsum.</p>",
@@ -22,7 +23,7 @@ class TestLocation(ChildBaseTest):
 
 class TestCharacter(ChildBaseTest):
     ChildType = Character
-    ChildDataType = Character.CharacterData
+    ChildDataType = CharacterData
     data = {
         "name": "Jonathan Green",
         "entry": "<p>Lorem Ipsum.</p>",
@@ -47,7 +48,7 @@ class TestCharacter(ChildBaseTest):
 
 class TestOrganisation(ChildBaseTest):
     ChildType = Organisation
-    ChildDataType = Organisation.OrganisationData
+    ChildDataType = OrganisationData
     data = {
                 "name": "Tiamat Cultists",
                 "entry": "<p>Lorem Ipsum.</p>",
@@ -65,7 +66,7 @@ class TestOrganisation(ChildBaseTest):
 
 class TestTimeline(ChildBaseTest):
     ChildType = Timeline
-    ChildDataType = Timeline.TimelineData
+    ChildDataType = TimelineData
     data = {
                 "name": "Thaelian Timeline",
                 "entry": "<p>Lorem Ipsum</p>",
@@ -99,7 +100,7 @@ class TestTimeline(ChildBaseTest):
 
 class TestRace(ChildBaseTest):
     ChildType = Race
-    ChildDataType = Race.RaceData
+    ChildDataType = RaceData
     data = {
                 "name": "Goblin",
                 "entry": "<p>Lorem Ipsum.</p>",
@@ -116,7 +117,7 @@ class TestRace(ChildBaseTest):
 
 class TestFamily(ChildBaseTest):
     ChildType = Family
-    ChildDataType = Family.FamilyData
+    ChildDataType = FamilyData
     data = {
                 "name": "Adams",
                 "entry": "<p>Lorem Ipsum.</p>",
@@ -133,7 +134,7 @@ class TestFamily(ChildBaseTest):
 
 class TestNote(ChildBaseTest):
     ChildType = Note
-    ChildDataType = Note.NoteData
+    ChildDataType = NoteData
     data = {
                 "name": "Legends of the World",
                 "entry": "<p>Lorem Ipsum.</p>",
@@ -151,7 +152,7 @@ class TestNote(ChildBaseTest):
 
 class TestTag(ChildBaseTest):
     ChildType = Tag
-    ChildDataType = Tag.TagData
+    ChildDataType = TagData
     data = {
                 "name": "Religion",
                 "entry": "<p>Lorem Ipsum.</p>",
@@ -169,7 +170,7 @@ class TestTag(ChildBaseTest):
 
 class TestQuest(ChildBaseTest):
     ChildType = Quest
-    ChildDataType = Quest.QuestData
+    ChildDataType = QuestData
     data = {
                 "name": "Pelor's Quest",
                 "entry": "<p>Lorem Ipsum.</p>",
@@ -188,7 +189,7 @@ class TestQuest(ChildBaseTest):
 
 class TestJournal(ChildBaseTest):
     ChildType = Journal
-    ChildDataType = Journal.JournalData
+    ChildDataType = JournalData
     data = {
                 "name": "Session 2 - Descent into the Abyss",
                 "entry": "<p>Lorem Ipsum</p>",
@@ -206,7 +207,7 @@ class TestJournal(ChildBaseTest):
 
 class TestItem(ChildBaseTest):
     ChildType = Item
-    ChildDataType = Item.ItemData
+    ChildDataType = ItemData
     data = {
                 "name": "Spear",
                 "entry": "<p>Lorem Ipsum.</p>",
@@ -225,7 +226,7 @@ class TestItem(ChildBaseTest):
 
 class TestEvent(ChildBaseTest):
     ChildType = Event
-    ChildDataType = Event.EventData
+    ChildDataType = EventData
     data = {
                 "name": "Battle of Hadish",
                 "entry": "<p>Lorem Ipsum.</p>",
@@ -243,7 +244,7 @@ class TestEvent(ChildBaseTest):
 
 class TestAbility(ChildBaseTest):
     ChildType = Ability
-    ChildDataType = Ability.AbilityData
+    ChildDataType = AbilityData
     data = {
                 "name": "Fireball",
                 "entry": "<p>Lorem Ipsum.</p>",
@@ -262,7 +263,7 @@ class TestAbility(ChildBaseTest):
 
 class TestCalendar(ChildBaseTest):
     ChildType = Calendar
-    ChildDataType = Calendar.CalendarData
+    ChildDataType = CalendarData
     data = {
             "name": "Georgian Calendar",
             "entry": "<p>Lorem Ipsum</p>",
