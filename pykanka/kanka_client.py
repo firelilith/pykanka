@@ -43,7 +43,9 @@ class KankaClient:
         :param token: User API token from kanka.io
         :param campaign: Campaign name or ID
         """
-   
+
+        logger.debug(f"creating client for campaign: {campaign}")
+
         self._api_token = token
         self._headers = {
             "Authorization": f"Bearer {token}",
@@ -62,6 +64,8 @@ class KankaClient:
 
         if campaign:
             self.set_campaign(campaign)
+
+        logger.info(f"client for campaign with id: {campaign} was created")
 
         self._on_request = on_request
 
@@ -111,14 +115,17 @@ class KankaClient:
 
     @tenacity.retry(retry=tenacity.retry_if_exception_type(ApiThrottlingError), wait=tenacity.wait_fixed(5))
     def _request(self, method, url, **kwargs):
+        logger.info(f"requesting '{method.upper()}' on {url}")
         response = requests.request(method=method, url=url, headers=self._headers, **kwargs)
 
         if self._on_request:
             self._on_request(method=method, url=url, response=response, **kwargs)
 
         if response.status_code == 429:
-            print("API request limit reached. Retrying in 5 seconds.")
+            logger.info(f"API request limit reached. retrying in 5 seconds.")
             raise ApiThrottlingError()
+        elif not response.ok:
+            logger.warning(f"response not okay (code {response.status_code}): {response.reason}")
 
         return response
 
@@ -126,6 +133,7 @@ class KankaClient:
         """get request with proper headers. usually shouldn't be accessed directly."""
         if not refresh and self._cache_duration:
             if url in self.cache:
+                logger.debug(f"found request for {url} in cache.")
                 return self._cache[url][0]  # return the reponse portion of the cache
 
         response = self._request("get", url, **kwargs)

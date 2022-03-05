@@ -18,6 +18,10 @@ def _make_logging():
 
     logging.config.dictConfig(config)
 
+    logger = logging.getLogger(__name__)
+
+    logger.info(f"logging was successfully created.")
+
 
 _make_logging()
 
