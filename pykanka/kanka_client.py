@@ -65,7 +65,7 @@ class KankaClient:
         if campaign:
             self.set_campaign(campaign)
 
-        logger.info(f"client for campaign with id: {campaign} was created")
+        logger.info(f"client for campaign with id: {self._campaign_id} was created")
 
         self._on_request = on_request
 
