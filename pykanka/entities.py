@@ -54,7 +54,7 @@ class Entity:
     data:       Optional[EntityData] = EntityData()
     base_url:   Optional[str] = str()
     endpoint:   Optional[str] = "entities"
-    _child:     "pykanka.child_types.GenericChildType" = None
+    _child:     Optional["pykanka.child_types.GenericChildType"] = None
 
     def __post_init__(self):
         """

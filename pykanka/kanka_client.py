@@ -1,5 +1,5 @@
 import time
-import os
+import types
 from typing import Generator, Union, Callable, Dict, Any
 
 import requests
@@ -37,7 +37,12 @@ class KankaClient:
         entity=pykanka.entities.Entity
     )
 
-    def __init__(self, token: str, campaign: Union[str, int] = None, cache_duration: int = 600, on_request: Callable = None, kanka_locale: str = None):
+    def __init__(self,
+                 token: str,
+                 campaign: Union[str, int] = None,
+                 cache_duration: int = 600,
+                 on_request: Callable = None,
+                 kanka_locale: str = None):
         """Create a client associated with a specific campaign.
 
         :param token: User API token from kanka.io
@@ -45,6 +50,8 @@ class KankaClient:
         """
 
         logger.debug(f"creating client for campaign: {campaign}")
+
+        self.test = types.SimpleNamespace(a="a", b="b")
 
         self._api_token = token
         self._headers = {

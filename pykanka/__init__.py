@@ -1,1 +1,1 @@
-from pykanka.kanka_client import KankaClient
+from .kanka_client import KankaClient

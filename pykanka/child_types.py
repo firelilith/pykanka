@@ -7,19 +7,21 @@ from dataclasses import dataclass
 import pykanka.childdata_types
 import pykanka.entities
 import pykanka.child_subentries
-from pykanka.exceptions import *
+from .exceptions import *
 
 import logging
 
 logger = logging.getLogger(__name__)
 
+
 @dataclass
 class GenericChildType:
     client: Optional["pykanka.KankaClient"]
-    _parent: Optional["Entity"] = None
+    _parent: Optional["pykanka.entities.Entity"] = None
     base_url: Optional[str] = str()
-    endpoint: Optional[str] = str()  # Overidden by inheritors
-    data: Optional[pykanka.childdata_types.GenericChildData] = pykanka.childdata_types.GenericChildData() # Overidden by inheritors
+    # Overridden by inheritors
+    endpoint: Optional[str] = str()
+    data: Optional[pykanka.childdata_types.GenericChildData] = pykanka.childdata_types.GenericChildData()
 
     """Generic class for child types. 
     Shouldn't be used directly, it is used as a base class for specialized child types."""
@@ -39,7 +41,7 @@ class GenericChildType:
             self._parent = pykanka.entities.Entity.from_id(self.client, self.data.entity_id, child=self)
             return self._parent
         else:
-            self._parent = pykanka.entities.Entity(self.client, child=self)
+            self._parent = pykanka.entities.Entity(self.client, _child=self)
             return self._parent
 
     @parent.setter
@@ -48,14 +50,13 @@ class GenericChildType:
 
     @classmethod
     def from_id(cls, client: "pykanka.KankaClient", child_id: int, parent: "pykanka.entities.Entity" = None,
-                refresh=False) -> "GenericChildType":
+                refresh=False) -> Optional["GenericChildType"]:
         obj = cls(client=client, _parent=parent)
 
         response = client.request_get(f"{obj.base_url}{child_id}", refresh=refresh)
 
         if not response.ok:
-            raise ResponseNotOkError(
-                f"Response from {obj.base_url}{child_id} not OK, code {response.status_code}: {response.reason}")
+            return None
 
         obj.data = obj.data.__class__(**response.json()["data"])
 
@@ -84,7 +85,6 @@ class GenericChildType:
         Currently, the kanka API does not support the parameters 'image' and 'map'.
 
         :param json_data: str
-        :param name: str
         :return: requests.response
         """
 
@@ -102,7 +102,6 @@ class GenericChildType:
         Currently, the kanka API does not support the parameters 'image' and 'map'.
 
         :param json_data: str
-        :param name: str
         :return: requests.response
         """
 
@@ -356,8 +355,8 @@ class Quest(GenericChildType):
     """A class representing a Quest child contained within an Entity."""
 
     # keys accepted by POST and also delivered by GET as per API documentation
-    _possible_keys = ["name", "entry", "type", "quest_id", "character_id", "tags", "is_private", "image_full" , "header_full",
-                      "has_custom_header", "date"]
+    _possible_keys = ["name", "entry", "type", "quest_id", "character_id", "tags", "is_private", "image_full",
+                      "header_full", "has_custom_header", "date"]
     # keys called differently in GET compared to POST as per API documentation, format: (get_version, post_version)
     _key_replacer = [("image_full", "image_url")]
     # fields that accept stream object, not yet supported in API 1.0
