@@ -139,7 +139,7 @@ class CampaignClient:
     def _file_patch_request(self, url, headers, name, img):
         logger.debug(f"API call: PATCH {url} with image file")
 
-        response = requests.patch(url, params={"name": name}, files={"image": img}, headers=headers)
+        response = requests.patch(url, json={'name': name}, files={"image": img}, headers=headers, stream=True)
 
         logger.debug(f"API response: Status {response.status_code}")
 
