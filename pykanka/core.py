@@ -115,10 +115,10 @@ class CampaignClient:
 
     # @tenacity.retry(retry=tenacity.retry_if_exception_type(ResponseNotOkayException), stop=tenacity.stop_after_attempt(5))
     @tenacity.retry(retry=tenacity.retry_if_exception_type(APIThrottlingException), wait=tenacity.wait_fixed(5))
-    def _request(self, method, url, **kwargs):
+    def _request(self, method, url, stream=False, **kwargs):
         logger.debug(f"API call: {method.upper()} {url}" + (f" with kwargs {kwargs.items()}" if kwargs else ""))
 
-        response = requests.request(method=method, url=url, headers=self._headers, **kwargs)
+        response = requests.request(method=method, url=url, headers=self._headers, **kwargs, stream=stream)
 
         logger.debug(f"API response: Status {response.status_code}")
 
@@ -134,6 +134,22 @@ class CampaignClient:
             raise ResponseNotOkayException(response.status_code, response.reason)
 
         return response
+
+    @tenacity.retry(retry=tenacity.retry_if_exception_type(APIThrottlingException), wait=tenacity.wait_fixed(5))
+    def _file_patch_request(self, url, headers, name, img):
+        logger.debug(f"API call: PATCH {url} with image file")
+
+        response = requests.patch(url, params={"name": name}, files={"image": img}, headers=headers)
+
+        logger.debug(f"API response: Status {response.status_code}")
+
+        if not response.ok:
+            logger.exception(f"API response not ok: Status {response.status_code}, Reason {response.reason}")
+            logger.exception(f"Response content   : {response.text}")
+
+        if response.status_code == 429:
+            logger.warning(f"API throttling in effect. Retrying in 5 seconds.")
+            raise APIThrottlingException()
 
     def search(self, entity_name: str):
         url = f"{self.campaign_api_url}search/{entity_name}"
@@ -201,8 +217,18 @@ class CampaignClient:
             response = self._request("get", response["links"]["next"]).json()
 
     def create_entity(self, entity_type: str, **kwargs):
+        image = None
+        if "image" in kwargs:
+            image = kwargs["image"]
+            kwargs.pop("image")
+
         url = f"{self.campaign_api_url}{self._map_name_to_endpoint[entity_type]}"
         response = self._request("post", url=url, params=kwargs).json()["data"]
+
+        if image is not None:
+            ent = self.get_entity_by_id(response["entity_id"])
+            self.upload_image(entity=ent, image_file=image)
+
         return self.get_entity_by_id(response["entity_id"])
 
     def update_entity(self, entity: "Entity", **kwargs):
@@ -212,6 +238,15 @@ class CampaignClient:
         self._request("patch", url=url, params=kwargs)
         entity = self.get_entity_by_id(entity_id=entity.id)
         return entity
+
+    def upload_image(self, entity: "Entity", image_file):
+        headers = {
+            "Authorization": f"Bearer {self._api_token}",
+            "Content-Type": "multipart/form-data",
+            "Accept": "application/json"
+        }
+        self._file_patch_request(entity.urls.api, headers=headers, name=entity.name, img=image_file)
+
 
 
 @dataclass
@@ -247,9 +282,9 @@ class Entity:
     attributes:         Optional[list] = None
     entity_abilities:   Optional[list] = None
     entity_events:      Optional[list] = None
-    entity_notes:       Optional[list] = None
-    inventory:          Optional[list] = None
+    entity_notes:       Optional[list] = None       # deprecated, remove in future release
     posts:              Optional[list] = None
+    inventory:          Optional[list] = None
     relations:          Optional[list] = None
 
     def __init__(self, values):
