@@ -9,13 +9,5 @@ with open("secrets", "r") as f:
 
 client = CampaignClient(token=token, campaign_id=86924)
 
-a = client._request("get", f"{client.campaign_api_url}entities/{2174620}?related=0").json()
-
-b = client._request("get", f"{client.campaign_api_url}entities/{2174620}?related=1").json()
-
-a_ent = Entity(a["data"])
-b_ent = Entity(b["data"])
-
-print(b_ent.child.__dict__)
-
-
+a = client.create_entity("character", name="sam the destroyer")
+print(a)

@@ -8,3 +8,7 @@ class ResponseNotOkayException(Exception):
 
 class InvalidValueError(Exception):
     pass
+
+
+class InvalidRequest(Exception):
+    pass
