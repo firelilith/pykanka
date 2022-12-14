@@ -9,5 +9,5 @@ setup(
     description="A wrapper for the kanka.io API",
     author="Spectre",
     packages=["pykanka"],
-    install_requires=["requests", "tenacity", "logging", "typing"]
+    install_requires=["requests", "tenacity", "typing"]
 )

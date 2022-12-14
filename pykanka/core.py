@@ -2,7 +2,7 @@ import requests
 import tenacity
 import logging
 
-from typing import Optional, Tuple, List
+from typing import Optional, List
 from dataclasses import dataclass
 
 from .exceptions import *
