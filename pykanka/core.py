@@ -201,7 +201,7 @@ class CampaignClient:
             response = self._request("get", response["links"]["next"]).json()
 
     def create_entity(self, entity_type: str, **kwargs):
-        url = f"{self.campaign_api_url}{self._map_name_to_endpoint[entity_type]}/"
+        url = f"{self.campaign_api_url}{self._map_name_to_endpoint[entity_type]}"
         response = self._request("post", url=url, params=kwargs).json()["data"]
         return self.get_entity_by_id(response["entity_id"])
 
@@ -253,8 +253,10 @@ class Entity:
     relations:          Optional[list] = None
 
     def __init__(self, values):
-        allowed_keys = {'attributes', 'campaign_id', 'child', 'child_id', 'created_at', 'created_by', 'entity_abilities', 'entity_events', 'entity_notes', 'header_image', 'id', 'image_uuid',
-                        'inventory', 'is_attributes_private', 'is_private', 'is_template', 'name', 'posts', 'relations', 'tags', 'tooltip', 'type', 'type_id', 'updated_at', 'updated_by', 'urls'}
+        allowed_keys = {'attributes', 'campaign_id', 'child', 'child_id', 'created_at', 'created_by',
+                        'entity_abilities', 'entity_events', 'entity_notes', 'header_image', 'id', 'image_uuid',
+                        'inventory', 'is_attributes_private', 'is_private', 'is_template', 'name', 'posts', 'relations',
+                        'tags', 'tooltip', 'type', 'type_id', 'updated_at', 'updated_by', 'urls'}
         if values.keys() - allowed_keys:
             raise InvalidValueError()
         self.__dict__.update(values)
