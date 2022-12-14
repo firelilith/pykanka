@@ -205,7 +205,6 @@ class CampaignClient:
         response = self._request("post", url=url, params=kwargs).json()["data"]
         return self.get_entity_by_id(response["entity_id"])
 
-
     def update_entity(self, entity: "Entity", **kwargs):
         entity_type = entity.type
         child_id = entity.child_id
